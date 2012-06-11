@@ -1,0 +1,576 @@
+# Translation of kcm_ktp_accounts.po into Serbian.
+# Mladen Pejakovic <pejakm@gmail.com>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_ktp_accounts\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-02 03:24+0200\n"
+"PO-Revision-Date: 2012-03-19 19:43+0100\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
+msgid "All mandatory fields must be filled"
+msgstr "Сва обавезна поља морају бити попуњена"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+msgid "Connect when wizard is finished"
+msgstr "Повежи се када чаробњак заврши"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+msgid "Advanced Options"
+msgstr "Напредне опције"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:33
+msgid "Password"
+msgstr "Лозинка"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:34
+msgid "Account"
+msgstr "Налог"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:35
+msgid "Priority"
+msgstr "приоритет"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:36
+msgid "Port"
+msgstr "Порт"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:37
+msgid "Alias"
+msgstr "Псеудоним"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:38
+msgid "Register new Account"
+msgstr "Региструј нови налог"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:39
+msgid "Server Address"
+msgstr "Адреса сервера"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:40
+msgid "Fallback STUN server address"
+msgstr "Адреса одступног СТУН сервера"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:41
+msgid "Resource"
+msgstr "Ресурс"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:42
+msgid "HTTPS Proxy Port"
+msgstr "Порт ХТТПС проксија"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:43
+msgid "Require Encryption"
+msgstr "Захтијевај шифровање"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:44
+msgid "Old-style SSL support"
+msgstr "Подршка за старовремски ССЛ"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:45
+msgid "Fallback STUN port"
+msgstr "Одступни СТУН порт"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:46
+msgid "Fallback Conference Server Address"
+msgstr "Адреса одступног конференцијског сервера"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:47
+msgid "Low Bandwidth Mode"
+msgstr "Ускопојасни режим"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:48
+msgid "STUN Server Address"
+msgstr "Адреса СТУН сервера"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:49
+msgid "STUN Port"
+msgstr "СТУН порт"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:50
+msgid "Fallback SOCKS5 Proxy Addresses"
+msgstr "Адресе одступних СОКС‑5 проксија"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:51
+msgid "HTTPS Proxy Server Address"
+msgstr "Адресе ХТТП прокси сервера"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:52
+msgid "Ignore SSL Errors"
+msgstr "Занемари ССЛ грешке"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:53
+msgid "Keepalive Interval"
+msgstr "Период одржавања везе"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:56
+msgid "AOL Instant Messenger"
+msgstr "АОЛ‑ов брзи гласник"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:57
+msgid "Skype"
+msgstr "Скајп"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:58
+msgid "Facebook Chat"
+msgstr "Фејсбуково ћаскање"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:59
+msgid "Gadu-Gadu"
+msgstr "Гаду‑гаду"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:60
+msgid "Google Talk"
+msgstr "Гугл‑разговора"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:61
+msgid "Novell Groupwise"
+msgstr "Новелов групвајз"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:62
+msgid "ICQ"
+msgstr "Ајсикју"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:63
+msgid "Internet Relay Chat"
+msgstr "Ћаскање путем Интернета (ИРЦ)"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:64
+msgid "Jabber/XMPP"
+msgstr "Џабер/ИксМПП"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:65
+msgid "Bonjour/Salut"
+msgstr "Бонжур/Салут"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:66
+msgid "MXit"
+msgstr "Миксит"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:67
+msgid "Windows Live Messenger"
+msgstr "Виндоуз лајв месенџер"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:68
+msgid "MySpaceIM"
+msgstr "Мајспејсов ИМ"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:69
+msgid "Tencent QQ"
+msgstr "Тенцентов ку‑ку"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:70
+msgid "IBM Lotus Sametime"
+msgstr "ИБМ‑ов сејмтајм"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:71
+msgid "SILC"
+msgstr "СИЛЦ"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:72
+msgid "Session Initiation Protocol (SIP)"
+msgstr "Протокол започињања везе (СИП)"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:73
+msgid "GSM Telephony"
+msgstr "ГСМ телефонија"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:74
+msgid "Trepia"
+msgstr "Трепија"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:75
+msgid "Yahoo! Messenger"
+msgstr "Јахуов месенџер"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:76
+msgid "Yahoo! Messenger Japan"
+msgstr "Јахуов месенџер јапански"
+
+# >! UI context not clear
+#: KCMTelepathyAccounts/dictionary.cpp:77
+msgid "Zephyr"
+msgstr "Зефир"
+
+#: KCMTelepathyAccounts/parameter-edit-model.cpp:302
+#, kde-format
+msgid "Parameter \"<b>%1</b>\" is not valid."
+msgstr "Параметар <b>%1</b> није добар."
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:100
+msgid "This field is required"
+msgstr "Ово поље је обавезно"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:121
+msgid "This field should not be empty"
+msgstr "Ово поље не би требало да буде празно"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:125
+msgid "This field should contain an email address"
+msgstr "Ово поље би требало да садржи адресу е‑поште"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:129
+msgid "This field should contain a hostname"
+msgstr "Ово поље би требало да садржи име домаћина"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:133
+msgid "This field should contain an IP address"
+msgstr "Ово поље би требало да садржи ИП адресу"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:178
+msgid "This field is valid"
+msgstr "Ово поље је добро"
+
+#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
+msgid "Others"
+msgstr "Остали"
+
+#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "АОЛ, гаду‑гаду, ИРЦ, Јаху и остали..."
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "Учитај из фајла..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "Очисти аватар"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "Изаберите свој аватар."
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"Чини се да фајл који сте изабрали није слика.\n"
+"Изаберите слику."
+
+#: salut-enabler.cpp:239 add-account-assistant.cpp:202
+#: add-account-assistant.cpp:260
+msgid "Failed to create account"
+msgstr "Прављење налога није успјело"
+
+#: salut-enabler.cpp:240 add-account-assistant.cpp:261
+msgid "Possibly not all required fields are valid"
+msgstr "Могуће је да нека захтијевана поља нису исправна."
+
+#: salut-enabler.cpp:249 add-account-assistant.cpp:270
+msgid "Something went wrong with Telepathy"
+msgstr "Нешто није у реду са Телепатијом."
+
+#: salut-message-widget.cpp:50
+msgid "Configure manually..."
+msgstr "Подеси ручно..."
+
+#: salut-message-widget.cpp:54
+msgid "Cancel"
+msgstr "Одустани"
+
+#: salut-message-widget.cpp:104
+#, kde-format
+msgid "You will appear as \"%1\" on your local network."
+msgstr "Појавићете се као „%1“ на локалној мрежи."
+
+# >> @title:window
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "Уређивање идентитета налога"
+
+# >> @item account connection state
+#: account-item.cpp:100
+msgid "Online"
+msgstr "на вези"
+
+# >> @item account connection state
+#: account-item.cpp:102
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "повезује се"
+
+# >> @item account connection state
+#: account-item.cpp:104
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "веза прекинута"
+
+# >> @item account connection state
+#: account-item.cpp:106
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "непознато"
+
+# >> @item account connection state
+#: account-item.cpp:109
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "деактивиран"
+
+#: account-item.cpp:135
+msgid "Click checkbox to enable"
+msgstr "Кликните на кућицу да активирате"
+
+#: accounts-list-delegate.cpp:72
+#, fuzzy
+#| msgid "Enable account"
+msgid "Change account icon"
+msgstr "Активирај налог"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr ""
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "Деактивирај налог"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "Активирај налог"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "Корак 1: Изаберите брзогласничку мрежу."
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "Корак 2: Попуните захтијеване параметре."
+
+#: add-account-assistant.cpp:166
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"Да бисте се повезали на ову мрежу требају вам додатни прикључци. "
+"Инсталирајте пакете telepathy-haze и telepathy-gabble преко менаџера пакета."
+
+#: add-account-assistant.cpp:166
+msgid "Missing Telepathy Connection Manager"
+msgstr "Недостаје телепатијски менаџер повезивања"
+
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr ""
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr ""
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr ""
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "telepathy_accounts"
+msgstr "Телепатијски налози"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Брзогласнички и ВоИП налози"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "George Goldberg"
+msgstr "Џорџ Голдберг"
+
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
+msgid "Developer"
+msgstr "Програмер"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "David Edmundson"
+msgstr "Дејвид Едмундсон"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Dominik Schmidt"
+msgstr "Доминик Шмит"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Thomas Richard"
+msgstr "Томас Рихард"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Florian Reinhard"
+msgstr "Флоријан Рајнхард"
+
+#: kcm-telepathy-accounts.cpp:72
+msgid "Daniele E. Domenichelli"
+msgstr "Данијеле Доменичели"
+
+#: kcm-telepathy-accounts.cpp:73
+msgid "Martin Klapetek"
+msgstr "Мартин Клапетек"
+
+#: kcm-telepathy-accounts.cpp:339
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "Желите ли заиста да уклоните налог „%1“?"
+
+#. i18n: file: main-widget.ui:180
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:340 rc.cpp:26
+msgid "Remove Account"
+msgstr "Уклони налог"
+
+#: kcm-telepathy-accounts.cpp:404
+msgid "Install telepathy-salut to enable"
+msgstr "Инсталирајте telepathy-salut за активирање"
+
+#: kcm-telepathy-accounts.cpp:439
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"Нешто је пошло по злу и брзогласнички систем не може да се припреми.\n"
+"Вјероватно на систему није инсталиран пакет Телепатијско управљање мисијом.\n"
+"Инсталирајте га и поново покрените овај модул."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Младен Пејаковић"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pejakm@gmail.com"
+
+#. i18n: file: KCMTelepathyAccounts/account-edit-widget.ui:62
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: rc.cpp:5
+msgid "Advanced"
+msgstr "Напредно"
+
+# >> @option:check
+#. i18n: file: main-widget.ui:76
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: rc.cpp:8
+msgid "Enable local network discovery"
+msgstr "Откривање локалне мреже"
+
+#. i18n: file: main-widget.ui:96
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: rc.cpp:11
+msgid "Connect to people near you"
+msgstr "Повежите се са људима у близини"
+
+#. i18n: file: main-widget.ui:147
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: rc.cpp:14
+msgid "Add Account"
+msgstr "Додај налог"
+
+#. i18n: file: main-widget.ui:157
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: rc.cpp:17
+msgid "Edit Account"
+msgstr "Уреди налог"
+
+#. i18n: file: main-widget.ui:167
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: rc.cpp:20
+msgid "Edit how you appear to others. Requires the account to be online."
+msgstr "Уредите како ћете изгледати другима. Захтијева да налог буде на вези."
+
+#. i18n: file: main-widget.ui:170
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: rc.cpp:23
+msgid "Edit Identity"
+msgstr "Уреди идентитет"
+
+#. i18n: file: account-identity-dialog.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:29
+msgid "Nickname:"
+msgstr "Надимак:"
+
+#. i18n: file: account-identity-dialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:32
+msgid "Account:"
+msgstr "Налог:"
+
+#. i18n: file: account-identity-dialog.ui:87
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: rc.cpp:35
+msgid "..."
+msgstr "..."

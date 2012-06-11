@@ -1,0 +1,30 @@
+[Desktop Entry]
+Type=ServiceType
+X-KDE-ServiceType=KTpAccountsKCM/AccountUiPlugin
+
+Comment=Telepathy Accounts KCM Module Account User Interface Plugins
+Comment[ca]=Connectors d'interfície d'usuari pel mòdul KCM de comptes del Telepathy
+Comment[da]=Plugins til KCM-modul til kontobrugerflade til Telepathy-konti
+Comment[de]=KCM-Modul für Telepathy-Zugänge
+Comment[el]=Πρόσθετα περιβάλλοντος λογαριασμού σε άρθρωμα KCM για λογαριασμούς Telepathy
+Comment[es]=Complementos de interfaz para las cuentas de Telepathy del módulo de cuentas KCM.
+Comment[et]=Telepathy kontode seadistustemooduli konto kasutajaliidese pluginad
+Comment[fr]=Modules externes d'interface utilisateur de comptes de modules KCM pour les comptes Telepathy
+Comment[gl]=Engadidos da interface de usuario do módulo KCM das contas de Telepathy
+Comment[hu]=Telepathy azonosítóbeállító modul
+Comment[it]=Estensioni di interfaccia utente di account per il modulo di configurazione degli account di Telepathy
+Comment[km]=គណនី​ទូរវេទន៍​នៃ​កម្មវិធី​ជំនួយ​ចំណុច​ប្រទាក់​អ្នក​ប្រើ​ម៉ូឌុល​ KCM
+Comment[nb]=Program tillegg for brukerflater til Telepathy-kontoer med KCM modulkonto
+Comment[nl]=Gebruikersinterface voor Telepathy accounts en KCM-moduleaccount
+Comment[pl]=Wtyczki interfejsu użytkownika modułu kont Telepathy
+Comment[pt]='Plugins' de Interfaces de Contas do Módulo KCM para o Telepathy
+Comment[pt_BR]=Plugins de interface do módulo de configuração KCM das contas do Telepathy
+Comment[sr]=Прикључци за подешавање телепатијских налога
+Comment[sr@ijekavian]=Прикључци за подешавање телепатијских налога
+Comment[sr@ijekavianlatin]=Priključci za podešavanje Telepathy naloga
+Comment[sr@latin]=Priključci za podešavanje Telepathy naloga
+Comment[sv]=Insticksprogram med IM-användargränssnitt för Telepathy-konton
+Comment[uk]=Облікові записи Telepathy модуля KCM облікових записів додатків інтерфейсу користувача
+Comment[x-test]=xxTelepathy Accounts KCM Module Account User Interface Pluginsxx
+Comment[zh_CN]=Telepathy 账户 KCM 模块账户用户界面插件
+Comment[zh_TW]=Telepathy 帳號 KCM 模組使用者介面外掛程式

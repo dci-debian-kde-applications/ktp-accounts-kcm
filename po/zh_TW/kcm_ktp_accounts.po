@@ -1,0 +1,532 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-02 03:24+0200\n"
+"PO-Revision-Date: 2012-05-02 13:33+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
+msgid "All mandatory fields must be filled"
+msgstr "所有主要欄位都必須填滿"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+msgid "Connect when wizard is finished"
+msgstr "精靈完成設定後連線"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+msgid "Advanced Options"
+msgstr "進階選項"
+
+#: KCMTelepathyAccounts/dictionary.cpp:33
+msgid "Password"
+msgstr "密碼"
+
+#: KCMTelepathyAccounts/dictionary.cpp:34
+msgid "Account"
+msgstr "帳號"
+
+#: KCMTelepathyAccounts/dictionary.cpp:35
+msgid "Priority"
+msgstr "優先權"
+
+#: KCMTelepathyAccounts/dictionary.cpp:36
+msgid "Port"
+msgstr "連接埠"
+
+#: KCMTelepathyAccounts/dictionary.cpp:37
+msgid "Alias"
+msgstr "別名"
+
+#: KCMTelepathyAccounts/dictionary.cpp:38
+msgid "Register new Account"
+msgstr "註冊新帳號"
+
+#: KCMTelepathyAccounts/dictionary.cpp:39
+msgid "Server Address"
+msgstr "伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:40
+msgid "Fallback STUN server address"
+msgstr "最後使用 STUN 伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:41
+msgid "Resource"
+msgstr "資源"
+
+#: KCMTelepathyAccounts/dictionary.cpp:42
+msgid "HTTPS Proxy Port"
+msgstr "HTTPS 代理伺服器連接埠"
+
+#: KCMTelepathyAccounts/dictionary.cpp:43
+msgid "Require Encryption"
+msgstr "需要加密"
+
+#: KCMTelepathyAccounts/dictionary.cpp:44
+msgid "Old-style SSL support"
+msgstr "舊式的 SSL 支援"
+
+#: KCMTelepathyAccounts/dictionary.cpp:45
+msgid "Fallback STUN port"
+msgstr "最後使用 STUN 連接埠"
+
+#: KCMTelepathyAccounts/dictionary.cpp:46
+msgid "Fallback Conference Server Address"
+msgstr "最後使用的會議伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:47
+msgid "Low Bandwidth Mode"
+msgstr "低頻寬模式"
+
+#: KCMTelepathyAccounts/dictionary.cpp:48
+msgid "STUN Server Address"
+msgstr "STUN 伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:49
+msgid "STUN Port"
+msgstr "STUN 連接埠"
+
+#: KCMTelepathyAccounts/dictionary.cpp:50
+msgid "Fallback SOCKS5 Proxy Addresses"
+msgstr "最後使用 SOCKS5 代理伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:51
+msgid "HTTPS Proxy Server Address"
+msgstr "HTTPS 代理伺服器位址"
+
+#: KCMTelepathyAccounts/dictionary.cpp:52
+msgid "Ignore SSL Errors"
+msgstr "忽略 SSL 錯誤"
+
+#: KCMTelepathyAccounts/dictionary.cpp:53
+msgid "Keepalive Interval"
+msgstr "Keepalive 間隔"
+
+#: KCMTelepathyAccounts/dictionary.cpp:56
+msgid "AOL Instant Messenger"
+msgstr "AOL 即時通訊"
+
+#: KCMTelepathyAccounts/dictionary.cpp:57
+msgid "Skype"
+msgstr "Skype"
+
+#: KCMTelepathyAccounts/dictionary.cpp:58
+msgid "Facebook Chat"
+msgstr "Facebook 聊天"
+
+#: KCMTelepathyAccounts/dictionary.cpp:59
+msgid "Gadu-Gadu"
+msgstr "Gadu-Gadu"
+
+#: KCMTelepathyAccounts/dictionary.cpp:60
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: KCMTelepathyAccounts/dictionary.cpp:61
+msgid "Novell Groupwise"
+msgstr "Novell Groupwise"
+
+#: KCMTelepathyAccounts/dictionary.cpp:62
+msgid "ICQ"
+msgstr "ICQ"
+
+#: KCMTelepathyAccounts/dictionary.cpp:63
+msgid "Internet Relay Chat"
+msgstr "IRC"
+
+#: KCMTelepathyAccounts/dictionary.cpp:64
+msgid "Jabber/XMPP"
+msgstr "Jabber/XMPP"
+
+#: KCMTelepathyAccounts/dictionary.cpp:65
+msgid "Bonjour/Salut"
+msgstr "Bonjour/Salut"
+
+#: KCMTelepathyAccounts/dictionary.cpp:66
+msgid "MXit"
+msgstr "MXit"
+
+#: KCMTelepathyAccounts/dictionary.cpp:67
+msgid "Windows Live Messenger"
+msgstr "Windows Live 即時通訊"
+
+#: KCMTelepathyAccounts/dictionary.cpp:68
+msgid "MySpaceIM"
+msgstr "MySpaceIM"
+
+#: KCMTelepathyAccounts/dictionary.cpp:69
+msgid "Tencent QQ"
+msgstr "騰訊 QQ"
+
+#: KCMTelepathyAccounts/dictionary.cpp:70
+msgid "IBM Lotus Sametime"
+msgstr "IBM Lotus Sametime"
+
+#: KCMTelepathyAccounts/dictionary.cpp:71
+msgid "SILC"
+msgstr "SILC"
+
+#: KCMTelepathyAccounts/dictionary.cpp:72
+msgid "Session Initiation Protocol (SIP)"
+msgstr "Session Initiation Protocol (SIP)"
+
+#: KCMTelepathyAccounts/dictionary.cpp:73
+msgid "GSM Telephony"
+msgstr "GSM Telephony"
+
+#: KCMTelepathyAccounts/dictionary.cpp:74
+msgid "Trepia"
+msgstr "Trepia"
+
+#: KCMTelepathyAccounts/dictionary.cpp:75
+msgid "Yahoo! Messenger"
+msgstr "Yahoo! 即時通"
+
+#: KCMTelepathyAccounts/dictionary.cpp:76
+msgid "Yahoo! Messenger Japan"
+msgstr "Yahoo! 即時通（日本）"
+
+#: KCMTelepathyAccounts/dictionary.cpp:77
+msgid "Zephyr"
+msgstr "Zephyr"
+
+#: KCMTelepathyAccounts/parameter-edit-model.cpp:302
+#, kde-format
+msgid "Parameter \"<b>%1</b>\" is not valid."
+msgstr "參數 \"<b>%1</b>\" 不合法。"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:100
+msgid "This field is required"
+msgstr "此欄位是必需的"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:121
+msgid "This field should not be empty"
+msgstr "此欄位不能為空"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:125
+msgid "This field should contain an email address"
+msgstr "此欄位要包含電子郵件地址"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:129
+msgid "This field should contain a hostname"
+msgstr "此欄位要包含主機名稱"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:133
+msgid "This field should contain an IP address"
+msgstr "此欄位要包含一個 IP 位址"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:178
+msgid "This field is valid"
+msgstr "此欄位合法"
+
+#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
+msgid "Others"
+msgstr "其他"
+
+#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, IRC, Yahoo 及其他..."
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "從檔案載入..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "清除頭像"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "請選擇您的頭像"
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"您選擇的檔案似乎不是影像檔。\n"
+"請選擇影像檔。"
+
+#: salut-enabler.cpp:239 add-account-assistant.cpp:202
+#: add-account-assistant.cpp:260
+msgid "Failed to create account"
+msgstr "建立帳號失敗"
+
+#: salut-enabler.cpp:240 add-account-assistant.cpp:261
+msgid "Possibly not all required fields are valid"
+msgstr "可能並非所有欄位都是合法的"
+
+#: salut-enabler.cpp:249 add-account-assistant.cpp:270
+msgid "Something went wrong with Telepathy"
+msgstr "Telepathy 發生了錯誤"
+
+#: salut-message-widget.cpp:50
+msgid "Configure manually..."
+msgstr "手動設定..."
+
+#: salut-message-widget.cpp:54
+msgid "Cancel"
+msgstr "取消"
+
+#: salut-message-widget.cpp:104
+#, kde-format
+msgid "You will appear as \"%1\" on your local network."
+msgstr "您在您的本地端網路上會以 \"%1\" 呈現。"
+
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "編輯帳號身份"
+
+#: account-item.cpp:100
+msgid "Online"
+msgstr "上線"
+
+#: account-item.cpp:102
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "連線中"
+
+#: account-item.cpp:104
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "已斷線"
+
+#: account-item.cpp:106
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "未知"
+
+#: account-item.cpp:109
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "已停用"
+
+#: account-item.cpp:135
+msgid "Click checkbox to enable"
+msgstr "點擊勾選盒來開啟"
+
+#: accounts-list-delegate.cpp:72
+msgid "Change account icon"
+msgstr "變更帳號圖示"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+"此按鍵可以讓您變更帳號的圖示。<br />此圖示只會在您的電腦上使用，您的聯絡人不"
+"會看到此圖示。"
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr "變更帳號顯示名稱"
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+"此按鍵可以讓您變更帳號的顯示名稱。<br />此顯示名稱只會在您的電腦上使用，您的"
+"聯絡人不會看到此名稱。"
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "關閉帳號"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "開啟帳號"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "步驟 1：選擇一個即時訊息網路"
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "步驟 2：填入必要的參數"
+
+#: add-account-assistant.cpp:166
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"要連線到此即時訊息網路，您需要安裝額外的外掛程式。請先安裝 telepathy-haze 與 "
+"telepathy-gabble 套件。"
+
+#: add-account-assistant.cpp:166
+msgid "Missing Telepathy Connection Manager"
+msgstr "遺失了 Telepathy 連線管理員套件"
+
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr "編輯顯示名稱"
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr "選擇您的帳號的顯示名稱"
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr "您的帳號的本地別名，只有您會看到此名稱。"
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr "新的顯示名稱"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "telepathy_accounts"
+msgstr "telepathy_accounts"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "即時訊息與 VOIP 帳號"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
+msgid "Developer"
+msgstr "開發者"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Dominik Schmidt"
+msgstr "Dominik Schmidt"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Thomas Richard"
+msgstr "Thomas Richard"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Florian Reinhard"
+msgstr "Florian Reinhard"
+
+#: kcm-telepathy-accounts.cpp:72
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: kcm-telepathy-accounts.cpp:73
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:339
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "您確定要移除帳號 %1 ？"
+
+#. i18n: file: main-widget.ui:180
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:340 rc.cpp:26
+msgid "Remove Account"
+msgstr "移除帳號"
+
+#: kcm-telepathy-accounts.cpp:404
+msgid "Install telepathy-salut to enable"
+msgstr "請先安裝 telepathy-salut 來開啟此功能"
+
+#: kcm-telepathy-accounts.cpp:439
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"因為一些原因，即時通訊系統無法初始化。您可能沒有安裝 Telepathy 任務控制套件。"
+"請安裝後再重新啟動此模組。"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin at goodhorse dot idv dot tw"
+
+#. i18n: file: KCMTelepathyAccounts/account-edit-widget.ui:62
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: rc.cpp:5
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: file: main-widget.ui:76
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: rc.cpp:8
+msgid "Enable local network discovery"
+msgstr "開啟本地端網路探索功能"
+
+#. i18n: file: main-widget.ui:96
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: rc.cpp:11
+msgid "Connect to people near you"
+msgstr "連線到靠近您的人"
+
+#. i18n: file: main-widget.ui:147
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: rc.cpp:14
+msgid "Add Account"
+msgstr "新增帳號"
+
+#. i18n: file: main-widget.ui:157
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: rc.cpp:17
+msgid "Edit Account"
+msgstr "編輯帳號"
+
+#. i18n: file: main-widget.ui:167
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: rc.cpp:20
+msgid "Edit how you appear to others. Requires the account to be online."
+msgstr "編輯您要如何呈現給其他人看。需要先上線。"
+
+#. i18n: file: main-widget.ui:170
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: rc.cpp:23
+msgid "Edit Identity"
+msgstr "編輯身份"
+
+#. i18n: file: account-identity-dialog.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:29
+msgid "Nickname:"
+msgstr "暱稱："
+
+#. i18n: file: account-identity-dialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:32
+msgid "Account:"
+msgstr "帳號："
+
+#. i18n: file: account-identity-dialog.ui:87
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: rc.cpp:35
+msgid "..."
+msgstr "..."
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "Account already exists. Old one will be used instead"
+#~ msgstr "帳號已存在。將會使用舊的帳號設定"

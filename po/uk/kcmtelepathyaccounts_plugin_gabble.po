@@ -1,0 +1,285 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-02-24 03:51+0100\n"
+"PO-Revision-Date: 2012-02-10 07:18+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: gabble-account-ui.cpp:104
+msgid "Server"
+msgstr "Сервер"
+
+#: gabble-account-ui.cpp:106
+msgid "Proxy"
+msgstr "Проксі"
+
+#. i18n: file: main-options-widget-facebook.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
+#. i18n: file: main-options-widget-googletalk.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetGoogleTalk)
+#. i18n: file: main-options-widget-msn.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetMSN)
+#. i18n: file: main-options-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: file: main-options-widget-kde-talk.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
+#: rc.cpp:3 rc.cpp:17 rc.cpp:26 rc.cpp:32 rc.cpp:129
+msgid "Account Preferences"
+msgstr "Параметри облікового запису"
+
+#. i18n: file: main-options-widget-facebook.ui:25
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: rc.cpp:6
+msgid "Username:"
+msgstr "Користувач:"
+
+#. i18n: file: main-options-widget-facebook.ui:38
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: main-options-widget-googletalk.ui:45
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: main-options-widget.ui:45
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: main-options-widget-kde-talk.ui:46
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: rc.cpp:9 rc.cpp:23 rc.cpp:38 rc.cpp:138
+msgid "Password:"
+msgstr "Пароль:"
+
+#. i18n: file: main-options-widget-facebook.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid ""
+"This is your username, not your normal Facebook login.<br/>\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.<br/>\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username."
+msgstr ""
+"Це ваше ім’я користувача, а не звичайне ім’я користувача для входу до "
+"Facebook.<br/>\n"
+"Якщо ви, наприклад, користуєтеся адресою facebook.com/<b>badger</b>, вкажіть "
+"<b>badger</b>.<br/>\n"
+"Скористайтеся <a href=\"http://www.facebook.com/username/\">цією сторінкою</"
+"a>, щоб вибрати ім’я користувача Facebook."
+
+#. i18n: file: main-options-widget-googletalk.ui:35
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: rc.cpp:20
+msgid "Email address:"
+msgstr "Адреса ел. пошти:"
+
+#. i18n: file: main-options-widget-msn.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:29
+msgid "You will be prompted for login details during connection."
+msgstr ""
+"Програма попросить вас ввести параметри входу до системи під час "
+"встановлення з’єднання."
+
+#. i18n: file: main-options-widget.ui:35
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: rc.cpp:35
+msgid "Jabber ID:"
+msgstr "Ід. для Jabber:"
+
+#. i18n: file: main-options-widget.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, registerCheckBox)
+#. i18n: file: main-options-widget-kde-talk.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, registerCheckBox)
+#: rc.cpp:41 rc.cpp:141
+msgid "Register new account"
+msgstr "Зареєструвати обліковий запис"
+
+#. i18n: file: proxy-settings-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ProxySettingsWidget)
+#: rc.cpp:44
+msgid "Advanced Options"
+msgstr "Додаткові параметри"
+
+#. i18n: file: proxy-settings-widget.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, stunGroupBox)
+#: rc.cpp:47
+msgid "STUN Server Settings"
+msgstr "Параметри сервера STUN"
+
+#. i18n: file: proxy-settings-widget.ui:28
+#. i18n: ectx: property (text), widget (QLabel, stunServerLabel)
+#: rc.cpp:50
+msgid "STUN server:"
+msgstr "Сервер STUN:"
+
+#. i18n: file: proxy-settings-widget.ui:38
+#. i18n: ectx: property (text), widget (QLabel, stunPortLabel)
+#. i18n: file: proxy-settings-widget.ui:66
+#. i18n: ectx: property (text), widget (QLabel, fallbackStunPortLabel)
+#. i18n: file: proxy-settings-widget.ui:103
+#. i18n: ectx: property (text), widget (QLabel, httpsProxyPortLabel)
+#: rc.cpp:53 rc.cpp:59 rc.cpp:68
+msgid "Port:"
+msgstr "Порт:"
+
+#. i18n: file: proxy-settings-widget.ui:56
+#. i18n: ectx: property (text), widget (QLabel, fallbackStunServerLabel)
+#: rc.cpp:56
+msgid "Fallback STUN server:"
+msgstr "Резервний сервер STUN:"
+
+#. i18n: file: proxy-settings-widget.ui:85
+#. i18n: ectx: property (title), widget (QGroupBox, proxyGroupBox)
+#: rc.cpp:62
+msgid "Proxy Settings"
+msgstr "Параметри проксі"
+
+#. i18n: file: proxy-settings-widget.ui:93
+#. i18n: ectx: property (text), widget (QLabel, httpsProxyServerLabel)
+#: rc.cpp:65
+msgid "HTTPS proxy server:"
+msgstr "Проксі сервер HTTPS:"
+
+#. i18n: file: proxy-settings-widget.ui:119
+#. i18n: ectx: property (text), widget (QLabel, fallbackSocks5ProxiesLabel)
+#: rc.cpp:71
+msgid "Fallback SOCKS 5 proxy servers:"
+msgstr "Резервні проксі-сервери SOCKS 5:"
+
+#. i18n: file: proxy-settings-widget.ui:130
+#. i18n: ectx: property (html), widget (KTextEdit, fallbackSocks5ProxiesTextEdit)
+#: rc.cpp:74
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+
+#. i18n: file: proxy-settings-widget.ui:143
+#. i18n: ectx: property (title), widget (QGroupBox, conferenceGroupBox)
+#: rc.cpp:81
+msgid "Conference Server Settings"
+msgstr "Параметри сервера конференцій"
+
+#. i18n: file: proxy-settings-widget.ui:151
+#. i18n: ectx: property (text), widget (QLabel, fallbackConferenceServerLabel)
+#: rc.cpp:84
+msgid "Fallback conference server:"
+msgstr "Резервний сервер конференцій:"
+
+#. i18n: file: server-settings-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ServerSettingsWidget)
+#. i18n: file: server-settings-widget.ui:63
+#. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
+#: rc.cpp:87 rc.cpp:99
+msgid "Connection Settings"
+msgstr "Параметри з’єднання"
+
+#. i18n: file: server-settings-widget.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, serverGroupBox)
+#: rc.cpp:90
+msgid "Server Settings"
+msgstr "Параметри сервера"
+
+#. i18n: file: server-settings-widget.ui:26
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: rc.cpp:93
+msgid "Server address:"
+msgstr "Адреса сервера:"
+
+#. i18n: file: server-settings-widget.ui:36
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: rc.cpp:96
+msgid "Server port:"
+msgstr "Порт сервера:"
+
+#. i18n: file: server-settings-widget.ui:69
+#. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
+#: rc.cpp:102
+msgid "Keep Alive interval:"
+msgstr "Інтервал між сигналами утримування з’єднання:"
+
+#. i18n: file: server-settings-widget.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, lowBandwidthCheckBox)
+#: rc.cpp:105
+msgid "Use low bandwidth mode"
+msgstr "Працювати у режимі низького споживання каналу"
+
+#. i18n: file: server-settings-widget.ui:89
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:108
+msgid "Resource"
+msgstr "Ресурс"
+
+#. i18n: file: server-settings-widget.ui:101
+#. i18n: ectx: property (text), widget (QLabel, resourceLabel)
+#: rc.cpp:111
+msgid "Resource Name:"
+msgstr "назва ресурсу"
+
+#. i18n: file: server-settings-widget.ui:108
+#. i18n: ectx: property (text), widget (QLabel, priorityLabel)
+#: rc.cpp:114
+msgid "Priority:"
+msgstr "Пріоритет:"
+
+#. i18n: file: server-settings-widget.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, securityGroupBox)
+#: rc.cpp:117
+msgid "Security Settings"
+msgstr "Параметри безпеки"
+
+#. i18n: file: server-settings-widget.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox, requireEncryptionCheckBox)
+#: rc.cpp:120
+msgid "Require encrypted connection"
+msgstr "Вимагати шифрування з’єднань"
+
+#. i18n: file: server-settings-widget.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreSslErrorsCheckBox)
+#: rc.cpp:123
+msgid "Ignore SSL errors"
+msgstr "Ігнорувати помилки SSL"
+
+#. i18n: file: server-settings-widget.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, oldSslCheckBox)
+#: rc.cpp:126
+msgid "Use old-style SSL"
+msgstr "Використовувати застарілу схему SSL"
+
+#. i18n: file: main-options-widget-kde-talk.ui:22
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: rc.cpp:132
+msgid "KDE Talk ID:"
+msgstr "Ід. у KDE Talk:"
+
+#. i18n: file: main-options-widget-kde-talk.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:135
+msgid "@kdetalk.net"
+msgstr "@kdetalk.net"
