@@ -1,0 +1,32 @@
+Source: ktp-accounts-kcm
+Section: kde
+Priority: optional
+Maintainer: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 9),
+ pkg-kde-tools (>= 0.9),
+ libtelepathy-qt4-dev (>= 0.9.0),
+ kdelibs5-dev (>= 4:4.6),
+ cmake (>= 2.8),
+ libktpcommoninternalsprivate-dev (>= 0.4.0)
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-accounts-kcm
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
+
+Package: kde-config-telepathy-accounts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.4)
+Suggests: telepathy-kde
+Description: KDE Control Module for managing Telepathy Accounts
+ This package provides a KControl module for adding, editing and removing
+ Telepathy accounts. This module can be accessed from system settings
+ under a KDE Plasma desktop.
+
+Package: kde-config-telepathy-accounts-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kde-config-telepathy-accounts (= ${binary:Version}), ${misc:Depends}
+Description: KDE Control Module for managing Telepathy Accounts - debug symbols
+ This package provides the debug symbols for the Telepathy Accounts
+ KControl module.
