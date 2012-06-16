@@ -18,22 +18,58 @@ Copyright: 2009-2011 Collabora Ltd. <http://www.collabora.co.uk/>
            2011 Lasath Fernando <kde@lasath.org>
            2011 Lasse Liehu <lliehu@kolumbus.fi>
 License: LGPL-2.1+
-   This library is free software; you can redistribute it and/or
-   modify it under the terms of the GNU Lesser General Public
-   License as published by the Free Software Foundation; either
-   version 2.1 of the License, or (at your option) any later version.
-   .
-   This library is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-   Lesser General Public License for more details.
-   .
-   You should have received a copy of the GNU Lesser General Public
-   License along with this library; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-   .
-   On Debian systems, the complete text of the GNU Lesser General
-   Public License v2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+Files: src/KCMTelepathyAccounts/kcm_telepathy_accounts_export.h
+Copyright: 2007 David Faure <faure@kde.org>
+License: LGPL-2+
+
+Files: po/*
+Copyright: 2012 Mladen Pejakovic <pejakm@gmail.com>
+           2012 Chusslove Illich <caslav.ilic@gmx.net>
+           2012 Franklin Weng <franklin@mail.everfocus.com.tw> <franklin@goodhorse.idv.tw>
+           2011 Sahran <sahran.ug@gmail.com>
+           2012 Richard Frič <Richard.Fric@kdemail.net>
+           2010-2012 André Marcelo Alvarenga <alvarenga@kde.org> <andrealvarenga@gmx.net>
+           2011-2012 Pino Toscano <toscano.pino@tiscali.it>
+           2011-2012 Yuri Chornoivan <yurchor@ukr.net>
+           2011 Manfred Wiese <m.j.wiese@web.de>
+           2009, 2011-2012 Marek Laane <bald@smail.ee>
+           2009-2012 Joëlle Cornavin <jcorn@free.fr>
+           2009, 2011 Khoem Sokhem <khoemsokhem@khmeros.info>
+           2012 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
+           2012 Tommi Nieminen <translator@legisign.org>
+           2011-2012 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2009, 2012 Xosé <xosecalvo@gmail.com>
+           2009-2012 Martin Schlander <mschlander@opensuse.org>
+           2011-2012 Kevin Scannell <kscanne@gmail.com>
+           2012 Kristóf Kiszel <ulysses@kubuntu.org>
+           2012 Josep Ma. Ferrer <txemaq@gmail.com>
+           2011-2012 Frederik Schwarzer <schwarzer@kde.org>
+           2012 Freek de Kruijf <freekdekruijf@kde.nl>
+           2011-2012 Kira J. Fernández <kirajfdez@gmail.com>
+           2011-2012 Vít Pelčák <vit@pelcak.org>
+           2012 Stelios <sstavra@gmail.com>
+           2012 Ni Hui <shuizhuyuanluo@126.com>
+           2012 Liudas Ališauskas <liudas.alisauskas@gmail.com>
+           2010-2011 Panagiotis Papadopoulos <pano_90@gmx.net>
+           2009-2012 Stefan Asserhall <stefan.asserhall@comhem.se>
+           2011-2012 Burkhard Lück <lueck@hube-lueck.de>
+           2012 Weng Xuetian <wengxt@gmail.com>
+           2011 Stefan Asserhall <stefan.asserhall@comhem.se>
+           2009, 2012 Luiz Fernando Ranghetti <elchevive@opensuse.org>
+           2011 Marcus Gama <marcus.gama@gmail.com>
+           2009 Andrew Coles <andrew_coles@yahoo.co.uk>
+           2011 Arve Eriksson <031299870@telia.com>
+           2012 Enrique Matias Sanchez <cronopios@gmail.com>
+           2011-2012 Eloy Cuadra <ecuadra@eloihr.net>
+           2009 Serdar Soytetir <tulliana@gmail.com>
+           2010 Marcus Vinícius de Andrade
+           2010 Rajesh Ranjan <rajesh672@gmail.com>
+           2010 Gama <marcus.gama@gmail.com>
+           2011 Alexander Potashev <aspotashev@gmail.com>
+           2009 Axel Rousseau <axel@esperanto-jeunes.org>
+           2009 Jorma Karvonen <karvonen.jorma@gmail.com>
+License: LGPL-2.1+
 
 Files: cmake/*
 Copyright: 2011 Dario Freddi <drf@kde.org>
@@ -65,3 +101,38 @@ Files: debian/*
 Copyright: 2009 Collabora Ltd. <http://www.collabora.co.uk/>
            2011-2012 George Kiagiadakis <kiagiadakis.george@gmail.com>
 License: LGPL-2.1+
+
+License: LGPL-2.1+
+   This library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Lesser General Public
+   License as published by the Free Software Foundation; either
+   version 2.1 of the License, or (at your option) any later version.
+   .
+   This library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Lesser General Public License for more details.
+   .
+   You should have received a copy of the GNU Lesser General Public
+   License along with this library; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+   .
+   On Debian systems, the complete text of the GNU Lesser General
+   Public License v2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+    .
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+    .
+    You should have received a copy of the GNU Library General Public
+    License along with this library. If not, see <http://www.gnu.org/licenses/>
+    .
+    On Debian systems, the complete text of the GNU Lesser General
+    Public License version 2+ can be found in "/usr/share/common-licenses/LGPL-2"
