@@ -1,5 +1,5 @@
-ktp-accounts-kcm (0.4.0-0r1) UNRELEASED; urgency=low
+ktp-accounts-kcm (0.4.0-1) unstable; urgency=low
 
   * Initial release.
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Wed, 30 Nov 2011 21:31:55 +0200
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 18 Jun 2012 22:09:45 +0300
