@@ -22,7 +22,7 @@
 
 #include "add-account-assistant.h"
 
-#include <KTp/wallet-interface.h>
+#include <KTp/wallet-utils.h>
 
 #include "KCMTelepathyAccounts/abstract-account-parameters-widget.h"
 #include "KCMTelepathyAccounts/abstract-account-ui.h"
@@ -118,9 +118,10 @@ AddAccountAssistant::AddAccountAssistant(Tp::AccountManagerPtr accountManager, Q
     addPage(d->pageTwo);
     addPage(d->pageThree);
 
-    KAssistantDialog::setAppropriate(d->pageTwo, false);
+    setAppropriate(d->pageTwo, false);
 
-    resize(QSize(400, 480));
+    // TODO re-enable the help when we will have one
+    showButton(KDialog::Help, false);
 }
 
 AddAccountAssistant::~AddAccountAssistant()
@@ -279,7 +280,7 @@ void AddAccountAssistant::onAccountCreated(Tp::PendingOperation *op)
     //save password to KWallet if needed
     QVariantMap values  = d->accountEditWidget->parametersSet();
     if (values.contains(QLatin1String("password"))) {
-        KTp::WalletInterface::setPassword(account, values[QLatin1String("password")].toString());
+        KTp::WalletUtils::setAccountPassword(account, values[QLatin1String("password")].toString());
     }
 
     if (d->accountEditWidget->connectOnAdd()) {

@@ -1,13 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Vít Pelčák <vit@pelcak.org>, 2011, 2012.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-02 03:24+0200\n"
-"PO-Revision-Date: 2012-04-03 08:14+0200\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-08-20 10:46+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,9 +18,237 @@ msgstr ""
 "X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák, Tomáš Chvátal"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org, tomas.chvatal@gmail.com"
+
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "Upravit identitu účtu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: account-identity-dialog.ui:40
+msgid "Nickname:"
+msgstr "Přezdívka:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: account-identity-dialog.ui:50
+msgid "Account:"
+msgstr "Účet:"
+
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: account-identity-dialog.ui:87
+msgid "..."
+msgstr "..."
+
+#: account-item.cpp:101
+msgid "Online"
+msgstr "Připojen"
+
+#: account-item.cpp:103
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "Navazuji spojení"
+
+#: account-item.cpp:105
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "Odpojen"
+
+#: account-item.cpp:107
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: account-item.cpp:110
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: account-item.cpp:136
+msgid "Click checkbox to enable"
+msgstr "Klikněte na přepínač pro povolení"
+
+#: accounts-list-delegate.cpp:72
+msgid "Change account icon"
+msgstr "Změnit ikonu účtu"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+"Toto tlačítko umožňuje změnu ikony Vašeho účtu.<br />Tato ikona je použita "
+"pouze na tomto počítači. Vaše kontakty ji neuvidí."
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr "Změnit zobrazovaný název účtu"
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+"Tlačítko umožňuje změnu zobrazovaného názvu pro Váš účet.<br />Zobrazovaný "
+"název je zkratka pro Váš účet a je použita pouze na Vašem počítači. Vaše "
+"kontakty ji neuvidí."
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "Zakázat účet"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "Povolit účet"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "Krok 1: Vyberte síť IM"
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "Krok 2: Vyplňte, prosím, potřebné parametry."
+
+#: add-account-assistant.cpp:167
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"Pro připojení k této komunikační síti potřebujete dodatečná rozšíření. "
+"Prosím nainstalujte, pomocí Vašeho správce balíčků, balíčky telepathy-haze a "
+"telepathy-gabble."
+
+#: add-account-assistant.cpp:167
+msgid "Missing Telepathy Connection Manager"
+msgstr "Chybí správce spojení Telepathy"
+
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
+#: salut-enabler.cpp:239
+msgid "Failed to create account"
+msgstr "Vytvoření účtu selhalo"
+
+#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+msgid "Possibly not all required fields are valid"
+msgstr "Možná všechna nutná pole nebyla vyplněna správně"
+
+#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+msgid "Something went wrong with Telepathy"
+msgstr "V Telepathy došlo k nějakému problému"
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "Načíst ze souboru..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "Vymazat avatar"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "Vyberte si, prosím, avatara"
+
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr "Upravit zobrazovaný název"
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr "Vyberte nový zobrazovaný název pro Váš účet"
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr "Zobrazovaný název je Vaše zkratka pro účet, uvidíte jej pouze vy."
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr "Nový zobrazovaný název"
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"Soubor, který jste vybrali nevypadá jako obrázek.\n"
+"Prosím vyberte obrázek."
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "telepathy_accounts"
+msgstr "Účty Telepathy"
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "IM a VOIP účty"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71
+msgid "Developer"
+msgstr "Vývojář"
+
+#: kcm-telepathy-accounts.cpp:66
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "Dominik Schmidt"
+msgstr "Dominik Schmidt"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "Thomas Richard"
+msgstr "Richard Holt"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Florian Reinhard"
+msgstr "Reinhard"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:337
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "Opravdu si přejete odstranit účet \"%1\"?"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+msgid "Remove Account"
+msgstr "Odstranit účet"
+
+#: kcm-telepathy-accounts.cpp:401
+msgid "Install telepathy-salut to enable"
+msgstr "Pro zapnutí nainstalujte telepathy-salut"
+
+#: kcm-telepathy-accounts.cpp:436
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"Stalo se něco hrozného, IM systém nemohl být inicializován.\n"
+"Ve Vašem systému pravděpodobně schází balíček Telepathy Mission Control.\n"
+"Prosím nainstalujte jej a restartujte tento modul.."
+
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
-msgstr ""
+msgstr "Všechna povinná pole musí být vyplněna"
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:101
 msgid "Connect when wizard is finished"
@@ -28,6 +257,11 @@ msgstr "Připojit po ukončení průvodce"
 #: KCMTelepathyAccounts/account-edit-widget.cpp:208
 msgid "Advanced Options"
 msgstr "Pokročilé možnosti"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: KCMTelepathyAccounts/account-edit-widget.ui:62
+msgid "Advanced"
+msgstr "Pokročilé"
 
 #: KCMTelepathyAccounts/dictionary.cpp:33
 msgid "Password"
@@ -121,8 +355,9 @@ msgstr "AOL Instant Messenger"
 msgid "Skype"
 msgstr "Skype"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#, fuzzy
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
 
@@ -130,7 +365,9 @@ msgstr "Facebook Chat"
 msgid "Gadu-Gadu"
 msgstr "Gadu-Gadu"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -138,7 +375,9 @@ msgstr "Google Talk"
 msgid "Novell Groupwise"
 msgstr "Novell Groupwise"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -146,7 +385,9 @@ msgstr "ICQ"
 msgid "Internet Relay Chat"
 msgstr "Internet Relay Chat"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 msgid "Jabber/XMPP"
 msgstr "Jabber/XMPP"
 
@@ -158,7 +399,9 @@ msgstr "Bonjour/Salut"
 msgid "MXit"
 msgstr "MXit"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live Messenger"
 
@@ -183,9 +426,8 @@ msgid "Session Initiation Protocol (SIP)"
 msgstr "Session Initiation Protocol (SIP)"
 
 #: KCMTelepathyAccounts/dictionary.cpp:73
-#, fuzzy
 msgid "GSM Telephony"
-msgstr "GSM Telephony"
+msgstr "GSM Telefonie"
 
 #: KCMTelepathyAccounts/dictionary.cpp:74
 msgid "Trepia"
@@ -207,6 +449,16 @@ msgstr "Zephyr"
 #, kde-format
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Parametr \"<b>%1</b>\" je neplatný."
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+msgid "Others"
+msgstr "Ostatní"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, IRC, Yahoo a další..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
@@ -232,46 +484,36 @@ msgstr "Pole by mělo obsahovat IP adresu"
 msgid "This field is valid"
 msgstr "Toto pole je platné"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "Others"
-msgstr "Ostatní"
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: main-widget.ui:76
+msgid "Enable local network discovery"
+msgstr "Povolit prohledávání lokální sítě"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, IRC, Yahoo a další..."
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: main-widget.ui:96
+msgid "Connect to people near you"
+msgstr "Připojit se k lidem poblíž"
 
-#: avatar-button.cpp:41
-msgid "Load from file..."
-msgstr "Načíst ze souboru..."
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: main-widget.ui:147
+msgid "Add Account"
+msgstr "Přidat účet"
 
-#: avatar-button.cpp:42
-msgid "Clear Avatar"
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: main-widget.ui:157
+msgid "Edit Account"
+msgstr "Upravit účet"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:167
+msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
+"Upravte jak budete vystupovat před ostatními. Vyžaduje účet ve stavu online."
 
-#: avatar-button.cpp:74
-msgid "Please choose your avatar"
-msgstr "Vyberte si, prosím, avatara"
-
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-"Soubor, který jste vybrali nevypadá jako obrázek.\n"
-"Prosím vyberte obrázek."
-
-#: salut-enabler.cpp:239 add-account-assistant.cpp:202
-#: add-account-assistant.cpp:260
-msgid "Failed to create account"
-msgstr "Vytvoření účtu selhalo"
-
-#: salut-enabler.cpp:240 add-account-assistant.cpp:261
-msgid "Possibly not all required fields are valid"
-msgstr "Možná všechna nutná pole nebyla vyplněna správně"
-
-#: salut-enabler.cpp:249 add-account-assistant.cpp:270
-msgid "Something went wrong with Telepathy"
-msgstr "V Telepathy došlo k nějakému problému"
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:170
+msgid "Edit Identity"
+msgstr "Upravit identitu"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
@@ -284,242 +526,4 @@ msgstr "Zrušit"
 #: salut-message-widget.cpp:104
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
-msgstr ""
-
-#: account-identity-dialog.cpp:42
-msgid "Edit Account Identity"
-msgstr "Upravit identitu účtu"
-
-#: account-item.cpp:100
-msgid "Online"
-msgstr "Připojen"
-
-#: account-item.cpp:102
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "Navazuji spojení"
-
-#: account-item.cpp:104
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "Odpojen"
-
-#: account-item.cpp:106
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "Neznámý"
-
-#: account-item.cpp:109
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "Vypnuto"
-
-#: account-item.cpp:135
-msgid "Click checkbox to enable"
-msgstr "Klikněte na přepínač pro povolení"
-
-#: accounts-list-delegate.cpp:72
-msgid "Change account icon"
-msgstr "Změnit ikonu účtu"
-
-#: accounts-list-delegate.cpp:73
-msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
-msgstr ""
-
-#: accounts-list-delegate.cpp:81
-msgid "Change account display name"
-msgstr ""
-
-#: accounts-list-delegate.cpp:82
-msgid ""
-"This button allows to change the display name for your account.<br />The "
-"display name is an alias for your account and is just used locally on your "
-"computer, your contacts will not be able to see it."
-msgstr ""
-
-#: accounts-list-delegate.cpp:143
-msgid "Disable account"
-msgstr "Zakázat účet"
-
-#: accounts-list-delegate.cpp:146
-msgid "Enable account"
-msgstr "Povolit účet"
-
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
-msgid "Step 1: Select an Instant Messaging Network."
-msgstr "Krok 1: Vyberte síť IM"
-
-#: add-account-assistant.cpp:115
-msgid "Step 2: Fill in the required Parameters."
-msgstr "Krok 2: Vyplňte, prosím, potřebné parametry."
-
-#: add-account-assistant.cpp:166
-msgid ""
-"To connect to this IM network, you need to install additional plugins. "
-"Please install the telepathy-haze and telepathy-gabble packages using your "
-"package manager."
-msgstr ""
-
-#: add-account-assistant.cpp:166
-msgid "Missing Telepathy Connection Manager"
-msgstr ""
-
-#: edit-display-name-button.cpp:61
-msgid "Edit Display Name"
-msgstr ""
-
-#: edit-display-name-button.cpp:70
-msgid "Choose a new display name for your account"
-msgstr ""
-
-#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
-msgid ""
-"A display name is your local alias for the account, only you will see it."
-msgstr ""
-
-#: edit-display-name-button.cpp:86
-msgid "New display name"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "telepathy_accounts"
-msgstr "Účty Telepathy"
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "Instant Messaging and VOIP Accounts"
-msgstr "IM a VOIP účty"
-
-#: kcm-telepathy-accounts.cpp:67
-msgid "George Goldberg"
-msgstr "George Goldberg"
-
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
-msgid "Developer"
-msgstr "Vývojář"
-
-#: kcm-telepathy-accounts.cpp:68
-msgid "David Edmundson"
-msgstr "David Edmundson"
-
-#: kcm-telepathy-accounts.cpp:69
-msgid "Dominik Schmidt"
-msgstr "Dominik Schmidt"
-
-#: kcm-telepathy-accounts.cpp:70
-msgid "Thomas Richard"
-msgstr "Richard Holt"
-
-#: kcm-telepathy-accounts.cpp:71
-msgid "Florian Reinhard"
-msgstr "Reinhard"
-
-#: kcm-telepathy-accounts.cpp:72
-msgid "Daniele E. Domenichelli"
-msgstr "Daniele E. Domenichelli"
-
-#: kcm-telepathy-accounts.cpp:73
-msgid "Martin Klapetek"
-msgstr "Martin Klapetek"
-
-#: kcm-telepathy-accounts.cpp:339
-#, kde-format
-msgid "Are you sure you want to remove the account \"%1\"?"
-msgstr "Jste si jisti, že chcete odstranit účet \"%1\"?"
-
-#. i18n: file: main-widget.ui:180
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:340 rc.cpp:26
-msgid "Remove Account"
-msgstr "Odstranit účet"
-
-#: kcm-telepathy-accounts.cpp:404
-msgid "Install telepathy-salut to enable"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:439
-msgid ""
-"Something went terribly wrong and the IM system could not be initialized.\n"
-"It is likely your system is missing Telepathy Mission Control package.\n"
-"Please install it and restart this module."
-msgstr ""
-"Stalo se něco hrozného, IM systém nemohl být inicializován.\n"
-"Ve vašem systému pravděpodobně schází balíček Telepathy Mission Control.\n"
-"Prosím nainstalujte jej a restartujte tento modul.."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Vít Pelčák"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "vit@pelcak.org"
-
-#. i18n: file: KCMTelepathyAccounts/account-edit-widget.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: rc.cpp:5
-msgid "Advanced"
-msgstr "Pokročilé"
-
-#. i18n: file: main-widget.ui:76
-#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: rc.cpp:8
-msgid "Enable local network discovery"
-msgstr "Povolit prohledávání lokální sítě"
-
-#. i18n: file: main-widget.ui:96
-#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: rc.cpp:11
-msgid "Connect to people near you"
-msgstr "Připojit se k lidem poblíž"
-
-#. i18n: file: main-widget.ui:147
-#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: rc.cpp:14
-msgid "Add Account"
-msgstr "Přidat účet"
-
-#. i18n: file: main-widget.ui:157
-#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: rc.cpp:17
-msgid "Edit Account"
-msgstr "Upravit účet"
-
-#. i18n: file: main-widget.ui:167
-#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:20
-msgid "Edit how you appear to others. Requires the account to be online."
-msgstr ""
-
-#. i18n: file: main-widget.ui:170
-#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:23
-msgid "Edit Identity"
-msgstr "Upravit identitu"
-
-#. i18n: file: account-identity-dialog.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:29
-msgid "Nickname:"
-msgstr "Přezdívka:"
-
-#. i18n: file: account-identity-dialog.ui:50
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:32
-msgid "Account:"
-msgstr "Účet:"
-
-#. i18n: file: account-identity-dialog.ui:87
-#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
-#: rc.cpp:35
-msgid "..."
-msgstr "..."
-
-#~ msgid "TextLabel"
-#~ msgstr "Textový štítek"
+msgstr "Na Vaší lokální síti budete vystupovat jako \"%1\"."

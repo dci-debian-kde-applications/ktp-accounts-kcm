@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-02 03:24+0200\n"
-"PO-Revision-Date: 2012-03-19 19:43+0100\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-06-15 21:25+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
@@ -19,6 +19,240 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mladen Pejaković"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pejakm@gmail.com"
+
+# >> @title:window
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "Uređivanje identiteta naloga"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: account-identity-dialog.ui:40
+msgid "Nickname:"
+msgstr "Nadimak:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: account-identity-dialog.ui:50
+msgid "Account:"
+msgstr "Nalog:"
+
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: account-identity-dialog.ui:87
+msgid "..."
+msgstr "..."
+
+# >> @item account connection state
+#: account-item.cpp:101
+msgid "Online"
+msgstr "na vezi"
+
+# >> @item account connection state
+#: account-item.cpp:103
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "povezuje se"
+
+# >> @item account connection state
+#: account-item.cpp:105
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "veza prekinuta"
+
+# >> @item account connection state
+#: account-item.cpp:107
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "nepoznato"
+
+# >> @item account connection state
+#: account-item.cpp:110
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "deaktiviran"
+
+#: account-item.cpp:136
+msgid "Click checkbox to enable"
+msgstr "Kliknite na kućicu da aktivirate"
+
+#: accounts-list-delegate.cpp:72
+msgid "Change account icon"
+msgstr "Promeni ikonu naloga"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+"<p>Ovim dugmetom možete promeniti ikonu svog naloga.</p><p>Ikona se koristi "
+"samo lokalno na ovom računaru, vaši kontakti neće moći da je vide.</p>"
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr "Promeni prikazno ime naloga"
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+"<p>Ovim dugmetom možete promeniti prikazno ime svog naloga.</p><p>Prikazno "
+"ime je alijas za vaš nalog i koristi se samo lokalno na ovom računaru, vaši "
+"kontakti neće moći da ga vide.</p>"
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "Deaktiviraj nalog"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "Aktiviraj nalog"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "Korak 1: Izaberite brzoglasničku mrežu."
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "Korak 2: Popunite zahtijevane parametre."
+
+#: add-account-assistant.cpp:167
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"Da biste se povezali na ovu mrežu trebaju vam dodatni priključci. "
+"Instalirajte pakete telepathy-haze i telepathy-gabble preko menadžera paketa."
+
+#: add-account-assistant.cpp:167
+msgid "Missing Telepathy Connection Manager"
+msgstr "Nedostaje Telepathy menadžer povezivanja"
+
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
+#: salut-enabler.cpp:239
+msgid "Failed to create account"
+msgstr "Pravljenje naloga nije uspjelo"
+
+#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+msgid "Possibly not all required fields are valid"
+msgstr "Moguće je da neka zahtijevana polja nisu ispravna."
+
+#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+msgid "Something went wrong with Telepathy"
+msgstr "Nešto nije u redu sa Telepathyjem."
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "Učitaj iz fajla..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "Očisti avatar"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "Izaberite svoj avatar."
+
+# >> @title:window
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr "Uređivanje prikaznog imena"
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr "Izaberite novo prikazno ime za svoj nalog"
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr "Prikazno ime je vaš lokalni alijas za nalog, samo ga vi možete videti."
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr "Novo prikazno ime"
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"Čini se da fajl koji ste izabrali nije slika.\n"
+"Izaberite sliku."
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "telepathy_accounts"
+msgstr "Telepathy nalozi"
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Brzoglasnički i VoIP nalozi"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "George Goldberg"
+msgstr "Džordž Goldberg"
+
+#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71
+msgid "Developer"
+msgstr "Programer"
+
+#: kcm-telepathy-accounts.cpp:66
+msgid "David Edmundson"
+msgstr "Dejvid Edmundson"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "Dominik Schmidt"
+msgstr "Dominik Šmit"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "Thomas Richard"
+msgstr "Tomas Rihard"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Florian Reinhard"
+msgstr "Florijan Rajnhard"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Daniele E. Domenichelli"
+msgstr "Danijele Domeničeli"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:337
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "Želite li zaista da uklonite nalog „%1“?"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+msgid "Remove Account"
+msgstr "Ukloni nalog"
+
+#: kcm-telepathy-accounts.cpp:401
+msgid "Install telepathy-salut to enable"
+msgstr "Instalirajte telepathy-salut za aktiviranje"
+
+#: kcm-telepathy-accounts.cpp:436
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"Nešto je pošlo po zlu i brzoglasnički sistem ne može da se pripremi.\n"
+"Vjerovatno na sistemu nije instaliran paket Telepathy upravljanje misijom.\n"
+"Instalirajte ga i ponovo pokrenite ovaj modul."
+
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
 msgstr "Sva obavezna polja moraju biti popunjena"
@@ -30,6 +264,11 @@ msgstr "Poveži se kada čarobnjak završi"
 #: KCMTelepathyAccounts/account-edit-widget.cpp:208
 msgid "Advanced Options"
 msgstr "Napredne opcije"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: KCMTelepathyAccounts/account-edit-widget.ui:62
+msgid "Advanced"
+msgstr "Napredno"
 
 # >! UI context not clear
 #: KCMTelepathyAccounts/dictionary.cpp:33
@@ -147,7 +386,9 @@ msgid "Skype"
 msgstr "Skype"
 
 # >! UI context not clear
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
 msgid "Facebook Chat"
 msgstr "Facebookovo ćaskanje"
 
@@ -157,7 +398,9 @@ msgid "Gadu-Gadu"
 msgstr "Gadu‑Gadu"
 
 # >! UI context not clear
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "Google Talk"
 msgstr "Google-razgovora"
 
@@ -167,7 +410,9 @@ msgid "Novell Groupwise"
 msgstr "Novellov GroupWise"
 
 # >! UI context not clear
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -177,7 +422,9 @@ msgid "Internet Relay Chat"
 msgstr "Ćaskanje putem Interneta (IRC)"
 
 # >! UI context not clear
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 msgid "Jabber/XMPP"
 msgstr "Jabber/XMPP"
 
@@ -192,7 +439,9 @@ msgid "MXit"
 msgstr "MXit"
 
 # >! UI context not clear
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live Messenger"
 
@@ -251,6 +500,16 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Parametar <b>%1</b> nije dobar."
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+msgid "Others"
+msgstr "Ostali"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "AOL, Gadu‑Gadu, IRC, Yahoo i ostali..."
+
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
 msgstr "Ovo polje je obavezno"
@@ -275,46 +534,36 @@ msgstr "Ovo polje bi trebalo da sadrži IP adresu"
 msgid "This field is valid"
 msgstr "Ovo polje je dobro"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "Others"
-msgstr "Ostali"
+# >> @option:check
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: main-widget.ui:76
+msgid "Enable local network discovery"
+msgstr "Otkrivanje lokalne mreže"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu‑Gadu, IRC, Yahoo i ostali..."
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: main-widget.ui:96
+msgid "Connect to people near you"
+msgstr "Povežite se sa ljudima u blizini"
 
-#: avatar-button.cpp:41
-msgid "Load from file..."
-msgstr "Učitaj iz fajla..."
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: main-widget.ui:147
+msgid "Add Account"
+msgstr "Dodaj nalog"
 
-#: avatar-button.cpp:42
-msgid "Clear Avatar"
-msgstr "Očisti avatar"
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: main-widget.ui:157
+msgid "Edit Account"
+msgstr "Uredi nalog"
 
-#: avatar-button.cpp:74
-msgid "Please choose your avatar"
-msgstr "Izaberite svoj avatar."
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:167
+msgid "Edit how you appear to others. Requires the account to be online."
+msgstr "Uredite kako ćete izgledati drugima. Zahtijeva da nalog bude na vezi."
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-"Čini se da fajl koji ste izabrali nije slika.\n"
-"Izaberite sliku."
-
-#: salut-enabler.cpp:239 add-account-assistant.cpp:202
-#: add-account-assistant.cpp:260
-msgid "Failed to create account"
-msgstr "Pravljenje naloga nije uspjelo"
-
-#: salut-enabler.cpp:240 add-account-assistant.cpp:261
-msgid "Possibly not all required fields are valid"
-msgstr "Moguće je da neka zahtijevana polja nisu ispravna."
-
-#: salut-enabler.cpp:249 add-account-assistant.cpp:270
-msgid "Something went wrong with Telepathy"
-msgstr "Nešto nije u redu sa Telepathyjem."
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:170
+msgid "Edit Identity"
+msgstr "Uredi identitet"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
@@ -328,249 +577,3 @@ msgstr "Odustani"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Pojavićete se kao „%1“ na lokalnoj mreži."
-
-# >> @title:window
-#: account-identity-dialog.cpp:42
-msgid "Edit Account Identity"
-msgstr "Uređivanje identiteta naloga"
-
-# >> @item account connection state
-#: account-item.cpp:100
-msgid "Online"
-msgstr "na vezi"
-
-# >> @item account connection state
-#: account-item.cpp:102
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "povezuje se"
-
-# >> @item account connection state
-#: account-item.cpp:104
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "veza prekinuta"
-
-# >> @item account connection state
-#: account-item.cpp:106
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "nepoznato"
-
-# >> @item account connection state
-#: account-item.cpp:109
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "deaktiviran"
-
-#: account-item.cpp:135
-msgid "Click checkbox to enable"
-msgstr "Kliknite na kućicu da aktivirate"
-
-#: accounts-list-delegate.cpp:72
-#, fuzzy
-#| msgid "Enable account"
-msgid "Change account icon"
-msgstr "Aktiviraj nalog"
-
-#: accounts-list-delegate.cpp:73
-msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
-msgstr ""
-
-#: accounts-list-delegate.cpp:81
-msgid "Change account display name"
-msgstr ""
-
-#: accounts-list-delegate.cpp:82
-msgid ""
-"This button allows to change the display name for your account.<br />The "
-"display name is an alias for your account and is just used locally on your "
-"computer, your contacts will not be able to see it."
-msgstr ""
-
-#: accounts-list-delegate.cpp:143
-msgid "Disable account"
-msgstr "Deaktiviraj nalog"
-
-#: accounts-list-delegate.cpp:146
-msgid "Enable account"
-msgstr "Aktiviraj nalog"
-
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
-msgid "Step 1: Select an Instant Messaging Network."
-msgstr "Korak 1: Izaberite brzoglasničku mrežu."
-
-#: add-account-assistant.cpp:115
-msgid "Step 2: Fill in the required Parameters."
-msgstr "Korak 2: Popunite zahtijevane parametre."
-
-#: add-account-assistant.cpp:166
-msgid ""
-"To connect to this IM network, you need to install additional plugins. "
-"Please install the telepathy-haze and telepathy-gabble packages using your "
-"package manager."
-msgstr ""
-"Da biste se povezali na ovu mrežu trebaju vam dodatni priključci. "
-"Instalirajte pakete telepathy-haze i telepathy-gabble preko menadžera paketa."
-
-#: add-account-assistant.cpp:166
-msgid "Missing Telepathy Connection Manager"
-msgstr "Nedostaje Telepathy menadžer povezivanja"
-
-#: edit-display-name-button.cpp:61
-msgid "Edit Display Name"
-msgstr ""
-
-#: edit-display-name-button.cpp:70
-msgid "Choose a new display name for your account"
-msgstr ""
-
-#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
-msgid ""
-"A display name is your local alias for the account, only you will see it."
-msgstr ""
-
-#: edit-display-name-button.cpp:86
-msgid "New display name"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "telepathy_accounts"
-msgstr "Telepathy nalozi"
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "Instant Messaging and VOIP Accounts"
-msgstr "Brzoglasnički i VoIP nalozi"
-
-#: kcm-telepathy-accounts.cpp:67
-msgid "George Goldberg"
-msgstr "Džordž Goldberg"
-
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
-msgid "Developer"
-msgstr "Programer"
-
-#: kcm-telepathy-accounts.cpp:68
-msgid "David Edmundson"
-msgstr "Dejvid Edmundson"
-
-#: kcm-telepathy-accounts.cpp:69
-msgid "Dominik Schmidt"
-msgstr "Dominik Šmit"
-
-#: kcm-telepathy-accounts.cpp:70
-msgid "Thomas Richard"
-msgstr "Tomas Rihard"
-
-#: kcm-telepathy-accounts.cpp:71
-msgid "Florian Reinhard"
-msgstr "Florijan Rajnhard"
-
-#: kcm-telepathy-accounts.cpp:72
-msgid "Daniele E. Domenichelli"
-msgstr "Danijele Domeničeli"
-
-#: kcm-telepathy-accounts.cpp:73
-msgid "Martin Klapetek"
-msgstr "Martin Klapetek"
-
-#: kcm-telepathy-accounts.cpp:339
-#, kde-format
-msgid "Are you sure you want to remove the account \"%1\"?"
-msgstr "Želite li zaista da uklonite nalog „%1“?"
-
-#. i18n: file: main-widget.ui:180
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:340 rc.cpp:26
-msgid "Remove Account"
-msgstr "Ukloni nalog"
-
-#: kcm-telepathy-accounts.cpp:404
-msgid "Install telepathy-salut to enable"
-msgstr "Instalirajte telepathy-salut za aktiviranje"
-
-#: kcm-telepathy-accounts.cpp:439
-msgid ""
-"Something went terribly wrong and the IM system could not be initialized.\n"
-"It is likely your system is missing Telepathy Mission Control package.\n"
-"Please install it and restart this module."
-msgstr ""
-"Nešto je pošlo po zlu i brzoglasnički sistem ne može da se pripremi.\n"
-"Vjerovatno na sistemu nije instaliran paket Telepathy upravljanje misijom.\n"
-"Instalirajte ga i ponovo pokrenite ovaj modul."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Mladen Pejaković"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "pejakm@gmail.com"
-
-#. i18n: file: KCMTelepathyAccounts/account-edit-widget.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: rc.cpp:5
-msgid "Advanced"
-msgstr "Napredno"
-
-# >> @option:check
-#. i18n: file: main-widget.ui:76
-#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: rc.cpp:8
-msgid "Enable local network discovery"
-msgstr "Otkrivanje lokalne mreže"
-
-#. i18n: file: main-widget.ui:96
-#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: rc.cpp:11
-msgid "Connect to people near you"
-msgstr "Povežite se sa ljudima u blizini"
-
-#. i18n: file: main-widget.ui:147
-#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: rc.cpp:14
-msgid "Add Account"
-msgstr "Dodaj nalog"
-
-#. i18n: file: main-widget.ui:157
-#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: rc.cpp:17
-msgid "Edit Account"
-msgstr "Uredi nalog"
-
-#. i18n: file: main-widget.ui:167
-#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:20
-msgid "Edit how you appear to others. Requires the account to be online."
-msgstr "Uredite kako ćete izgledati drugima. Zahtijeva da nalog bude na vezi."
-
-#. i18n: file: main-widget.ui:170
-#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:23
-msgid "Edit Identity"
-msgstr "Uredi identitet"
-
-#. i18n: file: account-identity-dialog.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:29
-msgid "Nickname:"
-msgstr "Nadimak:"
-
-#. i18n: file: account-identity-dialog.ui:50
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:32
-msgid "Account:"
-msgstr "Nalog:"
-
-#. i18n: file: account-identity-dialog.ui:87
-#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
-#: rc.cpp:35
-msgid "..."
-msgstr "..."

@@ -20,26 +20,22 @@ msgstr ""
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#. i18n: file: main-options-widget.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
-#: rc.cpp:3
+#: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Paskyros parinktys"
 
-#. i18n: file: main-options-widget.ui:29
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: rc.cpp:6
+#: main-options-widget.ui:29
 msgid "Email address:"
 msgstr "El. pašto adresas:"
 
-#. i18n: file: main-options-widget.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:9
+#: main-options-widget.ui:46
 msgid "Example: user@hotmail.com"
 msgstr "Pavyzdžiui: naudotojas@hotmail.com"
 
-#. i18n: file: main-options-widget.ui:53
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: rc.cpp:12
+#: main-options-widget.ui:53
 msgid "Password:"
 msgstr "Slaptažodis:"

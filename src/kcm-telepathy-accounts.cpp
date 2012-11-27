@@ -29,8 +29,6 @@
 #include "accounts-list-delegate.h"
 #include "account-identity-dialog.h"
 
-#include <KTp/wallet-interface.h>
-
 #include <QtGui/QLabel>
 #include <QtGui/QSortFilterProxyModel>
 
@@ -62,7 +60,7 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
    m_accountsListModel(0)
 {
     //set up component data.
-    KAboutData *aboutData = new KAboutData(I18N_NOOP("telepathy_accounts"), 0, ki18n("Instant Messaging and VOIP Accounts"), "0.4", KLocalizedString(), KAboutData::License_GPL);
+    KAboutData *aboutData = new KAboutData(I18N_NOOP("telepathy_accounts"), 0, ki18n("Instant Messaging and VOIP Accounts"), "0.5.1", KLocalizedString(), KAboutData::License_GPL);
 
     aboutData->addAuthor(ki18n("George Goldberg"), ki18n("Developer"),"grundleborg@googlemail.com");
     aboutData->addAuthor(ki18n("David Edmundson"), ki18n("Developer"), "david@davidedmundson.co.uk");
@@ -315,7 +313,7 @@ void KCMTelepathyAccounts::onEditIdentityClicked()
     if (!m_accountManager->isReady()) {
         return;
     }
-    
+
     QModelIndex index = m_currentListView->currentIndex();
     if (!index.isValid()) {
         return;
@@ -341,9 +339,8 @@ void KCMTelepathyAccounts::onRemoveAccountClicked()
                                         QString(), KMessageBox::Notify | KMessageBox::Dangerous) == KMessageBox::Continue)
     {
         AccountItem *item = index.data(AccountsListModel::AccountItemRole).value<AccountItem*>();
-        KTp::WalletInterface::removeAccount(item->account());
-        m_accountsListModel->removeAccount(m_currentModel->mapToSource(index));
-    }
+        item->remove();
+     }
 }
 
 void KCMTelepathyAccounts::onModelDataChanged()
