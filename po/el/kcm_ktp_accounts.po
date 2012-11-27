@@ -4,20 +4,252 @@
 #
 #
 # Stelios <sstavra@gmail.com>, 2012.
+# Petros Vidalis <pvidalis@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-02 03:24+0200\n"
-"PO-Revision-Date: 2012-04-01 19:48+0200\n"
-"Last-Translator: Stelios <sstavra@gmail.com>\n"
-"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-09-20 17:56+0300\n"
+"Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stelios, Petros Vidalis"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sstavra@gmail.com, p_vidalis@hotmai.com"
+
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "Επεξεργασία ταυτότητας λογαριασμού"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: account-identity-dialog.ui:40
+msgid "Nickname:"
+msgstr "Ψευδώνυμο:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: account-identity-dialog.ui:50
+msgid "Account:"
+msgstr "Λογαριασμός:"
+
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: account-identity-dialog.ui:87
+msgid "..."
+msgstr "..."
+
+#: account-item.cpp:101
+msgid "Online"
+msgstr "Σε σύνδεση"
+
+#: account-item.cpp:103
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "Συνδέεται"
+
+#: account-item.cpp:105
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "Εκτός σύνδεσης"
+
+#: account-item.cpp:107
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "Άγνωστη"
+
+#: account-item.cpp:110
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "Απενεργοποίηση"
+
+#: account-item.cpp:136
+msgid "Click checkbox to enable"
+msgstr "Ενεργοποίηση με κλικ στο πλαίσιο επιλογής"
+
+#: accounts-list-delegate.cpp:72
+msgid "Change account icon"
+msgstr "Αλλαγή εικονιδίου λογαριασμού"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+"Αυτό το κουμπί σας επιτρέπει την αλλαγή του εικονιδίου για τον λογαριασμό "
+"σας.<br/> Το εικονίδιο χρησιμοποιείτε τοπικά στον υπολογιστή, οι επαφές δεν "
+"θα έχουν την δυνατότητα να το δούνε."
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr "Αλλαγή ονόματος εμφάνισης λογαριασμού"
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+"Αυτό το κουμπί σας επιτρέπει την αλλαγή του ονόματος εμφάνισης για τον "
+"λογαριασμό σας.<br/> Το όνομα εμφάνισης χρησιμοποιείτε τοπικά στον "
+"υπολογιστή, οι επαφές δεν θα έχουν την δυνατότητα να το δούνε."
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "Απενεργοποίηση λογαριασμού"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "Ενεργοποίηση λογαριασμού"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "Βήμα 1: Επιλέξτε ένα δίκτυο στιγμιαίων μηνυμάτων."
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "Βήμα 2: Συμπληρώστε τις απαραίτητες παραμέτρους."
+
+#: add-account-assistant.cpp:167
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"Για να συνδεθείτε σε αυτό το IM δίκτυο, θα χρειαστεί να εγκαταστήσετε "
+"επιπλέον πρόσθετα. Εγκαταστήστε τα πακέτα telepathy-haze και telepathy-"
+"gabble με το διαχειριστή πακέτων λογισμικού."
+
+#: add-account-assistant.cpp:167
+msgid "Missing Telepathy Connection Manager"
+msgstr "Λείπει ο διαχειριστής συνδέσεων Telepathy"
+
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
+#: salut-enabler.cpp:239
+msgid "Failed to create account"
+msgstr "Αποτυχία δημιουργίας λογαριασμού"
+
+#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+msgid "Possibly not all required fields are valid"
+msgstr "Πιθανόν δεν είναι όλα τα απαιτούμενα πεδία έγκυρα"
+
+#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+msgid "Something went wrong with Telepathy"
+msgstr "Κάτι πήγε στραβά με το Telepathy"
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "Φόρτωση από αρχείο..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "Καθαρισμός Avatar"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "Επιλέξτε avatar"
+
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr "Επεξεργασία ονόματος εμφάνισης"
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr "Επιλέξτε ένα νέο όνομα εμφάνισης για τον λογαριασμό"
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr ""
+"Το όνομα εμφάνισης είναι το τοπικό ψευδώνυμο για τον λογαριασμό, που το "
+"βλέπετε μόνο εσείς."
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr "Νέο όνομα εμφάνισης"
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"Το αρχείο που επιλέξατε δεν φαίνεται να είναι εικόνα.\n"
+"Επιλέξτε ένα αρχείο εικόνας."
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "telepathy_accounts"
+msgstr "telepathy_accounts"
+
+#: kcm-telepathy-accounts.cpp:63
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Επικοινωνία με στιγμιαία μηνύματα και λογαριασμοί VOIP"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71
+msgid "Developer"
+msgstr "Προγραμματιστής"
+
+#: kcm-telepathy-accounts.cpp:66
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "Dominik Schmidt"
+msgstr "Dominik Schmidt"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "Thomas Richard"
+msgstr "Thomas Richard"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Florian Reinhard"
+msgstr "Florian Reinhard"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:337
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το λογαριασμό «%1»;"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+msgid "Remove Account"
+msgstr "Αφαίρεση λογαριασμού"
+
+#: kcm-telepathy-accounts.cpp:401
+msgid "Install telepathy-salut to enable"
+msgstr "Εγκατάσταση telepathy-salut για ενεργοποίηση"
+
+#: kcm-telepathy-accounts.cpp:436
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"Κάτι πήγε εντελώς λάθος και το IM σύστημα δεν κατάφερε να αρχικοποιηθεί.\n"
+"Μάλλον από το σύστημά σας λείπει το πακέτο Telepathy Mission Control.\n"
+"Εγκαταστήστε το και επανεκκινήστε την ενότητα."
 
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
@@ -30,6 +262,11 @@ msgstr "Να γίνει σύνδεση όταν ο βοηθός έχει τελ�
 #: KCMTelepathyAccounts/account-edit-widget.cpp:208
 msgid "Advanced Options"
 msgstr "Επιλογές για προχωρημένους"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: KCMTelepathyAccounts/account-edit-widget.ui:62
+msgid "Advanced"
+msgstr "για προχωρημένους"
 
 #: KCMTelepathyAccounts/dictionary.cpp:33
 msgid "Password"
@@ -123,7 +360,9 @@ msgstr "Διαβιβαστής στιγμιαίων μηνυμάτων AOL"
 msgid "Skype"
 msgstr "Skype"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
 
@@ -131,7 +370,9 @@ msgstr "Facebook Chat"
 msgid "Gadu-Gadu"
 msgstr "Gadu-Gadu"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -139,7 +380,9 @@ msgstr "Google Talk"
 msgid "Novell Groupwise"
 msgstr "Novell Groupwise"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -147,7 +390,9 @@ msgstr "ICQ"
 msgid "Internet Relay Chat"
 msgstr "Internet Relay Chat"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 msgid "Jabber/XMPP"
 msgstr "Jabber/XMPP"
 
@@ -159,7 +404,9 @@ msgstr "Bonjour/Salut"
 msgid "MXit"
 msgstr "MXit"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live Messenger"
 
@@ -208,6 +455,16 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Η παράμετρος \"<b>%1</b>\" δεν είναι έγκυρη."
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+msgid "Others"
+msgstr "Άλλα"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, IRC, Yahoo και άλλα..."
+
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
 msgstr "Αυτό το πεδίο απαιτείται"
@@ -232,46 +489,37 @@ msgstr "Αυτό το πεδίο πρέπει να περιέχει διεύθυ
 msgid "This field is valid"
 msgstr "Αυτό το πεδίο είναι έγκυρο"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "Others"
-msgstr "Άλλα"
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: main-widget.ui:76
+msgid "Enable local network discovery"
+msgstr "Ενεργοποίηση ανεύρεσης τοπικού δικτύου"
 
-#: KCMTelepathyAccounts/simple-profile-select-widget.cpp:101
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, IRC, Yahoo και άλλα..."
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: main-widget.ui:96
+msgid "Connect to people near you"
+msgstr "Συνδεθείτε με ανθρώπους από τη γειτονιά σας"
 
-#: avatar-button.cpp:41
-msgid "Load from file..."
-msgstr "Φόρτωση από αρχείο..."
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: main-widget.ui:147
+msgid "Add Account"
+msgstr "Προσθήκη λογαριασμού"
 
-#: avatar-button.cpp:42
-msgid "Clear Avatar"
-msgstr "Καθαρισμός Avatar"
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: main-widget.ui:157
+msgid "Edit Account"
+msgstr "Επεξεργασία λογαριασμού"
 
-#: avatar-button.cpp:74
-msgid "Please choose your avatar"
-msgstr "Επιλέξτε avatar"
-
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:167
+msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
-"Το αρχείο που επιλέξατε δεν φαίνεται να είναι εικόνα.\n"
-"Επιλέξτε ένα αρχείο εικόνας."
+"Επεξεργαστείτε τον τρόπο με τον οποίο παρουσιάζεστε. Απαιτείται ο "
+"λογαριασμός να είναι σε σύνδεση."
 
-#: salut-enabler.cpp:239 add-account-assistant.cpp:202
-#: add-account-assistant.cpp:260
-msgid "Failed to create account"
-msgstr "Αποτυχία δημιουργίας λογαριασμού"
-
-#: salut-enabler.cpp:240 add-account-assistant.cpp:261
-msgid "Possibly not all required fields are valid"
-msgstr "Πιθανόν δεν είναι όλα τα απαιτούμενα πεδία έγκυρα"
-
-#: salut-enabler.cpp:249 add-account-assistant.cpp:270
-msgid "Something went wrong with Telepathy"
-msgstr "Κάτι πήγε στραβά με το Telepathy"
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:170
+msgid "Edit Identity"
+msgstr "Επεξεργασία ταυτότητας"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
@@ -285,255 +533,6 @@ msgstr "Ακύρωση"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Θα φαίνεστε ως «%1» στο τοπικό σας δίκτυο."
-
-#: account-identity-dialog.cpp:42
-msgid "Edit Account Identity"
-msgstr "Επεξεργασία ταυτότητας λογαριασμού"
-
-#: account-item.cpp:100
-msgid "Online"
-msgstr "Σε σύνδεση"
-
-#: account-item.cpp:102
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "Συνδέεται"
-
-#: account-item.cpp:104
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "Εκτός σύνδεσης"
-
-#: account-item.cpp:106
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "Άγνωστη"
-
-#: account-item.cpp:109
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "Ανενεργός"
-
-#: account-item.cpp:135
-msgid "Click checkbox to enable"
-msgstr "Τον ενεργοποιείτε με κλικ στο πλαίσιο επιλογής"
-
-#: accounts-list-delegate.cpp:72
-msgid "Change account icon"
-msgstr "Αλλαγή εικονιδίου λογαριασμού"
-
-#: accounts-list-delegate.cpp:73
-msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
-msgstr ""
-"Το κουμπί αυτό επιτρέπει την αλλαγή εικονιδίου του λογαριασμού σας.<br />Το "
-"εικονίδιο αυτό χρησιμοποιείται τοπικά μονο στον υπολογιστή σας, οι επαφές "
-"σας δεν θα μπορούν να το δουν."
-
-#: accounts-list-delegate.cpp:81
-msgid "Change account display name"
-msgstr "Αλλαγή ονόματος οθόνη για το λογαριασμό"
-
-#: accounts-list-delegate.cpp:82
-msgid ""
-"This button allows to change the display name for your account.<br />The "
-"display name is an alias for your account and is just used locally on your "
-"computer, your contacts will not be able to see it."
-msgstr ""
-"Το κουμπί αυτό επιτρέπει την αλλαγή του ονόματος οθόνης για το λογαριασμό "
-"σας.<br />Το όνομα οθόνης είναι ένα ψευδώνυμο για το λογαριασμό σας και "
-"χρησιμοποιείται τοπικά μονο στον υπολογιστή σας, οι επαφές σας δεν θα "
-"μπορούν να το δουν."
-
-#: accounts-list-delegate.cpp:143
-msgid "Disable account"
-msgstr "Απενεργοποίηση λογαριασμού"
-
-#: accounts-list-delegate.cpp:146
-msgid "Enable account"
-msgstr "Ενεργοποίηση λογαριασμού"
-
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
-msgid "Step 1: Select an Instant Messaging Network."
-msgstr "Βήμα 1: Επιλέξτε ένα δίκτυο στιγμιαίων μηνυμάτων."
-
-#: add-account-assistant.cpp:115
-msgid "Step 2: Fill in the required Parameters."
-msgstr "Βήμα 2: Συμπληρώστε τις απαραίτητες παραμέτρους."
-
-#: add-account-assistant.cpp:166
-msgid ""
-"To connect to this IM network, you need to install additional plugins. "
-"Please install the telepathy-haze and telepathy-gabble packages using your "
-"package manager."
-msgstr ""
-"Για να συνδεθείτε σε αυτό το IM δίκτυο, θα χρειαστεί να εγκαταστήσετε "
-"επιπλέον πρόσθετα. Εγκαταστήστε τα πακέτα telepathy-haze και telepathy-"
-"gabble με το διαχειριστή πακέτων λογισμικού."
-
-#: add-account-assistant.cpp:166
-msgid "Missing Telepathy Connection Manager"
-msgstr "Λείπει ο διαχειριστής συνδέσεων Telepathy"
-
-#: edit-display-name-button.cpp:61
-msgid "Edit Display Name"
-msgstr "Επεξεργασία ονόματος οθόνης"
-
-#: edit-display-name-button.cpp:70
-msgid "Choose a new display name for your account"
-msgstr "Επιλέξτε ένα νέο όνομα οθόνης για το λογαριασμό σας"
-
-#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
-msgid ""
-"A display name is your local alias for the account, only you will see it."
-msgstr ""
-"Το όνομα οθόνης είναι το τοπικό σας ψευδώνυμο για το λογαριασμό, μόνο εσείς "
-"θα το βλέπετε."
-
-#: edit-display-name-button.cpp:86
-msgid "New display name"
-msgstr "Νέο όνομα οθόνης"
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "telepathy_accounts"
-msgstr "telepathy_accounts"
-
-#: kcm-telepathy-accounts.cpp:65
-msgid "Instant Messaging and VOIP Accounts"
-msgstr "Επικοινωία με στιγμιαία μηνύματα και λογαριασμοί VOIP"
-
-#: kcm-telepathy-accounts.cpp:67
-msgid "George Goldberg"
-msgstr "George Goldberg"
-
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
-msgid "Developer"
-msgstr "Προγραμματιστής"
-
-#: kcm-telepathy-accounts.cpp:68
-msgid "David Edmundson"
-msgstr "David Edmundson"
-
-#: kcm-telepathy-accounts.cpp:69
-msgid "Dominik Schmidt"
-msgstr "Dominik Schmidt"
-
-#: kcm-telepathy-accounts.cpp:70
-msgid "Thomas Richard"
-msgstr "Thomas Richard"
-
-#: kcm-telepathy-accounts.cpp:71
-msgid "Florian Reinhard"
-msgstr "Florian Reinhard"
-
-#: kcm-telepathy-accounts.cpp:72
-msgid "Daniele E. Domenichelli"
-msgstr "Daniele E. Domenichelli"
-
-#: kcm-telepathy-accounts.cpp:73
-msgid "Martin Klapetek"
-msgstr "Martin Klapetek"
-
-#: kcm-telepathy-accounts.cpp:339
-#, kde-format
-msgid "Are you sure you want to remove the account \"%1\"?"
-msgstr "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το λογαριασμό «%1»;"
-
-#. i18n: file: main-widget.ui:180
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:340 rc.cpp:26
-msgid "Remove Account"
-msgstr "Αφαίρεση λογαριασμού"
-
-#: kcm-telepathy-accounts.cpp:404
-msgid "Install telepathy-salut to enable"
-msgstr "Εγκατάσταση telepathy-salut για ενεργοποίηση"
-
-#: kcm-telepathy-accounts.cpp:439
-msgid ""
-"Something went terribly wrong and the IM system could not be initialized.\n"
-"It is likely your system is missing Telepathy Mission Control package.\n"
-"Please install it and restart this module."
-msgstr ""
-"Κάτι πήγε εντελώς λάθος και το IM σύστημα δεν κατάφερε να αρχικοποιηθεί.\n"
-"Μάλλον από το σύστημά σας λείπει το πακέτο Telepathy Mission Control.\n"
-"Εγκαταστήστε το και επανεκκινήστε την ενότητα."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Stelios"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sstavra@gmail.com"
-
-#. i18n: file: KCMTelepathyAccounts/account-edit-widget.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: rc.cpp:5
-msgid "Advanced"
-msgstr "για προχωρημένους"
-
-#. i18n: file: main-widget.ui:76
-#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: rc.cpp:8
-msgid "Enable local network discovery"
-msgstr "Ενεργοποίηση ανεύρεσης τοπικού δικτύου"
-
-#. i18n: file: main-widget.ui:96
-#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: rc.cpp:11
-msgid "Connect to people near you"
-msgstr "Συνδεθείτε με ανθρώπους από τη γειτονιά σας"
-
-#. i18n: file: main-widget.ui:147
-#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: rc.cpp:14
-msgid "Add Account"
-msgstr "Προσθήκη λογαριασμού"
-
-#. i18n: file: main-widget.ui:157
-#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: rc.cpp:17
-msgid "Edit Account"
-msgstr "Επεξεργασία λογαριασμού"
-
-#. i18n: file: main-widget.ui:167
-#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:20
-msgid "Edit how you appear to others. Requires the account to be online."
-msgstr ""
-"Επεξεργαστείτε τον τρόπο με τον οποίο παρουσιάζεστε. Απαιτείται ο "
-"λογαριασμός να είναι σε σύνδεση."
-
-#. i18n: file: main-widget.ui:170
-#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: rc.cpp:23
-msgid "Edit Identity"
-msgstr "Επεξεργασία ταυτότητας"
-
-#. i18n: file: account-identity-dialog.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:29
-msgid "Nickname:"
-msgstr "Ψευδώνυμο:"
-
-#. i18n: file: account-identity-dialog.ui:50
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:32
-msgid "Account:"
-msgstr "Λογαριασμός:"
-
-#. i18n: file: account-identity-dialog.ui:87
-#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
-#: rc.cpp:35
-msgid "..."
-msgstr "..."
 
 #~ msgid "TextLabel"
 #~ msgstr "TextLabel"

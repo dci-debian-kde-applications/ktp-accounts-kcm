@@ -18,70 +18,58 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#. i18n: file: advanced-options-widget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
-#. i18n: file: main-options-widget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
-#: rc.cpp:3 rc.cpp:21
+#: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "Właściwości konta"
 
-#. i18n: file: advanced-options-widget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, usernameLabel)
-#: rc.cpp:6
+#: advanced-options-widget.ui:23
 msgid "Username:"
 msgstr "Nazwa użytkownika:"
 
-#. i18n: file: advanced-options-widget.ui:43
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: rc.cpp:9
+#: advanced-options-widget.ui:43
 msgid "Password:"
 msgstr "Hasło:"
 
-#. i18n: file: advanced-options-widget.ui:69
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: rc.cpp:12
+#: advanced-options-widget.ui:69
 msgid "Character set:"
 msgstr "Zestaw znaków:"
 
-#. i18n: file: advanced-options-widget.ui:82
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: rc.cpp:15
+#: advanced-options-widget.ui:82
 msgid "Server port:"
 msgstr "Port serwera:"
 
-#. i18n: file: advanced-options-widget.ui:99
 #. i18n: ectx: property (text), widget (QLabel, useSslLabel)
-#: rc.cpp:18
+#: advanced-options-widget.ui:99
 msgid "Use SSL?"
 msgstr "Czy użyć SSL?"
 
-#. i18n: file: main-options-widget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: rc.cpp:24
+#: main-options-widget.ui:23
 msgid "Server address:"
 msgstr "Adres serwera:"
 
-#. i18n: file: main-options-widget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:27
+#: main-options-widget.ui:36
 msgid "<i>Example:</i> chat.freenode.net"
 msgstr "<i>Przykład:</i> chat.freenode.net"
 
-#. i18n: file: main-options-widget.ui:43
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: rc.cpp:30
+#: main-options-widget.ui:43
 msgid "Nickname:"
 msgstr "Pseudonim:"
 
-#. i18n: file: main-options-widget.ui:56
 #. i18n: ectx: property (text), widget (QLabel, fullnameLabel)
-#: rc.cpp:33
+#: main-options-widget.ui:56
 msgid "Real name:"
 msgstr "Prawdziwe imię i nazwisko:"
 
-#. i18n: file: main-options-widget.ui:69
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:36
+#: main-options-widget.ui:69
 msgid "Real name can be left empty."
 msgstr "Prawdziwe imię i nazwisko może pozostać puste."
