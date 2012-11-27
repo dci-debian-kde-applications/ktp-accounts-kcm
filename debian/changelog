@@ -1,3 +1,9 @@
+ktp-accounts-kcm (0.5.1-1) UNRELEASED; urgency=low
+
+  * [6c0df95] Imported Upstream version 0.5.1
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 28 Nov 2012 00:26:32 +0530
+
 ktp-accounts-kcm (0.4.0-1) unstable; urgency=low
 
   * Initial release.
