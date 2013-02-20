@@ -3,28 +3,29 @@
 #
 # Kira J. Fernández <kirajfdez@gmail.com>, 2011, 2012.
 # Eloy Cuadra <ecuadra@eloihr.net>, 2012.
+# Raul Gonzalez <raulgf83@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-07-25 17:19+0200\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-12-03 00:46+0100\n"
+"Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Kira J. Fernández"
+msgstr "Raúl González,Kira J. Fernández"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kirajfdez@gmail.com"
+msgstr "raulgf83@gmail.com,kirajfdez@gmail.com"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
@@ -181,64 +182,64 @@ msgstr ""
 "El archivo que ha seleccionado no parece ser una imagen.\n"
 "Por favor, seleccione un archivo de imagen."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "cuentas_de_telepathy"
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Cuentas de mensajería instantánea y de VoIP"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Desarrollador"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "¿Está seguro de que desea eliminar la cuenta «%1»?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Eliminar cuenta"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Instalar telepathy-salut para habilitar"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

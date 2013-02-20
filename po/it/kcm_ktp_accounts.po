@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
 "PO-Revision-Date: 2012-07-10 14:25+0200\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -182,64 +182,64 @@ msgstr ""
 "Il file scelto non sembra essere un'immagine.\n"
 "Scegli un file valido di immagine."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Account di messaggistica istantanea e VoIP"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Sviluppatore"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Sei sicuro di voler rimuovere l'account «%1»?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Rimuovi account"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Per abilitare, installa «telepathy-salut»"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

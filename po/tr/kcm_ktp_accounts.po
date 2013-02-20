@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
 "PO-Revision-Date: 2009-09-18 20:08+0300\n"
 "Last-Translator: Serdar Soytetir <tulliana@gmail.com>\n"
 "Language-Team: Turkish <yerellestirme@kde.org.tr>\n"
@@ -27,6 +27,7 @@ msgstr ""
 
 #: account-identity-dialog.cpp:42
 #, fuzzy
+#| msgid "Edit Account"
 msgid "Edit Account Identity"
 msgstr "Hesap Düzenle"
 
@@ -38,6 +39,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
 #, fuzzy
+#| msgid "Add Account"
 msgid "Account:"
 msgstr "Hesap Ekle"
 
@@ -76,6 +78,7 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:72
 #, fuzzy
+#| msgid "Edit Account"
 msgid "Change account icon"
 msgstr "Hesap Düzenle"
 
@@ -102,6 +105,7 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:146
 #, fuzzy
+#| msgid "Edit Account"
 msgid "Enable account"
 msgstr "Hesap Düzenle"
 
@@ -172,64 +176,64 @@ msgid ""
 "Please select an image file."
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "\"%1\" hesabını gerçekten silmek istiyor musunuz?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Hesap Sil"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -259,6 +263,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:34
 #, fuzzy
+#| msgid "Add Account"
 msgid "Account"
 msgstr "Hesap Ekle"
 
@@ -276,6 +281,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:38
 #, fuzzy
+#| msgid "Remove Account"
 msgid "Register new Account"
 msgstr "Hesap Sil"
 
@@ -526,5 +532,6 @@ msgstr ""
 #~ msgstr "İsteğe Bağlı Parametreler"
 
 #, fuzzy
+#~| msgid "Optional Parameters"
 #~ msgid "Optional parameters"
 #~ msgstr "İsteğe Bağlı Parametreler"

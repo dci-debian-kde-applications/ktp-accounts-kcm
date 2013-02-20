@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Vít Pelčák <vit@pelcak.org>, 2011, 2012.
-# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-08-20 10:46+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2013-02-06 11:25+0100\n"
+"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -82,8 +82,8 @@ msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
-"Toto tlačítko umožňuje změnu ikony Vašeho účtu.<br />Tato ikona je použita "
-"pouze na tomto počítači. Vaše kontakty ji neuvidí."
+"Toto tlačítko umožňuje změnu ikony vašeho účtu.<br />Tato ikona je použita "
+"pouze na tomto počítači. vaše kontakty ji neuvidí."
 
 #: accounts-list-delegate.cpp:81
 msgid "Change account display name"
@@ -95,8 +95,8 @@ msgid ""
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
-"Tlačítko umožňuje změnu zobrazovaného názvu pro Váš účet.<br />Zobrazovaný "
-"název je zkratka pro Váš účet a je použita pouze na Vašem počítači. Vaše "
+"Tlačítko umožňuje změnu zobrazovaného názvu pro váš účet.<br />Zobrazovaný "
+"název je zkratka pro váš účet a je použita pouze na vašem počítači. vaše "
 "kontakty ji neuvidí."
 
 #: accounts-list-delegate.cpp:143
@@ -122,7 +122,7 @@ msgid ""
 "package manager."
 msgstr ""
 "Pro připojení k této komunikační síti potřebujete dodatečná rozšíření. "
-"Prosím nainstalujte, pomocí Vašeho správce balíčků, balíčky telepathy-haze a "
+"Prosím nainstalujte, pomocí vašeho správce balíčků, balíčky telepathy-haze a "
 "telepathy-gabble."
 
 #: add-account-assistant.cpp:167
@@ -160,12 +160,12 @@ msgstr "Upravit zobrazovaný název"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr "Vyberte nový zobrazovaný název pro Váš účet"
+msgstr "Vyberte nový zobrazovaný název pro váš účet"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr "Zobrazovaný název je Vaše zkratka pro účet, uvidíte jej pouze vy."
+msgstr "Zobrazovaný název je vaše zkratka pro účet, uvidíte jej pouze vy."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
@@ -179,71 +179,71 @@ msgstr ""
 "Soubor, který jste vybrali nevypadá jako obrázek.\n"
 "Prosím vyberte obrázek."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "Účty Telepathy"
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "IM a VOIP účty"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Vývojář"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Richard Holt"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Opravdu si přejete odstranit účet \"%1\"?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Odstranit účet"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Pro zapnutí nainstalujte telepathy-salut"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
 "Please install it and restart this module."
 msgstr ""
 "Stalo se něco hrozného, IM systém nemohl být inicializován.\n"
-"Ve Vašem systému pravděpodobně schází balíček Telepathy Mission Control.\n"
+"Ve vašem systému pravděpodobně schází balíček Telepathy Mission Control.\n"
 "Prosím nainstalujte jej a restartujte tento modul.."
 
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
@@ -526,4 +526,4 @@ msgstr "Zrušit"
 #: salut-message-widget.cpp:104
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
-msgstr "Na Vaší lokální síti budete vystupovat jako \"%1\"."
+msgstr "Na vaší lokální síti budete vystupovat jako \"%1\"."

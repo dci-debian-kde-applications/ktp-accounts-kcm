@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Sign <guoyunhebrave@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2012-01-22 15:15+0800\n"
-"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"PO-Revision-Date: 2013-01-26 14:02+0800\n"
+"Last-Translator: Sign <guoyunhebrave@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -33,11 +34,12 @@ msgid ""
 "Username for your SIP account. If your username is different from the user "
 "part your SIP URI, provide it here."
 msgstr ""
+"您的 SIP 账户用户名。如果您的用户名与 SIP URI 的用户部分不同，请填写在这里。"
 
 #. i18n: ectx: property (text), widget (QLabel, registrarLabel)
 #: rakia-advanced-options-widget.ui:40
 msgid "Registrar:"
-msgstr ""
+msgstr "登记处："
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, registrarLineEdit)
 #: rakia-advanced-options-widget.ui:47
@@ -45,6 +47,8 @@ msgid ""
 "Registrar for your SIP account. If your registrar is different from the "
 "server part your SIP URI, provide it here."
 msgstr ""
+"您的 SIP 账户登记处。如果您的登记处与 SIP URI 的服务器部分不同，请填写在这"
+"里。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, proxyGroupBox)
 #: rakia-advanced-options-widget.ui:57
@@ -54,89 +58,88 @@ msgstr "代理"
 #. i18n: ectx: property (text), widget (QLabel, proxyLabel)
 #: rakia-advanced-options-widget.ui:66
 msgid "Proxy host:"
-msgstr ""
+msgstr "代理主机："
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: rakia-advanced-options-widget.ui:76
 msgid "Proxy port:"
-msgstr ""
+msgstr "代理端口："
 
 #. i18n: ectx: property (text), widget (QLabel, transportLabel)
 #: rakia-advanced-options-widget.ui:83
 msgid "Transport:"
-msgstr ""
+msgstr "传输："
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:91 rakia-advanced-options-widget.ui:246
-#, fuzzy
 msgid "auto"
-msgstr "自动"
+msgstr "auto"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #: rakia-advanced-options-widget.ui:96
 msgid "udp"
-msgstr ""
+msgstr "udp"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #: rakia-advanced-options-widget.ui:101
 msgid "tcp"
-msgstr ""
+msgstr "tcp"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #: rakia-advanced-options-widget.ui:106
 msgid "tls"
-msgstr ""
+msgstr "tls"
 
 #. i18n: ectx: property (title), widget (QGroupBox, stunGroupBox)
 #: rakia-advanced-options-widget.ui:124
 msgid "Custom STUN settings"
-msgstr ""
+msgstr "自定义 STUN 设置"
 
 #. i18n: ectx: property (text), widget (QLabel, stunServerLabel)
 #: rakia-advanced-options-widget.ui:136
 msgid "STUN server:"
-msgstr ""
+msgstr "STUN 服务器："
 
 #. i18n: ectx: property (text), widget (QLabel, stunPortLabel)
 #: rakia-advanced-options-widget.ui:143
 msgid "STUN port:"
-msgstr ""
+msgstr "STUN 端口："
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, stunServerLineEdit)
 #: rakia-advanced-options-widget.ui:157
 msgid "STUN server address (FQDN or IP address)"
-msgstr ""
+msgstr "STUN 服务器地址 (FQDN 或 IP 地址)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, networkingGroupBox)
 #: rakia-advanced-options-widget.ui:167
 msgid "Network and Routing"
-msgstr ""
+msgstr "网络和路由"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:173
 msgid "Enable discovery of public IP address beyond NAT"
-msgstr ""
+msgstr "启用对 NAT 外公网 IP 地址的探测"
 
 #. i18n: ectx: property (text), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:176
 msgid "Discover Public Contact"
-msgstr ""
+msgstr "探测公共联系人"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:183
 msgid "Enable loose routing as per RFC 3261"
-msgstr ""
+msgstr "以 RFC 3261 协议启用松散路由"
 
 #. i18n: ectx: property (text), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:186
 msgid "Use Loose Routing"
-msgstr ""
+msgstr "使用松散路由"
 
 #. i18n: ectx: property (text), widget (QLabel, looseRoutingLabel)
 #: rakia-advanced-options-widget.ui:193
 msgid "Routing:"
-msgstr ""
+msgstr "路由："
 
 #. i18n: ectx: property (text), widget (QLabel, discoverBindingLabel)
 #: rakia-advanced-options-widget.ui:200
@@ -146,19 +149,19 @@ msgstr "NAT"
 #. i18n: ectx: property (title), widget (QGroupBox, keepaliveGroupBox)
 #: rakia-advanced-options-widget.ui:210
 msgid "KeepAlive"
-msgstr ""
+msgstr "KeepAlive"
 
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: rakia-advanced-options-widget.ui:216
 msgid "Interval:"
-msgstr ""
+msgstr "间隔："
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, keepaliveIntervalNumInput)
 #: rakia-advanced-options-widget.ui:223
 msgid ""
 "Interval between keepalive probes in seconds (0 = disabled, unset = use a "
 "default interval)"
-msgstr ""
+msgstr "KeepAlive 连接探测间隔(0 = 禁用，不设置则代表设为默认值)"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:242
@@ -193,32 +196,57 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">off</span>: Disable keepalive management</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">SIP 登记所用的 Keepalive 机"
+"制</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">自动</span>：依协议规范自行实现 Keepalive 管理</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">options</span>：使用 OPTIONS 方法维护登记</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">register</span>：使用 REGISTER 方法维护登记</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">stun</span>：根据 IETF 制订的 draft-sip-outbound 策略，使用 "
+"STUN 方法维护登记</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">off</span>：禁用 keepalive 管理特性</p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:251
 msgid "register"
-msgstr ""
+msgstr "register"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:256
-#, fuzzy
 msgid "options"
-msgstr "选项"
+msgstr "options"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:261
 msgid "stun"
-msgstr ""
+msgstr "stun"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:266
 msgid "off"
-msgstr ""
+msgstr "关闭"
 
 #. i18n: ectx: property (text), widget (QLabel, keepaliveMechanismLabel)
 #: rakia-advanced-options-widget.ui:274
 msgid "Mechanism:"
-msgstr ""
+msgstr "机制:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RakiaMainOptionsWidget)
 #: rakia-main-options-widget.ui:14
@@ -228,7 +256,7 @@ msgstr "账户首选项"
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: rakia-main-options-widget.ui:35
 msgid "SIP URI:"
-msgstr ""
+msgstr "SIP URI:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: rakia-main-options-widget.ui:45
@@ -251,4 +279,4 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rakia-main-options-widget.ui:72
 msgid "<b>Example:</b> user@my.sip.server"
-msgstr ""
+msgstr "<b>示例：</b>user@my.sip.server"

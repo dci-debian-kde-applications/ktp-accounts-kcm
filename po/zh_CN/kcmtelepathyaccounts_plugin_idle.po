@@ -45,9 +45,8 @@ msgstr "服务器端口："
 
 #. i18n: ectx: property (text), widget (QLabel, useSslLabel)
 #: advanced-options-widget.ui:99
-#, fuzzy
 msgid "Use SSL?"
-msgstr "使用 SSL"
+msgstr "使用 SSL？"
 
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
 #: main-options-widget.ui:23
@@ -57,7 +56,7 @@ msgstr "服务器地址："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget.ui:36
 msgid "<i>Example:</i> chat.freenode.net"
-msgstr ""
+msgstr "<i>例：</i>chat.freenode.net"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: main-options-widget.ui:43
@@ -67,9 +66,9 @@ msgstr "昵称："
 #. i18n: ectx: property (text), widget (QLabel, fullnameLabel)
 #: main-options-widget.ui:56
 msgid "Real name:"
-msgstr ""
+msgstr "真实姓名："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: main-options-widget.ui:69
 msgid "Real name can be left empty."
-msgstr ""
+msgstr "真实姓名可以留空。"
