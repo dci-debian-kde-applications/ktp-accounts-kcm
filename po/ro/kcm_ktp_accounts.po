@@ -1,0 +1,534 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sergiu Bivol <sergiu@ase.md>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-10-17 23:18+0300\n"
+"Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@ase.md"
+
+#: account-identity-dialog.cpp:42
+msgid "Edit Account Identity"
+msgstr "Modifică identitatea contului"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: account-identity-dialog.ui:40
+msgid "Nickname:"
+msgstr "Poreclă:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: account-identity-dialog.ui:50
+msgid "Account:"
+msgstr "Cont:"
+
+#. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
+#: account-identity-dialog.ui:87
+msgid "..."
+msgstr "..."
+
+#: account-item.cpp:101
+msgid "Online"
+msgstr "Conectat"
+
+#: account-item.cpp:103
+msgctxt "This is a connection state"
+msgid "Connecting"
+msgstr "Se conectează"
+
+#: account-item.cpp:105
+msgctxt "This is a connection state"
+msgid "Disconnected"
+msgstr "Deconectat"
+
+#: account-item.cpp:107
+msgctxt "This is an unknown connection state"
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: account-item.cpp:110
+msgctxt "This is a disabled account"
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: account-item.cpp:136
+msgid "Click checkbox to enable"
+msgstr "Bifați pentru a activa"
+
+#: accounts-list-delegate.cpp:72
+msgid "Change account icon"
+msgstr "Schimbă pictograma contului"
+
+#: accounts-list-delegate.cpp:73
+msgid ""
+"This button allows to change the icon for your account.<br />This icon is "
+"just used locally on your computer, your contacts will not be able to see it."
+msgstr ""
+"Acest buton vă permite să vă schimbați pictograma contului.<br />Această "
+"pictogramă este folosită numai local, pe calculatorul dumneavoastră. "
+"Contactele dumneavoastră nu o vor vedea."
+
+#: accounts-list-delegate.cpp:81
+msgid "Change account display name"
+msgstr "Schimbă numele afișat al contului"
+
+#: accounts-list-delegate.cpp:82
+msgid ""
+"This button allows to change the display name for your account.<br />The "
+"display name is an alias for your account and is just used locally on your "
+"computer, your contacts will not be able to see it."
+msgstr ""
+"Acest buton vă permite să vă schimbați numele afișat al contului<br />Numele "
+"afișat este un alias pentru contul dumneavoastră și e folosit numai local, "
+"pe calculatorul dumneavoastră. Contactele dumneavoastră nu-l vor vedea."
+
+#: accounts-list-delegate.cpp:143
+msgid "Disable account"
+msgstr "Dezactivează contul"
+
+#: accounts-list-delegate.cpp:146
+msgid "Enable account"
+msgstr "Activează contul"
+
+#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+msgid "Step 1: Select an Instant Messaging Network."
+msgstr "Pasul 1: Alegeți o rețea de mesagerie instantanee."
+
+#: add-account-assistant.cpp:115
+msgid "Step 2: Fill in the required Parameters."
+msgstr "Pasul 2: Completați parametrii ceruți."
+
+#: add-account-assistant.cpp:167
+msgid ""
+"To connect to this IM network, you need to install additional plugins. "
+"Please install the telepathy-haze and telepathy-gabble packages using your "
+"package manager."
+msgstr ""
+"Pentru a vă conecta la această rețea de MI, trebuie să instalați module "
+"suplimentare. Instalați pachetele „telepathy-haze” și „telepathy-gabble” "
+"folosind gestionarul dumneavoastră de pachete."
+
+#: add-account-assistant.cpp:167
+msgid "Missing Telepathy Connection Manager"
+msgstr "Lipsește administratorul de conexiuni Telepathy"
+
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
+#: salut-enabler.cpp:239
+msgid "Failed to create account"
+msgstr "Crearea contului a eșuat"
+
+#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+msgid "Possibly not all required fields are valid"
+msgstr "E posibil ca unele cîmpuri obligatorii să nu fie valide"
+
+#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+msgid "Something went wrong with Telepathy"
+msgstr "Ceva a mers prost în Telepathy"
+
+#: avatar-button.cpp:41
+msgid "Load from file..."
+msgstr "Încărcare din fișier..."
+
+#: avatar-button.cpp:42
+msgid "Clear Avatar"
+msgstr "Curăță avatarul"
+
+#: avatar-button.cpp:74
+msgid "Please choose your avatar"
+msgstr "Alegeți-vă un avatar"
+
+#: edit-display-name-button.cpp:61
+msgid "Edit Display Name"
+msgstr "Modifică numele afișat"
+
+#: edit-display-name-button.cpp:70
+msgid "Choose a new display name for your account"
+msgstr "Alegeți un nou nume afișat pentru cont"
+
+#: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
+msgid ""
+"A display name is your local alias for the account, only you will see it."
+msgstr ""
+"Numele afișat este aliasul local al contului, îl veți vedea numai "
+"dumneavoastră."
+
+#: edit-display-name-button.cpp:86
+msgid "New display name"
+msgstr "Noul nume afișat"
+
+#: fetch-avatar-job.cpp:83
+msgid ""
+"The file you have selected does not seem to be an image.\n"
+"Please select an image file."
+msgstr ""
+"Fișierul ales nu pare a fi o imagine.\n"
+"Alegeți o imagine."
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "telepathy_accounts"
+msgstr "telepathy_accounts"
+
+#: kcm-telepathy-accounts.cpp:65
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Conturi de mesagerie instantanee și VoIP"
+
+#: kcm-telepathy-accounts.cpp:67
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
+msgid "Developer"
+msgstr "Dezvoltator"
+
+#: kcm-telepathy-accounts.cpp:68
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcm-telepathy-accounts.cpp:69
+msgid "Dominik Schmidt"
+msgstr "Dominik Schmidt"
+
+#: kcm-telepathy-accounts.cpp:70
+msgid "Thomas Richard"
+msgstr "Thomas Richard"
+
+#: kcm-telepathy-accounts.cpp:71
+msgid "Florian Reinhard"
+msgstr "Florian Reinhard"
+
+#: kcm-telepathy-accounts.cpp:72
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: kcm-telepathy-accounts.cpp:73
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:343
+#, kde-format
+msgid "Are you sure you want to remove the account \"%1\"?"
+msgstr "Sigur doriți să eliminați contul „%1”?"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
+msgid "Remove Account"
+msgstr "Elimină contul"
+
+#: kcm-telepathy-accounts.cpp:413
+msgid "Install telepathy-salut to enable"
+msgstr "Instalați „telepathy-salut” pentru activare"
+
+#: kcm-telepathy-accounts.cpp:448
+msgid ""
+"Something went terribly wrong and the IM system could not be initialized.\n"
+"It is likely your system is missing Telepathy Mission Control package.\n"
+"Please install it and restart this module."
+msgstr ""
+"Ceva a mers prost de tot și sistemul de MI nu a putut fi inițializat.\n"
+"Probabil sistemului dumneavoastră îi lipsește pachetul „Telepathy Mission "
+"Control”.\n"
+"Instalați-l și reporniți acest modul."
+
+#: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
+msgid "All mandatory fields must be filled"
+msgstr "Toate cîmpurile obligatorii trebuiesc completate"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+msgid "Connect when wizard is finished"
+msgstr "Conectează la finalizarea asistentului"
+
+#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+msgid "Advanced Options"
+msgstr "Opțiuni avansate"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: KCMTelepathyAccounts/account-edit-widget.ui:62
+msgid "Advanced"
+msgstr "Avansat"
+
+#: KCMTelepathyAccounts/dictionary.cpp:33
+msgid "Password"
+msgstr "Parolă"
+
+#: KCMTelepathyAccounts/dictionary.cpp:34
+msgid "Account"
+msgstr "Cont"
+
+#: KCMTelepathyAccounts/dictionary.cpp:35
+msgid "Priority"
+msgstr "Prioritate"
+
+#: KCMTelepathyAccounts/dictionary.cpp:36
+msgid "Port"
+msgstr "Port"
+
+#: KCMTelepathyAccounts/dictionary.cpp:37
+msgid "Alias"
+msgstr "Alias"
+
+#: KCMTelepathyAccounts/dictionary.cpp:38
+msgid "Register new Account"
+msgstr "Înregistrează cont nou"
+
+#: KCMTelepathyAccounts/dictionary.cpp:39
+msgid "Server Address"
+msgstr "Adresă server"
+
+#: KCMTelepathyAccounts/dictionary.cpp:40
+msgid "Fallback STUN server address"
+msgstr "Adresă de rezervă server STUN"
+
+#: KCMTelepathyAccounts/dictionary.cpp:41
+msgid "Resource"
+msgstr "Resursă"
+
+#: KCMTelepathyAccounts/dictionary.cpp:42
+msgid "HTTPS Proxy Port"
+msgstr "Port proxy HTTPS"
+
+#: KCMTelepathyAccounts/dictionary.cpp:43
+msgid "Require Encryption"
+msgstr "Cere criptare"
+
+#: KCMTelepathyAccounts/dictionary.cpp:44
+msgid "Old-style SSL support"
+msgstr "Suport pentru SSL vechi"
+
+#: KCMTelepathyAccounts/dictionary.cpp:45
+msgid "Fallback STUN port"
+msgstr "Port de rezervă STUN"
+
+#: KCMTelepathyAccounts/dictionary.cpp:46
+msgid "Fallback Conference Server Address"
+msgstr "Adresă de rezervă server pentru conferință"
+
+#: KCMTelepathyAccounts/dictionary.cpp:47
+msgid "Low Bandwidth Mode"
+msgstr "Regim de bandă redusă"
+
+#: KCMTelepathyAccounts/dictionary.cpp:48
+msgid "STUN Server Address"
+msgstr "Adresă server STUN"
+
+#: KCMTelepathyAccounts/dictionary.cpp:49
+msgid "STUN Port"
+msgstr "Port STUN"
+
+#: KCMTelepathyAccounts/dictionary.cpp:50
+msgid "Fallback SOCKS5 Proxy Addresses"
+msgstr "Adresă de rezervă proxy SOCKS5"
+
+#: KCMTelepathyAccounts/dictionary.cpp:51
+msgid "HTTPS Proxy Server Address"
+msgstr "Adresă server proxy HTTPS"
+
+#: KCMTelepathyAccounts/dictionary.cpp:52
+msgid "Ignore SSL Errors"
+msgstr "Ignoră erorile SSL"
+
+#: KCMTelepathyAccounts/dictionary.cpp:53
+msgid "Keepalive Interval"
+msgstr "Interval de menținere în viață"
+
+#: KCMTelepathyAccounts/dictionary.cpp:56
+msgid "AOL Instant Messenger"
+msgstr "Mesagerie instantanee AOL"
+
+#: KCMTelepathyAccounts/dictionary.cpp:57
+msgid "Skype"
+msgstr "Skype"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
+#: KCMTelepathyAccounts/dictionary.cpp:58
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+msgid "Facebook Chat"
+msgstr "Discuții Facebook"
+
+#: KCMTelepathyAccounts/dictionary.cpp:59
+msgid "Gadu-Gadu"
+msgstr "Gadu-Gadu"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
+#: KCMTelepathyAccounts/dictionary.cpp:60
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: KCMTelepathyAccounts/dictionary.cpp:61
+msgid "Novell Groupwise"
+msgstr "Novell Groupwise"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
+#: KCMTelepathyAccounts/dictionary.cpp:62
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
+msgid "ICQ"
+msgstr "ICQ"
+
+#: KCMTelepathyAccounts/dictionary.cpp:63
+msgid "Internet Relay Chat"
+msgstr "Internet Relay Chat"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
+#: KCMTelepathyAccounts/dictionary.cpp:64
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
+msgid "Jabber/XMPP"
+msgstr "Jabber/XMPP"
+
+#: KCMTelepathyAccounts/dictionary.cpp:65
+msgid "Bonjour/Salut"
+msgstr "Bonjour/Salut"
+
+#: KCMTelepathyAccounts/dictionary.cpp:66
+msgid "MXit"
+msgstr "MXit"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
+#: KCMTelepathyAccounts/dictionary.cpp:67
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
+msgid "Windows Live Messenger"
+msgstr "Mesagerie Windows Live"
+
+#: KCMTelepathyAccounts/dictionary.cpp:68
+msgid "MySpaceIM"
+msgstr "MySpaceIM"
+
+#: KCMTelepathyAccounts/dictionary.cpp:69
+msgid "Tencent QQ"
+msgstr "Tencent QQ"
+
+#: KCMTelepathyAccounts/dictionary.cpp:70
+msgid "IBM Lotus Sametime"
+msgstr "IBM Lotus Sametime"
+
+#: KCMTelepathyAccounts/dictionary.cpp:71
+msgid "SILC"
+msgstr "SILC"
+
+#: KCMTelepathyAccounts/dictionary.cpp:72
+msgid "Session Initiation Protocol (SIP)"
+msgstr "Protocol de Inițiere a Sesiunii (SIP)"
+
+#: KCMTelepathyAccounts/dictionary.cpp:73
+msgid "GSM Telephony"
+msgstr "Telefonie GSM"
+
+#: KCMTelepathyAccounts/dictionary.cpp:74
+msgid "Trepia"
+msgstr "Trepia"
+
+#: KCMTelepathyAccounts/dictionary.cpp:75
+msgid "Yahoo! Messenger"
+msgstr "Mesagerie Yahoo!"
+
+#: KCMTelepathyAccounts/dictionary.cpp:76
+msgid "Yahoo! Messenger Japan"
+msgstr "Mesagerie Yahoo! Japonia"
+
+#: KCMTelepathyAccounts/dictionary.cpp:77
+msgid "Zephyr"
+msgstr "Zephyr"
+
+#: KCMTelepathyAccounts/parameter-edit-model.cpp:302
+#, kde-format
+msgid "Parameter \"<b>%1</b>\" is not valid."
+msgstr "Parametrul „<b>%1</b>” nu este valid."
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+msgid "Others"
+msgstr "Altele"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
+msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, IRC, Yahoo și altele..."
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:100
+msgid "This field is required"
+msgstr "Acest cîmp este obligatoriu"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:121
+msgid "This field should not be empty"
+msgstr "Acest cîmp nu poate fi gol"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:125
+msgid "This field should contain an email address"
+msgstr "Acest cîmp trebuie să conțină o adresă de poștă electronică"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:129
+msgid "This field should contain a hostname"
+msgstr "Acest cîmp trebuie să conțină un nume de gazdă"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:133
+msgid "This field should contain an IP address"
+msgstr "Acest cîmp trebuie să conțină o adresă IP"
+
+#: KCMTelepathyAccounts/validated-line-edit.cpp:178
+msgid "This field is valid"
+msgstr "Acest cîmp este valid"
+
+#. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
+#: main-widget.ui:76
+msgid "Enable local network discovery"
+msgstr "Activează descoperirea în rețeaua locală"
+
+#. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
+#: main-widget.ui:96
+msgid "Connect to people near you"
+msgstr "Conectați-vă cu persoane din apropiere"
+
+#. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
+#: main-widget.ui:147
+msgid "Add Account"
+msgstr "Adaugă cont"
+
+#. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
+#: main-widget.ui:157
+msgid "Edit Account"
+msgstr "Modifică contul"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:167
+msgid "Edit how you appear to others. Requires the account to be online."
+msgstr ""
+"Modificați felul în care vă prezentați celorlalți. Contul trebuie să fie "
+"conectat."
+
+#. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
+#: main-widget.ui:170
+msgid "Edit Identity"
+msgstr "Modifică identitatea"
+
+#: salut-message-widget.cpp:50
+msgid "Configure manually..."
+msgstr "Configurare manuală..."
+
+#: salut-message-widget.cpp:54
+msgid "Cancel"
+msgstr "Renunță"
+
+#: salut-message-widget.cpp:104
+#, kde-format
+msgid "You will appear as \"%1\" on your local network."
+msgstr "În rețeaua locală veți apărea ca „%1”."

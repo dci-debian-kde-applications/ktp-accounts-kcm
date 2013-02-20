@@ -5,13 +5,14 @@
 #
 # Stelios <sstavra@gmail.com>, 2012.
 # Petros Vidalis <pvidalis@gmail.com>, 2012.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-09-20 17:56+0300\n"
-"Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-11-04 13:41+0100\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
 "Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +23,11 @@ msgstr ""
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stelios, Petros Vidalis"
+msgstr "Stelios"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sstavra@gmail.com, p_vidalis@hotmai.com"
+msgstr "sstavra@gmail.com"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
@@ -69,11 +70,11 @@ msgstr "Άγνωστη"
 #: account-item.cpp:110
 msgctxt "This is a disabled account"
 msgid "Disabled"
-msgstr "Απενεργοποίηση"
+msgstr "Ανενεργός"
 
 #: account-item.cpp:136
 msgid "Click checkbox to enable"
-msgstr "Ενεργοποίηση με κλικ στο πλαίσιο επιλογής"
+msgstr "Τον ενεργοποιείτε με κλικ στο πλαίσιο επιλογής"
 
 #: accounts-list-delegate.cpp:72
 msgid "Change account icon"
@@ -84,13 +85,13 @@ msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
-"Αυτό το κουμπί σας επιτρέπει την αλλαγή του εικονιδίου για τον λογαριασμό "
-"σας.<br/> Το εικονίδιο χρησιμοποιείτε τοπικά στον υπολογιστή, οι επαφές δεν "
-"θα έχουν την δυνατότητα να το δούνε."
+"Το κουμπί αυτό επιτρέπει την αλλαγή εικονιδίου του λογαριασμού σας.<br />Το "
+"εικονίδιο αυτό χρησιμοποιείται τοπικά μονο στον υπολογιστή σας, οι επαφές "
+"σας δεν θα μπορούν να το δουν."
 
 #: accounts-list-delegate.cpp:81
 msgid "Change account display name"
-msgstr "Αλλαγή ονόματος εμφάνισης λογαριασμού"
+msgstr "Αλλαγή ονόματος οθόνη για το λογαριασμό"
 
 #: accounts-list-delegate.cpp:82
 msgid ""
@@ -98,9 +99,10 @@ msgid ""
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
-"Αυτό το κουμπί σας επιτρέπει την αλλαγή του ονόματος εμφάνισης για τον "
-"λογαριασμό σας.<br/> Το όνομα εμφάνισης χρησιμοποιείτε τοπικά στον "
-"υπολογιστή, οι επαφές δεν θα έχουν την δυνατότητα να το δούνε."
+"Το κουμπί αυτό επιτρέπει την αλλαγή του ονόματος οθόνης για το λογαριασμό "
+"σας.<br />Το όνομα οθόνης είναι ένα ψευδώνυμο για το λογαριασμό σας και "
+"χρησιμοποιείται τοπικά μονο στον υπολογιστή σας, οι επαφές σας δεν θα "
+"μπορούν να το δουν."
 
 #: accounts-list-delegate.cpp:143
 msgid "Disable account"
@@ -159,22 +161,22 @@ msgstr "Επιλέξτε avatar"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr "Επεξεργασία ονόματος εμφάνισης"
+msgstr "Επεξεργασία ονόματος οθόνης"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr "Επιλέξτε ένα νέο όνομα εμφάνισης για τον λογαριασμό"
+msgstr "Επιλέξτε ένα νέο όνομα οθόνης για το λογαριασμό σας"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
 msgstr ""
-"Το όνομα εμφάνισης είναι το τοπικό ψευδώνυμο για τον λογαριασμό, που το "
-"βλέπετε μόνο εσείς."
+"Το όνομα οθόνης είναι το τοπικό σας ψευδώνυμο για το λογαριασμό, μόνο εσείς "
+"θα το βλέπετε."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
-msgstr "Νέο όνομα εμφάνισης"
+msgstr "Νέο όνομα οθόνης"
 
 #: fetch-avatar-job.cpp:83
 msgid ""
@@ -184,64 +186,64 @@ msgstr ""
 "Το αρχείο που επιλέξατε δεν φαίνεται να είναι εικόνα.\n"
 "Επιλέξτε ένα αρχείο εικόνας."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Επικοινωνία με στιγμιαία μηνύματα και λογαριασμοί VOIP"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Προγραμματιστής"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το λογαριασμό «%1»;"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Αφαίρεση λογαριασμού"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Εγκατάσταση telepathy-salut για ενεργοποίηση"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

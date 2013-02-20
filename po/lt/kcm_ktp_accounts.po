@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-08-05 23:10+0300\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-10-28 14:18+0200\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -112,7 +112,7 @@ msgstr "Įjungti paskyrą"
 
 #: add-account-assistant.cpp:90 add-account-assistant.cpp:91
 msgid "Step 1: Select an Instant Messaging Network."
-msgstr "Žingsnis 1: Pasirinkite tikralaikio pokalbio tinklą."
+msgstr "Žingsnis 1: Pasirinkite pokalbių tinklą."
 
 #: add-account-assistant.cpp:115
 msgid "Step 2: Fill in the required Parameters."
@@ -124,13 +124,13 @@ msgid ""
 "Please install the telepathy-haze and telepathy-gabble packages using your "
 "package manager."
 msgstr ""
-"Kad prisijungti prie šio TP tinklo, Jums reikia įdiegti papildomus priedus. "
+"Kad prisijungti prie šio IM tinklo, Jums reikia įdiegti papildomus priedus. "
 "Prašome įdiegti telepathy-haze ir telepathy-gabble paketus naudojant Jūsų "
 "paketų tvarkyklę."
 
 #: add-account-assistant.cpp:167
 msgid "Missing Telepathy Connection Manager"
-msgstr "Trūksta Telepatijos prisijungimo tvarkytuvės"
+msgstr "Trūksta Telepathy prisijungimo tvarkytuvės"
 
 #: add-account-assistant.cpp:203 add-account-assistant.cpp:261
 #: salut-enabler.cpp:239
@@ -143,7 +143,7 @@ msgstr "Tikriausiai ne visi reikalaujami laukai yra teisingi"
 
 #: add-account-assistant.cpp:271 salut-enabler.cpp:249
 msgid "Something went wrong with Telepathy"
-msgstr "Kažkas įvyko blogo su Telepatija"
+msgstr "Kažkas įvyko blogo su Telepathy"
 
 #: avatar-button.cpp:41
 msgid "Load from file..."
@@ -184,70 +184,70 @@ msgstr ""
 "Panašu, kad jūsų nurodytas failas nėra paveikslėlis.\n"
 "Prašome nurodyti paveikslėlio failą."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:63
-msgid "Instant Messaging and VOIP Accounts"
-msgstr "Tikralaikio pokalbio ir VoIP paskyros"
-
 #: kcm-telepathy-accounts.cpp:65
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Pokalbių ir VoIP paskyros"
+
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Programuotojas"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Ar tikrai norite pašalinti paskyrą „%1“?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Pašalinti paskyrą"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Įdiekite telepathy-salut, kad įjungti"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
 "Please install it and restart this module."
 msgstr ""
-"Kažkas įvyko labai blogo ir TP sistema negalėjo būti paleista.\n"
+"Kažkas įvyko labai blogo ir IM sistema negalėjo būti paleista.\n"
 "Panašu, kad Jūsų sistemoje trūksta Telepathy Mission Control paketo.\n"
 "Prašome įdiegti jį ir paleisti šį modulį iš naujo."
 

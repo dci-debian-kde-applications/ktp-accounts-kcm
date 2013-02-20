@@ -30,7 +30,7 @@ msgstr "服务器："
 #. i18n: ectx: property (toolTip), widget (KLineEdit, serverLineEdit)
 #: sunshine-advanced-options-widget.ui:39
 msgid "STUN server address (FQDN or IP address)"
-msgstr ""
+msgstr "STUN 服务器地址(FQDN 或 IP 地址)"
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: sunshine-advanced-options-widget.ui:46
@@ -40,7 +40,7 @@ msgstr "端口："
 #. i18n: ectx: property (title), widget (QGroupBox, miscGroupBox)
 #: sunshine-advanced-options-widget.ui:63
 msgid "Miscellaneous Settings"
-msgstr ""
+msgstr "杂项设置"
 
 #. i18n: ectx: property (text), widget (QLabel, exportContactsLabel)
 #: sunshine-advanced-options-widget.ui:72
@@ -50,7 +50,7 @@ msgstr "联系人："
 #. i18n: ectx: property (text), widget (QCheckBox, exportContactsCheckBox)
 #: sunshine-advanced-options-widget.ui:79
 msgid "Synchronize your contacts with the Gadu-Gadu server"
-msgstr ""
+msgstr "从 Gadu-Gadu 服务器同步您的联系人信息"
 
 #. i18n: ectx: property (text), widget (QLabel, sslLabel)
 #: sunshine-advanced-options-widget.ui:86
@@ -60,7 +60,7 @@ msgstr "安全："
 #. i18n: ectx: property (text), widget (QCheckBox, sslCheckBox)
 #: sunshine-advanced-options-widget.ui:93
 msgid "Use Transport Layer Security (TLS/SSL)"
-msgstr ""
+msgstr "使用安全传输层(TLS/SSL)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SunshineMainOptionsWidget)
 #: sunshine-main-options-widget.ui:14

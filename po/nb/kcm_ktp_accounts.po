@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-03-09 12:27+0100\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-10-15 20:47+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
@@ -76,17 +76,19 @@ msgstr "Trykk avkryssingsboksen for å slå på"
 
 #: accounts-list-delegate.cpp:72
 msgid "Change account icon"
-msgstr ""
+msgstr "Endre konto-ikon"
 
 #: accounts-list-delegate.cpp:73
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
+"Med denne knappen kan du endre ikon for kontoen din.<br /> Dette ikonet "
+"brukes bare lokalt på din maskin, kontaktene dine kan ikke se det."
 
 #: accounts-list-delegate.cpp:81
 msgid "Change account display name"
-msgstr ""
+msgstr "Endre skjermnavn for konto"
 
 #: accounts-list-delegate.cpp:82
 msgid ""
@@ -94,6 +96,8 @@ msgid ""
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
+"Med denne knappen kan du endre skjermnavn for kontoen din<br /> Skjermnavnet "
+"brukes bare lokalt på din maskin, kontaktene dine kan ikke se det."
 
 #: accounts-list-delegate.cpp:143
 msgid "Disable account"
@@ -152,20 +156,20 @@ msgstr "Velg din avatar"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr ""
+msgstr "Rediger skjermnavn"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr ""
+msgstr "Velg et nytt skjermnavn for kontoen din"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr ""
+msgstr "Et skjermnavn er ditt lokale alias for kontoen, bare du kan se det."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
-msgstr ""
+msgstr "Nytt skjermnavn"
 
 #: fetch-avatar-job.cpp:83
 msgid ""
@@ -175,64 +179,64 @@ msgstr ""
 "Fila du har valgt ser ikke ut til å være et bilde.\n"
 "Velg en bildefil."
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "telepathy_accounts"
 msgstr "telepathy_kontoer"
 
-#: kcm-telepathy-accounts.cpp:63
+#: kcm-telepathy-accounts.cpp:65
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Lynmelding og VOIP-kontoer"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:67
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:65 kcm-telepathy-accounts.cpp:66
 #: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
 #: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:73
 msgid "Developer"
 msgstr "Utvikler"
 
-#: kcm-telepathy-accounts.cpp:66
+#: kcm-telepathy-accounts.cpp:68
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:69
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:70
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:71
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:72
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:73
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:337
+#: kcm-telepathy-accounts.cpp:343
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Er du sikker på at du vil fjerne kontoen «%1»?"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:338 main-widget.ui:180
+#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
 msgid "Remove Account"
 msgstr "Fjern konto"
 
-#: kcm-telepathy-accounts.cpp:401
+#: kcm-telepathy-accounts.cpp:413
 msgid "Install telepathy-salut to enable"
 msgstr "Installer telepathy-salut for å slå på"
 
-#: kcm-telepathy-accounts.cpp:436
+#: kcm-telepathy-accounts.cpp:448
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
