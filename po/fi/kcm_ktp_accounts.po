@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2013-01-20 20:01:55+0000\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2013-02-28 09:44+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -51,60 +51,41 @@ msgstr "Tili:"
 msgid "..."
 msgstr "..."
 
-#: account-item.cpp:101
-msgid "Online"
-msgstr "Paikalla"
-
-#: account-item.cpp:103
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "Yhdistetään"
-
-#: account-item.cpp:105
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "Ei yhteyttä"
-
-#: account-item.cpp:107
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "Tuntematon"
-
-#: account-item.cpp:110
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "Poissa käytöstä"
-
-#: account-item.cpp:136
-msgid "Click checkbox to enable"
-msgstr "Ota käyttöön napsauttamalla valintaruutua"
-
-#: accounts-list-delegate.cpp:72
+#: accounts-list-delegate.cpp:70
 msgid "Change account icon"
 msgstr "Vaihda tilin kuvaketta"
 
-#: accounts-list-delegate.cpp:73
+#: accounts-list-delegate.cpp:71
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
+"Tästä painikkeesta voit vaihtaa tilisi kuvakkeen.<br /> Tätä kuvaketta "
+"käytetään vain paikallisesti koneellasi. Yhteystietosi eivät näe sitä."
 
-#: accounts-list-delegate.cpp:81
+#: accounts-list-delegate.cpp:79
 msgid "Change account display name"
 msgstr "Muuta tilin näyttönimi"
 
-#: accounts-list-delegate.cpp:82
+#: accounts-list-delegate.cpp:80
 msgid ""
 "This button allows to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
+"Tästä painikkeesta voit muuttaa tilisi näyttönimeä.<br /> Tämä näyttönimi on "
+"tilisi nimimerkki, ja sitä käytetään vain paikallisesti koneellasi. "
+"Yhteystietosi eivät näe sitä."
 
-#: accounts-list-delegate.cpp:143
+#: accounts-list-delegate.cpp:134
+msgid "Click checkbox to enable"
+msgstr "Ota käyttöön napsauttamalla valintaruutua"
+
+#: accounts-list-delegate.cpp:144
 msgid "Disable account"
 msgstr "Poista tili käytöstä"
 
-#: accounts-list-delegate.cpp:146
+#: accounts-list-delegate.cpp:147
 msgid "Enable account"
 msgstr "Ota tili käyttöön"
 
@@ -130,16 +111,16 @@ msgstr ""
 msgid "Missing Telepathy Connection Manager"
 msgstr "Telepathy-yhteydenhallinta puuttuu"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
-#: salut-enabler.cpp:239
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
+#: salut-enabler.cpp:238
 msgid "Failed to create account"
 msgstr "Tilin luonti epäonnistui"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+#: add-account-assistant.cpp:253 salut-enabler.cpp:239
 msgid "Possibly not all required fields are valid"
 msgstr "Kaikki vaaditut kentät eivät ehkä kelvollisia"
 
-#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+#: add-account-assistant.cpp:262 salut-enabler.cpp:248
 msgid "Something went wrong with Telepathy"
 msgstr "Telepathyssa meni jotakin vikaan"
 
@@ -166,7 +147,7 @@ msgstr "Valitse tilillesi uusi näyttönimi"
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr ""
+msgstr "Näyttönimi on tilisi paikallinen nimimerkki, ja vain sinä näet sen."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
@@ -180,64 +161,101 @@ msgstr ""
 "Valitsemasi tiedosto ei vaikuta olevan kuva.\n"
 "Valitse kuvatiedosto."
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "telepathy_accounts"
 msgstr "telepathy_tilit"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Pikaviesti- ja VOIP-tilit"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:80
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Developer"
 msgstr "Kehittäjä"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:81
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:82
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:83
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:84
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:85
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:86
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:343
+#: kcm-telepathy-accounts.cpp:263
+msgid ""
+"We have found Kopete logs for this account. Do you want to import the logs "
+"to KDE Telepathy?"
+msgstr ""
+"Tälle tilille on löytynyt Kopete-lokeja. Haluatko tuoda ne lokit KDE-"
+"Telepathyyn?"
+
+#: kcm-telepathy-accounts.cpp:264
+msgid "Import Logs?"
+msgstr "Tuodaanko lokit?"
+
+#: kcm-telepathy-accounts.cpp:265
+msgid "Import Logs"
+msgstr "Tuo lokit"
+
+#: kcm-telepathy-accounts.cpp:266
+msgid "Close"
+msgstr "Sulje"
+
+#: kcm-telepathy-accounts.cpp:273
+msgid "Importing logs..."
+msgstr "Tuodaan lokeja..."
+
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+msgid "Kopete Logs Import"
+msgstr "Kopeten lokien tuonti"
+
+#: kcm-telepathy-accounts.cpp:304
+msgid "Kopete logs successfully imported"
+msgstr "Kopeten lokien tuonti onnistui"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: main-widget.ui:184
+msgid "Remove Account"
+msgstr "Poista tili"
+
+#: kcm-telepathy-accounts.cpp:408
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Haluatko varmasti poistaa tilin ”%1”?"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
-msgid "Remove Account"
-msgstr "Poista tili"
+#: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "Poista keskustelulokit"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:490
 msgid "Install telepathy-salut to enable"
 msgstr "Asenna telepathy-salut ottaaksesi käyttöön"
 
-#: kcm-telepathy-accounts.cpp:448
+#: kcm-telepathy-accounts.cpp:532
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -253,11 +271,11 @@ msgstr ""
 msgid "All mandatory fields must be filled"
 msgstr "Kaikki pakolliset kentät tulee täyttää"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+#: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
 msgstr "Yhdistä, kun ohjattu toiminto valmistuu"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+#: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
 msgstr "Lisäasetukset"
 
@@ -348,7 +366,7 @@ msgstr "Ohita SSL-virheet"
 
 #: KCMTelepathyAccounts/dictionary.cpp:53
 msgid "Keepalive Interval"
-msgstr ""
+msgstr "Yhteyden säilyttämisen aikaväli"
 
 #: KCMTelepathyAccounts/dictionary.cpp:56
 msgid "AOL Instant Messenger"
@@ -402,9 +420,7 @@ msgstr "Bonjour/Salut"
 msgid "MXit"
 msgstr "MXit"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live Messenger"
 
@@ -454,14 +470,14 @@ msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Parametri ”<b>%1</b>” ei kelpaa."
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Others"
 msgstr "Muut"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, IRC, Yahoo ja enemmän..."
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+msgid "AOL, Gadu-Gadu, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, Yahoo ja enemmän..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
@@ -488,32 +504,32 @@ msgid "This field is valid"
 msgstr "Tämä kentän arvo kelpaa"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: main-widget.ui:76
+#: main-widget.ui:80
 msgid "Enable local network discovery"
 msgstr "Salli paikallisen verkon haku"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: main-widget.ui:96
+#: main-widget.ui:100
 msgid "Connect to people near you"
 msgstr "Yhdistä lähelläsi oleviin ihmisiin"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: main-widget.ui:147
+#: main-widget.ui:151
 msgid "Add Account"
 msgstr "Lisää tili"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: main-widget.ui:157
+#: main-widget.ui:161
 msgid "Edit Account"
 msgstr "Muokkaa tiliä"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:167
+#: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr "Muokkaa sitä, miten näyt muille. Tilin on oltava yhteydessä verkkoon."
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:170
+#: main-widget.ui:174
 msgid "Edit Identity"
 msgstr "Muokkaa henkilöllisyyttä"
 
@@ -530,6 +546,25 @@ msgstr "Peru"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Näyt paikallisessa verkossa näin: ”%1”."
 
+#~ msgid "Online"
+#~ msgstr "Paikalla"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Connecting"
+#~ msgstr "Yhdistetään"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Disconnected"
+#~ msgstr "Ei yhteyttä"
+
+#~ msgctxt "This is an unknown connection state"
+#~ msgid "Unknown"
+#~ msgstr "Tuntematon"
+
+#~ msgctxt "This is a disabled account"
+#~ msgid "Disabled"
+#~ msgstr "Poissa käytöstä"
+
 #~ msgid "TextLabel"
 #~ msgstr "Tekstiselite"
 
@@ -540,6 +575,7 @@ msgstr "Näyt paikallisessa verkossa näin: ”%1”."
 #~ msgstr "Valinnaiset parametrit"
 
 #, fuzzy
+#~| msgid "Optional parameter"
 #~ msgid "Optional parameters"
 #~ msgstr "Valinnainen parametri"
 

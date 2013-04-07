@@ -21,13 +21,11 @@
 
 #include "accounts-list-delegate.h"
 
-#include "account-item.h"
-#include "accounts-list-model.h"
 #include "edit-display-name-button.h"
 #include "change-icon-button.h"
 
 #include <KTp/presence.h>
-#include <KTp/Models/accounts-model.h>
+#include <KTp/Models/accounts-list-model.h>
 
 #include <KDE/KLocale>
 #include <KDE/KIconButton>
@@ -124,14 +122,17 @@ void AccountsListDelegate::updateItemWidgets(const QList<QWidget *> widgets, con
 
 
     bool isSelected(itemView()->selectionModel()->isSelected(index) && itemView()->hasFocus());
-    bool isEnabled(index.data(Qt::CheckStateRole).toBool());
+    bool isEnabled(index.data(KTp::AccountsListModel::EnabledRole).toBool());
     KIcon accountIcon(index.data(Qt::DecorationRole).value<QIcon>());
-    KIcon statusIcon(index.data(AccountsListModel::ConnectionStateIconRole).value<QIcon>());
-    QString statusText(index.data(AccountsListModel::ConnectionStateDisplayRole).toString());
+    KIcon statusIcon(index.data(KTp::AccountsListModel::ConnectionStateIconRole).value<QIcon>());
+    QString statusText(index.data(KTp::AccountsListModel::ConnectionStateDisplayRole).toString());
     QString displayName(index.data(Qt::DisplayRole).toString());
-    QString connectionError(index.data(AccountsListModel::ConnectionErrorMessageDisplayRole).toString());
-    Tp::AccountPtr account(index.data(AccountsListModel::AccountItemRole).value<AccountItem*>()->account());
+    QString connectionError(index.data(KTp::AccountsListModel::ConnectionErrorMessageDisplayRole).toString());
+    Tp::AccountPtr account(index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>());
 
+    if (!account->isEnabled()) {
+      connectionError = i18n("Click checkbox to enable");
+    }
 
     QRect outerRect(0, 0, option.rect.width(), option.rect.height());
     QRect contentRect = outerRect.adjusted(m_hpadding,m_vpadding,-m_hpadding,-m_vpadding); //add some padding

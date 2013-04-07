@@ -20,17 +20,20 @@
  */
 
 #include "kcm-telepathy-accounts.h"
+#include "version.h"
 
 #include "ui_main-widget.h"
 
-#include "accounts-list-model.h"
 #include "add-account-assistant.h"
 #include "edit-account-dialog.h"
 #include "accounts-list-delegate.h"
 #include "account-identity-dialog.h"
+#include "salut-enabler.h"
 
 #include <QtGui/QLabel>
 #include <QtGui/QSortFilterProxyModel>
+#include <QtGui/QProgressBar>
+#include <QtCore/QPointer>
 
 #include <KPluginFactory>
 #include <KIcon>
@@ -40,16 +43,26 @@
 #include <KMessageWidget>
 #include <KPixmapSequenceOverlayPainter>
 #include <KDebug>
+#include <KPixmapSequence>
+#include <KProgressDialog>
+
+#include <KTp/wallet-utils.h>
+#include <KTp/Models/accounts-list-model.h>
+#include <KTp/logs-importer.h>
 
 #include <TelepathyQt/Account>
+#include <TelepathyQt/AccountSet>
 #include <TelepathyQt/AccountFactory>
 #include <TelepathyQt/PendingOperation>
 #include <TelepathyQt/PendingReady>
 #include <TelepathyQt/Types>
+#include <TelepathyQt/PendingComposite>
 #include <TelepathyQt/ConnectionManager>
 
-#include "salut-enabler.h"
-#include <KPixmapSequence>
+#include <TelepathyLoggerQt4/LogManager>
+#include <TelepathyLoggerQt4/Init>
+#include <TelepathyLoggerQt4/PendingOperation>
+
 
 K_PLUGIN_FACTORY(KCMTelepathyAccountsFactory, registerPlugin<KCMTelepathyAccounts>();)
 K_EXPORT_PLUGIN(KCMTelepathyAccountsFactory("telepathy_accounts", "telepathy-accounts-kcm"))
@@ -57,12 +70,12 @@ K_EXPORT_PLUGIN(KCMTelepathyAccountsFactory("telepathy_accounts", "telepathy-acc
 
 KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& args)
  : KCModule(KCMTelepathyAccountsFactory::componentData(), parent, args),
-   m_accountsListModel(0),
+   m_accountsListModel(new KTp::AccountsListModel(this)),
    m_currentModel(0),
    m_currentListView(0)
 {
     //set up component data.
-    KAboutData *aboutData = new KAboutData(I18N_NOOP("telepathy_accounts"), 0, ki18n("Instant Messaging and VOIP Accounts"), "0.5.3", KLocalizedString(), KAboutData::License_GPL);
+    KAboutData *aboutData = new KAboutData(I18N_NOOP("telepathy_accounts"), 0, ki18n("Instant Messaging and VOIP Accounts"), KTP_ACCOUNTS_KCM_VERSION, KLocalizedString(), KAboutData::License_GPL);
 
     aboutData->addAuthor(ki18n("George Goldberg"), ki18n("Developer"),"grundleborg@googlemail.com");
     aboutData->addAuthor(ki18n("David Edmundson"), ki18n("Developer"), "david@davidedmundson.co.uk");
@@ -76,6 +89,7 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
 
     // The first thing we must do is register Telepathy DBus Types.
     Tp::registerTypes();
+    Tpl::init();
 
     // Start setting up the Telepathy AccountManager.
     Tp::AccountFactoryPtr  accountFactory = Tp::AccountFactory::create(QDBusConnection::sessionBus(),
@@ -89,6 +103,9 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
     connect(m_accountManager->becomeReady(),
             SIGNAL(finished(Tp::PendingOperation*)),
             SLOT(onAccountManagerReady(Tp::PendingOperation*)));
+    connect(m_accountManager.constData(),
+            SIGNAL(newAccount(Tp::AccountPtr)),
+            SLOT(onNewAccountAdded(Tp::AccountPtr)));
 
     // Set up the UI stuff.
     m_ui = new Ui::MainWidget;
@@ -97,20 +114,19 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
     m_ui->salutEnableFrame->setHidden(true);
     m_ui->salutEnableCheckbox->setIcon(KIcon(QLatin1String("im-local-xmpp")));
     m_ui->salutEnableCheckbox->setIconSize(QSize(32, 32));
-    m_accountsListModel = new AccountsListModel(this);
 
     // On the kcm_telepathy_account we filter using "local-xmpp" and not using
     // "salut" because in this way we can see on top also local-xmpp accounts
     // configured using haze
     m_salutFilterModel = new QSortFilterProxyModel(this);
     m_salutFilterModel->setSourceModel(m_accountsListModel);
-    m_salutFilterModel->setFilterRole(AccountsListModel::ConnectionProtocolNameRole);
+    m_salutFilterModel->setFilterRole(KTp::AccountsListModel::ConnectionProtocolNameRole);
     m_salutFilterModel->setFilterFixedString(QLatin1String("local-xmpp"));
     m_ui->salutListView->setModel(m_salutFilterModel);
 
     m_accountsFilterModel = new QSortFilterProxyModel(this);
     m_accountsFilterModel->setSourceModel(m_accountsListModel);
-    m_accountsFilterModel->setFilterRole(AccountsListModel::ConnectionProtocolNameRole);
+    m_accountsFilterModel->setFilterRole(KTp::AccountsListModel::ConnectionProtocolNameRole);
     m_accountsFilterModel->setFilterRegExp(QLatin1String("^((?!local-xmpp).)*$"));
     m_accountsFilterModel->setSortRole(Qt::DisplayRole);
     m_accountsFilterModel->setSortCaseSensitivity(Qt::CaseInsensitive);
@@ -136,6 +152,7 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
 
     int height = salutDelegate->sizeHint(QStyleOptionViewItem(), m_salutFilterModel->index(0,0)).height() + 3*2;
     m_ui->salutListView->setMinimumHeight(height);
+    m_ui->salutListView->setMaximumHeight(height);
     m_ui->salutEnableFrame->setMinimumHeight(height);
 
     connect(accountsDelegate,
@@ -211,13 +228,13 @@ void KCMTelepathyAccounts::onAccountEnabledChanged(const QModelIndex &index, boo
     else {
         value = QVariant(Qt::Unchecked);
     }
-    m_accountsListModel->setData(index, value, Qt::CheckStateRole);
+    m_accountsListModel->setData(index, value, KTp::AccountsListModel::EnabledRole);
 
     if (enabled) {
         // connect the account
-        AccountItem *item = index.data(AccountsListModel::AccountItemRole).value<AccountItem*>();
-        if (item) {
-            item->account()->setRequestedPresence(Tp::Presence::available());
+        Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
+        if (!account.isNull()) {
+            account->setRequestedPresence(Tp::Presence::available());
         }
     }
 }
@@ -231,20 +248,60 @@ void KCMTelepathyAccounts::onAccountManagerReady(Tp::PendingOperation *op)
         return;
     }
 
-    // Add all the accounts to the Accounts Model.
-    QList<Tp::AccountPtr> accounts = m_accountManager->allAccounts();
-    Q_FOREACH (const Tp::AccountPtr &account, accounts) {
-        m_accountsListModel->addAccount(account);
-    }
-
-    connect(m_accountManager.data(),
-            SIGNAL(newAccount(Tp::AccountPtr)),
-            SLOT(onAccountCreated(Tp::AccountPtr)));
+    m_accountsListModel->setAccountSet(m_accountManager->validAccounts());
 }
 
-void KCMTelepathyAccounts::onAccountCreated(const Tp::AccountPtr &account)
+void KCMTelepathyAccounts::onNewAccountAdded(const Tp::AccountPtr& account)
 {
-    m_accountsListModel->addAccount(account);
+    KTp::LogsImporter logsImporter;
+    if (!logsImporter.hasKopeteLogs(account)) {
+        kDebug() << "No Kopete logs for" << account->uniqueIdentifier() << "found";
+        return;
+    }
+
+    int ret = KMessageBox::questionYesNo(this,
+                i18n("We have found Kopete logs for this account. Do you want to import the logs to KDE Telepathy?"),
+                i18n("Import Logs?"),
+                KGuiItem(i18n("Import Logs"), QLatin1String("document-import")),
+                KGuiItem(i18n("Close"), QLatin1String("dialog-close")));
+
+    if (ret == KMessageBox::No) {
+        return;
+    }
+
+    m_importProgressDialog = new KProgressDialog(this);
+    m_importProgressDialog->setLabelText(i18n("Importing logs..."));
+    m_importProgressDialog->setAllowCancel(false);
+    m_importProgressDialog->progressBar()->setMinimum(0);
+    m_importProgressDialog->progressBar()->setMaximum(0);
+    m_importProgressDialog->setButtons(KDialog::Close);
+    m_importProgressDialog->enableButton(KDialog::Close, false);
+
+    connect(&logsImporter, SIGNAL(logsImported()), SLOT(onLogsImportDone()));
+    connect(&logsImporter, SIGNAL(error(QString)), SLOT(onLogsImportError(QString)));
+
+    logsImporter.startLogImport(account);
+    m_importProgressDialog->exec();
+
+    delete m_importProgressDialog;
+}
+
+void KCMTelepathyAccounts::onLogsImportError(const QString &error)
+{
+    if (m_importProgressDialog) {
+        m_importProgressDialog->close();
+    }
+
+    KMessageBox::error(this, error, i18n("Kopete Logs Import"));
+}
+
+void KCMTelepathyAccounts::onLogsImportDone()
+{
+    if (m_importProgressDialog) {
+        m_importProgressDialog->close();
+    }
+
+    KMessageBox::information(this, i18n("Kopete logs successfully imported"), i18n("Kopete Logs Import"));
 }
 
 void KCMTelepathyAccounts::onSelectedItemChanged(const QModelIndex &current, const QModelIndex &previous)
@@ -256,7 +313,7 @@ void KCMTelepathyAccounts::onSelectedItemChanged(const QModelIndex &current, con
     if (current.isValid()) {
         m_currentModel = qobject_cast<const QSortFilterProxyModel*>(current.model());
 
-        if (current.data(AccountsListModel::ConnectionStateRole).toInt() == Tp::ConnectionStatusConnected) {
+        if (current.data(KTp::AccountsListModel::ConnectionStateRole).toInt() == Tp::ConnectionStatusConnected) {
             m_ui->editAccountIdentityButton->setEnabled(true);
         } else {
             m_ui->editAccountIdentityButton->setEnabled(false);
@@ -304,13 +361,14 @@ void KCMTelepathyAccounts::onEditAccountClicked()
     if (!index.isValid()) {
         return;
     }
-    AccountItem *item = index.data(AccountsListModel::AccountItemRole).value<AccountItem*>();
+    Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
 
-    if (!item)
+    if (account.isNull()) {
         return;
+    }
 
     // Item is OK. Edit the item.
-    EditAccountDialog dialog(item, this);
+    EditAccountDialog dialog(account, this);
     dialog.exec();
 }
 
@@ -325,13 +383,13 @@ void KCMTelepathyAccounts::onEditIdentityClicked()
         return;
     }
 
-    AccountItem *item = index.data(AccountsListModel::AccountItemRole).value<AccountItem*>();
+    Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
 
-    if (!item) {
+    if (account.isNull()) {
         return;
     }
 
-    AccountIdentityDialog dialog(item->account(),this);
+    AccountIdentityDialog dialog(account,this);
     dialog.exec();
 }
 
@@ -340,13 +398,32 @@ void KCMTelepathyAccounts::onRemoveAccountClicked()
 {
     QModelIndex index = m_currentListView->currentIndex();
 
-     if ( KMessageBox::warningContinueCancel(this, i18n("Are you sure you want to remove the account \"%1\"?", m_currentModel->data(index, Qt::DisplayRole).toString()),
-                                        i18n("Remove Account"), KGuiItem(i18n("Remove Account"), QLatin1String("edit-delete")), KStandardGuiItem::cancel(),
-                                        QString(), KMessageBox::Notify | KMessageBox::Dangerous) == KMessageBox::Continue)
-    {
-        AccountItem *item = index.data(AccountsListModel::AccountItemRole).value<AccountItem*>();
-        item->remove();
-     }
+    QString accountName = index.data(Qt::DisplayRole).toString();
+
+    KDialog *dialog = new KDialog(this); /* will be deleted by KMessageBox::createKMessageBox */
+    dialog->setButtons(KDialog::Yes | KDialog::Cancel);
+    dialog->setWindowTitle(i18n("Remove Account"));
+    dialog->setButtonGuiItem(KDialog::Yes, KGuiItem(i18n("Remove Account"), QLatin1String("edit-delete")));
+    bool removeLogs = false;
+    if (KMessageBox::createKMessageBox(dialog, QMessageBox::Warning, i18n("Are you sure you want to remove the account \"%1\"?", accountName),
+                QStringList(),  i18n("Remove conversations logs"), &removeLogs,
+                KMessageBox::Dangerous | KMessageBox::Notify) == KDialog::Yes) {
+
+        Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
+        if (account.isNull()) {
+            return;
+        }
+
+        if (removeLogs) {
+            Tpl::LogManagerPtr logManager = Tpl::LogManager::instance();
+            logManager->clearAccountHistory(account);
+        }
+
+        QList<Tp::PendingOperation*> ops;
+        ops.append(KTp::WalletUtils::removeAccountPassword(account));
+        ops.append(account->remove());
+        connect(new Tp::PendingComposite(ops, account), SIGNAL(finished(Tp::PendingOperation*)), SLOT(onOperationFinished(Tp::PendingOperation*)));
+    }
 }
 
 void KCMTelepathyAccounts::onModelDataChanged(const QModelIndex &index)
@@ -428,6 +505,13 @@ void KCMTelepathyAccounts::onSalutSetupDone()
     m_salutBusyWheel->stop();
     m_ui->salutEnableCheckbox->setChecked(false);
     m_ui->salutWidget->setEnabled(true);
+}
+
+void KCMTelepathyAccounts::onOperationFinished(Tp::PendingOperation *op)
+{
+    if (op->isError()) {
+        kDebug() << "operation failed " << op->errorName() << op->errorMessage();
+    }
 }
 
 /////

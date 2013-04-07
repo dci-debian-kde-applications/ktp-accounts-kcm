@@ -2,20 +2,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
-# Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-07-16 07:57+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2013-01-22 17:25+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -45,39 +45,11 @@ msgstr "帳號："
 msgid "..."
 msgstr "..."
 
-#: account-item.cpp:101
-msgid "Online"
-msgstr "上線"
-
-#: account-item.cpp:103
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "連線中"
-
-#: account-item.cpp:105
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "已斷線"
-
-#: account-item.cpp:107
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "未知"
-
-#: account-item.cpp:110
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "已停用"
-
-#: account-item.cpp:136
-msgid "Click checkbox to enable"
-msgstr "點擊勾選盒來開啟"
-
-#: accounts-list-delegate.cpp:72
+#: accounts-list-delegate.cpp:70
 msgid "Change account icon"
 msgstr "變更帳號圖示"
 
-#: accounts-list-delegate.cpp:73
+#: accounts-list-delegate.cpp:71
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
@@ -85,11 +57,11 @@ msgstr ""
 "此按鍵可以讓您變更帳號的圖示。<br />此圖示只會在您的電腦上使用，您的聯絡人不"
 "會看到此圖示。"
 
-#: accounts-list-delegate.cpp:81
+#: accounts-list-delegate.cpp:79
 msgid "Change account display name"
 msgstr "變更帳號顯示名稱"
 
-#: accounts-list-delegate.cpp:82
+#: accounts-list-delegate.cpp:80
 msgid ""
 "This button allows to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
@@ -98,11 +70,15 @@ msgstr ""
 "此按鍵可以讓您變更帳號的顯示名稱。<br />此顯示名稱只會在您的電腦上使用，您的"
 "聯絡人不會看到此名稱。"
 
-#: accounts-list-delegate.cpp:143
+#: accounts-list-delegate.cpp:134
+msgid "Click checkbox to enable"
+msgstr "點擊勾選盒來開啟"
+
+#: accounts-list-delegate.cpp:144
 msgid "Disable account"
 msgstr "關閉帳號"
 
-#: accounts-list-delegate.cpp:146
+#: accounts-list-delegate.cpp:147
 msgid "Enable account"
 msgstr "開啟帳號"
 
@@ -127,16 +103,16 @@ msgstr ""
 msgid "Missing Telepathy Connection Manager"
 msgstr "遺失了 Telepathy 連線管理員套件"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
-#: salut-enabler.cpp:239
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
+#: salut-enabler.cpp:238
 msgid "Failed to create account"
 msgstr "建立帳號失敗"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+#: add-account-assistant.cpp:253 salut-enabler.cpp:239
 msgid "Possibly not all required fields are valid"
 msgstr "可能並非所有欄位都是合法的"
 
-#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+#: add-account-assistant.cpp:262 salut-enabler.cpp:248
 msgid "Something went wrong with Telepathy"
 msgstr "Telepathy 發生了錯誤"
 
@@ -177,64 +153,99 @@ msgstr ""
 "您選擇的檔案似乎不是影像檔。\n"
 "請選擇影像檔。"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "即時訊息與 VOIP 帳號"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:80
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Developer"
 msgstr "開發者"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:81
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:82
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:83
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:84
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:85
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:86
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:343
+#: kcm-telepathy-accounts.cpp:263
+msgid ""
+"We have found Kopete logs for this account. Do you want to import the logs "
+"to KDE Telepathy?"
+msgstr "我們發現此帳號有 Kopete 的紀錄。您要匯入這些紀錄到 KDE Telepathy 嗎？"
+
+#: kcm-telepathy-accounts.cpp:264
+msgid "Import Logs?"
+msgstr "要匯入紀錄嗎？"
+
+#: kcm-telepathy-accounts.cpp:265
+msgid "Import Logs"
+msgstr "匯入紀錄"
+
+#: kcm-telepathy-accounts.cpp:266
+msgid "Close"
+msgstr "關閉"
+
+#: kcm-telepathy-accounts.cpp:273
+msgid "Importing logs..."
+msgstr "匯入紀錄中..."
+
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+msgid "Kopete Logs Import"
+msgstr "Kopete 紀錄匯入"
+
+#: kcm-telepathy-accounts.cpp:304
+msgid "Kopete logs successfully imported"
+msgstr "Kopete 紀錄已成功匯入"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: main-widget.ui:184
+msgid "Remove Account"
+msgstr "移除帳號"
+
+#: kcm-telepathy-accounts.cpp:408
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "您確定要移除帳號 %1 ？"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
-msgid "Remove Account"
-msgstr "移除帳號"
+#: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "移除對話紀錄"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:490
 msgid "Install telepathy-salut to enable"
 msgstr "請先安裝 telepathy-salut 來開啟此功能"
 
-#: kcm-telepathy-accounts.cpp:448
+#: kcm-telepathy-accounts.cpp:532
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -247,11 +258,11 @@ msgstr ""
 msgid "All mandatory fields must be filled"
 msgstr "所有主要欄位都必須填滿"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+#: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
 msgstr "精靈完成設定後連線"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+#: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
 msgstr "進階選項"
 
@@ -396,9 +407,7 @@ msgstr "Bonjour/Salut"
 msgid "MXit"
 msgstr "MXit"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live 即時通訊"
 
@@ -448,14 +457,14 @@ msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "參數 \"<b>%1</b>\" 不合法。"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Others"
 msgstr "其他"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, IRC, Yahoo 及其他..."
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+msgid "AOL, Gadu-Gadu, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, Yahoo 及其他..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
@@ -482,32 +491,32 @@ msgid "This field is valid"
 msgstr "此欄位合法"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: main-widget.ui:76
+#: main-widget.ui:80
 msgid "Enable local network discovery"
 msgstr "開啟本地端網路探索功能"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: main-widget.ui:96
+#: main-widget.ui:100
 msgid "Connect to people near you"
 msgstr "連線到靠近您的人"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: main-widget.ui:147
+#: main-widget.ui:151
 msgid "Add Account"
 msgstr "新增帳號"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: main-widget.ui:157
+#: main-widget.ui:161
 msgid "Edit Account"
 msgstr "編輯帳號"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:167
+#: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr "編輯您要如何呈現給其他人看。需要先上線。"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:170
+#: main-widget.ui:174
 msgid "Edit Identity"
 msgstr "編輯身份"
 
@@ -523,6 +532,25 @@ msgstr "取消"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "您在您的本地端網路上會以 \"%1\" 呈現。"
+
+#~ msgid "Online"
+#~ msgstr "上線"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Connecting"
+#~ msgstr "連線中"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Disconnected"
+#~ msgstr "已斷線"
+
+#~ msgctxt "This is an unknown connection state"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "This is a disabled account"
+#~ msgid "Disabled"
+#~ msgstr "已停用"
 
 #~ msgid "TextLabel"
 #~ msgstr "文字標籤"

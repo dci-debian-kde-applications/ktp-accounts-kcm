@@ -29,10 +29,14 @@
 class QFrame;
 class KPixmapSequenceOverlayPainter;
 class SalutEnabler;
-class AccountsListModel;
 class AddAccountAssistant;
 class QSortFilterProxyModel;
 class QListView;
+class KProgressDialog;
+
+namespace KTp {
+    class AccountsListModel;
+}
 
 namespace Tp {
     class PendingOperation;
@@ -58,10 +62,7 @@ public Q_SLOTS:
 
 private Q_SLOTS:
     void onAccountManagerReady(Tp::PendingOperation *op);
-    void onAccountCreated(const Tp::AccountPtr &account);
-
     void onAccountEnabledChanged(const QModelIndex &index, bool enabled);
-
     void onSelectedItemChanged(const QModelIndex &current, const QModelIndex &previous);
     void onAddAccountClicked();
     void onEditAccountClicked();
@@ -73,12 +74,17 @@ private Q_SLOTS:
     void onSalutInfoReady();
 
     void onSalutSetupDone();
+    void onOperationFinished(Tp::PendingOperation *op);
+
+    void onNewAccountAdded(const Tp::AccountPtr &account);
+    void onLogsImportError(const QString&);
+    void onLogsImportDone();
 
 private:
     Ui::MainWidget *m_ui;
 
     Tp::AccountManagerPtr m_accountManager;
-    AccountsListModel *m_accountsListModel;
+    KTp::AccountsListModel *m_accountsListModel;
     QSortFilterProxyModel *m_salutFilterModel;
     QSortFilterProxyModel *m_accountsFilterModel;
     const QSortFilterProxyModel *m_currentModel;
@@ -86,6 +92,8 @@ private:
 
     QWeakPointer<SalutEnabler> m_salutEnabler;
     KPixmapSequenceOverlayPainter *m_salutBusyWheel;
+
+    QPointer<KProgressDialog> m_importProgressDialog;
 };
 
 // Helper class for drawing error overlays

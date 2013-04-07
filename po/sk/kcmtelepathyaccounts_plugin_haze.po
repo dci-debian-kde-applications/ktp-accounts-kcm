@@ -1,18 +1,18 @@
 # translation of kcmtelepathyaccounts_plugin_haze.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2012.
+# Richard Frič <Richard.Fric@kdemail.net>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2012-02-09 11:45+0100\n"
+"PO-Revision-Date: 2012-06-22 12:31+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
@@ -25,7 +25,7 @@ msgstr ""
 #: msn-main-options-widget.ui:20 myspaceim-main-options-widget.ui:20
 #: skype-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
-msgstr "Nastavenia účtu"
+msgstr "Predvoľby účtu"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: aim-main-options-widget.ui:29 myspaceim-main-options-widget.ui:34
@@ -84,7 +84,7 @@ msgstr "Šifrovanie:"
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
 msgid "Always use AIM proxy "
-msgstr "Vždy použiť AIM proxy "
+msgstr "Vždy použiť AIM proxy"
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
 #: aim-server-settings-widget.ui:108 icq-server-settings-widget.ui:114
@@ -100,7 +100,7 @@ msgstr "Použiť clientLogin"
 #. i18n: ectx: property (text), widget (QCheckBox, multipleLogins)
 #: aim-server-settings-widget.ui:122
 msgid "Allow multiple simultaneous logins"
-msgstr "Povoliť viac simultánnych prihlásení"
+msgstr "Povoliť viac súčasných prihlásení"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
@@ -140,7 +140,7 @@ msgstr "UTF-8"
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: msn-main-options-widget.ui:29
 msgid "Email address:"
-msgstr "E-mailová adresa:"
+msgstr "Emailová adresa:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: msn-main-options-widget.ui:46
@@ -165,17 +165,17 @@ msgstr "john@doe.com"
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
 msgid "Show SkypeOut contacts as 'Online'"
-msgstr "Ukázať SkypeOut kontakty ako 'Pripojené'"
+msgstr "Zobraziť kontakty SkypeOut ako 'Online'"
 
 #. i18n: ectx: property (text), widget (QCheckBox, syncCheckBox)
 #: skype-advanced-settings-widget.ui:38
 msgid "Make Skype online/offline when going online/offline"
-msgstr "Prepnúť Skype na Pripojená/Odpojený pri zmene"
+msgstr "Prepnúť Skype online/offline pre prechode online/offline"
 
 #. i18n: ectx: property (text), widget (QCheckBox, updatesCheckBox)
 #: skype-advanced-settings-widget.ui:45
 msgid "Automatically check for updates"
-msgstr "Automaticky kontrovať aktualizácie"
+msgstr "Automaticky kontrolovať dostupnosť aktualizácií"
 
 #. i18n: ectx: property (text), widget (QCheckBox, authRequestsCheckBox)
 #: skype-advanced-settings-widget.ui:52
@@ -185,7 +185,7 @@ msgstr "Automaticky odmietať všetky požiadavky na autorizáciu"
 #. i18n: ectx: property (text), widget (QCheckBox, autostartCheckBox)
 #: skype-advanced-settings-widget.ui:59
 msgid "Auto-start Skype if not running"
-msgstr "Automaticky spustiť, ak nebeží"
+msgstr "Spustiť Skype, ak nebeží"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: skype-main-options-widget.ui:37
@@ -220,4 +220,4 @@ msgstr "Použiť SSL na proxy"
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreInvites)
 #: yahoo-server-settings-widget.ui:166
 msgid "Ignore invites"
-msgstr "Ignorovať pozvánky"
+msgstr "Ignorovať pozvania"

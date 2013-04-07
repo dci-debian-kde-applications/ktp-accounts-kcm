@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-07-10 14:25+0200\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2012-11-17 08:39+0100\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -45,39 +45,11 @@ msgstr "Account:"
 msgid "..."
 msgstr "..."
 
-#: account-item.cpp:101
-msgid "Online"
-msgstr "In linea"
-
-#: account-item.cpp:103
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "Connessione"
-
-#: account-item.cpp:105
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "Disconnesso"
-
-#: account-item.cpp:107
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "Sconosciuto"
-
-#: account-item.cpp:110
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "Disabilitato"
-
-#: account-item.cpp:136
-msgid "Click checkbox to enable"
-msgstr "Marca la casella per abilitarlo"
-
-#: accounts-list-delegate.cpp:72
+#: accounts-list-delegate.cpp:70
 msgid "Change account icon"
 msgstr "Cambia icona dell'account"
 
-#: accounts-list-delegate.cpp:73
+#: accounts-list-delegate.cpp:71
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
@@ -86,11 +58,11 @@ msgstr ""
 "icona è usata solo localmente nel tuo computer, e i tuoi contatti non "
 "saranno in grado di vederla."
 
-#: accounts-list-delegate.cpp:81
+#: accounts-list-delegate.cpp:79
 msgid "Change account display name"
 msgstr "Cambia nome pubblico dell'account"
 
-#: accounts-list-delegate.cpp:82
+#: accounts-list-delegate.cpp:80
 msgid ""
 "This button allows to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
@@ -100,11 +72,15 @@ msgstr ""
 "<br />Il nome pubblico è un alias per l'account ed è usato solo localmente "
 "nel tuo computer, i tuoi contatti non saranno in grado di vederlo."
 
-#: accounts-list-delegate.cpp:143
+#: accounts-list-delegate.cpp:134
+msgid "Click checkbox to enable"
+msgstr "Marca la casella per abilitare"
+
+#: accounts-list-delegate.cpp:144
 msgid "Disable account"
 msgstr "Disabilita account"
 
-#: accounts-list-delegate.cpp:146
+#: accounts-list-delegate.cpp:147
 msgid "Enable account"
 msgstr "Abilita account"
 
@@ -130,16 +106,16 @@ msgstr ""
 msgid "Missing Telepathy Connection Manager"
 msgstr "Gestore di connessione di Telepathy mancante"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
-#: salut-enabler.cpp:239
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
+#: salut-enabler.cpp:238
 msgid "Failed to create account"
 msgstr "Non è stato possibile creare l'account"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+#: add-account-assistant.cpp:253 salut-enabler.cpp:239
 msgid "Possibly not all required fields are valid"
 msgstr "Forse non tutti i campi richiesti sono validi"
 
-#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+#: add-account-assistant.cpp:262 salut-enabler.cpp:248
 msgid "Something went wrong with Telepathy"
 msgstr "Qualcosa è andato storto con Telepathy"
 
@@ -182,64 +158,101 @@ msgstr ""
 "Il file scelto non sembra essere un'immagine.\n"
 "Scegli un file valido di immagine."
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Account di messaggistica istantanea e VoIP"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:80
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Developer"
 msgstr "Sviluppatore"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:81
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:82
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:83
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:84
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:85
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:86
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:343
+#: kcm-telepathy-accounts.cpp:263
+msgid ""
+"We have found Kopete logs for this account. Do you want to import the logs "
+"to KDE Telepathy?"
+msgstr ""
+"Abbiamo trovato registri di Kopete per questo account. Vuoi importare i "
+"registri in Telepathy KDE?"
+
+#: kcm-telepathy-accounts.cpp:264
+msgid "Import Logs?"
+msgstr "Importare i registri?"
+
+#: kcm-telepathy-accounts.cpp:265
+msgid "Import Logs"
+msgstr "Importa i registri"
+
+#: kcm-telepathy-accounts.cpp:266
+msgid "Close"
+msgstr "Chiudi"
+
+#: kcm-telepathy-accounts.cpp:273
+msgid "Importing logs..."
+msgstr "Importazione registri..."
+
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+msgid "Kopete Logs Import"
+msgstr "Importazione registri di Kopete"
+
+#: kcm-telepathy-accounts.cpp:304
+msgid "Kopete logs successfully imported"
+msgstr "Registri di Kopete importati correttamente"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: main-widget.ui:184
+msgid "Remove Account"
+msgstr "Rimuovi account"
+
+#: kcm-telepathy-accounts.cpp:408
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Sei sicuro di voler rimuovere l'account «%1»?"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
-msgid "Remove Account"
-msgstr "Rimuovi account"
+#: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "Rimuovi i registri di conversazione"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:490
 msgid "Install telepathy-salut to enable"
 msgstr "Per abilitare, installa «telepathy-salut»"
 
-#: kcm-telepathy-accounts.cpp:448
+#: kcm-telepathy-accounts.cpp:532
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -255,11 +268,11 @@ msgstr ""
 msgid "All mandatory fields must be filled"
 msgstr "Tutti i campi obbligatori devono essere riempiti"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+#: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
 msgstr "Connetti quando la procedura guidata è completa"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+#: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
 msgstr "Opzioni avanzate"
 
@@ -404,9 +417,7 @@ msgstr "Bonjour/Salut"
 msgid "MXit"
 msgstr "MXit"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr "Windows Live Messenger"
 
@@ -456,14 +467,14 @@ msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Il parametro «<b>%1</b>» non è valido."
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Others"
 msgstr "Altri"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, IRC, Yahoo e altri..."
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+msgid "AOL, Gadu-Gadu, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, Yahoo e altri..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
@@ -490,33 +501,33 @@ msgid "This field is valid"
 msgstr "Questo campo è valido"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: main-widget.ui:76
+#: main-widget.ui:80
 msgid "Enable local network discovery"
 msgstr "Abilita rilevamento della rete locale"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: main-widget.ui:96
+#: main-widget.ui:100
 msgid "Connect to people near you"
 msgstr "Connettiti alle persone vicine a te"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: main-widget.ui:147
+#: main-widget.ui:151
 msgid "Add Account"
 msgstr "Aggiungi account"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: main-widget.ui:157
+#: main-widget.ui:161
 msgid "Edit Account"
 msgstr "Modifica account"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:167
+#: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
 "Modifica il modo in cui appari agli altri. L'account deve essere in linea."
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:170
+#: main-widget.ui:174
 msgid "Edit Identity"
 msgstr "Modifica identità"
 
@@ -532,6 +543,25 @@ msgstr "Annulla"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Apparirai come «%1» sulla rete locale."
+
+#~ msgid "Online"
+#~ msgstr "In linea"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Connecting"
+#~ msgstr "Connessione"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Disconnected"
+#~ msgstr "Disconnesso"
+
+#~ msgctxt "This is an unknown connection state"
+#~ msgid "Unknown"
+#~ msgstr "Sconosciuto"
+
+#~ msgctxt "This is a disabled account"
+#~ msgid "Disabled"
+#~ msgstr "Disabilitato"
 
 #~ msgid "Account already exists. Old one will be used instead"
 #~ msgstr "L'account esiste già. Sarà usato quello esistente."
