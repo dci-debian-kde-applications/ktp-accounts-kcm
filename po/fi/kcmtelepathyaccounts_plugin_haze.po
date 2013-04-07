@@ -1,6 +1,7 @@
 # Copyright © 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the ktp-accounts-kcm package.
 # Tommi Nieminen <translator@legisign.org>, 2012.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013.
 #
 # KDE Finnish translation sprint participants:
 # Author: Lliehu
@@ -9,8 +10,8 @@ msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2013-01-20 20:01:56+0000\n"
-"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"PO-Revision-Date: 2013-03-05 23:47+0200\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-POT-Import-Date: 2012-12-01 22:21:04+0000\n"
-"X-Generator: MediaWiki 1.21alpha (963ddae); Translate 2012-11-08\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
@@ -100,7 +101,7 @@ msgstr "<b>Muut</b>"
 #. i18n: ectx: property (text), widget (QCheckBox, clientLogin)
 #: aim-server-settings-widget.ui:115
 msgid "Use clientLogin"
-msgstr ""
+msgstr "Käytä clientLoginia"
 
 #. i18n: ectx: property (text), widget (QCheckBox, multipleLogins)
 #: aim-server-settings-widget.ui:122

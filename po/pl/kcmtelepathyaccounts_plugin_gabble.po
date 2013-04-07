@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2012-01-06 08:28+0100\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2012-02-12 08:39+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: gabble-account-ui.cpp:104
+#: gabble-account-ui.cpp:112
 msgid "Server"
 msgstr "Serwer"
 
-#: gabble-account-ui.cpp:106
+#: gabble-account-ui.cpp:114
 msgid "Proxy"
 msgstr "Pośrednik"
 
@@ -82,6 +82,10 @@ msgstr "@kdetalk.net"
 #: main-options-widget-kde-talk.ui:66 main-options-widget.ui:55
 msgid "Register new account"
 msgstr "Zarejestruj nowe konto"
+
+#: main-options-widget-msn.cpp:58
+msgid "Windows Live Messenger"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget-msn.ui:20

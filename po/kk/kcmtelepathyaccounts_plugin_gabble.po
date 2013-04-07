@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sairan Kikkarin <sairan@computer.org>, 2012.
+# Sairan Kikkarin <sairan@computer.org>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2012-11-09 07:53+0600\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2013-03-28 04:29+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: gabble-account-ui.cpp:104
+#: gabble-account-ui.cpp:112
 msgid "Server"
 msgstr "Сервер"
 
-#: gabble-account-ui.cpp:106
+#: gabble-account-ui.cpp:114
 msgid "Proxy"
 msgstr "Прокси"
 
@@ -80,6 +80,10 @@ msgstr "@kdetalk.net"
 #: main-options-widget-kde-talk.ui:66 main-options-widget.ui:55
 msgid "Register new account"
 msgstr "Жаңа тіркелгіні құру"
+
+#: main-options-widget-msn.cpp:58
+msgid "Windows Live Messenger"
+msgstr "Windows Live Messenger"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget-msn.ui:20

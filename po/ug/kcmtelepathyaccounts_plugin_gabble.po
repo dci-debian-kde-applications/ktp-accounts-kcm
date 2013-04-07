@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
 "PO-Revision-Date: 2011-05-09 19:00+0900\n"
 "Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: gabble-account-ui.cpp:104
+#: gabble-account-ui.cpp:112
 msgid "Server"
 msgstr "مۇلازىمېتىر"
 
-#: gabble-account-ui.cpp:106
+#: gabble-account-ui.cpp:114
 msgid "Proxy"
 msgstr "ۋاكالەتچى"
 
@@ -75,6 +75,10 @@ msgstr ""
 #: main-options-widget-kde-talk.ui:66 main-options-widget.ui:55
 msgid "Register new account"
 msgstr "يېڭى ھېساب خەتلەت"
+
+#: main-options-widget-msn.cpp:58
+msgid "Windows Live Messenger"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget-msn.ui:20

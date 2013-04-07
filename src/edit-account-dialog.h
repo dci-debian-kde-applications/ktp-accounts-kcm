@@ -21,19 +21,21 @@
 #ifndef KCM_TELEPATHY_ACCOUNTS_EDIT_ACCOUNT_DIALOG_H
 #define KCM_TELEPATHY_ACCOUNTS_EDIT_ACCOUNT_DIALOG_H
 
-#include "account-item.h"
-
 #include <KDialog>
+
+#include <TelepathyQt/Types>
+#include <TelepathyQt/PendingOperation>
 
 class EditAccountDialog : public KDialog
 {
     Q_OBJECT
 
 public:
-    explicit EditAccountDialog(AccountItem *item, QWidget *parent = 0);
+    explicit EditAccountDialog(const Tp::AccountPtr &account, QWidget *parent = 0);
     virtual ~EditAccountDialog();
 
     virtual void setVisible(bool visible);
+    virtual void accept();
 
 private Q_SLOTS:
     void onWalletOpened(Tp::PendingOperation *op);
@@ -43,7 +45,7 @@ private Q_SLOTS:
 private:
     Q_DISABLE_COPY(EditAccountDialog);
 
-    void accept();
+    void onFinished();
 
     class Private;
     Private * const d;

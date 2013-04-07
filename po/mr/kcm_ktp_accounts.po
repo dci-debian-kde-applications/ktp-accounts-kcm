@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-21 09:39+0100\n"
-"PO-Revision-Date: 2013-02-05 18:21+0530\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2013-03-28 14:40+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -27,7 +27,7 @@ msgstr "chetan@kompkin.com"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
-msgstr "खाते ओळख संपादीत करा"
+msgstr "खाते ओळख संपादित करा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: account-identity-dialog.ui:40
@@ -44,60 +44,36 @@ msgstr "खाते :"
 msgid "..."
 msgstr "..."
 
-#: account-item.cpp:101
-msgid "Online"
-msgstr "ऑनलाइन"
-
-#: account-item.cpp:103
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "जुळवत आहे"
-
-#: account-item.cpp:105
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "जुळवणी तोडलेली आहे"
-
-#: account-item.cpp:107
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr "अपरिचीत"
-
-#: account-item.cpp:110
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "अकार्यान्वित"
-
-#: account-item.cpp:136
-msgid "Click checkbox to enable"
-msgstr "कार्यान्वित करण्याकरिता चेकबॉक्स क्लिक करा"
-
-#: accounts-list-delegate.cpp:72
+#: accounts-list-delegate.cpp:70
 msgid "Change account icon"
 msgstr "खाते चिन्ह बदला"
 
-#: accounts-list-delegate.cpp:73
+#: accounts-list-delegate.cpp:71
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
 
-#: accounts-list-delegate.cpp:81
+#: accounts-list-delegate.cpp:79
 msgid "Change account display name"
 msgstr "खाते दृश्य नाव बदला"
 
-#: accounts-list-delegate.cpp:82
+#: accounts-list-delegate.cpp:80
 msgid ""
 "This button allows to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
 
-#: accounts-list-delegate.cpp:143
+#: accounts-list-delegate.cpp:134
+msgid "Click checkbox to enable"
+msgstr "कार्यान्वित करण्याकरिता चेकबॉक्स क्लिक करा"
+
+#: accounts-list-delegate.cpp:144
 msgid "Disable account"
 msgstr "खाते अकार्यान्वित करा"
 
-#: accounts-list-delegate.cpp:146
+#: accounts-list-delegate.cpp:147
 msgid "Enable account"
 msgstr "खाते कार्यान्वित करा"
 
@@ -120,16 +96,16 @@ msgstr ""
 msgid "Missing Telepathy Connection Manager"
 msgstr "टेलिपथी जुळवणी व्यवस्थापक सापडत नाही"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
-#: salut-enabler.cpp:239
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
+#: salut-enabler.cpp:238
 msgid "Failed to create account"
 msgstr "खाते बनविण्यास अपयश"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+#: add-account-assistant.cpp:253 salut-enabler.cpp:239
 msgid "Possibly not all required fields are valid"
 msgstr "कदाचित गरजेची माहिती वैध नाही"
 
-#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+#: add-account-assistant.cpp:262 salut-enabler.cpp:248
 msgid "Something went wrong with Telepathy"
 msgstr "टेलिपथीमध्ये काहीतरी चुकीचे घडले आहे"
 
@@ -147,7 +123,7 @@ msgstr "कृपया तुमचा अवतार निवडा"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr "दर्शनीय नाव संपादीत करा"
+msgstr "दर्शनीय नाव संपादित करा"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
@@ -168,64 +144,99 @@ msgid ""
 "Please select an image file."
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "telepathy_accounts"
 msgstr "टेलिपथी खाते"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "Instant Messaging and VOIP Accounts"
-msgstr "त्वरीत संदेश व VOIP खाते"
+msgstr "त्वरित संदेश व VOIP खाते"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:80
 msgid "George Goldberg"
 msgstr "जॉर्ज गोल्डबर्ग"
 
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Developer"
 msgstr "विकासकर्ता"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:81
 msgid "David Edmundson"
 msgstr "डेव्हिड एड्मंडसन"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:82
 msgid "Dominik Schmidt"
 msgstr "डोमिनिक श्मिड्ट"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:83
 msgid "Thomas Richard"
 msgstr "थोमस रिचर्ड"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:84
 msgid "Florian Reinhard"
 msgstr "फ्लोरियन रैनहार्ड"
 
-#: kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:85
 msgid "Daniele E. Domenichelli"
 msgstr "डेनियल ई. डोमेनिचेल्ली"
 
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:86
 msgid "Martin Klapetek"
 msgstr "मार्टिन क्लपेटेक"
 
-#: kcm-telepathy-accounts.cpp:345
+#: kcm-telepathy-accounts.cpp:263
+msgid ""
+"We have found Kopete logs for this account. Do you want to import the logs "
+"to KDE Telepathy?"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:264
+msgid "Import Logs?"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:265
+msgid "Import Logs"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:266
+msgid "Close"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:273
+msgid "Importing logs..."
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+msgid "Kopete Logs Import"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:304
+msgid "Kopete logs successfully imported"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: main-widget.ui:184
+msgid "Remove Account"
+msgstr "खाते काढून टाका"
+
+#: kcm-telepathy-accounts.cpp:408
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "तुम्हाला नक्की \"%1\" हे खाते काढून टाकायचे आहे का?"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:346 main-widget.ui:180
-msgid "Remove Account"
-msgstr "खाते काढून टाका"
+#: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr ""
 
-#: kcm-telepathy-accounts.cpp:415
+#: kcm-telepathy-accounts.cpp:490
 msgid "Install telepathy-salut to enable"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:450
+#: kcm-telepathy-accounts.cpp:532
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -236,11 +247,11 @@ msgstr ""
 msgid "All mandatory fields must be filled"
 msgstr ""
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+#: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
 msgstr ""
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+#: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
 msgstr "प्रगत पर्याय"
 
@@ -335,7 +346,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:56
 msgid "AOL Instant Messenger"
-msgstr "AOL त्वरीत संदेशवाहक"
+msgstr "AOL त्वरित संदेशवाहक"
 
 #: KCMTelepathyAccounts/dictionary.cpp:57
 msgid "Skype"
@@ -385,9 +396,7 @@ msgstr ""
 msgid "MXit"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
 msgstr ""
 
@@ -437,13 +446,13 @@ msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "\"<b>%1</b>\" हा घटक वैध नाही."
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Others"
 msgstr "इतर"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr ""
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
@@ -471,34 +480,34 @@ msgid "This field is valid"
 msgstr "ही माहिती वैध आहे"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: main-widget.ui:76
+#: main-widget.ui:80
 msgid "Enable local network discovery"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: main-widget.ui:96
+#: main-widget.ui:100
 msgid "Connect to people near you"
 msgstr "तुमच्या जवळच्या लोकांशी संपर्क साधा"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: main-widget.ui:147
+#: main-widget.ui:151
 msgid "Add Account"
 msgstr "खाते जोडा"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: main-widget.ui:157
+#: main-widget.ui:161
 msgid "Edit Account"
-msgstr "खाते संपादीत करा"
+msgstr "खाते संपादित करा"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:167
+#: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:170
+#: main-widget.ui:174
 msgid "Edit Identity"
-msgstr "ओळख संपादीत करा"
+msgstr "ओळख संपादित करा"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
@@ -512,3 +521,22 @@ msgstr "रद्द करा"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr ""
+
+#~ msgid "Online"
+#~ msgstr "ऑनलाइन"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Connecting"
+#~ msgstr "जुळवत आहे"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Disconnected"
+#~ msgstr "जुळवणी तोडलेली आहे"
+
+#~ msgctxt "This is an unknown connection state"
+#~ msgid "Unknown"
+#~ msgstr "अपरिचीत"
+
+#~ msgctxt "This is a disabled account"
+#~ msgid "Disabled"
+#~ msgstr "अकार्यान्वित"

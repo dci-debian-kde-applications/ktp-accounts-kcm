@@ -2,6 +2,8 @@ include_directories (${CMAKE_CURRENT_BINARY_DIR}
                      ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
+configure_file(version.h.in ${CMAKE_CURRENT_BINARY_DIR}/version.h)
+
 add_subdirectory (KCMTelepathyAccounts)
 
 project (ktp-accounts-kcm)
@@ -12,8 +14,6 @@ set (kcm_ktp_accounts_SRCS
      salut-enabler.cpp
      salut-message-widget.cpp
      kcm-telepathy-accounts.cpp
-     accounts-list-model.cpp
-     account-item.cpp
      add-account-assistant.cpp
      edit-account-dialog.cpp
      account-identity-dialog.cpp
@@ -39,8 +39,9 @@ target_link_libraries (kcm_ktp_accounts
                        ${KDE4_KDEUI_LIBS}
                        ${TELEPATHY_QT4_LIBRARIES}
                        ${KTP_LIBRARIES}
+                       ${KTP_MODELS_LIBRARIES}
                        ${KDE4_KIO_LIBS}
-
+                       ${TELEPATHY_LOGGER_QT4_LIBRARIES}
 )
 
 # Install:

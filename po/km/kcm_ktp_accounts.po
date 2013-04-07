@@ -2,20 +2,21 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2009.
+# sutha <sutha@khmeros.info>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2009-06-04 09:05+0700\n"
-"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
-"Language-Team: Khmer <support@khmeros.info>\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2012-06-15 16:05+0700\n"
+"Last-Translator: sutha <sutha@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: WordForge 0.8 RC1\n"
 "X-Language: km-KH\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -29,85 +30,59 @@ msgstr ""
 "ratanak@khmeros.info,sophea@khmeros.info"
 
 #: account-identity-dialog.cpp:42
-#, fuzzy
 msgid "Edit Account Identity"
-msgstr "កែសម្រួល​គណនី"
+msgstr "កែសម្រួល​អត្តសញ្ញាណ​គណនី"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: account-identity-dialog.ui:40
 msgid "Nickname:"
-msgstr ""
+msgstr "សម្មតិនាម ៖"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
-#, fuzzy
 msgid "Account:"
 msgstr "គណនី"
 
 #. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
 #: account-identity-dialog.ui:87
 msgid "..."
-msgstr ""
+msgstr "..."
 
-#: account-item.cpp:101
-msgid "Online"
-msgstr "លើ​បណ្ដាញ"
-
-#: account-item.cpp:103
-#, fuzzy
-msgctxt "This is a connection state"
-msgid "Connecting"
-msgstr "ការ​តភ្ជាប់"
-
-#: account-item.cpp:105
-#, fuzzy
-msgctxt "This is a connection state"
-msgid "Disconnected"
-msgstr "ផ្ដាច់"
-
-#: account-item.cpp:107
-msgctxt "This is an unknown connection state"
-msgid "Unknown"
-msgstr ""
-
-#: account-item.cpp:110
-#, fuzzy
-msgctxt "This is a disabled account"
-msgid "Disabled"
-msgstr "បិទ​គណនី"
-
-#: account-item.cpp:136
-#, fuzzy
-msgid "Click checkbox to enable"
-msgstr "គណនី​បាន​បិទ គូស​ធីក​ដើម្បី​បើក"
-
-#: accounts-list-delegate.cpp:72
-#, fuzzy
+#: accounts-list-delegate.cpp:70
 msgid "Change account icon"
-msgstr "បើក​​គណនី"
+msgstr "ប្ដូរ​រូបតំណាង​គណនី"
 
-#: accounts-list-delegate.cpp:73
+#: accounts-list-delegate.cpp:71
 msgid ""
 "This button allows to change the icon for your account.<br />This icon is "
 "just used locally on your computer, your contacts will not be able to see it."
 msgstr ""
+"ប៊ូតុង​នេះ​អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​រូបតំណាង​សម្រាប់​គណនី​របស់​អ្នក ។<br />រូប​តំណាង​នេះ​ត្រូវ​បាន​ប្រើ​លើ​កុំព្យូទ័រ​របស់​"
+"អ្នក​ជា​មូលដ្ឋាន ទំនាក់ទំនង​របស់​អ្នក​នឹង​មិន​អាច​​ធ្វើ​បាន​ឡើយ សូម​មើល​វា ។"
 
-#: accounts-list-delegate.cpp:81
+#: accounts-list-delegate.cpp:79
 msgid "Change account display name"
-msgstr ""
+msgstr "ផ្លាស់ប្ដូរ​ឈ្មោះ​ទិដ្ឋភាព​គណនី"
 
-#: accounts-list-delegate.cpp:82
+#: accounts-list-delegate.cpp:80
 msgid ""
 "This button allows to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
+"ប៊ូតុង​នេះ​អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​ឈ្មោះ​ទិដ្ឋភាព​សម្រាប់​គណនី​របស់​អ្នក ។<br />ឈ្មោះ​ទិដ្ឋភាព​គឺ​ជា​ឈ្មោះ​​​"
+"ក្លែងក្លាយ​សម្រាប់​គណនី​របស់​អ្នក និង​ត្រូវ​បាន​ប្រើ​លើ​កុំព្យូទ័រ​របស់​អ្នក​ជា​មូលដ្ឋាន ទំនាក់ទំនង​របស់​អ្នក​នឹង​មិន​អាច​"
+"ធ្វើ​បាន​ឡើយ​ សូម​មើល​វា ។"
 
-#: accounts-list-delegate.cpp:143
+#: accounts-list-delegate.cpp:134
+msgid "Click checkbox to enable"
+msgstr "គូស​ធីក​ដើម្បី​បើក"
+
+#: accounts-list-delegate.cpp:144
 msgid "Disable account"
 msgstr "បិទ​គណនី"
 
-#: accounts-list-delegate.cpp:146
+#: accounts-list-delegate.cpp:147
 msgid "Enable account"
 msgstr "បើក​​គណនី"
 
@@ -125,117 +100,156 @@ msgid ""
 "Please install the telepathy-haze and telepathy-gabble packages using your "
 "package manager."
 msgstr ""
+"ទំនាក់ទំនង​ទៅកាន់​បណ្ដាញ IM នេះ អ្នក​ត្រូវ​ដំឡើង​កម្មវិធី​ជំនួយ​បន្ថែម ។ សូម​ដំឡើង​កញ្ចប់  telepathy-"
+"haze និង telepathy-gabble ដោយ​ប្រើ​កម្មវិធី​គ្រប់គ្រង​កញ្ចប់​របស់​អ្នក "
 
 #: add-account-assistant.cpp:167
 msgid "Missing Telepathy Connection Manager"
-msgstr ""
+msgstr "បាត់​កម្មវិធី​គ្រប់គ្រង​ការ​តភ្ជាប់ Telepathy"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:261
-#: salut-enabler.cpp:239
+#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
+#: salut-enabler.cpp:238
 msgid "Failed to create account"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​បង្កើត​គណនី"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:240
+#: add-account-assistant.cpp:253 salut-enabler.cpp:239
 msgid "Possibly not all required fields are valid"
 msgstr "ប្រហែល​ជា​មិនមែន​វាល​ដែល​ទាមទារ​ទាំងអស់​ត្រឹមត្រូវ​នោះ​ទេ"
 
-#: add-account-assistant.cpp:271 salut-enabler.cpp:249
+#: add-account-assistant.cpp:262 salut-enabler.cpp:248
 msgid "Something went wrong with Telepathy"
 msgstr "មាន​អ្វីមួយ​មិន​ត្រឹមត្រូវ​ជា​មួយ Telepathy"
 
 #: avatar-button.cpp:41
 msgid "Load from file..."
-msgstr ""
+msgstr "ផ្ទុក​ពី​ឯកសារ..."
 
 #: avatar-button.cpp:42
 msgid "Clear Avatar"
-msgstr ""
+msgstr "សម្អាត Avatar"
 
 #: avatar-button.cpp:74
 msgid "Please choose your avatar"
-msgstr ""
+msgstr "សូម​ជ្រើស avatar របស់​អ្នក"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr ""
+msgstr "កែសម្រួល​​​ឈ្មោះ​ទិដ្ឋភាព"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr ""
+msgstr "ជ្រើស​ឈ្មោះ​​ទិដ្ឋភាព​ថ្មី​សម្រាប់​គណនី​របស់​អ្នក"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr ""
+msgstr "ឈ្មោះ​ទិដ្ឋភាព​​គឺ​ជា​ឈ្មោះ​ក្លែងក្លាយ​មូលដ្ឋាន​របស់​អ្នក​សម្រាប់​គណនី អ្នក​នឹង​យល់​អំពីវា ។"
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
-msgstr ""
+msgstr "ឈ្មោះ​ទិដ្ឋភាព​ថ្មី"
 
 #: fetch-avatar-job.cpp:83
 msgid ""
 "The file you have selected does not seem to be an image.\n"
 "Please select an image file."
 msgstr ""
+"ឯកសារ​ដែល​អ្នក​បាន​ជ្រើស​មិន​គាំទ្រ​រូបភាព​ឡើយ ។\n"
+"សូម​ជ្រើស​ឯកសារ​រូបភាព ។"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:65
+#: kcm-telepathy-accounts.cpp:78
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "ការ​ផ្ញើ​សារ​បន្ទាន់ និង​គណនី VOIP"
 
-#: kcm-telepathy-accounts.cpp:67
+#: kcm-telepathy-accounts.cpp:80
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:67 kcm-telepathy-accounts.cpp:68
-#: kcm-telepathy-accounts.cpp:69 kcm-telepathy-accounts.cpp:70
-#: kcm-telepathy-accounts.cpp:71 kcm-telepathy-accounts.cpp:72
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Developer"
 msgstr "អ្នក​អភិវឌ្ឍន៍"
 
-#: kcm-telepathy-accounts.cpp:68
+#: kcm-telepathy-accounts.cpp:81
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:69
+#: kcm-telepathy-accounts.cpp:82
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:70
+#: kcm-telepathy-accounts.cpp:83
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:71
+#: kcm-telepathy-accounts.cpp:84
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:72
+#: kcm-telepathy-accounts.cpp:85
 msgid "Daniele E. Domenichelli"
-msgstr ""
+msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:73
+#: kcm-telepathy-accounts.cpp:86
 msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: kcm-telepathy-accounts.cpp:263
+msgid ""
+"We have found Kopete logs for this account. Do you want to import the logs "
+"to KDE Telepathy?"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:343
+#: kcm-telepathy-accounts.cpp:264
+msgid "Import Logs?"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:265
+msgid "Import Logs"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:266
+msgid "Close"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:273
+msgid "Importing logs..."
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+msgid "Kopete Logs Import"
+msgstr ""
+
+#: kcm-telepathy-accounts.cpp:304
+msgid "Kopete logs successfully imported"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: main-widget.ui:184
+msgid "Remove Account"
+msgstr "យក​គណនី​ចេញ"
+
+#: kcm-telepathy-accounts.cpp:408
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "តើ​អ្នក​ពិត​ជា​ចង់​យក​គណនី​ \"%1\" ចេញ​ឬ ?"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:344 main-widget.ui:180
-msgid "Remove Account"
-msgstr "យក​គណនី​ចេញ"
-
-#: kcm-telepathy-accounts.cpp:413
-msgid "Install telepathy-salut to enable"
+#: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
 msgstr ""
 
-#: kcm-telepathy-accounts.cpp:448
+#: kcm-telepathy-accounts.cpp:490
+msgid "Install telepathy-salut to enable"
+msgstr "ដំឡើង telepathy-salut ដើម្បី​បើក"
+
+#: kcm-telepathy-accounts.cpp:532
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -247,13 +261,13 @@ msgstr ""
 
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
-msgstr ""
+msgstr "ត្រូវ​តែ​បំពេញ​វាល​ដែល​ចាំបាច់​​ទាំងអស់"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:101
+#: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
 msgstr "តភ្ជាប់​នៅ​ពេល​អ្នក​ជំនួយ​ការ​បាន​បញ្ចប់"
 
-#: KCMTelepathyAccounts/account-edit-widget.cpp:208
+#: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
 msgstr "ជម្រើស​កម្រិត​ខ្ពស់"
 
@@ -358,7 +372,7 @@ msgstr "Skype"
 #: KCMTelepathyAccounts/dictionary.cpp:58
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
 msgid "Facebook Chat"
-msgstr ""
+msgstr "ជជែក​តាម Facebook"
 
 #: KCMTelepathyAccounts/dictionary.cpp:59
 msgid "Gadu-Gadu"
@@ -367,9 +381,8 @@ msgstr "Gadu-Gadu"
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
-#, fuzzy
 msgid "Google Talk"
-msgstr "Jabber/XMPP/Google Talk"
+msgstr "Google Talk"
 
 #: KCMTelepathyAccounts/dictionary.cpp:61
 msgid "Novell Groupwise"
@@ -388,9 +401,8 @@ msgstr "Internet Relay Chat"
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
-#, fuzzy
 msgid "Jabber/XMPP"
-msgstr "Jabber/XMPP/Google Talk"
+msgstr "Jabber/XMPP"
 
 #: KCMTelepathyAccounts/dictionary.cpp:65
 msgid "Bonjour/Salut"
@@ -398,13 +410,11 @@ msgstr "Bonjour/Salut"
 
 #: KCMTelepathyAccounts/dictionary.cpp:66
 msgid "MXit"
-msgstr ""
+msgstr "MXit"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonMsn)
 #: KCMTelepathyAccounts/dictionary.cpp:67
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Windows Live Messenger"
-msgstr "កម្មវិធី​ផ្ញើ​សារ​ផ្ទាល់​លើ Windows"
+msgstr "កម្មវិធី​ផ្ញើ​សារ​ផ្ទាល់​លើ​វីនដូ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:68
 msgid "MySpaceIM"
@@ -428,7 +438,7 @@ msgstr "ពិធីការ​ចាប់​ផ្ដើម​សម័យ​
 
 #: KCMTelepathyAccounts/dictionary.cpp:73
 msgid "GSM Telephony"
-msgstr ""
+msgstr "ការ​​បញ្ជូន​សំឡេង​តាម​ទូរស័ព្ទ ​​GSM"
 
 #: KCMTelepathyAccounts/dictionary.cpp:74
 msgid "Trepia"
@@ -452,14 +462,15 @@ msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "ប៉ារ៉ាម៉ែត្រ \"<b>%1</b>\" មិន​ត្រឹមត្រូវ​ទេ ។"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:174
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
 msgid "Others"
-msgstr ""
+msgstr "ផ្សេង​ទៀត"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:188
-msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
-msgstr ""
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#, fuzzy
+msgid "AOL, Gadu-Gadu, Yahoo and more..."
+msgstr "AOL, Gadu-Gadu, IRC, Yahoo and more..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
@@ -486,47 +497,66 @@ msgid "This field is valid"
 msgstr "វាល​នេះ​មិន​ត្រឹមត្រូវ​ទេ"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
-#: main-widget.ui:76
+#: main-widget.ui:80
 msgid "Enable local network discovery"
-msgstr ""
+msgstr "បើក​ការ​រក​ឃើញ​បណ្ដាញ​មូលដ្ឋាន"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
-#: main-widget.ui:96
+#: main-widget.ui:100
 msgid "Connect to people near you"
-msgstr ""
+msgstr "តភ្ជាប់​ទៅ​កាន់​មនុស្ស​ដែល​​នៅ​ជិត​អ្នក"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
-#: main-widget.ui:147
+#: main-widget.ui:151
 msgid "Add Account"
 msgstr "បន្ថែម​គណនី"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
-#: main-widget.ui:157
+#: main-widget.ui:161
 msgid "Edit Account"
 msgstr "កែសម្រួល​គណនី"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:167
+#: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
-msgstr ""
+msgstr "កែសម្រួល​របៀប​​ដែល​អ្នក​លេច​ឡើង​ទៅ​​កាន់​ផ្សេង​ទៀត ។ ទាមទារ​គណនី​ទៅ​លើ​បណ្ដាញ ។"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
-#: main-widget.ui:170
+#: main-widget.ui:174
 msgid "Edit Identity"
-msgstr ""
+msgstr "កែសម្រួល​អត្តសញ្ញាណ"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
-msgstr ""
+msgstr "កំណត់​រចនាសម្ព័ន្ធ​ដោយ​ដៃ..."
 
 #: salut-message-widget.cpp:54
 msgid "Cancel"
-msgstr ""
+msgstr "បោះបង់"
 
 #: salut-message-widget.cpp:104
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
-msgstr ""
+msgstr "អ្នក​មាន​​ការ​លេច​ឡើង​ជា \"%1\" លើ​បណ្ដាញ​មូលដ្ឋាន​របស់​អ្នក ។"
+
+#~ msgid "Online"
+#~ msgstr "លើ​បណ្ដាញ"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Connecting"
+#~ msgstr "ការ​តភ្ជាប់"
+
+#~ msgctxt "This is a connection state"
+#~ msgid "Disconnected"
+#~ msgstr "ផ្ដាច់"
+
+#~ msgctxt "This is an unknown connection state"
+#~ msgid "Unknown"
+#~ msgstr "មិន​ស្គាល់"
+
+#~ msgctxt "This is a disabled account"
+#~ msgid "Disabled"
+#~ msgstr "បាន​បិទ"
 
 #~ msgid "Authentication Failed"
 #~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ផ្ទៀងផ្ទាត់​ភាពត្រឹមត្រូវ"

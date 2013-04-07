@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2012-01-04 11:16+0000\n"
+"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"PO-Revision-Date: 2012-02-11 11:15+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-POFile-SpellExtra: STUN SOCKS facebook Facebook badger pre wrap white\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-POFile-SpellExtra: space net kdetalk\n"
+"X-POFile-SpellExtra: space net kdetalk Live Messenger\n"
 
-#: gabble-account-ui.cpp:104
+#: gabble-account-ui.cpp:112
 msgid "Server"
 msgstr "Servidor"
 
-#: gabble-account-ui.cpp:106
+#: gabble-account-ui.cpp:114
 msgid "Proxy"
 msgstr "'Proxy'"
 
@@ -76,6 +76,10 @@ msgstr "@kdetalk.net"
 #: main-options-widget-kde-talk.ui:66 main-options-widget.ui:55
 msgid "Register new account"
 msgstr "Registar uma conta nova"
+
+#: main-options-widget-msn.cpp:58
+msgid "Windows Live Messenger"
+msgstr "Windows Live Messenger"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget-msn.ui:20
