@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"POT-Creation-Date: 2013-04-11 10:36+0200\n"
 "PO-Revision-Date: 2013-01-12 16:08+0100\n"
 "Last-Translator: Jean Cayron <jean.cayron@base.be>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -83,15 +83,15 @@ msgstr "Essocter conte"
 msgid "Enable account"
 msgstr "Mete e-n alaedje conte"
 
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+#: add-account-assistant.cpp:95 add-account-assistant.cpp:96
 msgid "Step 1: Select an Instant Messaging Network."
 msgstr "Etape 1 : Tchoezi ene rantoele di messaedjreye sol moumint."
 
-#: add-account-assistant.cpp:115
+#: add-account-assistant.cpp:120
 msgid "Step 2: Fill in the required Parameters."
 msgstr "Etape 2 : Rintrer les parametes k' i fåt."
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid ""
 "To connect to this IM network, you need to install additional plugins. "
 "Please install the telepathy-haze and telepathy-gabble packages using your "
@@ -101,21 +101,21 @@ msgstr ""
 "divins di dpus. Astalez les pacaedjes telepathy-haze eyet telepathy-gabble, "
 "s' i vs plait, tot s' siervant d' vosse manaedjeu des pacaedjes."
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
 msgstr "Manaedjeu di raloyaedje Telepathy mancant"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
-#: salut-enabler.cpp:238
+#: add-account-assistant.cpp:208 add-account-assistant.cpp:257
+#: salut-enabler.cpp:243
 msgid "Failed to create account"
 msgstr "L' ahivaedje do conte a fwait berwete"
 
-#: add-account-assistant.cpp:253 salut-enabler.cpp:239
+#: add-account-assistant.cpp:258 salut-enabler.cpp:244
 msgid "Possibly not all required fields are valid"
 msgstr ""
 "I s' pout k' tos les tchamps k' on-z a dandjî n' sont nén tertos valåbes"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:248
+#: add-account-assistant.cpp:267 salut-enabler.cpp:253
 msgid "Something went wrong with Telepathy"
 msgstr "Åk n' a nén stî avou Telepathy"
 
@@ -157,50 +157,50 @@ msgstr ""
 "Li fitchî k' vos avoz tchoezi n' shonne nén esse ene imådje.\n"
 "Tchoezixhoz ene imådje, s' i vs plait."
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "telepathy_accounts"
 msgstr "contes_telepathy"
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Contes di messaedjreye sol moumint eyet di VoIP"
 
-#: kcm-telepathy-accounts.cpp:80
+#: kcm-telepathy-accounts.cpp:81
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
-#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
-#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Developer"
 msgstr "Programeu"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:263
+#: kcm-telepathy-accounts.cpp:267
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
@@ -209,50 +209,50 @@ msgstr ""
 "berdelaedjes) po ç' conte chal. Voloz abaguer ces djournås la dins KDE "
 "Telepathy ?"
 
-#: kcm-telepathy-accounts.cpp:264
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs?"
 msgstr "Abaguer djournås ?"
 
-#: kcm-telepathy-accounts.cpp:265
+#: kcm-telepathy-accounts.cpp:269
 msgid "Import Logs"
 msgstr "Abaguer djournås"
 
-#: kcm-telepathy-accounts.cpp:266
+#: kcm-telepathy-accounts.cpp:270
 msgid "Close"
 msgstr "Clôre"
 
-#: kcm-telepathy-accounts.cpp:273
+#: kcm-telepathy-accounts.cpp:277
 msgid "Importing logs..."
 msgstr "Abagaedje des djournås..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:299 kcm-telepathy-accounts.cpp:308
 msgid "Kopete Logs Import"
 msgstr "Abagaedje di djournås di Kopete"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:308
 msgid "Kopete logs successfully imported"
 msgstr "Les djournås di Kopete ont stî abagués comifåt"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: kcm-telepathy-accounts.cpp:409 kcm-telepathy-accounts.cpp:410
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Oister conte"
 
-#: kcm-telepathy-accounts.cpp:408
+#: kcm-telepathy-accounts.cpp:412
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Voloz vs oister l' conte « %1 » po do bon ?"
 
-#: kcm-telepathy-accounts.cpp:409
+#: kcm-telepathy-accounts.cpp:413
 msgid "Remove conversations logs"
 msgstr "Oister les djournås des berdelaedje"
 
-#: kcm-telepathy-accounts.cpp:490
+#: kcm-telepathy-accounts.cpp:494
 msgid "Install telepathy-salut to enable"
 msgstr "Astaler telepathy-salut pol mete e-n alaedje"
 
-#: kcm-telepathy-accounts.cpp:532
+#: kcm-telepathy-accounts.cpp:536
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
