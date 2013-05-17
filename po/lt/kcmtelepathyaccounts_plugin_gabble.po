@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the l package.
 #
 # Automatically generated, 2012.
-# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
-"PO-Revision-Date: 2012-08-05 17:01+0300\n"
+"POT-Creation-Date: 2013-04-12 10:44+0200\n"
+"PO-Revision-Date: 2013-04-11 20:36+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -28,11 +28,11 @@ msgstr "Serveris"
 msgid "Proxy"
 msgstr "Įgaliotasis serveris"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetGoogleTalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetMSN)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #: main-options-widget-facebook.ui:14 main-options-widget-googletalk.ui:14
 #: main-options-widget-kde-talk.ui:14 main-options-widget-msn.ui:14
 #: main-options-widget.ui:14
@@ -51,7 +51,7 @@ msgid "Password:"
 msgstr "Slaptažodis:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget-facebook.ui:60
+#: main-options-widget-facebook.ui:66
 msgid ""
 "This is your username, not your normal Facebook login.<br/>\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.<br/>\n"
@@ -85,7 +85,7 @@ msgstr "Registruoti naują paskyrą"
 
 #: main-options-widget-msn.cpp:58
 msgid "Windows Live Messenger"
-msgstr ""
+msgstr "Windows Live Messenger"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main-options-widget-msn.ui:20

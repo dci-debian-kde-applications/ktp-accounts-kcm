@@ -49,6 +49,7 @@
 #include <KTp/wallet-utils.h>
 #include <KTp/Models/accounts-list-model.h>
 #include <KTp/logs-importer.h>
+#include <KTp/global-presence.h>
 
 #include <TelepathyQt/Account>
 #include <TelepathyQt/AccountSet>
@@ -65,7 +66,7 @@
 
 
 K_PLUGIN_FACTORY(KCMTelepathyAccountsFactory, registerPlugin<KCMTelepathyAccounts>();)
-K_EXPORT_PLUGIN(KCMTelepathyAccountsFactory("telepathy_accounts", "telepathy-accounts-kcm"))
+K_EXPORT_PLUGIN(KCMTelepathyAccountsFactory("kcm_ktp_accounts", "kcm_ktp_accounts"))
 
 
 KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& args)
@@ -99,6 +100,7 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
                                                                        << Tp::Account::FeatureProfile);
 
     m_accountManager = Tp::AccountManager::create(accountFactory);
+    m_globalPresence = new KTp::GlobalPresence(this);
 
     connect(m_accountManager->becomeReady(),
             SIGNAL(finished(Tp::PendingOperation*)),
@@ -234,7 +236,7 @@ void KCMTelepathyAccounts::onAccountEnabledChanged(const QModelIndex &index, boo
         // connect the account
         Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
         if (!account.isNull()) {
-            account->setRequestedPresence(Tp::Presence::available());
+            account->setRequestedPresence(m_globalPresence->requestedPresence());
         }
     }
 }
@@ -249,6 +251,8 @@ void KCMTelepathyAccounts::onAccountManagerReady(Tp::PendingOperation *op)
     }
 
     m_accountsListModel->setAccountSet(m_accountManager->validAccounts());
+    m_globalPresence->setAccountManager(m_accountManager);
+
 }
 
 void KCMTelepathyAccounts::onNewAccountAdded(const Tp::AccountPtr& account)

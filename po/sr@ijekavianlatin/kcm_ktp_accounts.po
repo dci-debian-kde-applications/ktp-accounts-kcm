@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"POT-Creation-Date: 2013-04-11 10:36+0200\n"
 "PO-Revision-Date: 2012-11-25 19:56+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -85,15 +85,15 @@ msgstr "Deaktiviraj nalog"
 msgid "Enable account"
 msgstr "Aktiviraj nalog"
 
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+#: add-account-assistant.cpp:95 add-account-assistant.cpp:96
 msgid "Step 1: Select an Instant Messaging Network."
 msgstr "Korak 1: Izaberite brzoglasničku mrežu."
 
-#: add-account-assistant.cpp:115
+#: add-account-assistant.cpp:120
 msgid "Step 2: Fill in the required Parameters."
 msgstr "Korak 2: Popunite zahtijevane parametre."
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid ""
 "To connect to this IM network, you need to install additional plugins. "
 "Please install the telepathy-haze and telepathy-gabble packages using your "
@@ -102,20 +102,20 @@ msgstr ""
 "Da biste se povezali na ovu mrežu trebaju vam dodatni priključci. "
 "Instalirajte pakete telepathy-haze i telepathy-gabble preko menadžera paketa."
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
 msgstr "Nedostaje Telepathy menadžer povezivanja"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
-#: salut-enabler.cpp:238
+#: add-account-assistant.cpp:208 add-account-assistant.cpp:257
+#: salut-enabler.cpp:243
 msgid "Failed to create account"
 msgstr "Pravljenje naloga nije uspjelo"
 
-#: add-account-assistant.cpp:253 salut-enabler.cpp:239
+#: add-account-assistant.cpp:258 salut-enabler.cpp:244
 msgid "Possibly not all required fields are valid"
 msgstr "Moguće je da neka zahtijevana polja nisu ispravna."
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:248
+#: add-account-assistant.cpp:267 salut-enabler.cpp:253
 msgid "Something went wrong with Telepathy"
 msgstr "Nešto nije u redu sa Telepathyjem."
 
@@ -157,50 +157,50 @@ msgstr ""
 "Čini se da fajl koji ste izabrali nije slika.\n"
 "Izaberite sliku."
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "telepathy_accounts"
 msgstr "Telepathy nalozi"
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Brzoglasnički i VoIP nalozi"
 
-#: kcm-telepathy-accounts.cpp:80
+#: kcm-telepathy-accounts.cpp:81
 msgid "George Goldberg"
 msgstr "Džordž Goldberg"
 
-#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
-#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
-#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Developer"
 msgstr "Programer"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82
 msgid "David Edmundson"
 msgstr "Dejvid Edmundson"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83
 msgid "Dominik Schmidt"
 msgstr "Dominik Šmit"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Thomas Richard"
 msgstr "Tomas Rihard"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85
 msgid "Florian Reinhard"
 msgstr "Florijan Rajnhard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Daniele E. Domenichelli"
 msgstr "Danijele Domeničeli"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:263
+#: kcm-telepathy-accounts.cpp:267
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
@@ -208,51 +208,51 @@ msgstr ""
 "Nađeni su Kopeteovi dnevnici za ovaj nalog. Želite li da ih uvezete u "
 "Telepathy?"
 
-#: kcm-telepathy-accounts.cpp:264
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs?"
 msgstr "Uvesti dnevnike?"
 
-#: kcm-telepathy-accounts.cpp:265
+#: kcm-telepathy-accounts.cpp:269
 msgid "Import Logs"
 msgstr "Uvezi dnevnike"
 
-#: kcm-telepathy-accounts.cpp:266
+#: kcm-telepathy-accounts.cpp:270
 msgid "Close"
 msgstr "Zatvori"
 
-#: kcm-telepathy-accounts.cpp:273
+#: kcm-telepathy-accounts.cpp:277
 msgid "Importing logs..."
 msgstr "Uvozim dnevnike..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:299 kcm-telepathy-accounts.cpp:308
 msgid "Kopete Logs Import"
 msgstr "Uvoz Kopeteovih dnevnika"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:308
 msgid "Kopete logs successfully imported"
 msgstr "Kopeteovi dnevnici uspešno uvezeni"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: kcm-telepathy-accounts.cpp:409 kcm-telepathy-accounts.cpp:410
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Ukloni nalog"
 
-#: kcm-telepathy-accounts.cpp:408
+#: kcm-telepathy-accounts.cpp:412
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Želite li zaista da uklonite nalog „%1“?"
 
 # >> @title:window
-#: kcm-telepathy-accounts.cpp:409
+#: kcm-telepathy-accounts.cpp:413
 msgid "Remove conversations logs"
 msgstr "Uklanjanje dnevnikâ̂ razgovora"
 
-#: kcm-telepathy-accounts.cpp:490
+#: kcm-telepathy-accounts.cpp:494
 msgid "Install telepathy-salut to enable"
 msgstr "Instalirajte telepathy-salut za aktiviranje"
 
-#: kcm-telepathy-accounts.cpp:532
+#: kcm-telepathy-accounts.cpp:536
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

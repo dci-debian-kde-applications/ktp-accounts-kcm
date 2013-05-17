@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"POT-Creation-Date: 2013-04-11 10:36+0200\n"
 "PO-Revision-Date: 2013-01-12 11:38-0500\n"
 "Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
@@ -79,15 +79,15 @@ msgstr "禁用账户"
 msgid "Enable account"
 msgstr "启用账户"
 
-#: add-account-assistant.cpp:90 add-account-assistant.cpp:91
+#: add-account-assistant.cpp:95 add-account-assistant.cpp:96
 msgid "Step 1: Select an Instant Messaging Network."
 msgstr "第 1 步：选择一个即时通讯网络"
 
-#: add-account-assistant.cpp:115
+#: add-account-assistant.cpp:120
 msgid "Step 2: Fill in the required Parameters."
 msgstr "第 2 步：填写所需参数。"
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid ""
 "To connect to this IM network, you need to install additional plugins. "
 "Please install the telepathy-haze and telepathy-gabble packages using your "
@@ -96,20 +96,20 @@ msgstr ""
 "为了连接此即时通讯网络，您需要安装额外的插件。请通过您的包管理器安装 "
 "telepathy-haze 和 telepathy-gabble。"
 
-#: add-account-assistant.cpp:167
+#: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
 msgstr "缺少 Telepathy 连接管理器"
 
-#: add-account-assistant.cpp:203 add-account-assistant.cpp:252
-#: salut-enabler.cpp:238
+#: add-account-assistant.cpp:208 add-account-assistant.cpp:257
+#: salut-enabler.cpp:243
 msgid "Failed to create account"
 msgstr "创建账户失败"
 
-#: add-account-assistant.cpp:253 salut-enabler.cpp:239
+#: add-account-assistant.cpp:258 salut-enabler.cpp:244
 msgid "Possibly not all required fields are valid"
 msgstr "所有需要的字段不都合法"
 
-#: add-account-assistant.cpp:262 salut-enabler.cpp:248
+#: add-account-assistant.cpp:267 salut-enabler.cpp:253
 msgid "Something went wrong with Telepathy"
 msgstr "Telepathy 出现某些错误"
 
@@ -150,99 +150,99 @@ msgstr ""
 "您选择的文件不是图片。\n"
 "请选择图片文件。"
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:78
+#: kcm-telepathy-accounts.cpp:79
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "即时通讯和语音账户"
 
-#: kcm-telepathy-accounts.cpp:80
+#: kcm-telepathy-accounts.cpp:81
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
-#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
-#: kcm-telepathy-accounts.cpp:84 kcm-telepathy-accounts.cpp:85
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Developer"
 msgstr "开发者"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:83
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:85
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:86
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:87
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:263
+#: kcm-telepathy-accounts.cpp:267
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
 msgstr "找到了此账户的对应 Kopete 日志。您是否想将日志导入到 KDE Telepathy？"
 
-#: kcm-telepathy-accounts.cpp:264
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs?"
 msgstr "导入日志？"
 
-#: kcm-telepathy-accounts.cpp:265
+#: kcm-telepathy-accounts.cpp:269
 msgid "Import Logs"
 msgstr "导入日志"
 
-#: kcm-telepathy-accounts.cpp:266
+#: kcm-telepathy-accounts.cpp:270
 msgid "Close"
 msgstr "关闭"
 
-#: kcm-telepathy-accounts.cpp:273
+#: kcm-telepathy-accounts.cpp:277
 msgid "Importing logs..."
 msgstr "正在导入日志..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:299 kcm-telepathy-accounts.cpp:308
 msgid "Kopete Logs Import"
 msgstr "Kopete 日志导入"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:308
 msgid "Kopete logs successfully imported"
 msgstr "Kopete 日志成功导入"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
+#: kcm-telepathy-accounts.cpp:409 kcm-telepathy-accounts.cpp:410
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "删除账户"
 
-#: kcm-telepathy-accounts.cpp:408
+#: kcm-telepathy-accounts.cpp:412
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "您确定想要删除账户“%1”吗？"
 
-#: kcm-telepathy-accounts.cpp:409
+#: kcm-telepathy-accounts.cpp:413
 msgid "Remove conversations logs"
 msgstr "移除对话日志"
 
-#: kcm-telepathy-accounts.cpp:490
+#: kcm-telepathy-accounts.cpp:494
 msgid "Install telepathy-salut to enable"
 msgstr "安装 telepathy-salut 来启用"
 
-#: kcm-telepathy-accounts.cpp:532
+#: kcm-telepathy-accounts.cpp:536
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

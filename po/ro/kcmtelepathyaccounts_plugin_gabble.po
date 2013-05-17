@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"POT-Creation-Date: 2013-04-12 10:44+0200\n"
 "PO-Revision-Date: 2012-10-18 00:37+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -26,11 +26,11 @@ msgstr "Server"
 msgid "Proxy"
 msgstr "Proxy"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetGoogleTalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetMSN)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #: main-options-widget-facebook.ui:14 main-options-widget-googletalk.ui:14
 #: main-options-widget-kde-talk.ui:14 main-options-widget-msn.ui:14
 #: main-options-widget.ui:14
@@ -49,7 +49,7 @@ msgid "Password:"
 msgstr "Parolă:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget-facebook.ui:60
+#: main-options-widget-facebook.ui:66
 msgid ""
 "This is your username, not your normal Facebook login.<br/>\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.<br/>\n"

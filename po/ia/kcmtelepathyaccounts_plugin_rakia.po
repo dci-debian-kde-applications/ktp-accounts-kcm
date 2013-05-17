@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2013-02-27 14:54+0100\n"
+"PO-Revision-Date: 2013-04-16 13:30+0200\n"
 "Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-l10n-ia@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, authGroupBox)
 #: rakia-advanced-options-widget.ui:17
@@ -163,7 +163,7 @@ msgid ""
 "default interval)"
 msgstr ""
 "Intervallo inter sondas de keepalive (manteni vive) insecundas "
-"(0=dishabilitate, nonfixate = usa un intervallo predefinite)"
+"(0=dishabilitate, non fixate = usa un intervallo predefinite)"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:242
@@ -287,3 +287,4 @@ msgstr ""
 #: rakia-main-options-widget.ui:72
 msgid "<b>Example:</b> user@my.sip.server"
 msgstr "<b>Exemplo:</b> usator@mi.sip.servitor"
+

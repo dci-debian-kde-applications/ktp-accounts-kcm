@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:05+0100\n"
+"POT-Creation-Date: 2013-04-12 10:44+0200\n"
 "PO-Revision-Date: 2013-02-28 09:40+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
@@ -30,11 +30,11 @@ msgstr "Palvelin"
 msgid "Proxy"
 msgstr "Välityspalvelin"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetGoogleTalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetMSN)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
 #: main-options-widget-facebook.ui:14 main-options-widget-googletalk.ui:14
 #: main-options-widget-kde-talk.ui:14 main-options-widget-msn.ui:14
 #: main-options-widget.ui:14
@@ -53,7 +53,7 @@ msgid "Password:"
 msgstr "Salasana:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget-facebook.ui:60
+#: main-options-widget-facebook.ui:66
 msgid ""
 "This is your username, not your normal Facebook login.<br/>\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.<br/>\n"
