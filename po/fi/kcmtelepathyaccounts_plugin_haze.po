@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2013-03-05 23:47+0200\n"
+"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"PO-Revision-Date: 2013-05-17 11:01+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -171,12 +171,14 @@ msgstr "jussi@jokin.fi"
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
 msgid "Show SkypeOut contacts as 'Online'"
-msgstr ""
+msgstr "Näytä SkypeOut-käyttäjien olevan ”Paikalla”"
 
 #. i18n: ectx: property (text), widget (QCheckBox, syncCheckBox)
 #: skype-advanced-settings-widget.ui:38
 msgid "Make Skype online/offline when going online/offline"
 msgstr ""
+"Yhdistä Skype verkkoon tai katkaise yhteys, kun yhdistän verkkoon tai "
+"katkaisen yhteyden"
 
 #. i18n: ectx: property (text), widget (QCheckBox, updatesCheckBox)
 #: skype-advanced-settings-widget.ui:45

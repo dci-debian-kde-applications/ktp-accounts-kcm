@@ -1,12 +1,12 @@
 # Translation of kcmtelepathyaccounts_plugin_haze.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:31+0100\n"
-"PO-Revision-Date: 2012-03-19 01:08+0100\n"
+"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"PO-Revision-Date: 2013-04-18 13:30+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavian\n"
@@ -171,7 +171,7 @@ msgstr "neko@nepoznat.com"
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
 msgid "Show SkypeOut contacts as 'Online'"
-msgstr "Прикажи скајпаут контакте као да су „на вези“"
+msgstr "Прикажи скајпаут контакте као „на вези“"
 
 #. i18n: ectx: property (text), widget (QCheckBox, syncCheckBox)
 #: skype-advanced-settings-widget.ui:38

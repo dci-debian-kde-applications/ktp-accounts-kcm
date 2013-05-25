@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-11 10:36+0200\n"
+"POT-Creation-Date: 2013-05-03 10:16+0200\n"
 "PO-Revision-Date: 2012-11-23 18:31+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -234,25 +234,25 @@ msgid "Kopete logs successfully imported"
 msgstr "Loggar från Kopete importerade med lyckat resultat"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:409 kcm-telepathy-accounts.cpp:410
+#: kcm-telepathy-accounts.cpp:410 kcm-telepathy-accounts.cpp:411
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Ta bort konto"
 
-#: kcm-telepathy-accounts.cpp:412
+#: kcm-telepathy-accounts.cpp:413
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Är du säker på att du vill ta bort kontot \"%1\"?"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:414
 msgid "Remove conversations logs"
 msgstr "Ta bort samtalsloggar"
 
-#: kcm-telepathy-accounts.cpp:494
+#: kcm-telepathy-accounts.cpp:495
 msgid "Install telepathy-salut to enable"
 msgstr "Installera Telepathy-Salut för att aktivera"
 
-#: kcm-telepathy-accounts.cpp:536
+#: kcm-telepathy-accounts.cpp:537
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
