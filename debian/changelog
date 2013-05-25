@@ -1,4 +1,4 @@
-ktp-accounts-kcm (0.6.1-1) UNRELEASED; urgency=low
+ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
 
   [ Ritesh Raj Sarraf ]
   * [6c0df95] Imported Upstream version 0.5.1
@@ -7,8 +7,10 @@ ktp-accounts-kcm (0.6.1-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
   * [0827ab9] Imported Upstream version 0.6.1
+  * Bump dependency version.
+  * Imported Upstream version 0.6.2
 
- -- Diane Trout <diane@ghic.org>  Fri, 17 May 2013 13:25:04 -0700
+ -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:22:56 -0700
 
 ktp-accounts-kcm (0.4.0-1) unstable; urgency=low
 
