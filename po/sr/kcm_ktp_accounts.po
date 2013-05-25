@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-11 10:36+0200\n"
+"POT-Creation-Date: 2013-05-03 10:16+0200\n"
 "PO-Revision-Date: 2012-11-25 19:56+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -70,8 +70,8 @@ msgid ""
 "computer, your contacts will not be able to see it."
 msgstr ""
 "<p>Овим дугметом можете променити приказно име свог налога.</p><p>Приказно "
-"име је алијас за ваш налог и користи се само локално на овом рачунару, ваши "
-"контакти неће моћи да га виде.</p>"
+"име је псеудоним за ваш налог и користи се само локално на овом рачунару, "
+"ваши контакти неће моћи да га виде.</p>"
 
 #: accounts-list-delegate.cpp:134
 msgid "Click checkbox to enable"
@@ -100,7 +100,7 @@ msgid ""
 "package manager."
 msgstr ""
 "Да бисте се повезали на ову мрежу требају вам додатни прикључци. "
-"Инсталирајте пакете telepathy-haze и telepathy-gabble преко менаџера пакета."
+"Инсталирајте пакете telepathy-haze и telepathy-gabble помоћу менаџера пакета."
 
 #: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
@@ -143,7 +143,8 @@ msgstr "Изаберите ново приказно име за свој нал
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr "Приказно име је ваш локални алијас за налог, само га ви можете видети."
+msgstr ""
+"Приказно име је ваш локални псеудоним за налог, само га ви можете видети."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
@@ -233,26 +234,26 @@ msgid "Kopete logs successfully imported"
 msgstr "Копетеови дневници успешно увезени"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:409 kcm-telepathy-accounts.cpp:410
+#: kcm-telepathy-accounts.cpp:410 kcm-telepathy-accounts.cpp:411
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Уклони налог"
 
-#: kcm-telepathy-accounts.cpp:412
+#: kcm-telepathy-accounts.cpp:413
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Желите ли заиста да уклоните налог „%1“?"
 
 # >> @title:window
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:414
 msgid "Remove conversations logs"
 msgstr "Уклањање дневника̂ разговора"
 
-#: kcm-telepathy-accounts.cpp:494
+#: kcm-telepathy-accounts.cpp:495
 msgid "Install telepathy-salut to enable"
 msgstr "Инсталирајте telepathy-salut за активирање"
 
-#: kcm-telepathy-accounts.cpp:536
+#: kcm-telepathy-accounts.cpp:537
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
