@@ -1,10 +1,5 @@
 ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
 
-  [ Ritesh Raj Sarraf ]
-  * [6c0df95] Imported Upstream version 0.5.1
-  * [1f0e1e8] Imported Upstream version 0.5.3
-  * [72708b2] update version dependencies
-
   [ Diane Trout ]
   * [0827ab9] Imported Upstream version 0.6.1
   * Bump dependency version.
