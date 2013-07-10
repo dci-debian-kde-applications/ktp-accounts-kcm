@@ -10,6 +10,7 @@ ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
   * Bump dependency version.
   * Imported Upstream version 0.6.2
   * Set Uploaders to Diane Trout and Michał Zając
+  * Update Standards-Version to 3.9.4. No changes needed.
 
  -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:22:56 -0700
 
