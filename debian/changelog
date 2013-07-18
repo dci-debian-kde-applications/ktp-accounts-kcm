@@ -8,6 +8,7 @@ ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
   * Update Standards-Version to 3.9.4. No changes needed.
   * Override lintian warning about library not matching package name.
              The library is for internal use by the kcm plugins provided.
+  * Override lintian warning about symbols control file.
 
  -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:22:56 -0700
 

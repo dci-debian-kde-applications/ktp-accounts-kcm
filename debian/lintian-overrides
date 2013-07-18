@@ -1,1 +1,2 @@
 kde-config-telepathy-accounts binary: package-name-doesnt-match-sonames libktpaccountskcminternal4
+kde-config-telepathy-accounts binary: no-symbols-control-file
