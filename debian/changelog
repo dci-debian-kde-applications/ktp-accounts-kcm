@@ -1,14 +1,15 @@
 ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
-  * [0827ab9] Imported Upstream version 0.6.1
-  * Bump dependency version.
+  * Bump libktpcommoninternalsprivate-dev dependency to 0.6.2
+  * Bump lbitelepathy-qt4-dev dependency to 0.9.3
   * Imported Upstream version 0.6.2
   * Set Uploaders to Diane Trout and Michał Zając
   * Update Standards-Version to 3.9.4. No changes needed.
   * Override lintian warning about library not matching package name.
              The library is for internal use by the kcm plugins provided.
   * Override lintian warning about symbols control file.
+  * Update watch file as KDE-Telepathy is now in KDE stable.
 
  -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:22:56 -0700
 
