@@ -1,4 +1,4 @@
-ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
+ktp-accounts-kcm (0.6.2-1) unstable; urgency=low
 
   [ Diane Trout ]
   * Bump libktpcommoninternalsprivate-dev dependency to 0.6.2
@@ -10,8 +10,11 @@ ktp-accounts-kcm (0.6.2-1) UNRELEASED; urgency=low
              The library is for internal use by the kcm plugins provided.
   * Override lintian warning about symbols control file.
   * Update watch file as KDE-Telepathy is now in KDE stable.
+ 
+  [ Mark Purcell ]
+  * Add myself to uploaders
 
- -- Diane Trout <diane@ghic.org>  Fri, 24 May 2013 23:22:56 -0700
+ -- Mark Purcell <msp@debian.org>  Thu, 08 Aug 2013 19:18:59 +1000
 
 ktp-accounts-kcm (0.4.0-1) unstable; urgency=low
 
