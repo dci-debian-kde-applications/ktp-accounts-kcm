@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2012-02-05 12:15+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "Kontoinnstillinger"
