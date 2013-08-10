@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_idle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2012-03-25 20:18+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "Preferències del compte"

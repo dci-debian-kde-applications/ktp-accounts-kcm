@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2013-02-27 14:47+0100\n"
 "Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-l10n-ia@kde.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "Preferentias de conto"
