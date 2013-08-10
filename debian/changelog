@@ -1,3 +1,11 @@
+ktp-accounts-kcm (0.6.3-1) unstable; urgency=low
+
+  * Imported Upstream version 0.6.3
+  * add debian/ to origin/master branch
+  * Update Build-Depends: libktpcommoninternalsprivate-dev (>= 0.6.3)
+
+ -- Mark Purcell <msp@debian.org>  Sun, 11 Aug 2013 09:52:21 +1000
+
 ktp-accounts-kcm (0.6.2-1) unstable; urgency=low
 
   [ Diane Trout ]
