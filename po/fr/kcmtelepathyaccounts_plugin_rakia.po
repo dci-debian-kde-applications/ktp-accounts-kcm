@@ -1,21 +1,26 @@
 # translation of kcmtelepathyaccounts_plugin_rakia.po to Français
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Joëlle Cornavin <jcorn@free.fr>, 2011.
+# xavier <xavier.besnard@neuf.fr>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_rakia\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2011-09-15 21:35+0200\n"
-"Last-Translator: Joëlle Cornavin <jcorn@free.fr>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2013-06-28 11:01+0200\n"
+"Last-Translator: xavier <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, authGroupBox)
 #: rakia-advanced-options-widget.ui:17
@@ -33,8 +38,8 @@ msgid ""
 "Username for your SIP account. If your username is different from the user "
 "part your SIP URI, provide it here."
 msgstr ""
-"Nom d'utilisateur de votre compte SIP. Si votre nom d'utilisateur est "
-"différent de la partie utilisateur de votre URI SIP, indiquez-le ici."
+"Nom d'utilisateur de votre compte « SIP ». Si votre nom d'utilisateur est "
+"différent de la partie utilisateur de votre URI « SIP », indiquez-le ici."
 
 #. i18n: ectx: property (text), widget (QLabel, registrarLabel)
 #: rakia-advanced-options-widget.ui:40
@@ -47,8 +52,8 @@ msgid ""
 "Registrar for your SIP account. If your registrar is different from the "
 "server part your SIP URI, provide it here."
 msgstr ""
-"Registraire de votre compte SIP. Si votre registraire est différent de la "
-"partie utilisateur de votre URI SIP, indiquez-le ici."
+"Registraire de votre compte « SIP ». Si votre registraire est différent de "
+"la partie utilisateur de votre URI « SIP », indiquez-le ici."
 
 #. i18n: ectx: property (title), widget (QGroupBox, proxyGroupBox)
 #: rakia-advanced-options-widget.ui:57
@@ -94,32 +99,34 @@ msgstr "tls"
 #. i18n: ectx: property (title), widget (QGroupBox, stunGroupBox)
 #: rakia-advanced-options-widget.ui:124
 msgid "Custom STUN settings"
-msgstr "Paramètres STUN personnalisés"
+msgstr "Paramètres personnalisés « STUN »"
 
 #. i18n: ectx: property (text), widget (QLabel, stunServerLabel)
 #: rakia-advanced-options-widget.ui:136
 msgid "STUN server:"
-msgstr "Serveur STUN :"
+msgstr "Serveur « STUN » :"
 
 #. i18n: ectx: property (text), widget (QLabel, stunPortLabel)
 #: rakia-advanced-options-widget.ui:143
 msgid "STUN port:"
-msgstr "Port STUN :"
+msgstr "Port « STUN » :"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, stunServerLineEdit)
 #: rakia-advanced-options-widget.ui:157
 msgid "STUN server address (FQDN or IP address)"
-msgstr "Adresse du serveur STUN (FQDN ou adresse IP)"
+msgstr "Adresse du serveur « STUN » (FQDN ou adresse IP)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, networkingGroupBox)
 #: rakia-advanced-options-widget.ui:167
 msgid "Network and Routing"
-msgstr "Réseau et Routage"
+msgstr "Réseau et routage"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:173
 msgid "Enable discovery of public IP address beyond NAT"
-msgstr "Autoriser la découverte de l'adresse IP publique au-delà de la NAT"
+msgstr ""
+"Autoriser la découverte de l'adresse IP publique au-delà de la translation "
+"d'adresses (NAT)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:176
@@ -129,12 +136,12 @@ msgstr "Découvrir le contact public"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:183
 msgid "Enable loose routing as per RFC 3261"
-msgstr "Activer le routage lâche conformément à la RFC 3261"
+msgstr "Activer le routage faible conformément à la RFC 3261"
 
 #. i18n: ectx: property (text), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:186
 msgid "Use Loose Routing"
-msgstr "Utiliser le routage lâche"
+msgstr "Utiliser le routage faible"
 
 #. i18n: ectx: property (text), widget (QLabel, looseRoutingLabel)
 #: rakia-advanced-options-widget.ui:193
@@ -149,7 +156,7 @@ msgstr "NAT"
 #. i18n: ectx: property (title), widget (QGroupBox, keepaliveGroupBox)
 #: rakia-advanced-options-widget.ui:210
 msgid "KeepAlive"
-msgstr "Maintien de la connexion (« keepalive »)"
+msgstr "Entretien de la connexion"
 
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: rakia-advanced-options-widget.ui:216
@@ -162,7 +169,7 @@ msgid ""
 "Interval between keepalive probes in seconds (0 = disabled, unset = use a "
 "default interval)"
 msgstr ""
-"Intervalle entre deux tests de maintien de la connexion en secondes (0 = "
+"Intervalle en secondes entre deux message d'entretien de connexion (0 = "
 "désactivé, unset = utiliser un intervalle par défaut)"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
@@ -206,29 +213,30 @@ msgstr ""
 "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Mécanisme de maintien de "
-"la connexion (« keepalive ») pour l'enregistrement SIP</p>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mécanisme d'entretien de "
+"la connexion pour l'enregistrement « SIP »</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">auto</span> : la gestion du mécanisme de maintien de la "
-"connexion est du domaine de l'implémentation</p>\n"
+"weight:600;\">auto</span> : la gestion du mécanisme d'entretien de connexion "
+"est dépendant de l'implémentation</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">options</span> : maintient l'enregistrement avec les requêtes "
-"OPTIONS</p>\n"
+"« OPTIONS »</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">register</span> : maintient l'enregistrement avec les requêtes "
-"REGISTER</p>\n"
+"« REGISTER »</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">stun</span> : maintient l'enregistrement avec STUN comme "
-"décrit dans les spécifications « draft-sip-outbound » de l'IETF</p>\n"
+"weight:600;\">stun</span> : maintient l'enregistrement avec « STUN » comme "
+"indiqué dans les spécifications « draft-sip-outbound » de l'IETF</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">off</span> : désactive la gestion du maintien de la connexion</"
+"weight:600;\">off</span> : désactive la gestion de l'entretien de connexion</"
 "p></body></html>"
 
+# Xavier : Supposé être une commande. Non traduit.
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:251
 msgid "register"
@@ -244,6 +252,7 @@ msgstr "options"
 msgid "stun"
 msgstr "stun"
 
+# Xavier : Supposé être une commande. Non traduit.
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:266
 msgid "off"
@@ -262,7 +271,7 @@ msgstr "Préférences de compte"
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: rakia-main-options-widget.ui:35
 msgid "SIP URI:"
-msgstr "URI SIP :"
+msgstr "URI « SIP » :"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: rakia-main-options-widget.ui:45
@@ -281,9 +290,9 @@ msgid ""
 "If left blank, your SIP URI will be shown to the receiver instead of your "
 "Alias."
 msgstr ""
-"Cet alias est actuellement utilisé pour SIMPLE, une extension de la "
-"messagerie instantanée pour SIP. S'il est vide, votre URI SIP sera présenté "
-"au destinataire à la place de votre alias."
+"Cet alias est actuellement utilisé pour « SIMPLE », une extension de la "
+"messagerie instantanée pour « SIP ». S'il est vide, votre URI « SIP » sera "
+"affichée au destinataire à la place de votre alias."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rakia-main-options-widget.ui:72

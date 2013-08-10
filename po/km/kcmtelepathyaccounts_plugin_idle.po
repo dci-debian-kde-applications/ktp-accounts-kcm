@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_idle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2012-06-19 10:36+0700\n"
 "Last-Translator: sutha <sutha@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "X-Generator: WordForge 0.8 RC1\n"
 "X-Language: km-KH\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "ចំណូលចិត្ត​គណនី"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2012-10-05 22:12+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
 #: advanced-options-widget.ui:14 main-options-widget.ui:14
 msgid "Account Preferences"
 msgstr "Postavke računa"
