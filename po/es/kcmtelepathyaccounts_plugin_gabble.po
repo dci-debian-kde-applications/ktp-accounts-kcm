@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-10 12:47+0200\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2013-03-14 18:31+0100\n"
 "Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -28,10 +28,10 @@ msgid "Proxy"
 msgstr "Proxy"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetGoogleTalk)
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetMSN)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetFacebook)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidgetKDETalk)
 #: main-options-widget-facebook.ui:14 main-options-widget-googletalk.ui:14
 #: main-options-widget-kde-talk.ui:14 main-options-widget-msn.ui:14
 #: main-options-widget.ui:14
