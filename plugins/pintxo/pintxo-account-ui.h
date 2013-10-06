@@ -1,8 +1,7 @@
 /*
- * This file is part of telepathy-contactslist-prototype
+ * This file is part of telepathy-accounts-kcm
  *
- * Copyright (C) 2011 Collabora Ltd. <info@collabora.co.uk>
- *   @Author Dario Freddi <dario.freddi@collabora.co.uk>
+ * Copyright (C) 2013 Anant Kamath <kamathanant@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -19,33 +18,25 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#ifndef FETCH_AVATAR_JOB_H
-#define FETCH_AVATAR_JOB_H
+#ifndef KCMTELEPATHYACCOUNTS_PLUGIN_PINTXO_ACCOUNT_UI_H
+#define KCMTELEPATHYACCOUNTS_PLUGIN_PINTXO_ACCOUNT_UI_H
 
-#include <KJob>
+#include <KCMTelepathyAccounts/AbstractAccountUi>
 
-#include <TelepathyQt/Types>
-
-class KUrl;
-class FetchAvatarJob : public KJob
+class PintxoAccountUi : public AbstractAccountUi
 {
     Q_OBJECT
 
 public:
-    explicit FetchAvatarJob(const KUrl &url, QObject *parent = 0);
-    virtual ~FetchAvatarJob();
+    explicit PintxoAccountUi(QObject *parent = 0);
+    virtual ~PintxoAccountUi();
 
-    void start();
-
-    Tp::Avatar avatar() const;
-
+    virtual AbstractAccountParametersWidget
+              *mainOptionsWidget(ParameterEditModel *model,
+                                 QWidget *parent = 0) const;
 private:
-    class Private;
-    Private * const d;
-
-    Q_PRIVATE_SLOT(d, void _k_onMimeTypeDetected(KIO::Job*,QString))
-    Q_PRIVATE_SLOT(d, void _k_onDataFromJob(KIO::Job*,QByteArray))
-    Q_PRIVATE_SLOT(d, void _k_onJobFinished(KJob*))
+    Q_DISABLE_COPY(PintxoAccountUi);
 };
 
-#endif // FETCH_AVATAR_JOB_H
+
+#endif // header guard

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-03 10:16+0200\n"
+"POT-Creation-Date: 2013-08-23 05:04+0000\n"
 "PO-Revision-Date: 2013-01-22 17:25+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -218,34 +218,34 @@ msgstr "關閉"
 msgid "Importing logs..."
 msgstr "匯入紀錄中..."
 
-#: kcm-telepathy-accounts.cpp:299 kcm-telepathy-accounts.cpp:308
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
 msgid "Kopete Logs Import"
 msgstr "Kopete 紀錄匯入"
 
-#: kcm-telepathy-accounts.cpp:308
+#: kcm-telepathy-accounts.cpp:304
 msgid "Kopete logs successfully imported"
 msgstr "Kopete 紀錄已成功匯入"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:410 kcm-telepathy-accounts.cpp:411
+#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "移除帳號"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:409
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "您確定要移除帳號 %1 ？"
 
-#: kcm-telepathy-accounts.cpp:414
+#: kcm-telepathy-accounts.cpp:410
 msgid "Remove conversations logs"
 msgstr "移除對話紀錄"
 
-#: kcm-telepathy-accounts.cpp:495
+#: kcm-telepathy-accounts.cpp:491
 msgid "Install telepathy-salut to enable"
 msgstr "請先安裝 telepathy-salut 來開啟此功能"
 
-#: kcm-telepathy-accounts.cpp:537
+#: kcm-telepathy-accounts.cpp:533
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

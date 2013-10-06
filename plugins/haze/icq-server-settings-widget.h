@@ -34,7 +34,9 @@ public:
                                        QWidget *parent = 0);
     virtual ~IcqServerSettingsWidget();
 
+    virtual void submit();
 private:
+
     Q_DISABLE_COPY(IcqServerSettingsWidget);
     Ui::IcqServerSettingsWidget *m_ui;
 };
