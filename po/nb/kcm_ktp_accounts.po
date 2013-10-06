@@ -1,11 +1,11 @@
 # Translation of kcm_ktp_accounts to Norwegian Bokmål
 #
-# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2012.
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-03 10:16+0200\n"
+"POT-Creation-Date: 2013-08-23 05:04+0000\n"
 "PO-Revision-Date: 2012-11-22 19:26+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
@@ -222,34 +222,34 @@ msgstr "Lukk"
 msgid "Importing logs..."
 msgstr "Importerer logger …"
 
-#: kcm-telepathy-accounts.cpp:299 kcm-telepathy-accounts.cpp:308
+#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
 msgid "Kopete Logs Import"
 msgstr "Import av Kopete-logger"
 
-#: kcm-telepathy-accounts.cpp:308
+#: kcm-telepathy-accounts.cpp:304
 msgid "Kopete logs successfully imported"
 msgstr "Kopete-logger vellykket importert"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:410 kcm-telepathy-accounts.cpp:411
+#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Fjern konto"
 
-#: kcm-telepathy-accounts.cpp:413
+#: kcm-telepathy-accounts.cpp:409
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Er du sikker på at du vil fjerne kontoen «%1»?"
 
-#: kcm-telepathy-accounts.cpp:414
+#: kcm-telepathy-accounts.cpp:410
 msgid "Remove conversations logs"
 msgstr "Fjern samtalelogger"
 
-#: kcm-telepathy-accounts.cpp:495
+#: kcm-telepathy-accounts.cpp:491
 msgid "Install telepathy-salut to enable"
 msgstr "Installer telepathy-salut for å slå på"
 
-#: kcm-telepathy-accounts.cpp:537
+#: kcm-telepathy-accounts.cpp:533
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"

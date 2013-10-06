@@ -60,10 +60,7 @@
 #include <TelepathyQt/PendingComposite>
 #include <TelepathyQt/ConnectionManager>
 
-#include <TelepathyLoggerQt4/LogManager>
-#include <TelepathyLoggerQt4/Init>
-#include <TelepathyLoggerQt4/PendingOperation>
-
+#include <KTp/Logger/log-manager.h>
 
 K_PLUGIN_FACTORY(KCMTelepathyAccountsFactory, registerPlugin<KCMTelepathyAccounts>();)
 K_EXPORT_PLUGIN(KCMTelepathyAccountsFactory("kcm_ktp_accounts", "kcm_ktp_accounts"))
@@ -90,12 +87,12 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
 
     // The first thing we must do is register Telepathy DBus Types.
     Tp::registerTypes();
-    Tpl::init();
 
     // Start setting up the Telepathy AccountManager.
     Tp::AccountFactoryPtr  accountFactory = Tp::AccountFactory::create(QDBusConnection::sessionBus(),
                                                                        Tp::Features() << Tp::Account::FeatureCore
                                                                        << Tp::Account::FeatureAvatar
+                                                                       << Tp::Account::FeatureCapabilities
                                                                        << Tp::Account::FeatureProtocolInfo
                                                                        << Tp::Account::FeatureProfile);
 
@@ -146,10 +143,12 @@ KCMTelepathyAccounts::KCMTelepathyAccounts(QWidget *parent, const QVariantList& 
     m_salutBusyWheel->setWidget(m_ui->salutWidget);
     m_salutBusyWheel->setAlignment(Qt::AlignRight | Qt::AlignVCenter);
 
-    AccountsListDelegate* accountsDelegate = new AccountsListDelegate(m_ui->accountsListView, this);
+    // parent the delegates to the layout, because KWidgetItemDelegate doesn't like it if the view
+    // is deleted before the delegate
+    AccountsListDelegate* accountsDelegate = new AccountsListDelegate(m_ui->accountsListView, layout());
     m_ui->accountsListView->setItemDelegate(accountsDelegate);
 
-    AccountsListDelegate* salutDelegate = new AccountsListDelegate(m_ui->salutListView, this);
+    AccountsListDelegate* salutDelegate = new AccountsListDelegate(m_ui->salutListView, layout());
     m_ui->salutListView->setItemDelegate(salutDelegate);
 
     int height = salutDelegate->sizeHint(QStyleOptionViewItem(), m_salutFilterModel->index(0,0)).height() + 3*2;
@@ -257,8 +256,8 @@ void KCMTelepathyAccounts::onAccountManagerReady(Tp::PendingOperation *op)
 
 void KCMTelepathyAccounts::onNewAccountAdded(const Tp::AccountPtr& account)
 {
-    KTp::LogsImporter logsImporter;
-    if (!logsImporter.hasKopeteLogs(account)) {
+    QScopedPointer<KTp::LogsImporter> logsImporter(new KTp::LogsImporter(this));
+    if (!logsImporter->hasKopeteLogs(account)) {
         kDebug() << "No Kopete logs for" << account->uniqueIdentifier() << "found";
         return;
     }
@@ -281,10 +280,10 @@ void KCMTelepathyAccounts::onNewAccountAdded(const Tp::AccountPtr& account)
     m_importProgressDialog->setButtons(KDialog::Close);
     m_importProgressDialog->enableButton(KDialog::Close, false);
 
-    connect(&logsImporter, SIGNAL(logsImported()), SLOT(onLogsImportDone()));
-    connect(&logsImporter, SIGNAL(error(QString)), SLOT(onLogsImportError(QString)));
+    connect(logsImporter.data(), SIGNAL(logsImported()), SLOT(onLogsImportDone()));
+    connect(logsImporter.data(), SIGNAL(error(QString)), SLOT(onLogsImportError(QString)));
 
-    logsImporter.startLogImport(account);
+    logsImporter->startLogImport(account);
     m_importProgressDialog->exec();
 
     delete m_importProgressDialog;
@@ -292,10 +291,6 @@ void KCMTelepathyAccounts::onNewAccountAdded(const Tp::AccountPtr& account)
 
 void KCMTelepathyAccounts::onLogsImportError(const QString &error)
 {
-    if (m_importProgressDialog) {
-        m_importProgressDialog->close();
-    }
-
     KMessageBox::error(this, error, i18n("Kopete Logs Import"));
 }
 
@@ -410,8 +405,10 @@ void KCMTelepathyAccounts::onRemoveAccountClicked()
     dialog->setWindowTitle(i18n("Remove Account"));
     dialog->setButtonGuiItem(KDialog::Yes, KGuiItem(i18n("Remove Account"), QLatin1String("edit-delete")));
     bool removeLogs = false;
+
+    const QString msg =  i18n("Remove conversations logs");
     if (KMessageBox::createKMessageBox(dialog, QMessageBox::Warning, i18n("Are you sure you want to remove the account \"%1\"?", accountName),
-                QStringList(),  i18n("Remove conversations logs"), &removeLogs,
+                QStringList(), msg , &removeLogs,
                 KMessageBox::Dangerous | KMessageBox::Notify) == KDialog::Yes) {
 
         Tp::AccountPtr account = index.data(KTp::AccountsListModel::AccountRole).value<Tp::AccountPtr>();
@@ -420,8 +417,8 @@ void KCMTelepathyAccounts::onRemoveAccountClicked()
         }
 
         if (removeLogs) {
-            Tpl::LogManagerPtr logManager = Tpl::LogManager::instance();
-            logManager->clearAccountHistory(account);
+            KTp::LogManager *logManager = KTp::LogManager::instance();
+            logManager->clearAccountLogs(account);
         }
 
         QList<Tp::PendingOperation*> ops;

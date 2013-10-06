@@ -20,6 +20,10 @@
 
 #include "icq-server-settings-widget.h"
 
+#include <KDE/KLocale>
+#include <KDE/KGlobal>
+#include <KDE/KCharsets>
+
 #include <KCMTelepathyAccounts/ParameterEditModel>
 
 IcqServerSettingsWidget::IcqServerSettingsWidget(ParameterEditModel *model,
@@ -35,17 +39,31 @@ IcqServerSettingsWidget::IcqServerSettingsWidget(ParameterEditModel *model,
     handleParameter(QLatin1String("use-ssl"), QVariant::Bool, m_ui->useSslCheckBox, 0);
     handleParameter(QLatin1String("allow-multiple-logins"), QVariant::Bool, m_ui->allowMultipleLoginsCheckBox, 0);
     handleParameter(QLatin1String("always-use-rv-proxy"), QVariant::Bool, m_ui->alwaysUseRvProxyCheckBox, 0);
-    handleParameter(QLatin1String("charset"), QVariant::String, m_ui->charsetComboBox, m_ui->charsetLabel);
 
     // update combo box for charset parameter
-    m_ui->charsetComboBox->setCurrentItem(parameterModel()->data(
-            parameterModel()->indexForParameter(parameterModel()->parameter(QLatin1String("charset"))),
-            ParameterEditModel::ValueRole).toString());
+    Q_FOREACH (const QString &name, KGlobal::charsets()->descriptiveEncodingNames()) {
+        m_ui->charsetComboBox->addItem(name);
+    }
+
+    const QString encName = parameterModel()->data(
+        parameterModel()->indexForParameter(parameterModel()->parameter(QLatin1String("charset"))),
+        ParameterEditModel::ValueRole).toString();
+    m_ui->charsetComboBox->setCurrentItem(KGlobal::charsets()->descriptionForEncoding(encName));
 }
 
 IcqServerSettingsWidget::~IcqServerSettingsWidget()
 {
     delete m_ui;
+}
+
+void IcqServerSettingsWidget::submit()
+{
+    AbstractAccountParametersWidget::submit();
+
+    const QString name = KGlobal::charsets()->encodingForName(m_ui->charsetComboBox->currentText());
+    parameterModel()->setData(
+        parameterModel()->indexForParameter(parameterModel()->parameter(QLatin1String("charset"))),
+        name, ParameterEditModel::ValueRole);
 }
 
 #include "icq-server-settings-widget.moc"

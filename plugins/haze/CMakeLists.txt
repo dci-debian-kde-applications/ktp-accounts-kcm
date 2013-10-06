@@ -23,6 +23,11 @@ set (ktpaccountskcm_plugin_haze_SRCS
      aim-server-settings-widget.cpp
      msn-main-options-widget.cpp
      haze-msn-account.cpp
+     haze-groupwise-account.cpp
+     groupwise-main-options-widget.cpp
+     groupwise-advanced-settings-widget.cpp
+     haze-steam-account.cpp
+     steam-main-options-widget.cpp
 )
 
 kde4_add_ui_files (ktpaccountskcm_plugin_haze_SRCS
@@ -37,6 +42,9 @@ kde4_add_ui_files (ktpaccountskcm_plugin_haze_SRCS
                    aim-main-options-widget.ui
                    aim-server-settings-widget.ui
                    msn-main-options-widget.ui
+                   groupwise-advanced-settings-widget.ui
+                   groupwise-main-options-widget.ui
+                   steam-main-options-widget.ui
 )
 
 kde4_add_plugin (ktpaccountskcm_plugin_haze
