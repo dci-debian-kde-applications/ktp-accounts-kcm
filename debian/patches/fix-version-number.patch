@@ -1,0 +1,13 @@
+Author: Diane Trout <diane@ghic.org>
+Description: Upstream forgot to bump their version number for the beta release.
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ project (ktp-accounts-kcm)
+ 
+-set(KTP_ACCOUNTS_KCM_VERSION "0.6.2")
++set(KTP_ACCOUNTS_KCM_VERSION "0.6.80")
+ 
+ # Add the modules we ship to the module path
+ SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules" ${CMAKE_MODULE_PATH})
