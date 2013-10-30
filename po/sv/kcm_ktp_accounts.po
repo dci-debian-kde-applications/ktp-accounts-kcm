@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Stefan Asserhäll <stefan.asserhall@comhem.se>, 2009.
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2010, 2011, 2012.
+# Stefan Asserhall <stefan.asserhall@comhem.se>, 2010, 2011, 2012, 2013.
 # Arve Eriksson <031299870@telia.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-23 05:04+0000\n"
-"PO-Revision-Date: 2012-11-23 18:31+0100\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-09-24 19:00+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -53,8 +53,9 @@ msgstr "Ändra kontoikon"
 
 #: accounts-list-delegate.cpp:71
 msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
+"This button allows you to change the icon for your account.<br />This icon "
+"is just used locally on your computer, your contacts will not be able to see "
+"it."
 msgstr ""
 "Den här knappen låter dig ändra kontots ikon.<br />Ikonen används bara "
 "lokalt på datorn, dina kontakter kommer inte att kunna se den."
@@ -65,7 +66,7 @@ msgstr "Ändra kontots visade namn"
 
 #: accounts-list-delegate.cpp:80
 msgid ""
-"This button allows to change the display name for your account.<br />The "
+"This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
@@ -120,17 +121,21 @@ msgstr "Alla fält som krävs är kanske inte giltiga"
 msgid "Something went wrong with Telepathy"
 msgstr "Något gick fel med Telepathy."
 
-#: avatar-button.cpp:41
+#: avatar-button.cpp:54
 msgid "Load from file..."
 msgstr "Läs in från fil..."
 
-#: avatar-button.cpp:42
+#: avatar-button.cpp:55
 msgid "Clear Avatar"
 msgstr "Rensa avatar"
 
-#: avatar-button.cpp:74
+#: avatar-button.cpp:106
 msgid "Please choose your avatar"
 msgstr "Välj din avatar"
+
+#: avatar-button.cpp:155
+msgid "Failed to load avatar."
+msgstr "Misslyckades läsa in avatar."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -150,58 +155,50 @@ msgstr ""
 msgid "New display name"
 msgstr "Nytt visat namn"
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-"Filen du har valt verkar inte vara en bild.\n"
-"Välj en bildfil."
-
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
 msgstr "Telepathy-konton"
 
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Konton för direktmeddelande och IP-telefon"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:78
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
-#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
-#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Developer"
 msgstr "Utvecklare"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:79
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:82
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:267
+#: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
@@ -209,50 +206,50 @@ msgstr ""
 "Loggar från Kopete har hittats för kontot. Vill du importera loggarna till "
 "KDE Telepathy?"
 
-#: kcm-telepathy-accounts.cpp:268
+#: kcm-telepathy-accounts.cpp:267
 msgid "Import Logs?"
 msgstr "Importera loggar?"
 
-#: kcm-telepathy-accounts.cpp:269
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs"
 msgstr "Importera loggar"
 
-#: kcm-telepathy-accounts.cpp:270
+#: kcm-telepathy-accounts.cpp:269
 msgid "Close"
 msgstr "Stäng"
 
-#: kcm-telepathy-accounts.cpp:277
+#: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
 msgstr "Importerar loggar..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
 msgstr "Import av loggar från Kopete"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
 msgstr "Loggar från Kopete importerade med lyckat resultat"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Ta bort konto"
 
 #: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "Ta bort samtalsloggar"
+
+#: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Är du säker på att du vill ta bort kontot \"%1\"?"
 
-#: kcm-telepathy-accounts.cpp:410
-msgid "Remove conversations logs"
-msgstr "Ta bort samtalsloggar"
-
-#: kcm-telepathy-accounts.cpp:491
+#: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
 msgstr "Installera Telepathy-Salut för att aktivera"
 
-#: kcm-telepathy-accounts.cpp:533
+#: kcm-telepathy-accounts.cpp:534
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -373,7 +370,7 @@ msgstr "Skype"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
 msgstr "Facebook Chatt"
 
@@ -383,7 +380,7 @@ msgstr "Gadu-Gadu"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -391,9 +388,7 @@ msgstr "Google Talk"
 msgid "Novell Groupwise"
 msgstr "Novell Groupwise"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -464,13 +459,18 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Parametern \"<b>%1</b>\" är inte giltig."
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "KDETalk"
+msgstr "KDETalk"
+
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
-msgid "Others"
-msgstr "Övriga"
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
+msgid "All"
+msgstr "Alla"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr "AOL, Gadu-Gadu, Yahoo med flera..."
 
@@ -540,6 +540,16 @@ msgstr "Avbryt"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Du kommer att synas som \"%1\" på det lokala nätverket."
+
+#~ msgid ""
+#~ "The file you have selected does not seem to be an image.\n"
+#~ "Please select an image file."
+#~ msgstr ""
+#~ "Filen du har valt verkar inte vara en bild.\n"
+#~ "Välj en bildfil."
+
+#~ msgid "Others"
+#~ msgstr "Övriga"
 
 #~ msgid "Online"
 #~ msgstr "Uppkopplad"

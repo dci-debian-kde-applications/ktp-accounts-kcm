@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-23 05:04+0000\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
 "PO-Revision-Date: 2012-11-25 19:56+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -52,9 +52,15 @@ msgid "Change account icon"
 msgstr "Promeni ikonu naloga"
 
 #: accounts-list-delegate.cpp:71
+#, fuzzy
+#| msgid ""
+#| "This button allows to change the icon for your account.<br />This icon is "
+#| "just used locally on your computer, your contacts will not be able to see "
+#| "it."
 msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
+"This button allows you to change the icon for your account.<br />This icon "
+"is just used locally on your computer, your contacts will not be able to see "
+"it."
 msgstr ""
 "<p>Ovim dugmetom možete promeniti ikonu svog naloga.</p><p>Ikona se koristi "
 "samo lokalno na ovom računaru, vaši kontakti neće moći da je vide.</p>"
@@ -64,8 +70,13 @@ msgid "Change account display name"
 msgstr "Promeni prikazno ime naloga"
 
 #: accounts-list-delegate.cpp:80
+#, fuzzy
+#| msgid ""
+#| "This button allows to change the display name for your account.<br />The "
+#| "display name is an alias for your account and is just used locally on "
+#| "your computer, your contacts will not be able to see it."
 msgid ""
-"This button allows to change the display name for your account.<br />The "
+"This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
@@ -120,17 +131,23 @@ msgstr "Moguće je da neka zahtevana polja nisu ispravna."
 msgid "Something went wrong with Telepathy"
 msgstr "Nešto nije u redu sa Telepathyjem."
 
-#: avatar-button.cpp:41
+#: avatar-button.cpp:54
 msgid "Load from file..."
 msgstr "Učitaj iz fajla..."
 
-#: avatar-button.cpp:42
+#: avatar-button.cpp:55
 msgid "Clear Avatar"
 msgstr "Očisti avatar"
 
-#: avatar-button.cpp:74
+#: avatar-button.cpp:106
 msgid "Please choose your avatar"
 msgstr "Izaberite svoj avatar."
+
+#: avatar-button.cpp:155
+#, fuzzy
+#| msgid "Failed to create account"
+msgid "Failed to load avatar."
+msgstr "Pravljenje naloga nije uspelo"
 
 # >> @title:window
 #: edit-display-name-button.cpp:61
@@ -151,58 +168,50 @@ msgstr ""
 msgid "New display name"
 msgstr "Novo prikazno ime"
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-"Čini se da fajl koji ste izabrali nije slika.\n"
-"Izaberite sliku."
-
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
 msgstr "Telepathy nalozi"
 
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Brzoglasnički i VoIP nalozi"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:78
 msgid "George Goldberg"
 msgstr "Džordž Goldberg"
 
-#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
-#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
-#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Developer"
 msgstr "Programer"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:79
 msgid "David Edmundson"
 msgstr "Dejvid Edmundson"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
 msgstr "Dominik Šmit"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
 msgstr "Tomas Rihard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:82
 msgid "Florian Reinhard"
 msgstr "Florijan Rajnhard"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
 msgstr "Danijele Domeničeli"
 
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:267
+#: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
@@ -210,51 +219,51 @@ msgstr ""
 "Nađeni su Kopeteovi dnevnici za ovaj nalog. Želite li da ih uvezete u "
 "Telepathy?"
 
-#: kcm-telepathy-accounts.cpp:268
+#: kcm-telepathy-accounts.cpp:267
 msgid "Import Logs?"
 msgstr "Uvesti dnevnike?"
 
-#: kcm-telepathy-accounts.cpp:269
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs"
 msgstr "Uvezi dnevnike"
 
-#: kcm-telepathy-accounts.cpp:270
+#: kcm-telepathy-accounts.cpp:269
 msgid "Close"
 msgstr "Zatvori"
 
-#: kcm-telepathy-accounts.cpp:277
+#: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
 msgstr "Uvozim dnevnike..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
 msgstr "Uvoz Kopeteovih dnevnika"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
 msgstr "Kopeteovi dnevnici uspešno uvezeni"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Ukloni nalog"
 
+# >> @title:window
 #: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "Uklanjanje dnevnikâ̂ razgovora"
+
+#: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Želite li zaista da uklonite nalog „%1“?"
 
-# >> @title:window
-#: kcm-telepathy-accounts.cpp:410
-msgid "Remove conversations logs"
-msgstr "Uklanjanje dnevnikâ̂ razgovora"
-
-#: kcm-telepathy-accounts.cpp:491
+#: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
 msgstr "Instalirajte telepathy-salut za aktiviranje"
 
-#: kcm-telepathy-accounts.cpp:533
+#: kcm-telepathy-accounts.cpp:534
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -399,7 +408,7 @@ msgstr "Skype"
 # >! UI context not clear
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
 msgstr "Facebookovo ćaskanje"
 
@@ -411,7 +420,7 @@ msgstr "Gadu‑Gadu"
 # >! UI context not clear
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
 msgstr "Google-razgovora"
 
@@ -421,9 +430,7 @@ msgid "Novell Groupwise"
 msgstr "Novellov GroupWise"
 
 # >! UI context not clear
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -509,13 +516,18 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "Parametar <b>%1</b> nije dobar."
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "KDETalk"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
-msgid "Others"
-msgstr "Ostali"
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
+msgid "All"
+msgstr ""
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr "AOL, Gadu‑Gadu, Yahoo i ostali..."
 

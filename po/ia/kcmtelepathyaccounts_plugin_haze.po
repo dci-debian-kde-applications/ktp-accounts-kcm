@@ -6,38 +6,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
-"PO-Revision-Date: 2013-02-27 14:50+0100\n"
-"Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-02 13:18+0200\n"
+"Last-Translator: G.Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-l10n-ia@kde.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
-#: aim-main-options-widget.ui:20 icq-main-options-widget.ui:20
-#: msn-main-options-widget.ui:20 myspaceim-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
+#: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
+#: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
+#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Preferentias de conto"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: aim-main-options-widget.ui:29 myspaceim-main-options-widget.ui:34
+#: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
 #: yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Nomine de usator:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: aim-main-options-widget.ui:46 icq-main-options-widget.ui:44
-#: msn-main-options-widget.ui:53 myspaceim-main-options-widget.ui:54
+#: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
+#: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
+#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
 #: yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Contrasigno:"
@@ -46,7 +51,9 @@ msgstr "Contrasigno:"
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
-#: aim-server-settings-widget.ui:14 myspaceim-advanced-settings-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
+#: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
+#: myspaceim-advanced-settings-widget.ui:14
 #: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Optiones avantiate"
@@ -66,9 +73,9 @@ msgstr "Adresse:"
 #. i18n: ectx: property (text), widget (QLabel, serverPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, xferPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: aim-server-settings-widget.ui:49 icq-server-settings-widget.ui:54
-#: myspaceim-advanced-settings-widget.ui:41 yahoo-server-settings-widget.ui:44
-#: yahoo-server-settings-widget.ui:87
+#: aim-server-settings-widget.ui:49 groupwise-advanced-settings-widget.ui:41
+#: icq-server-settings-widget.ui:54 myspaceim-advanced-settings-widget.ui:41
+#: yahoo-server-settings-widget.ui:44 yahoo-server-settings-widget.ui:87
 msgid "Port:"
 msgstr "Porto:"
 
@@ -104,6 +111,17 @@ msgstr "Usa accesso de cliente"
 msgid "Allow multiple simultaneous logins"
 msgstr "Permitte multiple accessos simultanee"
 
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: groupwise-advanced-settings-widget.ui:31
+#: myspaceim-advanced-settings-widget.ui:31
+msgid "Server:"
+msgstr "Servitor:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: groupwise-main-options-widget.ui:41
+msgid "The GroupWise username is your email address."
+msgstr "Le nomine de usator de GroupWise es tu adresse de e-posta."
+
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
 msgid "UIN:"
@@ -134,11 +152,6 @@ msgstr "Usa sempre RV-Proxy"
 msgid "Charset"
 msgstr "Insimul de Characteres"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
-#: icq-server-settings-widget.ui:136 yahoo-server-settings-widget.ui:138
-msgid "UTF-8"
-msgstr "UTF-8"
-
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: msn-main-options-widget.ui:29
 msgid "Email address:"
@@ -148,11 +161,6 @@ msgstr "Adresse de E-Posta:"
 #: msn-main-options-widget.ui:46
 msgid "Example: user@hotmail.com"
 msgstr "Exemplo: usator@hotmail.com"
-
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: myspaceim-advanced-settings-widget.ui:31
-msgid "Server:"
-msgstr "Servitor:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: myspaceim-main-options-widget.ui:41
@@ -194,6 +202,19 @@ msgstr "Auto-starta Skypoe si non es executante"
 msgid "Account:"
 msgstr "Conto:"
 
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
+#: steam-main-options-widget.ui:51
+msgid "Steam Guard Code:"
+msgstr "Steam Guard Code:"
+
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: steam-main-options-widget.ui:82
+msgid "The Steam Guard code will be emailed to you after attempting to login"
+msgstr ""
+"Le codice de Steam Guard essera inviata a te post que tui essaya acceder"
+
 #. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
 #: yahoo-server-settings-widget.ui:73
 msgid "<b>File Transfer</b>"
@@ -213,6 +234,11 @@ msgstr "<b>Local</b>"
 #: yahoo-server-settings-widget.ui:123
 msgid "Room List:"
 msgstr "Lista de sala:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
+#: yahoo-server-settings-widget.ui:138
+msgid "UTF-8"
+msgstr "UTF-8"
 
 #. i18n: ectx: property (text), widget (QCheckBox, SslProxy)
 #: yahoo-server-settings-widget.ui:159

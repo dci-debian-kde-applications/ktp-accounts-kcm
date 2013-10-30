@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2012.
-# Balázs Úr <urbalazs@gmail.com>, 2012.
+# Balázs Úr <urbalazs@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-23 05:04+0000\n"
-"PO-Revision-Date: 2012-11-18 00:00+0100\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-23 10:55+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -51,8 +51,9 @@ msgstr "Azonosítóikon módosítása"
 
 #: accounts-list-delegate.cpp:71
 msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
+"This button allows you to change the icon for your account.<br />This icon "
+"is just used locally on your computer, your contacts will not be able to see "
+"it."
 msgstr ""
 "Ez a gomb lehetővé teszi az azonosító ikonjának módosítását.<br />Ez az ikon "
 "csak a számítógépén van használva, a partnerei nem láthatják."
@@ -63,7 +64,7 @@ msgstr "Az azonosító megjelenített nevének módosítása"
 
 #: accounts-list-delegate.cpp:80
 msgid ""
-"This button allows to change the display name for your account.<br />The "
+"This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
@@ -118,17 +119,21 @@ msgstr "Valószínűleg nem minden kötelező mező érvényes"
 msgid "Something went wrong with Telepathy"
 msgstr "Hiba történt a Telepathyval"
 
-#: avatar-button.cpp:41
+#: avatar-button.cpp:54
 msgid "Load from file..."
 msgstr "Betöltés fájlból…"
 
-#: avatar-button.cpp:42
+#: avatar-button.cpp:55
 msgid "Clear Avatar"
 msgstr "Avatár törlése"
 
-#: avatar-button.cpp:74
+#: avatar-button.cpp:106
 msgid "Please choose your avatar"
 msgstr "Válassza ki az avatarját"
+
+#: avatar-button.cpp:155
+msgid "Failed to load avatar."
+msgstr "Nem sikerült betölteni az avatart."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -149,56 +154,50 @@ msgstr ""
 msgid "New display name"
 msgstr "Új megjelenített név"
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr "A kijelölt fájl nem tűnik képnek. Válasszon egy képfájlt."
-
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "Azonnali üzenetküldő és VOIP-fiókok"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:78
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
-#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
-#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Developer"
 msgstr "Fejlesztő"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:79
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:82
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:267
+#: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
@@ -206,50 +205,50 @@ msgstr ""
 "Kopete naplókat találtunk ehhez a fiókhoz. Szeretné importálni a naplókat a "
 "KDE Telepathy programba?"
 
-#: kcm-telepathy-accounts.cpp:268
+#: kcm-telepathy-accounts.cpp:267
 msgid "Import Logs?"
 msgstr "Naplók importálása?"
 
-#: kcm-telepathy-accounts.cpp:269
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs"
 msgstr "Naplók importálása"
 
-#: kcm-telepathy-accounts.cpp:270
+#: kcm-telepathy-accounts.cpp:269
 msgid "Close"
 msgstr "Bezárás"
 
-#: kcm-telepathy-accounts.cpp:277
+#: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
 msgstr "Naplók importálása…"
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
 msgstr "Kopete naplók importálása"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
 msgstr "A Kopete naplók sikeresen importálva"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Azonosító törlése"
 
 #: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "A beszélgetések naplóinak eltávolítása"
+
+#: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "Biztosan törölni szeretné a(z) „%1” azonosítót?"
 
-#: kcm-telepathy-accounts.cpp:410
-msgid "Remove conversations logs"
-msgstr "A beszélgetések naplóinak eltávolítása"
-
-#: kcm-telepathy-accounts.cpp:491
+#: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
 msgstr "Telepítse a telepathy-salut csomagot a bekapcsolásához"
 
-#: kcm-telepathy-accounts.cpp:533
+#: kcm-telepathy-accounts.cpp:534
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -370,7 +369,7 @@ msgstr "Skype"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
 
@@ -380,7 +379,7 @@ msgstr "Gadu-Gadu"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -388,9 +387,7 @@ msgstr "Google Talk"
 msgid "Novell Groupwise"
 msgstr "Novell Groupwise"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -461,13 +458,18 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "A(z) „<b>%1</b>” paraméter érvénytelen."
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "KDETalk"
+msgstr "KDETalk"
+
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
-msgid "Others"
-msgstr "Egyéb"
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
+msgid "All"
+msgstr "Mind"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr "AOL, Gadu-Gadu, Yahoo és továbbiak…"
 
@@ -539,6 +541,14 @@ msgstr "Mégsem"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Ön mint „%1” jelenik meg a helyi hálózaton."
+
+#~ msgid ""
+#~ "The file you have selected does not seem to be an image.\n"
+#~ "Please select an image file."
+#~ msgstr "A kijelölt fájl nem tűnik képnek. Válasszon egy képfájlt."
+
+#~ msgid "Others"
+#~ msgstr "Egyéb"
 
 #~ msgid "Online"
 #~ msgstr "Online"
