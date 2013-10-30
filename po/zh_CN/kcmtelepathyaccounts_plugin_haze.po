@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
 "PO-Revision-Date: 2012-12-30 12:05+0800\n"
 "Last-Translator: Wang Jiajun <amesists@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
@@ -21,24 +21,29 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
-#: aim-main-options-widget.ui:20 icq-main-options-widget.ui:20
-#: msn-main-options-widget.ui:20 myspaceim-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
+#: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
+#: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
+#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "账户首选项"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: aim-main-options-widget.ui:29 myspaceim-main-options-widget.ui:34
+#: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
 #: yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "用户名："
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: aim-main-options-widget.ui:46 icq-main-options-widget.ui:44
-#: msn-main-options-widget.ui:53 myspaceim-main-options-widget.ui:54
+#: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
+#: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
+#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
 #: yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "密码："
@@ -47,7 +52,9 @@ msgstr "密码："
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
-#: aim-server-settings-widget.ui:14 myspaceim-advanced-settings-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
+#: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
+#: myspaceim-advanced-settings-widget.ui:14
 #: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "高级选项"
@@ -67,9 +74,9 @@ msgstr "地址："
 #. i18n: ectx: property (text), widget (QLabel, serverPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, xferPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: aim-server-settings-widget.ui:49 icq-server-settings-widget.ui:54
-#: myspaceim-advanced-settings-widget.ui:41 yahoo-server-settings-widget.ui:44
-#: yahoo-server-settings-widget.ui:87
+#: aim-server-settings-widget.ui:49 groupwise-advanced-settings-widget.ui:41
+#: icq-server-settings-widget.ui:54 myspaceim-advanced-settings-widget.ui:41
+#: yahoo-server-settings-widget.ui:44 yahoo-server-settings-widget.ui:87
 msgid "Port:"
 msgstr "端口："
 
@@ -105,6 +112,19 @@ msgstr "使用客户端登录"
 msgid "Allow multiple simultaneous logins"
 msgstr "允许多处同时登录"
 
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: groupwise-advanced-settings-widget.ui:31
+#: myspaceim-advanced-settings-widget.ui:31
+msgid "Server:"
+msgstr "服务器："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: groupwise-main-options-widget.ui:41
+#, fuzzy
+#| msgid "The MySpaceIM username is your email address."
+msgid "The GroupWise username is your email address."
+msgstr "MySpaceIM 用户名为您的电子邮件地址"
+
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
 msgid "UIN:"
@@ -135,11 +155,6 @@ msgstr "总是使用 RV-Proxy"
 msgid "Charset"
 msgstr "字符集"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
-#: icq-server-settings-widget.ui:136 yahoo-server-settings-widget.ui:138
-msgid "UTF-8"
-msgstr "UTF-8"
-
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: msn-main-options-widget.ui:29
 msgid "Email address:"
@@ -149,11 +164,6 @@ msgstr "电子邮件地址："
 #: msn-main-options-widget.ui:46
 msgid "Example: user@hotmail.com"
 msgstr "例如：user@hotmail.com"
-
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: myspaceim-advanced-settings-widget.ui:31
-msgid "Server:"
-msgstr "服务器："
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: myspaceim-main-options-widget.ui:41
@@ -195,6 +205,18 @@ msgstr "如果 Skype 未运行则自动启动"
 msgid "Account:"
 msgstr "账户："
 
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
+#: steam-main-options-widget.ui:51
+msgid "Steam Guard Code:"
+msgstr ""
+
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: steam-main-options-widget.ui:82
+msgid "The Steam Guard code will be emailed to you after attempting to login"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
 #: yahoo-server-settings-widget.ui:73
 msgid "<b>File Transfer</b>"
@@ -214,6 +236,11 @@ msgstr "<b>语系</b>"
 #: yahoo-server-settings-widget.ui:123
 msgid "Room List:"
 msgstr "房间列表："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
+#: yahoo-server-settings-widget.ui:138
+msgid "UTF-8"
+msgstr "UTF-8"
 
 #. i18n: ectx: property (text), widget (QCheckBox, SslProxy)
 #: yahoo-server-settings-widget.ui:159

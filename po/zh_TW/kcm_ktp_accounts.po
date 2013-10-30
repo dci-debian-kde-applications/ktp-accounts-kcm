@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-23 05:04+0000\n"
-"PO-Revision-Date: 2013-01-22 17:25+0800\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-03 15:02+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -51,8 +51,9 @@ msgstr "變更帳號圖示"
 
 #: accounts-list-delegate.cpp:71
 msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
+"This button allows you to change the icon for your account.<br />This icon "
+"is just used locally on your computer, your contacts will not be able to see "
+"it."
 msgstr ""
 "此按鍵可以讓您變更帳號的圖示。<br />此圖示只會在您的電腦上使用，您的聯絡人不"
 "會看到此圖示。"
@@ -63,7 +64,7 @@ msgstr "變更帳號顯示名稱"
 
 #: accounts-list-delegate.cpp:80
 msgid ""
-"This button allows to change the display name for your account.<br />The "
+"This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
@@ -116,17 +117,21 @@ msgstr "可能並非所有欄位都是合法的"
 msgid "Something went wrong with Telepathy"
 msgstr "Telepathy 發生了錯誤"
 
-#: avatar-button.cpp:41
+#: avatar-button.cpp:54
 msgid "Load from file..."
 msgstr "從檔案載入..."
 
-#: avatar-button.cpp:42
+#: avatar-button.cpp:55
 msgid "Clear Avatar"
 msgstr "清除頭像"
 
-#: avatar-button.cpp:74
+#: avatar-button.cpp:106
 msgid "Please choose your avatar"
 msgstr "請選擇您的頭像"
+
+#: avatar-button.cpp:155
+msgid "Failed to load avatar."
+msgstr "載入頭像失敗。"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -145,107 +150,99 @@ msgstr "您的帳號的本地別名，只有您會看到此名稱。"
 msgid "New display name"
 msgstr "新的顯示名稱"
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-"您選擇的檔案似乎不是影像檔。\n"
-"請選擇影像檔。"
-
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
 msgstr "telepathy_accounts"
 
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "Instant Messaging and VOIP Accounts"
 msgstr "即時訊息與 VOIP 帳號"
 
-#: kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:78
 msgid "George Goldberg"
 msgstr "George Goldberg"
 
-#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
-#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
-#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
 msgid "Developer"
 msgstr "開發者"
 
-#: kcm-telepathy-accounts.cpp:82
+#: kcm-telepathy-accounts.cpp:79
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
 msgstr "Dominik Schmidt"
 
-#: kcm-telepathy-accounts.cpp:84
+#: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
 msgstr "Thomas Richard"
 
-#: kcm-telepathy-accounts.cpp:85
+#: kcm-telepathy-accounts.cpp:82
 msgid "Florian Reinhard"
 msgstr "Florian Reinhard"
 
-#: kcm-telepathy-accounts.cpp:86
+#: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
 msgstr "Daniele E. Domenichelli"
 
-#: kcm-telepathy-accounts.cpp:87
+#: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:267
+#: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
 msgstr "我們發現此帳號有 Kopete 的紀錄。您要匯入這些紀錄到 KDE Telepathy 嗎？"
 
-#: kcm-telepathy-accounts.cpp:268
+#: kcm-telepathy-accounts.cpp:267
 msgid "Import Logs?"
 msgstr "要匯入紀錄嗎？"
 
-#: kcm-telepathy-accounts.cpp:269
+#: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs"
 msgstr "匯入紀錄"
 
-#: kcm-telepathy-accounts.cpp:270
+#: kcm-telepathy-accounts.cpp:269
 msgid "Close"
 msgstr "關閉"
 
-#: kcm-telepathy-accounts.cpp:277
+#: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
 msgstr "匯入紀錄中..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
 msgstr "Kopete 紀錄匯入"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
 msgstr "Kopete 紀錄已成功匯入"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "移除帳號"
 
 #: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "移除對話紀錄"
+
+#: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "您確定要移除帳號 %1 ？"
 
-#: kcm-telepathy-accounts.cpp:410
-msgid "Remove conversations logs"
-msgstr "移除對話紀錄"
-
-#: kcm-telepathy-accounts.cpp:491
+#: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
 msgstr "請先安裝 telepathy-salut 來開啟此功能"
 
-#: kcm-telepathy-accounts.cpp:533
+#: kcm-telepathy-accounts.cpp:534
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
@@ -365,7 +362,7 @@ msgstr "Skype"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
 msgstr "Facebook 聊天"
 
@@ -375,7 +372,7 @@ msgstr "Gadu-Gadu"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -383,9 +380,7 @@ msgstr "Google Talk"
 msgid "Novell Groupwise"
 msgstr "Novell Groupwise"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -456,13 +451,18 @@ msgstr "Zephyr"
 msgid "Parameter \"<b>%1</b>\" is not valid."
 msgstr "參數 \"<b>%1</b>\" 不合法。"
 
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "KDETalk"
+msgstr "KDETalk"
+
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
-msgid "Others"
-msgstr "其他"
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
+msgid "All"
+msgstr "全部"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr "AOL, Gadu-Gadu, Yahoo 及其他..."
 
@@ -532,6 +532,16 @@ msgstr "取消"
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
 msgstr "您在您的本地端網路上會以 \"%1\" 呈現。"
+
+#~ msgid ""
+#~ "The file you have selected does not seem to be an image.\n"
+#~ "Please select an image file."
+#~ msgstr ""
+#~ "您選擇的檔案似乎不是影像檔。\n"
+#~ "請選擇影像檔。"
+
+#~ msgid "Others"
+#~ msgstr "其他"
 
 #~ msgid "Online"
 #~ msgstr "上線"

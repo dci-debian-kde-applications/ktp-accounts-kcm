@@ -2,84 +2,87 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Serdar Soytetir <tulliana@gmail.com>, 2009.
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-23 05:04+0000\n"
-"PO-Revision-Date: 2009-09-18 20:08+0300\n"
-"Last-Translator: Serdar Soytetir <tulliana@gmail.com>\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-15 19:21+0200\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Volkan Gezer"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "volkangezer@gmail.com"
 
 #: account-identity-dialog.cpp:42
-#, fuzzy
 msgid "Edit Account Identity"
-msgstr "Hesap Düzenle"
+msgstr "Hesap Kimliğini Düzenle"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: account-identity-dialog.ui:40
 msgid "Nickname:"
-msgstr ""
+msgstr "Takma ad:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
-#, fuzzy
 msgid "Account:"
-msgstr "Hesap Ekle"
+msgstr "Hesap:"
 
 #. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
 #: account-identity-dialog.ui:87
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: accounts-list-delegate.cpp:70
-#, fuzzy
 msgid "Change account icon"
-msgstr "Hesap Düzenle"
+msgstr "Hesap simgesini değiştir"
 
 #: accounts-list-delegate.cpp:71
 msgid ""
-"This button allows to change the icon for your account.<br />This icon is "
-"just used locally on your computer, your contacts will not be able to see it."
+"This button allows you to change the icon for your account.<br />This icon "
+"is just used locally on your computer, your contacts will not be able to see "
+"it."
 msgstr ""
+"Bu düğme hesabınız için simgeyi değiştirmenizi sağlar.<br />Bu simge sadece "
+"sizin bilgisayarınızda yerel olarak kullanılır, kişileriniz göremeyecekler."
 
 #: accounts-list-delegate.cpp:79
 msgid "Change account display name"
-msgstr ""
+msgstr "Hesap görüntü adını değiştir"
 
 #: accounts-list-delegate.cpp:80
 msgid ""
-"This button allows to change the display name for your account.<br />The "
+"This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
+"Bu düğme hesabınız için görüntü adınızı değiştirmenizi sağlar.<br />Bu "
+"görüntü adı sadece sizin bilgisayarınızda yerel olarak kullanılan bir takma "
+"isimdir ve kişileriniz göremeyecekler."
 
 #: accounts-list-delegate.cpp:134
 msgid "Click checkbox to enable"
-msgstr ""
+msgstr "Etkinleştirmek için işaret kutusunu seçin"
 
 #: accounts-list-delegate.cpp:144
 msgid "Disable account"
-msgstr ""
+msgstr "Hesabı devre dışı bırak"
 
 #: accounts-list-delegate.cpp:147
-#, fuzzy
 msgid "Enable account"
-msgstr "Hesap Düzenle"
+msgstr "Hesabı etkinleştir"
 
 #: add-account-assistant.cpp:95 add-account-assistant.cpp:96
 msgid "Step 1: Select an Instant Messaging Network."
@@ -95,405 +98,415 @@ msgid ""
 "Please install the telepathy-haze and telepathy-gabble packages using your "
 "package manager."
 msgstr ""
+"Bu anında mesajlaşma ağına bağlanmak için ek eklentileri kurmalısınız. "
+"Lütfen paket yöneticinizi kullanarak telephaty-haze ve telephaty-gabble "
+"paketlerini kurun."
 
 #: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
-msgstr ""
+msgstr "Telepathy Bağlantı Yöneticisi Eksik"
 
 #: add-account-assistant.cpp:208 add-account-assistant.cpp:257
 #: salut-enabler.cpp:243
 msgid "Failed to create account"
-msgstr ""
+msgstr "Hesap oluşturma başarısız"
 
 #: add-account-assistant.cpp:258 salut-enabler.cpp:244
 msgid "Possibly not all required fields are valid"
-msgstr ""
+msgstr "Muhtemelen tüm gerekli alanlar geçerli değil"
 
 #: add-account-assistant.cpp:267 salut-enabler.cpp:253
 msgid "Something went wrong with Telepathy"
-msgstr ""
+msgstr "Telepathy ile bir şeyler yanlış gitti"
 
-#: avatar-button.cpp:41
+#: avatar-button.cpp:54
 msgid "Load from file..."
-msgstr ""
+msgstr "Dosyadan yükle..."
 
-#: avatar-button.cpp:42
+#: avatar-button.cpp:55
 msgid "Clear Avatar"
-msgstr ""
+msgstr "Avatarı Temizle"
 
-#: avatar-button.cpp:74
+#: avatar-button.cpp:106
 msgid "Please choose your avatar"
-msgstr ""
+msgstr "Lütfen avatarınızı seçin"
+
+#: avatar-button.cpp:155
+msgid "Failed to load avatar."
+msgstr "Avatar yüklenmesi başarısız."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr ""
+msgstr "Görüntü Adını Düzenle"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr ""
+msgstr "Hesabınız için yeni bir görüntü adı seçin"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
 msgstr ""
+"Bir görüntü adı hesabınız için takma bir isimdir ve sadece siz "
+"görebilirsiniz."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
-msgstr ""
+msgstr "Yeni görüntü adı"
 
-#: fetch-avatar-job.cpp:83
-msgid ""
-"The file you have selected does not seem to be an image.\n"
-"Please select an image file."
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
-msgstr ""
+msgstr "telepathy_hesapları"
+
+#: kcm-telepathy-accounts.cpp:76
+msgid "Instant Messaging and VOIP Accounts"
+msgstr "Anında Mesajlaşma ve VOIP Hesapları"
+
+#: kcm-telepathy-accounts.cpp:78
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
+#: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
+#: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
+#: kcm-telepathy-accounts.cpp:84
+msgid "Developer"
+msgstr "Geliştirici"
 
 #: kcm-telepathy-accounts.cpp:79
-msgid "Instant Messaging and VOIP Accounts"
-msgstr ""
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcm-telepathy-accounts.cpp:80
+msgid "Dominik Schmidt"
+msgstr "Dominik Schmidt"
 
 #: kcm-telepathy-accounts.cpp:81
-msgid "George Goldberg"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:81 kcm-telepathy-accounts.cpp:82
-#: kcm-telepathy-accounts.cpp:83 kcm-telepathy-accounts.cpp:84
-#: kcm-telepathy-accounts.cpp:85 kcm-telepathy-accounts.cpp:86
-#: kcm-telepathy-accounts.cpp:87
-msgid "Developer"
-msgstr ""
+msgid "Thomas Richard"
+msgstr "Thomas Richard"
 
 #: kcm-telepathy-accounts.cpp:82
-msgid "David Edmundson"
-msgstr ""
+msgid "Florian Reinhard"
+msgstr "Florian Reinhard"
 
 #: kcm-telepathy-accounts.cpp:83
-msgid "Dominik Schmidt"
-msgstr ""
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
 
 #: kcm-telepathy-accounts.cpp:84
-msgid "Thomas Richard"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:85
-msgid "Florian Reinhard"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:86
-msgid "Daniele E. Domenichelli"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:87
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
-#: kcm-telepathy-accounts.cpp:267
+#: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
 msgstr ""
+"Bu hesap için Kopete günlüklerini bulduk. Bu günlükleri KDE Telepathy "
+"içerisine aktarmak ister misiniz?"
+
+#: kcm-telepathy-accounts.cpp:267
+msgid "Import Logs?"
+msgstr "Günlükler Aktarılsın mı?"
 
 #: kcm-telepathy-accounts.cpp:268
-msgid "Import Logs?"
-msgstr ""
+msgid "Import Logs"
+msgstr "Günlükleri Aktar"
 
 #: kcm-telepathy-accounts.cpp:269
-msgid "Import Logs"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:270
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
-#: kcm-telepathy-accounts.cpp:277
+#: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
-msgstr ""
+msgstr "Günlükler aktarılıyor..."
 
-#: kcm-telepathy-accounts.cpp:295 kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
-msgstr ""
+msgstr "Kopete Günlük Aktarımı"
 
-#: kcm-telepathy-accounts.cpp:304
+#: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
-msgstr ""
+msgstr "Kopete günlükleri başarıyla aktarıldı"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
-#: kcm-telepathy-accounts.cpp:406 kcm-telepathy-accounts.cpp:407
+#: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
 msgstr "Hesap Sil"
 
 #: kcm-telepathy-accounts.cpp:409
+msgid "Remove conversations logs"
+msgstr "Konuşma günlüklerini kaldır"
+
+#: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "\"%1\" hesabını gerçekten silmek istiyor musunuz?"
 
-#: kcm-telepathy-accounts.cpp:410
-msgid "Remove conversations logs"
-msgstr ""
-
-#: kcm-telepathy-accounts.cpp:491
+#: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
-msgstr ""
+msgstr "Etkinleştirmek için telepathy-salut kurun"
 
-#: kcm-telepathy-accounts.cpp:533
+#: kcm-telepathy-accounts.cpp:534
 msgid ""
 "Something went terribly wrong and the IM system could not be initialized.\n"
 "It is likely your system is missing Telepathy Mission Control package.\n"
 "Please install it and restart this module."
 msgstr ""
+"Bir şeyler ciddi derecede yanlış gitti ve Anında Mesajlaşma sistemi "
+"başlatılamadı.\n"
+"Muhtemelen sisteminiz Telepathy Görev Denetim paketini içermiyor.\n"
+"Lütfen kurun ve bu modülü yeniden başlatın."
 
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
-msgstr ""
+msgstr "Tüm gerekli alanlar doldurulmalıdır"
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
-msgstr ""
+msgstr "Sihirbaz tamamlandığında bağlan"
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş Seçenekler"
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: KCMTelepathyAccounts/account-edit-widget.ui:62
 msgid "Advanced"
-msgstr ""
+msgstr "Gelişmiş"
 
 #: KCMTelepathyAccounts/dictionary.cpp:33
 msgid "Password"
-msgstr ""
+msgstr "Parola"
 
 #: KCMTelepathyAccounts/dictionary.cpp:34
-#, fuzzy
 msgid "Account"
-msgstr "Hesap Ekle"
+msgstr "Hesap"
 
 #: KCMTelepathyAccounts/dictionary.cpp:35
 msgid "Priority"
-msgstr ""
+msgstr "Öncelik"
 
 #: KCMTelepathyAccounts/dictionary.cpp:36
 msgid "Port"
-msgstr ""
+msgstr "Bağlantı Noktası"
 
 #: KCMTelepathyAccounts/dictionary.cpp:37
 msgid "Alias"
-msgstr ""
+msgstr "Takma Ad"
 
 #: KCMTelepathyAccounts/dictionary.cpp:38
-#, fuzzy
 msgid "Register new Account"
-msgstr "Hesap Sil"
+msgstr "Yeni Hesaba Kayıt Ol"
 
 #: KCMTelepathyAccounts/dictionary.cpp:39
 msgid "Server Address"
-msgstr ""
+msgstr "Sunucu Adresi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:40
 msgid "Fallback STUN server address"
-msgstr ""
+msgstr "İkincil STUN sunucu adresi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:41
 msgid "Resource"
-msgstr ""
+msgstr "Kaynak"
 
 #: KCMTelepathyAccounts/dictionary.cpp:42
 msgid "HTTPS Proxy Port"
-msgstr ""
+msgstr "HTTPS Vekil Sunucu Bağl. Nokt."
 
 #: KCMTelepathyAccounts/dictionary.cpp:43
 msgid "Require Encryption"
-msgstr ""
+msgstr "Şifreleme Gerektiriyor"
 
 #: KCMTelepathyAccounts/dictionary.cpp:44
 msgid "Old-style SSL support"
-msgstr ""
+msgstr "Eski SSL destek biçemi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:45
 msgid "Fallback STUN port"
-msgstr ""
+msgstr "İkincil STUN bağl. nokt."
 
 #: KCMTelepathyAccounts/dictionary.cpp:46
 msgid "Fallback Conference Server Address"
-msgstr ""
+msgstr "İkincil Konferans Sunucu Adresi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:47
 msgid "Low Bandwidth Mode"
-msgstr ""
+msgstr "Düşük Bant Genişlik Kipi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:48
 msgid "STUN Server Address"
-msgstr ""
+msgstr "STUN Sunucu Adresi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:49
 msgid "STUN Port"
-msgstr ""
+msgstr "STUN Bağl. Nokt."
 
 #: KCMTelepathyAccounts/dictionary.cpp:50
 msgid "Fallback SOCKS5 Proxy Addresses"
-msgstr ""
+msgstr "İkincil SOCKS5 Vekil Sunucu Adresleri"
 
 #: KCMTelepathyAccounts/dictionary.cpp:51
 msgid "HTTPS Proxy Server Address"
-msgstr ""
+msgstr "HTTPS Vekil Sunucu Adresi"
 
 #: KCMTelepathyAccounts/dictionary.cpp:52
 msgid "Ignore SSL Errors"
-msgstr ""
+msgstr "SSL Hatalarını Yoksay"
 
 #: KCMTelepathyAccounts/dictionary.cpp:53
 msgid "Keepalive Interval"
-msgstr ""
+msgstr "Canlı Tutma Aralığı"
 
 #: KCMTelepathyAccounts/dictionary.cpp:56
 msgid "AOL Instant Messenger"
-msgstr ""
+msgstr "AOL Anında Mesajlaşma"
 
 #: KCMTelepathyAccounts/dictionary.cpp:57
 msgid "Skype"
-msgstr ""
+msgstr "Skype"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:102
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
-msgstr ""
+msgstr "Facebook Sohbet"
 
 #: KCMTelepathyAccounts/dictionary.cpp:59
 msgid "Gadu-Gadu"
-msgstr ""
+msgstr "Gadu-Gadu"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
-msgstr ""
+msgstr "Google Talk"
 
 #: KCMTelepathyAccounts/dictionary.cpp:61
 msgid "Novell Groupwise"
-msgstr ""
+msgstr "Novell Groupwise"
 
-#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonIcq)
 #: KCMTelepathyAccounts/dictionary.cpp:62
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:126
 msgid "ICQ"
-msgstr ""
+msgstr "ICQ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:63
 msgid "Internet Relay Chat"
-msgstr ""
+msgstr "Internet Relay Chat"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 msgid "Jabber/XMPP"
-msgstr ""
+msgstr "Jabber/XMPP"
 
 #: KCMTelepathyAccounts/dictionary.cpp:65
 msgid "Bonjour/Salut"
-msgstr ""
+msgstr "Bonjour/Salut"
 
 #: KCMTelepathyAccounts/dictionary.cpp:66
 msgid "MXit"
-msgstr ""
+msgstr "MXit"
 
 #: KCMTelepathyAccounts/dictionary.cpp:67
 msgid "Windows Live Messenger"
-msgstr ""
+msgstr "Windows Live Messenger"
 
 #: KCMTelepathyAccounts/dictionary.cpp:68
 msgid "MySpaceIM"
-msgstr ""
+msgstr "MySpaceIM"
 
 #: KCMTelepathyAccounts/dictionary.cpp:69
 msgid "Tencent QQ"
-msgstr ""
+msgstr "Tencent QQ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:70
 msgid "IBM Lotus Sametime"
-msgstr ""
+msgstr "IBM Lotus Sametime"
 
 #: KCMTelepathyAccounts/dictionary.cpp:71
 msgid "SILC"
-msgstr ""
+msgstr "SILC"
 
 #: KCMTelepathyAccounts/dictionary.cpp:72
 msgid "Session Initiation Protocol (SIP)"
-msgstr ""
+msgstr "Oturum Başlatma Protokolü (SIP)"
 
 #: KCMTelepathyAccounts/dictionary.cpp:73
 msgid "GSM Telephony"
-msgstr ""
+msgstr "GSM Telefonu"
 
 #: KCMTelepathyAccounts/dictionary.cpp:74
 msgid "Trepia"
-msgstr ""
+msgstr "Trepia"
 
 #: KCMTelepathyAccounts/dictionary.cpp:75
 msgid "Yahoo! Messenger"
-msgstr ""
+msgstr "Yahoo! Messenger"
 
 #: KCMTelepathyAccounts/dictionary.cpp:76
 msgid "Yahoo! Messenger Japan"
-msgstr ""
+msgstr "Yahoo! Messenger Japonya"
 
 #: KCMTelepathyAccounts/dictionary.cpp:77
 msgid "Zephyr"
-msgstr ""
+msgstr "Zephyr"
 
 #: KCMTelepathyAccounts/parameter-edit-model.cpp:302
 #, kde-format
 msgid "Parameter \"<b>%1</b>\" is not valid."
-msgstr ""
+msgstr "\"<b>%1</b>\" parametresi geçerli değil."
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
+msgid "KDETalk"
+msgstr "KDETalk"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:150
-msgid "Others"
-msgstr ""
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
+msgid "All"
+msgstr "Tümü"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
-#: KCMTelepathyAccounts/simple-profile-select-widget.ui:164
+#: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
-msgstr ""
+msgstr "AOL, Gadu-Gadu, Yahoo ve diğerleri..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
-msgstr ""
+msgstr "Bu alan gerekli"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:121
 msgid "This field should not be empty"
-msgstr ""
+msgstr "Bu alan boş olmamalı"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:125
 msgid "This field should contain an email address"
-msgstr ""
+msgstr "Bu alan e-posta adresi içermelidir"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:129
 msgid "This field should contain a hostname"
-msgstr ""
+msgstr "Bu alan sunucu adı içermelidir"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:133
 msgid "This field should contain an IP address"
-msgstr ""
+msgstr "Bu alan IP adresi içermelidir"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:178
 msgid "This field is valid"
-msgstr ""
+msgstr "Bu alan geçerli"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
 #: main-widget.ui:80
 msgid "Enable local network discovery"
-msgstr ""
+msgstr "Yerel ağ keşfini etkinleştir"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
 #: main-widget.ui:100
 msgid "Connect to people near you"
-msgstr ""
+msgstr "Çevrenizdeki kişilere bağlanın"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
 #: main-widget.ui:151
@@ -509,24 +522,26 @@ msgstr "Hesap Düzenle"
 #: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
+"Diğerlerine nasıl görüneceğinizi düzenleyin. Hesabın çevrimiçi olmasını "
+"gerektirir."
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
 #: main-widget.ui:174
 msgid "Edit Identity"
-msgstr ""
+msgstr "Kimliği Düzenle"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
-msgstr ""
+msgstr "El ile yapılandır..."
 
 #: salut-message-widget.cpp:54
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: salut-message-widget.cpp:104
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
-msgstr ""
+msgstr "Yerel ağda \"%1\" olarak görüneceksiniz."
 
 #~ msgid "Mandatory Parameters"
 #~ msgstr "Zorunlu Parametreler"
