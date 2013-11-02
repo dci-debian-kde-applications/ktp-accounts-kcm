@@ -1,6 +1,8 @@
 ktp-accounts-kcm (0.7.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update Build-Depends: libktpcommoninternalsprivate-dev >= 0.7.0
+  * Update Depends kde-telepathy-data >= 0.7.0
 
  -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 20:43:16 -0700
 
