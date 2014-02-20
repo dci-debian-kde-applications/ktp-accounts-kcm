@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
 "PO-Revision-Date: 2012-02-06 20:09+0700\n"
 "Last-Translator: HeroP\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -24,7 +24,9 @@ msgstr "Thông tin thêm"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
+#, fuzzy
+#| msgid "Published Name:"
+msgid "Published name:"
 msgstr "Tên công khai:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -44,12 +46,16 @@ msgstr "Tuỳ thích tài khoản"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
+#, fuzzy
+#| msgid "First Name:"
+msgid "First name:"
 msgstr "Tên:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+#, fuzzy
+#| msgid "Last Name:"
+msgid "Last name:"
 msgstr "Họ:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

@@ -35,7 +35,7 @@ msgstr "Serveur :"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, serverLineEdit)
 #: sunshine-advanced-options-widget.ui:39
 msgid "STUN server address (FQDN or IP address)"
-msgstr "Adresse du serveur « STUN » (FQDN ou adresse IP)"
+msgstr "Adresse du serveur « STUN » (FQDN ou adresse IP)"
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: sunshine-advanced-options-widget.ui:46
@@ -65,7 +65,7 @@ msgstr "Sécurité :"
 #. i18n: ectx: property (text), widget (QCheckBox, sslCheckBox)
 #: sunshine-advanced-options-widget.ui:93
 msgid "Use Transport Layer Security (TLS/SSL)"
-msgstr "Utiliser « Transport Layer Security » (TLS / SSL)"
+msgstr "Utiliser « Transport Layer Security » (TLS / SSL)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SunshineMainOptionsWidget)
 #: sunshine-main-options-widget.ui:14

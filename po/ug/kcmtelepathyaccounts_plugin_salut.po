@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_salut\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2011-05-09 19:00+0900\n"
-"Last-Translator: Sahran <sahran@live.com>\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"PO-Revision-Date: 2013-09-08 07:04+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "قوشۇمچە ئۇچۇر"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
+msgid "Published name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -44,12 +44,14 @@ msgstr "ھېسابات مايىللىقى"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
-msgstr ""
+#, fuzzy
+#| msgid "Nickname:"
+msgid "First name:"
+msgstr "تەخەللۇس:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+msgid "Last name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

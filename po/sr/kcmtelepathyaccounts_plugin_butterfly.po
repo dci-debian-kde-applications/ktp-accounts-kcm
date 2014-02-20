@@ -19,22 +19,26 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
+#. i18n: file: main-options-widget.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
-#: main-options-widget.ui:20
+#: rc.cpp:3
 msgid "Account Preferences"
 msgstr "Поставке налога"
 
+#. i18n: file: main-options-widget.ui:29
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
+#: rc.cpp:6
 msgid "Email address:"
 msgstr "Адреса е‑поште:"
 
+#. i18n: file: main-options-widget.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
+#: rc.cpp:9
 msgid "Example: user@hotmail.com"
 msgstr "Пример: korisnik@hotmail.com"
 
+#. i18n: file: main-options-widget.ui:53
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
+#: rc.cpp:12
 msgid "Password:"
 msgstr "Лозинка:"

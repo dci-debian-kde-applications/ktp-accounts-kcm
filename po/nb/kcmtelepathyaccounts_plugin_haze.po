@@ -1,12 +1,12 @@
 # Translation of kcmtelepathyaccounts_plugin_haze to Norwegian Bokmål
 #
-# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2012, 2013.
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
-"PO-Revision-Date: 2012-02-05 12:14+0100\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"PO-Revision-Date: 2014-01-12 14:19+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -22,34 +22,45 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
-#: aim-main-options-widget.ui:20 icq-main-options-widget.ui:20
-#: msn-main-options-widget.ui:20 myspaceim-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
+#: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
+#: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
+#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
+#: yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Kontoinnstillinger"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: aim-main-options-widget.ui:29 myspaceim-main-options-widget.ui:34
-#: yahoo-main-options-widget.ui:34
+#: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
+#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Brukernavn:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: aim-main-options-widget.ui:46 icq-main-options-widget.ui:44
-#: msn-main-options-widget.ui:53 myspaceim-main-options-widget.ui:54
-#: yahoo-main-options-widget.ui:48
+#: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
+#: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
+#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
+#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Passord:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
-#: aim-server-settings-widget.ui:14 myspaceim-advanced-settings-widget.ui:14
-#: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
+#: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
+#: myspaceim-advanced-settings-widget.ui:14
+#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
+#: yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Avanserte innstillinger"
 
@@ -68,9 +79,9 @@ msgstr "Adresse:"
 #. i18n: ectx: property (text), widget (QLabel, serverPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, xferPortLabel)
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: aim-server-settings-widget.ui:49 icq-server-settings-widget.ui:54
-#: myspaceim-advanced-settings-widget.ui:41 yahoo-server-settings-widget.ui:44
-#: yahoo-server-settings-widget.ui:87
+#: aim-server-settings-widget.ui:49 groupwise-advanced-settings-widget.ui:41
+#: icq-server-settings-widget.ui:54 myspaceim-advanced-settings-widget.ui:41
+#: yahoo-server-settings-widget.ui:44 yahoo-server-settings-widget.ui:87
 msgid "Port:"
 msgstr "Port:"
 
@@ -87,7 +98,7 @@ msgstr "Kryptering:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-msgid "Always use AIM proxy "
+msgid "Always use AIM proxy"
 msgstr "Bruk alltid AIM-mellomtjener"
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
@@ -105,6 +116,17 @@ msgstr "Bruk clientLogin"
 #: aim-server-settings-widget.ui:122
 msgid "Allow multiple simultaneous logins"
 msgstr "Tillat flere samtidige innlogginger"
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: groupwise-advanced-settings-widget.ui:31
+#: myspaceim-advanced-settings-widget.ui:31
+msgid "Server:"
+msgstr "Tjener:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: groupwise-main-options-widget.ui:41
+msgid "The GroupWise username is your email address."
+msgstr "Brukernavnet for GroupWise er din e-postadresse."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
@@ -132,17 +154,13 @@ msgid "Always use RV-Proxy"
 msgstr "Bruk alltid RV--mellomtjener"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: icq-server-settings-widget.ui:128 yahoo-server-settings-widget.ui:130
+#: icq-server-settings-widget.ui:128
 msgid "Charset"
 msgstr "Tegnsett"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
-#: icq-server-settings-widget.ui:136 yahoo-server-settings-widget.ui:138
-msgid "UTF-8"
-msgstr "UTF-8"
-
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: msn-main-options-widget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
 msgid "Email address:"
 msgstr "E-postadresse:"
 
@@ -151,20 +169,80 @@ msgstr "E-postadresse:"
 msgid "Example: user@hotmail.com"
 msgstr "Eksempel: user@hotmail.com"
 
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: myspaceim-advanced-settings-widget.ui:31
-msgid "Server:"
-msgstr "Tjener:"
-
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: myspaceim-main-options-widget.ui:41
 msgid "The MySpaceIM username is your email address."
 msgstr "Brukernavnet for MySpaceIM er din e-postadresse."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
-#: myspaceim-main-options-widget.ui:47
+#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
 msgid "john@doe.com"
 msgstr "ola@nordmann.test"
+
+#. i18n: ectx: property (text), widget (QLabel, loginLabel)
+#: sipe-advanced-settings-widget.ui:31
+msgid "Login:"
+msgstr "Login:"
+
+#. i18n: ectx: property (text), widget (QLabel, transportLabel)
+#: sipe-advanced-settings-widget.ui:44
+msgid "Connection type:"
+msgstr "Tilkoblingstype:"
+
+#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
+#: sipe-advanced-settings-widget.ui:51
+msgid "auto"
+msgstr "auto"
+
+#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
+#: sipe-advanced-settings-widget.ui:58
+msgid "User agent:"
+msgstr "Brukeragent:"
+
+#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
+#: sipe-advanced-settings-widget.ui:68
+msgid "Authentication scheme:"
+msgstr "Autentiseringsmåte:"
+
+#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
+#: sipe-advanced-settings-widget.ui:75
+msgid "ntlm"
+msgstr "ntlm"
+
+#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
+#: sipe-advanced-settings-widget.ui:82
+msgid "Do not publish my calendar information:"
+msgstr "Ikke publiser min kalenderinformasjon:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
+#: sipe-advanced-settings-widget.ui:92
+msgid "Email services URL:"
+msgstr "URL for e-posttjenester:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
+#: sipe-advanced-settings-widget.ui:112
+msgid "Email login:"
+msgstr "E-post login:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
+#: sipe-advanced-settings-widget.ui:122
+msgid "Email password:"
+msgstr "E-post passord:"
+
+#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
+#: sipe-advanced-settings-widget.ui:129
+msgid "Group chat proxy:"
+msgstr "Mellomtjener for gruppeprat:"
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: sipe-advanced-settings-widget.ui:146
+msgid "Server[:port]:"
+msgstr "Tjener[:port]:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: sipe-main-options-widget.ui:41
+msgid "The Sipe username is your email address."
+msgstr "Brukernavnet for Sipe er din e-postadresse."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -196,6 +274,20 @@ msgstr "Auto-start Skype hvis den ikke kjører"
 msgid "Account:"
 msgstr "Konto:"
 
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
+#: steam-main-options-widget.ui:51
+msgid "Steam Guard code:"
+msgstr "Steam Guard-kode:"
+
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: steam-main-options-widget.ui:82
+msgid "The Steam Guard code will be emailed to you after attempting to login"
+msgstr ""
+"Steam Guard-koden blir sendt til deg på e-post etter at du har forsøkt å "
+"logge inn"
+
 #. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
 #: yahoo-server-settings-widget.ui:73
 msgid "<b>File Transfer</b>"
@@ -215,6 +307,16 @@ msgstr "<b>Lokale</b>"
 #: yahoo-server-settings-widget.ui:123
 msgid "Room List:"
 msgstr "Romliste:"
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
+#: yahoo-server-settings-widget.ui:130
+msgid "Charset:"
+msgstr "Tegnsett:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
+#: yahoo-server-settings-widget.ui:138
+msgid "UTF-8"
+msgstr "UTF-8"
 
 #. i18n: ectx: property (text), widget (QCheckBox, SslProxy)
 #: yahoo-server-settings-widget.ui:159

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2013-02-14 20:06+0100\n"
+"PO-Revision-Date: 2013-08-03 10:45+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -155,7 +155,7 @@ msgstr "Ohranjanje povezave"
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: rakia-advanced-options-widget.ui:216
 msgid "Interval:"
-msgstr "Interval:"
+msgstr "Razmik:"
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, keepaliveIntervalNumInput)
 #: rakia-advanced-options-widget.ui:223
@@ -163,8 +163,8 @@ msgid ""
 "Interval between keepalive probes in seconds (0 = disabled, unset = use a "
 "default interval)"
 msgstr ""
-"Interval med zahtevki ohranjanje povezave v sekundah (0 = onemogočeno, ni "
-"nastavljeno = uporabi privzet interval)"
+"Razmik med zahtevami ohranjanje povezave v sekundah (0 = onemogočeno, ni "
+"nastavljeno = uporabi privzet razmik)"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:242

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2013-10-02 13:15+0200\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"PO-Revision-Date: 2013-07-17 13:20+0200\n"
 "Last-Translator: G.Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-l10n-ia@kde.org>\n"
 "Language: ia\n"
@@ -54,8 +54,9 @@ msgid ""
 "is just used locally on your computer, your contacts will not be able to see "
 "it."
 msgstr ""
-"Iste button permitte cambiar le icone de tu conto,<br />Iste icone es usate "
-"solmente localmente sur tu computator, tu contactos non potera vider lo."
+"Iste button permitte que tu cambia le icone pro tu conto,<br />Iste icone es "
+"usate solmente localmente sur tu computator, tu contactos non potera vider "
+"lo."
 
 #: accounts-list-delegate.cpp:79
 msgid "Change account display name"
@@ -67,9 +68,9 @@ msgid ""
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
-"Iste button permitte cambiar le nomine de monstrar de tu conto,<br />Le "
-"nomine de monstrar es un alias pro tu conto e es usate solmente localmente "
-"sur tu computator, tu contactos non potera vider lo"
+"Iste button permitte que tu cambia le nomine de monstrar pro tu conto,<br /"
+">Le nomine de monstrar es un alias pro tu conto e es usate solmente "
+"localmente sur tu computator, tu contactos non potera vider lo."
 
 #: accounts-list-delegate.cpp:134
 msgid "Click checkbox to enable"
@@ -132,7 +133,7 @@ msgstr "Pro favor selige tu avatar"
 
 #: avatar-button.cpp:155
 msgid "Failed to load avatar."
-msgstr "Il falleva crear avatar."
+msgstr "Il falleva cargar avatar."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -468,7 +469,7 @@ msgstr "KDETalk"
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr "Toto"
+msgstr "Omne"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
@@ -542,12 +543,12 @@ msgstr "Cancella"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Tu apparera como \"%1\" sur tu rete local."
 
+#~ msgid "Others"
+#~ msgstr "Alteres"
+
 #~ msgid ""
 #~ "The file you have selected does not seem to be an image.\n"
 #~ "Please select an image file."
 #~ msgstr ""
 #~ "Le file que tu ha seligite non pare esser un imagine.\n"
 #~ "Pro favor tu selige un file de imagine."
-
-#~ msgid "Others"
-#~ msgstr "Alteres"

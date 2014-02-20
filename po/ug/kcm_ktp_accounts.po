@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2011-05-09 19:00+0900\n"
-"Last-Translator: Sahran <sahran@live.com>\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"PO-Revision-Date: 2013-09-08 07:04+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -112,11 +112,11 @@ msgstr ""
 
 #: avatar-button.cpp:54
 msgid "Load from file..."
-msgstr ""
+msgstr "ھۆججەتتىن ئوقۇش…"
 
 #: avatar-button.cpp:55
 msgid "Clear Avatar"
-msgstr ""
+msgstr "باش سۈرەتنى تازىلا"
 
 #: avatar-button.cpp:106
 msgid "Please choose your avatar"
@@ -168,7 +168,7 @@ msgstr "David Edmundson"
 
 #: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
-msgstr ""
+msgstr "Dominik Schmidt"
 
 #: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
@@ -180,11 +180,11 @@ msgstr ""
 
 #: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
-msgstr ""
+msgstr "Daniele E. Domenichelli"
 
 #: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
 #: kcm-telepathy-accounts.cpp:266
 msgid ""
@@ -202,7 +202,7 @@ msgstr ""
 
 #: kcm-telepathy-accounts.cpp:269
 msgid "Close"
-msgstr ""
+msgstr "ياپ"
 
 #: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
@@ -345,7 +345,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:56
 msgid "AOL Instant Messenger"
-msgstr ""
+msgstr "ئا ئو ل (AOL) مۇڭداشقۇسى"
 
 #: KCMTelepathyAccounts/dictionary.cpp:57
 msgid "Skype"
@@ -359,17 +359,17 @@ msgstr "Facebook سۆھبەت"
 
 #: KCMTelepathyAccounts/dictionary.cpp:59
 msgid "Gadu-Gadu"
-msgstr "Gadu-Gadu"
+msgstr "گادۇ-گادۇ(Gadu-Gadu)"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
-msgstr "Google سۆھبەت"
+msgstr "گۇگىل سۆھبەت(Google Talk)"
 
 #: KCMTelepathyAccounts/dictionary.cpp:61
 msgid "Novell Groupwise"
-msgstr ""
+msgstr "Novell Groupwise"
 
 #: KCMTelepathyAccounts/dictionary.cpp:62
 msgid "ICQ"
@@ -391,11 +391,11 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:66
 msgid "MXit"
-msgstr ""
+msgstr "MXit"
 
 #: KCMTelepathyAccounts/dictionary.cpp:67
 msgid "Windows Live Messenger"
-msgstr ""
+msgstr "Windows Live Messenger"
 
 #: KCMTelepathyAccounts/dictionary.cpp:68
 msgid "MySpaceIM"
@@ -403,15 +403,15 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:69
 msgid "Tencent QQ"
-msgstr ""
+msgstr "تىڭشۈن QQ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:70
 msgid "IBM Lotus Sametime"
-msgstr ""
+msgstr "IBM Lotus Sametime"
 
 #: KCMTelepathyAccounts/dictionary.cpp:71
 msgid "SILC"
-msgstr ""
+msgstr "SILC"
 
 #: KCMTelepathyAccounts/dictionary.cpp:72
 msgid "Session Initiation Protocol (SIP)"
@@ -423,11 +423,11 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:74
 msgid "Trepia"
-msgstr ""
+msgstr "Trepia"
 
 #: KCMTelepathyAccounts/dictionary.cpp:75
 msgid "Yahoo! Messenger"
-msgstr ""
+msgstr "Yahoo! Messenger"
 
 #: KCMTelepathyAccounts/dictionary.cpp:76
 msgid "Yahoo! Messenger Japan"
@@ -435,7 +435,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:77
 msgid "Zephyr"
-msgstr ""
+msgstr "Zephyr"
 
 #: KCMTelepathyAccounts/parameter-edit-model.cpp:302
 #, kde-format
@@ -450,7 +450,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr ""
+msgstr "ھەممىسى"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
@@ -509,7 +509,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
 #: main-widget.ui:174
 msgid "Edit Identity"
-msgstr ""
+msgstr "كىملىك تەھرىرلەش"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
@@ -517,7 +517,7 @@ msgstr ""
 
 #: salut-message-widget.cpp:54
 msgid "Cancel"
-msgstr "ئەمەلدىن قالدۇرۇش"
+msgstr "ئەمەلدىن قالدۇر"
 
 #: salut-message-widget.cpp:104
 #, kde-format

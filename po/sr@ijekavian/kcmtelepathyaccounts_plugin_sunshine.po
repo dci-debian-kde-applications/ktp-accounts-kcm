@@ -19,62 +19,74 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, serverGroupBox)
-#: sunshine-advanced-options-widget.ui:17
+#: rc.cpp:3
 msgid "Custom Server Settings"
 msgstr "Посебне поставке сервера"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: sunshine-advanced-options-widget.ui:32
+#: rc.cpp:6
 msgid "Server:"
 msgstr "Сервер:"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:39
 #. i18n: ectx: property (toolTip), widget (KLineEdit, serverLineEdit)
-#: sunshine-advanced-options-widget.ui:39
+#: rc.cpp:9
 msgid "STUN server address (FQDN or IP address)"
 msgstr "Адреса СТУН сервера (ФКуДН или ИП адреса)"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:46
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: sunshine-advanced-options-widget.ui:46
+#: rc.cpp:12
 msgid "Port:"
 msgstr "Порт:"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:63
 #. i18n: ectx: property (title), widget (QGroupBox, miscGroupBox)
-#: sunshine-advanced-options-widget.ui:63
+#: rc.cpp:15
 msgid "Miscellaneous Settings"
 msgstr "Разне поставке"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:72
 #. i18n: ectx: property (text), widget (QLabel, exportContactsLabel)
-#: sunshine-advanced-options-widget.ui:72
+#: rc.cpp:18
 msgid "Contacts:"
 msgstr "Контакти:"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:79
 #. i18n: ectx: property (text), widget (QCheckBox, exportContactsCheckBox)
-#: sunshine-advanced-options-widget.ui:79
+#: rc.cpp:21
 msgid "Synchronize your contacts with the Gadu-Gadu server"
 msgstr "Синхронизуј моје контакте са гаду‑гаду сервером"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, sslLabel)
-#: sunshine-advanced-options-widget.ui:86
+#: rc.cpp:24
 msgid "Security:"
 msgstr "Безбједност:"
 
+#. i18n: file: sunshine-advanced-options-widget.ui:93
 #. i18n: ectx: property (text), widget (QCheckBox, sslCheckBox)
-#: sunshine-advanced-options-widget.ui:93
+#: rc.cpp:27
 msgid "Use Transport Layer Security (TLS/SSL)"
 msgstr "Користи „безбједност транспортног слоја“ (ТЛС/ССЛ)"
 
+#. i18n: file: sunshine-main-options-widget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, SunshineMainOptionsWidget)
-#: sunshine-main-options-widget.ui:14
+#: rc.cpp:30
 msgid "Account Preferences"
 msgstr "Поставке налога"
 
+#. i18n: file: sunshine-main-options-widget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: sunshine-main-options-widget.ui:25
+#: rc.cpp:33
 msgid "Account:"
 msgstr "Налог:"
 
+#. i18n: file: sunshine-main-options-widget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: sunshine-main-options-widget.ui:38
+#: rc.cpp:36
 msgid "Password:"
 msgstr "Лозинка:"

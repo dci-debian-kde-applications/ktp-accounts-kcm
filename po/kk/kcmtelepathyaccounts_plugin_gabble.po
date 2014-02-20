@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
 "PO-Revision-Date: 2013-03-28 04:29+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -211,7 +211,9 @@ msgstr "Ресурс"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource Name:"
+#, fuzzy
+#| msgid "Resource Name:"
+msgid "Resource name:"
 msgstr "Ресурс атауы:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)

@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2011.
+# Yuri Chornoivan <yurchor@ukr.net>, 2011, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2011-02-23 07:19+0200\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"PO-Revision-Date: 2013-11-27 07:05+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, additionalGroupBox)
 #: salut-advanced-options-widget.ui:17
@@ -25,7 +25,7 @@ msgstr "Додаткові відомості"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
+msgid "Published name:"
 msgstr "Видиме ім’я:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -45,12 +45,12 @@ msgstr "Параметри облікового запису"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
+msgid "First name:"
 msgstr "Ім'я:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+msgid "Last name:"
 msgstr "Прізвище:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

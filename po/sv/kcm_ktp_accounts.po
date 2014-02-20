@@ -2,16 +2,16 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2009.
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2010, 2011, 2012, 2013.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2009.
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2010, 2011, 2012, 2013.
 # Arve Eriksson <031299870@telia.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2013-09-24 19:00+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"PO-Revision-Date: 2013-07-17 08:39+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Stefan Asserhäll"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@comhem.se"
+msgstr "stefan.asserhall@bredband.net"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
@@ -541,15 +541,15 @@ msgstr "Avbryt"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Du kommer att synas som \"%1\" på det lokala nätverket."
 
+#~ msgid "Others"
+#~ msgstr "Övriga"
+
 #~ msgid ""
 #~ "The file you have selected does not seem to be an image.\n"
 #~ "Please select an image file."
 #~ msgstr ""
 #~ "Filen du har valt verkar inte vara en bild.\n"
 #~ "Välj en bildfil."
-
-#~ msgid "Others"
-#~ msgstr "Övriga"
 
 #~ msgid "Online"
 #~ msgstr "Uppkopplad"

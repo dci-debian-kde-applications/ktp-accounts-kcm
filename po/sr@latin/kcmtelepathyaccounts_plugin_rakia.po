@@ -19,18 +19,21 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
+#. i18n: file: rakia-advanced-options-widget.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, authGroupBox)
-#: rakia-advanced-options-widget.ui:17
+#: rc.cpp:3
 msgid "Authentication"
 msgstr "Autentifikacija"
 
+#. i18n: file: rakia-advanced-options-widget.ui:26
 #. i18n: ectx: property (text), widget (QLabel, authUserLabel)
-#: rakia-advanced-options-widget.ui:26
+#: rc.cpp:6
 msgid "User:"
 msgstr "Korisnik:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:33
 #. i18n: ectx: property (toolTip), widget (KLineEdit, authUserLineEdit)
-#: rakia-advanced-options-widget.ui:33
+#: rc.cpp:9
 msgid ""
 "Username for your SIP account. If your username is different from the user "
 "part your SIP URI, provide it here."
@@ -38,13 +41,15 @@ msgstr ""
 "Korisničko ime za vaš SIP nalog. Ako vam se korisničko ime razlikuje od "
 "korisničkog dela SIP URI‑ja, unesite ga ovde."
 
+#. i18n: file: rakia-advanced-options-widget.ui:40
 #. i18n: ectx: property (text), widget (QLabel, registrarLabel)
-#: rakia-advanced-options-widget.ui:40
+#: rc.cpp:12
 msgid "Registrar:"
 msgstr "Registrar:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:47
 #. i18n: ectx: property (toolTip), widget (KLineEdit, registrarLineEdit)
-#: rakia-advanced-options-widget.ui:47
+#: rc.cpp:15
 msgid ""
 "Registrar for your SIP account. If your registrar is different from the "
 "server part your SIP URI, provide it here."
@@ -52,114 +57,137 @@ msgstr ""
 "Registrar vašeg SIP naloga. Ako vam se registrar razlikuje od serverskog "
 "dela SIP URI‑ja, unesite ga ovde."
 
+#. i18n: file: rakia-advanced-options-widget.ui:57
 #. i18n: ectx: property (title), widget (QGroupBox, proxyGroupBox)
-#: rakia-advanced-options-widget.ui:57
+#: rc.cpp:18
 msgid "Proxy"
 msgstr "Proksi"
 
+#. i18n: file: rakia-advanced-options-widget.ui:66
 #. i18n: ectx: property (text), widget (QLabel, proxyLabel)
-#: rakia-advanced-options-widget.ui:66
+#: rc.cpp:21
 msgid "Proxy host:"
 msgstr "Domaćin proksija:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:76
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: rakia-advanced-options-widget.ui:76
+#: rc.cpp:24
 msgid "Proxy port:"
 msgstr "Port proksija:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:83
 #. i18n: ectx: property (text), widget (QLabel, transportLabel)
-#: rakia-advanced-options-widget.ui:83
+#: rc.cpp:27
 msgid "Transport:"
 msgstr "Prenos:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:91
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
+#. i18n: file: rakia-advanced-options-widget.ui:246
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:91 rakia-advanced-options-widget.ui:246
+#: rc.cpp:30 rc.cpp:96
 msgid "auto"
 msgstr "automatski"
 
+#. i18n: file: rakia-advanced-options-widget.ui:96
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
-#: rakia-advanced-options-widget.ui:96
+#: rc.cpp:33
 msgid "udp"
 msgstr "UDP"
 
+#. i18n: file: rakia-advanced-options-widget.ui:101
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
-#: rakia-advanced-options-widget.ui:101
+#: rc.cpp:36
 msgid "tcp"
 msgstr "TCP"
 
+#. i18n: file: rakia-advanced-options-widget.ui:106
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
-#: rakia-advanced-options-widget.ui:106
+#: rc.cpp:39
 msgid "tls"
 msgstr "TLS"
 
+#. i18n: file: rakia-advanced-options-widget.ui:124
 #. i18n: ectx: property (title), widget (QGroupBox, stunGroupBox)
-#: rakia-advanced-options-widget.ui:124
+#: rc.cpp:42
 msgid "Custom STUN settings"
 msgstr "Posebne STUN postavke"
 
+#. i18n: file: rakia-advanced-options-widget.ui:136
 #. i18n: ectx: property (text), widget (QLabel, stunServerLabel)
-#: rakia-advanced-options-widget.ui:136
+#: rc.cpp:45
 msgid "STUN server:"
 msgstr "STUN server:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:143
 #. i18n: ectx: property (text), widget (QLabel, stunPortLabel)
-#: rakia-advanced-options-widget.ui:143
+#: rc.cpp:48
 msgid "STUN port:"
 msgstr "STUN port:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:157
 #. i18n: ectx: property (toolTip), widget (KLineEdit, stunServerLineEdit)
-#: rakia-advanced-options-widget.ui:157
+#: rc.cpp:51
 msgid "STUN server address (FQDN or IP address)"
 msgstr "Adresa STUN servera (FQDN ili IP adresa)"
 
+#. i18n: file: rakia-advanced-options-widget.ui:167
 #. i18n: ectx: property (title), widget (QGroupBox, networkingGroupBox)
-#: rakia-advanced-options-widget.ui:167
+#: rc.cpp:54
 msgid "Network and Routing"
 msgstr "Mreža i usmeravanje"
 
+#. i18n: file: rakia-advanced-options-widget.ui:173
 #. i18n: ectx: property (toolTip), widget (QCheckBox, discoverBindingCheckBox)
-#: rakia-advanced-options-widget.ui:173
+#: rc.cpp:57
 msgid "Enable discovery of public IP address beyond NAT"
 msgstr "Aktiviraj otkrivanje javnih IP adresa izvan NAT‑a"
 
+#. i18n: file: rakia-advanced-options-widget.ui:176
 #. i18n: ectx: property (text), widget (QCheckBox, discoverBindingCheckBox)
-#: rakia-advanced-options-widget.ui:176
+#: rc.cpp:60
 msgid "Discover Public Contact"
 msgstr "Otkrivanje javnih kontakata"
 
+#. i18n: file: rakia-advanced-options-widget.ui:183
 #. i18n: ectx: property (toolTip), widget (QCheckBox, looseRoutingCheckBox)
-#: rakia-advanced-options-widget.ui:183
+#: rc.cpp:63
 msgid "Enable loose routing as per RFC 3261"
 msgstr "Koristi labavo usmeravanje po RFC‑u 3261"
 
+#. i18n: file: rakia-advanced-options-widget.ui:186
 #. i18n: ectx: property (text), widget (QCheckBox, looseRoutingCheckBox)
-#: rakia-advanced-options-widget.ui:186
+#: rc.cpp:66
 msgid "Use Loose Routing"
 msgstr "Labavo usmeravanje"
 
+#. i18n: file: rakia-advanced-options-widget.ui:193
 #. i18n: ectx: property (text), widget (QLabel, looseRoutingLabel)
-#: rakia-advanced-options-widget.ui:193
+#: rc.cpp:69
 msgid "Routing:"
 msgstr "Usmeravanje:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:200
 #. i18n: ectx: property (text), widget (QLabel, discoverBindingLabel)
-#: rakia-advanced-options-widget.ui:200
+#: rc.cpp:72
 msgid "NAT"
 msgstr "NAT"
 
+#. i18n: file: rakia-advanced-options-widget.ui:210
 #. i18n: ectx: property (title), widget (QGroupBox, keepaliveGroupBox)
-#: rakia-advanced-options-widget.ui:210
+#: rc.cpp:75
 msgid "KeepAlive"
 msgstr "Održavanje veze"
 
+#. i18n: file: rakia-advanced-options-widget.ui:216
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
-#: rakia-advanced-options-widget.ui:216
+#: rc.cpp:78
 msgid "Interval:"
 msgstr "Period:"
 
+#. i18n: file: rakia-advanced-options-widget.ui:223
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, keepaliveIntervalNumInput)
-#: rakia-advanced-options-widget.ui:223
+#: rc.cpp:81
 msgid ""
 "Interval between keepalive probes in seconds (0 = disabled, unset = use a "
 "default interval)"
@@ -167,8 +195,9 @@ msgstr ""
 "Period između dva signala za održavanje veze, u sekundama (0 = isključeno, "
 "nepostavljeno = koristi podrazumevano)."
 
+#. i18n: file: rakia-advanced-options-widget.ui:242
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:242
+#: rc.cpp:84
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -209,53 +238,63 @@ msgstr ""
 "<icode>draft-sip-outbound</icode>.</p><p><interface>isključeno</interface>: "
 "upravljanje održavanjem veze isključeno.</p></html>"
 
+#. i18n: file: rakia-advanced-options-widget.ui:251
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:251
+#: rc.cpp:99
 msgid "register"
 msgstr "REGISTER"
 
+#. i18n: file: rakia-advanced-options-widget.ui:256
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:256
+#: rc.cpp:102
 msgid "options"
 msgstr "OPTIONS"
 
+#. i18n: file: rakia-advanced-options-widget.ui:261
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:261
+#: rc.cpp:105
 msgid "stun"
 msgstr "STUN"
 
+#. i18n: file: rakia-advanced-options-widget.ui:266
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
-#: rakia-advanced-options-widget.ui:266
+#: rc.cpp:108
 msgid "off"
 msgstr "isključeno"
 
+#. i18n: file: rakia-advanced-options-widget.ui:274
 #. i18n: ectx: property (text), widget (QLabel, keepaliveMechanismLabel)
-#: rakia-advanced-options-widget.ui:274
+#: rc.cpp:111
 msgid "Mechanism:"
 msgstr "Mehanizam:"
 
+#. i18n: file: rakia-main-options-widget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, RakiaMainOptionsWidget)
-#: rakia-main-options-widget.ui:14
+#: rc.cpp:114
 msgid "Account Preferences"
 msgstr "Postavke naloga:"
 
+#. i18n: file: rakia-main-options-widget.ui:35
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: rakia-main-options-widget.ui:35
+#: rc.cpp:117
 msgid "SIP URI:"
 msgstr "SIP URI:"
 
+#. i18n: file: rakia-main-options-widget.ui:45
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: rakia-main-options-widget.ui:45
+#: rc.cpp:120
 msgid "Password:"
 msgstr "Lozinka:"
 
+#. i18n: file: rakia-main-options-widget.ui:55
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
-#: rakia-main-options-widget.ui:55
+#: rc.cpp:123
 msgid "Alias:"
 msgstr "Pseudonim:"
 
+#. i18n: file: rakia-main-options-widget.ui:62
 #. i18n: ectx: property (toolTip), widget (KLineEdit, aliasLineEdit)
-#: rakia-main-options-widget.ui:62
+#: rc.cpp:126
 msgid ""
 "This Alias is being used for SIMPLE, a instant messaging extension for SIP. "
 "If left blank, your SIP URI will be shown to the receiver instead of your "
@@ -264,7 +303,8 @@ msgstr ""
 "Pseudonim se koristi za SIMPLE, proširenje brzog glasnika za SIP. Ako ga "
 "ostavite praznim, umesto pseudonima primaocu će biti prikazan vaš SIP URI."
 
+#. i18n: file: rakia-main-options-widget.ui:72
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rakia-main-options-widget.ui:72
+#: rc.cpp:129
 msgid "<b>Example:</b> user@my.sip.server"
 msgstr "<b>Primer:</b> korisnik@moj.sip.server"
