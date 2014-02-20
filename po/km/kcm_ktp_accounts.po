@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
 "PO-Revision-Date: 2012-06-15 16:05+0700\n"
 "Last-Translator: sutha <sutha@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros>\n"
@@ -481,6 +481,7 @@ msgstr ""
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 #, fuzzy
+#| msgid "AOL, Gadu-Gadu, IRC, Yahoo and more..."
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
 msgstr "AOL, Gadu-Gadu, IRC, Yahoo and more..."
 
@@ -551,15 +552,15 @@ msgstr "បោះបង់"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "អ្នក​មាន​​ការ​លេច​ឡើង​ជា \"%1\" លើ​បណ្ដាញ​មូលដ្ឋាន​របស់​អ្នក ។"
 
+#~ msgid "Others"
+#~ msgstr "ផ្សេង​ទៀត"
+
 #~ msgid ""
 #~ "The file you have selected does not seem to be an image.\n"
 #~ "Please select an image file."
 #~ msgstr ""
 #~ "ឯកសារ​ដែល​អ្នក​បាន​ជ្រើស​មិន​គាំទ្រ​រូបភាព​ឡើយ ។\n"
 #~ "សូម​ជ្រើស​ឯកសារ​រូបភាព ។"
-
-#~ msgid "Others"
-#~ msgstr "ផ្សេង​ទៀត"
 
 #~ msgid "Online"
 #~ msgstr "លើ​បណ្ដាញ"

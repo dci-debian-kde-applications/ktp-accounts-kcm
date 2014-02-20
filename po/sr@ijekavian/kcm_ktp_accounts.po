@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_ktp_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2012-11-25 19:56+0100\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"PO-Revision-Date: 2013-07-20 21:56+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavian\n"
@@ -52,11 +52,6 @@ msgid "Change account icon"
 msgstr "Промијени икону налога"
 
 #: accounts-list-delegate.cpp:71
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the icon for your account.<br />This icon is "
-#| "just used locally on your computer, your contacts will not be able to see "
-#| "it."
 msgid ""
 "This button allows you to change the icon for your account.<br />This icon "
 "is just used locally on your computer, your contacts will not be able to see "
@@ -71,11 +66,6 @@ msgid "Change account display name"
 msgstr "Промијени приказно име налога"
 
 #: accounts-list-delegate.cpp:80
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the display name for your account.<br />The "
-#| "display name is an alias for your account and is just used locally on "
-#| "your computer, your contacts will not be able to see it."
 msgid ""
 "This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
@@ -144,10 +134,8 @@ msgid "Please choose your avatar"
 msgstr "Изаберите свој аватар."
 
 #: avatar-button.cpp:155
-#, fuzzy
-#| msgid "Failed to create account"
 msgid "Failed to load avatar."
-msgstr "Прављење налога није успјело"
+msgstr "Учитавање аватара није успјело."
 
 # >> @title:window
 #: edit-display-name-button.cpp:61
@@ -519,12 +507,12 @@ msgstr "Параметар <b>%1</b> није добар."
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "KDETalk"
-msgstr ""
+msgstr "КДЕ разговор"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr ""
+msgstr "Сви"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162

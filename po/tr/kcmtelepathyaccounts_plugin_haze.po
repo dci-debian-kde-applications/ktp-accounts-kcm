@@ -1,0 +1,349 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"PO-Revision-Date: 2013-10-15 19:16+0200\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
+#: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
+#: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
+#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
+#: yahoo-main-options-widget.ui:20
+msgid "Account Preferences"
+msgstr "Hesap Tercihleri"
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
+#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
+#: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
+#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
+#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
+msgid "Password:"
+msgstr "Parola:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
+#: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
+#: myspaceim-advanced-settings-widget.ui:14
+#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
+#: yahoo-server-settings-widget.ui:14
+msgid "Advanced Options"
+msgstr "Gelişmiş Seçenekler"
+
+#. i18n: ectx: property (text), widget (QLabel, serverHeadlineLabel)
+#: aim-server-settings-widget.ui:32 icq-server-settings-widget.ui:37
+#: yahoo-server-settings-widget.ui:37
+msgid "<b>Server</b>"
+msgstr "<b>Sunucu</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, serverAddressLabel)
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: aim-server-settings-widget.ui:39 icq-server-settings-widget.ui:44
+msgid "Address:"
+msgstr "Adres:"
+
+#. i18n: ectx: property (text), widget (QLabel, serverPortLabel)
+#. i18n: ectx: property (text), widget (QLabel, xferPortLabel)
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: aim-server-settings-widget.ui:49 groupwise-advanced-settings-widget.ui:41
+#: icq-server-settings-widget.ui:54 myspaceim-advanced-settings-widget.ui:41
+#: yahoo-server-settings-widget.ui:44 yahoo-server-settings-widget.ui:87
+msgid "Port:"
+msgstr "Bağlantı Noktası:"
+
+#. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
+#. i18n: ectx: property (text), widget (QLabel, securityHeadlineLabel)
+#: aim-server-settings-widget.ui:75 icq-server-settings-widget.ui:80
+msgid "<b>Security</b>"
+msgstr "<b>Güvenlik</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, encryptionLabel)
+#: aim-server-settings-widget.ui:82
+msgid "Encryption:"
+msgstr "Şifreleme:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
+#: aim-server-settings-widget.ui:92
+#, fuzzy
+#| msgid "Always use AIM proxy "
+msgid "Always use AIM proxy"
+msgstr "Her zaman AIM vekilini kullan"
+
+#. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
+#: aim-server-settings-widget.ui:108 icq-server-settings-widget.ui:114
+#: yahoo-server-settings-widget.ui:152
+msgid "<b>Other</b>"
+msgstr "<b>Diğer</b>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clientLogin)
+#: aim-server-settings-widget.ui:115
+msgid "Use clientLogin"
+msgstr "İstemciOturumu kullan"
+
+#. i18n: ectx: property (text), widget (QCheckBox, multipleLogins)
+#: aim-server-settings-widget.ui:122
+msgid "Allow multiple simultaneous logins"
+msgstr "Birden fazla eşzamanlı oturuma izin ver"
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: groupwise-advanced-settings-widget.ui:31
+#: myspaceim-advanced-settings-widget.ui:31
+msgid "Server:"
+msgstr "Sunucu:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: groupwise-main-options-widget.ui:41
+msgid "The GroupWise username is your email address."
+msgstr "GroupWise kullanıcı adı, sizin e-postanızdır."
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: icq-main-options-widget.ui:34
+msgid "UIN:"
+msgstr "UIN:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, IcqServerSettingsWidget)
+#: icq-server-settings-widget.ui:14
+msgid "Connection Settings"
+msgstr "Bağlantı Ayarları"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useSslCheckBox)
+#: icq-server-settings-widget.ui:87
+msgid "Use SSL"
+msgstr "SSL Kullan"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowMultipleLoginsCheckBox)
+#: icq-server-settings-widget.ui:94
+msgid "Allow multiple logins"
+msgstr "Çoklu oturuma izin ver"
+
+#. i18n: ectx: property (text), widget (QCheckBox, alwaysUseRvProxyCheckBox)
+#: icq-server-settings-widget.ui:121
+msgid "Always use RV-Proxy"
+msgstr "Her zaman RV-Proxy kullan"
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
+#: icq-server-settings-widget.ui:128
+msgid "Charset"
+msgstr "Karakter kümesi"
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
+msgid "Email address:"
+msgstr "E-posta adresi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: msn-main-options-widget.ui:46
+msgid "Example: user@hotmail.com"
+msgstr "Örnek: kullanıcı@hotmail.com"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: myspaceim-main-options-widget.ui:41
+msgid "The MySpaceIM username is your email address."
+msgstr "MySpaceIM kullanıcı adı, e-postanızdır."
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
+#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
+msgid "john@doe.com"
+msgstr "ali@soyad.com"
+
+#. i18n: ectx: property (text), widget (QLabel, loginLabel)
+#: sipe-advanced-settings-widget.ui:31
+msgid "Login:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, transportLabel)
+#: sipe-advanced-settings-widget.ui:44
+#, fuzzy
+#| msgid "Connection Settings"
+msgid "Connection type:"
+msgstr "Bağlantı Ayarları"
+
+#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
+#: sipe-advanced-settings-widget.ui:51
+msgid "auto"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
+#: sipe-advanced-settings-widget.ui:58
+#, fuzzy
+#| msgid "Username:"
+msgid "User agent:"
+msgstr "Kullanıcı adı:"
+
+#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
+#: sipe-advanced-settings-widget.ui:68
+msgid "Authentication scheme:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
+#: sipe-advanced-settings-widget.ui:75
+msgid "ntlm"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
+#: sipe-advanced-settings-widget.ui:82
+msgid "Do not publish my calendar information:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
+#: sipe-advanced-settings-widget.ui:92
+#, fuzzy
+#| msgid "Email address:"
+msgid "Email services URL:"
+msgstr "E-posta adresi:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
+#: sipe-advanced-settings-widget.ui:112
+msgid "Email login:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
+#: sipe-advanced-settings-widget.ui:122
+#, fuzzy
+#| msgid "Email address:"
+msgid "Email password:"
+msgstr "E-posta adresi:"
+
+#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
+#: sipe-advanced-settings-widget.ui:129
+msgid "Group chat proxy:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: sipe-advanced-settings-widget.ui:146
+#, fuzzy
+#| msgid "Server:"
+msgid "Server[:port]:"
+msgstr "Sunucu:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: sipe-main-options-widget.ui:41
+#, fuzzy
+#| msgid "The MySpaceIM username is your email address."
+msgid "The Sipe username is your email address."
+msgstr "MySpaceIM kullanıcı adı, e-postanızdır."
+
+#. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
+#: skype-advanced-settings-widget.ui:31
+msgid "Show SkypeOut contacts as 'Online'"
+msgstr "SkypeOut kişilerini 'Çevrimiçi' olarak göster"
+
+#. i18n: ectx: property (text), widget (QCheckBox, syncCheckBox)
+#: skype-advanced-settings-widget.ui:38
+msgid "Make Skype online/offline when going online/offline"
+msgstr "Çevrimiçi/çevrimdışı olurken Skype'ı da çevrimiçi/çevrimdışı yap"
+
+#. i18n: ectx: property (text), widget (QCheckBox, updatesCheckBox)
+#: skype-advanced-settings-widget.ui:45
+msgid "Automatically check for updates"
+msgstr "Güncellemeleri otomatik olarak tara"
+
+#. i18n: ectx: property (text), widget (QCheckBox, authRequestsCheckBox)
+#: skype-advanced-settings-widget.ui:52
+msgid "Automatically reject all authorization requests"
+msgstr "Tüm yetkilendirme isteklerini otomatik olarak reddet"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autostartCheckBox)
+#: skype-advanced-settings-widget.ui:59
+msgid "Auto-start Skype if not running"
+msgstr "Eğer çalışmıyorsa Skype'ı otomatik başlat"
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: skype-main-options-widget.ui:37
+msgid "Account:"
+msgstr "Hesap:"
+
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
+#: steam-main-options-widget.ui:51
+#, fuzzy
+#| msgid "Steam Guard Code:"
+msgid "Steam Guard code:"
+msgstr "Steam Guard Kodu:"
+
+#. i18n: 'Steam Guard' is a service name and should not be translated
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: steam-main-options-widget.ui:82
+msgid "The Steam Guard code will be emailed to you after attempting to login"
+msgstr ""
+"Steam Guard kotu oturum girişiminizden sonra size e-posta ile gönderilecektir"
+
+#. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
+#: yahoo-server-settings-widget.ui:73
+msgid "<b>File Transfer</b>"
+msgstr "<b>Dosya Aktarımı</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, xferHostLabel)
+#: yahoo-server-settings-widget.ui:80
+msgid "Host:"
+msgstr "Makine:"
+
+#. i18n: ectx: property (text), widget (QLabel, localeHeadlineLabel)
+#: yahoo-server-settings-widget.ui:116
+msgid "<b>Locale</b>"
+msgstr "<b>Yerel</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, roomListLocaleLablel)
+#: yahoo-server-settings-widget.ui:123
+msgid "Room List:"
+msgstr "Oda Listesi:"
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
+#: yahoo-server-settings-widget.ui:130
+#, fuzzy
+#| msgid "Charset"
+msgid "Charset:"
+msgstr "Karakter kümesi"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
+#: yahoo-server-settings-widget.ui:138
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#. i18n: ectx: property (text), widget (QCheckBox, SslProxy)
+#: yahoo-server-settings-widget.ui:159
+msgid "Use SSL on proxy"
+msgstr "Vekil sunucuda SSL kullan"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreInvites)
+#: yahoo-server-settings-widget.ui:166
+msgid "Ignore invites"
+msgstr "Davetleri yoksay"
+
+#, fuzzy
+#~| msgid "Email address:"
+#~ msgid "Email address"
+#~ msgstr "E-posta adresi:"

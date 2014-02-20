@@ -114,7 +114,7 @@ msgstr "Port « STUN » :"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, stunServerLineEdit)
 #: rakia-advanced-options-widget.ui:157
 msgid "STUN server address (FQDN or IP address)"
-msgstr "Adresse du serveur « STUN » (FQDN ou adresse IP)"
+msgstr "Adresse du serveur « STUN » (FQDN ou adresse IP)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, networkingGroupBox)
 #: rakia-advanced-options-widget.ui:167
@@ -125,7 +125,7 @@ msgstr "Réseau et routage"
 #: rakia-advanced-options-widget.ui:173
 msgid "Enable discovery of public IP address beyond NAT"
 msgstr ""
-"Autoriser la découverte de l'adresse IP publique au-delà de la translation "
+"Autoriser la découverte de l'adresse IP publique au-delà de la translation "
 "d'adresses (NAT)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, discoverBindingCheckBox)
@@ -136,7 +136,7 @@ msgstr "Découvrir le contact public"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:183
 msgid "Enable loose routing as per RFC 3261"
-msgstr "Activer le routage faible conformément à la RFC 3261"
+msgstr "Activer le routage faible conformément à la RFC 3261"
 
 #. i18n: ectx: property (text), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:186

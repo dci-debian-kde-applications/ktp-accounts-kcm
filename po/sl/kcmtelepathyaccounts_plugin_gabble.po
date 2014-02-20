@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
-"PO-Revision-Date: 2013-03-03 12:54+0100\n"
+"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"PO-Revision-Date: 2013-11-27 19:45+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -197,7 +197,7 @@ msgstr "Vrata strežnika:"
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: server-settings-widget.ui:69
 msgid "Keep Alive interval:"
-msgstr "Interval za ohranjanje povezave:"
+msgstr "Razmik za ohranjanje povezave:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lowBandwidthCheckBox)
 #: server-settings-widget.ui:79
@@ -211,7 +211,7 @@ msgstr "Vir"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource Name:"
+msgid "Resource name:"
 msgstr "Ime vira:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)

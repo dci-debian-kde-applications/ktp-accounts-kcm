@@ -1,13 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2012-12-24 12:28+0100\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"PO-Revision-Date: 2014-02-03 15:28+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -50,11 +51,6 @@ msgid "Change account icon"
 msgstr "Zmień ikonę konta"
 
 #: accounts-list-delegate.cpp:71
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the icon for your account.<br />This icon is "
-#| "just used locally on your computer, your contacts will not be able to see "
-#| "it."
 msgid ""
 "This button allows you to change the icon for your account.<br />This icon "
 "is just used locally on your computer, your contacts will not be able to see "
@@ -69,11 +65,6 @@ msgid "Change account display name"
 msgstr "Zmień wyświetlaną nazwę konta"
 
 #: accounts-list-delegate.cpp:80
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the display name for your account.<br />The "
-#| "display name is an alias for your account and is just used locally on "
-#| "your computer, your contacts will not be able to see it."
 msgid ""
 "This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
@@ -85,7 +76,7 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:134
 msgid "Click checkbox to enable"
-msgstr "Kliknij na polu odhaczanym, aby włączyć"
+msgstr "Zaznacz pole, aby włączyć"
 
 #: accounts-list-delegate.cpp:144
 msgid "Disable account"
@@ -143,10 +134,8 @@ msgid "Please choose your avatar"
 msgstr "Proszę wybrać swojego awatara"
 
 #: avatar-button.cpp:155
-#, fuzzy
-#| msgid "Failed to create account"
 msgid "Failed to load avatar."
-msgstr "Nieudane tworzenie konta"
+msgstr "Nieudane wczytywanie awatara."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -476,12 +465,12 @@ msgstr "Parametr \"<b>%1</b>\" jest nieprawidłowy."
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "KDETalk"
-msgstr ""
+msgstr "KDETalk"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr ""
+msgstr "Wszystkie"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
@@ -555,15 +544,15 @@ msgstr "Anuluj"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "Ukażesz się jako \"%1\" w twojej sieci lokalnej."
 
+#~ msgid "Others"
+#~ msgstr "Inne"
+
 #~ msgid ""
 #~ "The file you have selected does not seem to be an image.\n"
 #~ "Please select an image file."
 #~ msgstr ""
 #~ "Plik, który wybrano nie wygląda na plik obrazu.\n"
 #~ "Proszę wybrać plik obrazu."
-
-#~ msgid "Others"
-#~ msgstr "Inne"
 
 #~ msgid "Online"
 #~ msgstr "Dostępny"

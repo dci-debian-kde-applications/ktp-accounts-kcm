@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"POT-Creation-Date: 2013-08-27 01:32+0000\n"
 "PO-Revision-Date: 2010-09-24 13:00+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -38,6 +38,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
 #, fuzzy
+#| msgid "Add Account"
 msgid "Account:"
 msgstr "खाता जोड़ू"
 
@@ -267,6 +268,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:34
 #, fuzzy
+#| msgid "Add Account"
 msgid "Account"
 msgstr "खाता जोड़ू"
 
@@ -284,6 +286,7 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:38
 #, fuzzy
+#| msgid "Remove Account"
 msgid "Register new Account"
 msgstr "खाता हटाबू"
 
