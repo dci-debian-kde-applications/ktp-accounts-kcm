@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
  cmake (>= 2.8),
  libtelepathy-logger-dev,
  libtelepathy-logger-qt4-dev,
- libktpcommoninternalsprivate-dev (>= 0.7.0)
+ libktpcommoninternalsprivate-dev (>= 0.7.80)
 Standards-Version: 3.9.4
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-accounts-kcm
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
