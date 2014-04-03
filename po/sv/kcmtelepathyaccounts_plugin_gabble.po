@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
-"PO-Revision-Date: 2013-11-27 17:50+0100\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"PO-Revision-Date: 2013-02-28 20:04+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -211,7 +211,7 @@ msgstr "Resurs"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource name:"
+msgid "Resource Name:"
 msgstr "Resursnamn:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)

@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Stelios <sstavra@gmail.com>, 2012.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
-"PO-Revision-Date: 2013-04-20 23:14+0200\n"
-"Last-Translator: Stelios <sstavra@gmail.com>\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2014-03-11 19:57+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
@@ -29,37 +29,34 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
 #: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
 #: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
-#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
-#: yahoo-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
+#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Προτιμήσεις λογαριασμού"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
-#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
-#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
+#: yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Όνομα χρήστη:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
 #: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
-#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
-#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
+#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
+#: yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Κωδικός πρόσβασης:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
 #: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
 #: myspaceim-advanced-settings-widget.ui:14
-#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
-#: yahoo-server-settings-widget.ui:14
+#: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Προχωρημένες επιλογές"
 
@@ -97,9 +94,7 @@ msgstr "Κρυπτογράφηση:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-#, fuzzy
-#| msgid "Always use AIM proxy "
-msgid "Always use AIM proxy"
+msgid "Always use AIM proxy "
 msgstr "Πάντα να γίνεται χρήση διαμεσολαβητή AIM "
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
@@ -126,10 +121,9 @@ msgstr "Εξυπηρετητής:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: groupwise-main-options-widget.ui:41
-#, fuzzy
 #| msgid "The MySpaceIM username is your email address."
 msgid "The GroupWise username is your email address."
-msgstr "Το MySpaceIM όνομα χρήστη είναι η διεύθυνση αλληλογραφίας σας."
+msgstr "Το όνομα χρήστη του GroupWise είναι η διεύθυνση ηλ. αλληλογραφίας σας."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
@@ -157,13 +151,12 @@ msgid "Always use RV-Proxy"
 msgstr "Πάντα να γίνεται χρήση RV-Proxy"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: icq-server-settings-widget.ui:128
+#: icq-server-settings-widget.ui:128 yahoo-server-settings-widget.ui:130
 msgid "Charset"
 msgstr "Σύνολο χαρακτήρων"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#. i18n: ectx: property (text), widget (QLabel, emailLabel)
-#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
+#: msn-main-options-widget.ui:29
 msgid "Email address:"
 msgstr "Διεύθυνση αλληλογραφίας"
 
@@ -178,86 +171,9 @@ msgid "The MySpaceIM username is your email address."
 msgstr "Το MySpaceIM όνομα χρήστη είναι η διεύθυνση αλληλογραφίας σας."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
-#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
+#: myspaceim-main-options-widget.ui:47
 msgid "john@doe.com"
 msgstr "john@doe.com"
-
-#. i18n: ectx: property (text), widget (QLabel, loginLabel)
-#: sipe-advanced-settings-widget.ui:31
-msgid "Login:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, transportLabel)
-#: sipe-advanced-settings-widget.ui:44
-#, fuzzy
-#| msgid "Connection Settings"
-msgid "Connection type:"
-msgstr "Ρυθμίσεις σύνδεσης"
-
-#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
-#: sipe-advanced-settings-widget.ui:51
-msgid "auto"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
-#: sipe-advanced-settings-widget.ui:58
-#, fuzzy
-#| msgid "Username:"
-msgid "User agent:"
-msgstr "Όνομα χρήστη:"
-
-#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
-#: sipe-advanced-settings-widget.ui:68
-msgid "Authentication scheme:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
-#: sipe-advanced-settings-widget.ui:75
-msgid "ntlm"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
-#: sipe-advanced-settings-widget.ui:82
-msgid "Do not publish my calendar information:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
-#: sipe-advanced-settings-widget.ui:92
-#, fuzzy
-#| msgid "Email address:"
-msgid "Email services URL:"
-msgstr "Διεύθυνση αλληλογραφίας"
-
-#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
-#: sipe-advanced-settings-widget.ui:112
-msgid "Email login:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
-#: sipe-advanced-settings-widget.ui:122
-#, fuzzy
-#| msgid "Email address:"
-msgid "Email password:"
-msgstr "Διεύθυνση αλληλογραφίας"
-
-#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
-#: sipe-advanced-settings-widget.ui:129
-msgid "Group chat proxy:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: sipe-advanced-settings-widget.ui:146
-#, fuzzy
-#| msgid "Server:"
-msgid "Server[:port]:"
-msgstr "Εξυπηρετητής:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
-#: sipe-main-options-widget.ui:41
-#, fuzzy
-#| msgid "The MySpaceIM username is your email address."
-msgid "The Sipe username is your email address."
-msgstr "Το MySpaceIM όνομα χρήστη είναι η διεύθυνση αλληλογραφίας σας."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -294,7 +210,7 @@ msgstr "Λογαριασμός:"
 #. i18n: 'Steam Guard' is a service name and should not be translated
 #. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
 #: steam-main-options-widget.ui:51
-msgid "Steam Guard code:"
+msgid "Steam Guard Code:"
 msgstr ""
 
 #. i18n: 'Steam Guard' is a service name and should not be translated
@@ -302,6 +218,8 @@ msgstr ""
 #: steam-main-options-widget.ui:82
 msgid "The Steam Guard code will be emailed to you after attempting to login"
 msgstr ""
+"Ο κωδικός του Steam Guard  θα σας σταλεί μέσω ηλ. αλληλογραφίας μετά την "
+"προσπάθειά σας να συνδεθείτε"
 
 #. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
 #: yahoo-server-settings-widget.ui:73
@@ -323,13 +241,6 @@ msgstr "<b>Εντοπιότητα</b>"
 msgid "Room List:"
 msgstr "Λίστα δωματίων:"
 
-#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: yahoo-server-settings-widget.ui:130
-#, fuzzy
-#| msgid "Charset"
-msgid "Charset:"
-msgstr "Σύνολο χαρακτήρων"
-
 #. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
 #: yahoo-server-settings-widget.ui:138
 msgid "UTF-8"
@@ -345,124 +256,3 @@ msgstr "Χρήση SSL σε διαμεσολαβητή"
 msgid "Ignore invites"
 msgstr "Παράβλεψη προσκλήσεων"
 
-#, fuzzy
-#~| msgid "Email address:"
-#~ msgid "Email address"
-#~ msgstr "Διεύθυνση αλληλογραφίας"
-
-#~ msgid "Big5"
-#~ msgstr "Big5"
-
-#~ msgid "Big5-HKSCS"
-#~ msgstr "Big5-HKSCS"
-
-#~ msgid "euc-JP Japanese"
-#~ msgstr "euc-JP Ιαπωνικά"
-
-#~ msgid "euc-KR Korean"
-#~ msgstr "euc-KR Κορεατικά"
-
-#~ msgid "GB-2312 Chinese"
-#~ msgstr "GB-2312 Κινεζικά"
-
-#~ msgid "GBK Chinese"
-#~ msgstr "GBK Κινεζικά"
-
-#~ msgid "GB18030 Chinese"
-#~ msgstr "GB18030 Κινεζικά"
-
-#~ msgid "JIS Japanese"
-#~ msgstr "JIS Ιαπωνικά"
-
-#~ msgid "Shift-JIS Japanese"
-#~ msgstr "Shift-JIS Ιαπωνικά"
-
-#~ msgid "KOI8-R Russian"
-#~ msgstr "KOI8-R Ρωσικά"
-
-#~ msgid "KOI8-U Ukrainian"
-#~ msgstr "KOI8-U Ουκρανικά"
-
-#~ msgid "ISO-8859-1 Western"
-#~ msgstr "ISO-8859-1 Western"
-
-#~ msgid "ISO-8859-2 Central European"
-#~ msgstr "ISO-8859-2 Κεντρικής Ευρώπης"
-
-#~ msgid "ISO-8859-3 Central European"
-#~ msgstr "ISO-8859-3 Κεντρικής Ευρώπης"
-
-#~ msgid "ISO-8859-4 Baltic"
-#~ msgstr "ISO-8859-4 Βαλτικής"
-
-#~ msgid "ISO-8859-5 Cyrillic"
-#~ msgstr "ISO-8859-5 Κυριλλικά"
-
-#~ msgid "ISO-8859-6 Arabic"
-#~ msgstr "ISO-8859-6 Αραβικά"
-
-#~ msgid "ISO-8859-7 Greek"
-#~ msgstr "ISO-8859-7 Ελληνικά"
-
-#~ msgid "ISO-8859-8 Hebrew, visually ordered"
-#~ msgstr "ISO-8859-8 Εβραϊκά, με οπτική ταξινόμηση"
-
-#~ msgid "ISO-8859-8-I Hebrew, logically ordered"
-#~ msgstr "ISO-8859-8-I Εβραϊκά, με λογική ταξινόμηση"
-
-#~ msgid "ISO-8859-9 Turkish"
-#~ msgstr "ISO-8859-9 Τουρκικά"
-
-#~ msgid "ISO-8859-10"
-#~ msgstr "ISO-8859-10"
-
-#~ msgid "ISO-8859-13"
-#~ msgstr "ISO-8859-13"
-
-#~ msgid "ISO-8859-14"
-#~ msgstr "ISO-8859-14"
-
-#~ msgid "ISO-8859-15 Western"
-#~ msgstr "ISO-8859-15 Western"
-
-#~ msgid "Windows-1250 Central European"
-#~ msgstr "Windows-1250 Κεντρικής Ευρώπης"
-
-#~ msgid "Windows-1251 Cyrillic"
-#~ msgstr "Windows-1251 Κυριλλικά"
-
-#~ msgid "Windows-1252 Western"
-#~ msgstr "Windows-1252 Western"
-
-#~ msgid "Windows-1253 Greek"
-#~ msgstr "Windows-1253 Ελληνικά"
-
-#~ msgid "Windows-1254 Turkish"
-#~ msgstr "Windows-1254 Τουρκικά"
-
-#~ msgid "Windows-1255 Hebrew"
-#~ msgstr "Windows-1255 Εβραϊκά"
-
-#~ msgid "Windows-1256 Arabic"
-#~ msgstr "Windows-1256 Αραβικά"
-
-#~ msgid "Windows-1257 Baltic"
-#~ msgstr "Windows-1257 Βαλτικής"
-
-#~ msgid "Windows-1258 Viet Nam"
-#~ msgstr "Windows-1258 Βιετνάμ"
-
-#~ msgid "IBM 850"
-#~ msgstr "IBM 850"
-
-#~ msgid "IBM 866"
-#~ msgstr "IBM 866"
-
-#~ msgid "TIS-620 Thai"
-#~ msgstr "TIS-620 Τάι"
-
-#~ msgid "UTF-8 Unicode"
-#~ msgstr "UTF-8 Unicode"
-
-#~ msgid "UTF-16 Unicode"
-#~ msgstr "UTF-16 Unicode"

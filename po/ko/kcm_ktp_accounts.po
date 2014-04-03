@@ -1,43 +1,43 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# A S Alam <aalam@users.sf.net>, 2013.
+# Park Shinjo <peremen@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-27 01:32+0000\n"
-"PO-Revision-Date: 2013-05-04 22:18+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
-"Language: pa\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2014-03-09 23:27+0900\n"
+"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+msgstr "Park Shinjo"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "aalam@users.sf.net"
+msgstr "kde@peremen.name"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
-msgstr "ਅਕਾਊਂਟ ਪਛਾਣ ਸੋਧ"
+msgstr "계정 프로필 편집"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: account-identity-dialog.ui:40
 msgid "Nickname:"
-msgstr "ਨਾਂ:"
+msgstr "별명:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
 msgid "Account:"
-msgstr "ਅਕਾਊਂਟ:"
+msgstr "계정:"
 
 #. i18n: ectx: property (text), widget (AvatarButton, accountAvatar)
 #: account-identity-dialog.ui:87
@@ -46,7 +46,7 @@ msgstr "..."
 
 #: accounts-list-delegate.cpp:70
 msgid "Change account icon"
-msgstr "ਅਕਾਊਂਟ ਆਈਕਾਨ ਬਦਲੋ"
+msgstr "계정 아이콘 편집"
 
 #: accounts-list-delegate.cpp:71
 msgid ""
@@ -54,10 +54,12 @@ msgid ""
 "is just used locally on your computer, your contacts will not be able to see "
 "it."
 msgstr ""
+"이 단추를 누르면 계정 아이콘을 변경할 수 있습니다.<br />아이콘은 이 컴퓨터에"
+"서만 사용되며 대화 상대가 볼 수 없습니다."
 
 #: accounts-list-delegate.cpp:79
 msgid "Change account display name"
-msgstr ""
+msgstr "계정 표시 이름 변경"
 
 #: accounts-list-delegate.cpp:80
 msgid ""
@@ -65,26 +67,28 @@ msgid ""
 "display name is an alias for your account and is just used locally on your "
 "computer, your contacts will not be able to see it."
 msgstr ""
+"이 단추를 누르면 계정 표시 이름을 변경할 수 없습니다.<br />계정 표시 이름은 "
+"이 컴퓨터에서만 사용되는 계정에 대한 별명이며 대화 상대가 볼 수 없습니다."
 
 #: accounts-list-delegate.cpp:134
 msgid "Click checkbox to enable"
-msgstr ""
+msgstr "체크 상자를 눌러서 활성화"
 
 #: accounts-list-delegate.cpp:144
 msgid "Disable account"
-msgstr "ਅਕਾਊਂਟ ਬੰਦ"
+msgstr "계정 비활성화"
 
 #: accounts-list-delegate.cpp:147
 msgid "Enable account"
-msgstr "ਅਕਾਊਂਟ ਚਾਲੂ"
+msgstr "계정 활성화"
 
 #: add-account-assistant.cpp:95 add-account-assistant.cpp:96
 msgid "Step 1: Select an Instant Messaging Network."
-msgstr ""
+msgstr "1단계: 인스턴트 메시지 네트워크 선택."
 
 #: add-account-assistant.cpp:120
 msgid "Step 2: Fill in the required Parameters."
-msgstr ""
+msgstr "2단계: 필요한 항목 입력."
 
 #: add-account-assistant.cpp:172
 msgid ""
@@ -92,150 +96,151 @@ msgid ""
 "Please install the telepathy-haze and telepathy-gabble packages using your "
 "package manager."
 msgstr ""
+"인스턴트 메시지 네트워크에 연결하려면 추가 플러그인을 설치해야 합니다. 패키"
+"지 관리자를 통하여 telepathy-haze 및 telepathy-gabble 패키지를 설치하십시오."
 
 #: add-account-assistant.cpp:172
 msgid "Missing Telepathy Connection Manager"
-msgstr ""
+msgstr "Telepathy 연결 관리자 없음"
 
 #: add-account-assistant.cpp:208 add-account-assistant.cpp:257
 #: salut-enabler.cpp:243
 msgid "Failed to create account"
-msgstr "ਅਕਾਊਂਟ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ ਹੈ"
+msgstr "계정 생성 실패"
 
 #: add-account-assistant.cpp:258 salut-enabler.cpp:244
 msgid "Possibly not all required fields are valid"
-msgstr ""
+msgstr "모든 필요한 필드가 올바르지 않을 수도 있음"
 
 #: add-account-assistant.cpp:267 salut-enabler.cpp:253
 msgid "Something went wrong with Telepathy"
-msgstr ""
+msgstr "Telepathy 내부 오류 발생"
 
 #: avatar-button.cpp:54
 msgid "Load from file..."
-msgstr "...ਫਾਇਲ ਤੋਂ ਲੋਡ"
+msgstr "파일에서 불러오기..."
 
 #: avatar-button.cpp:55
 msgid "Clear Avatar"
-msgstr ""
+msgstr "아바타 삭제"
 
 #: avatar-button.cpp:106
 msgid "Please choose your avatar"
-msgstr ""
+msgstr "아바타를 선택하십시오"
 
 #: avatar-button.cpp:155
-#, fuzzy
-#| msgid "Failed to create account"
 msgid "Failed to load avatar."
-msgstr "ਅਕਾਊਂਟ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ ਹੈ"
+msgstr "아바타를 불러올 수 없습니다."
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
-msgstr "ਵੇਖਾਉਣ ਨਾਂ ਚੁਣੋ"
+msgstr "표시 이름 편집"
 
 #: edit-display-name-button.cpp:70
 msgid "Choose a new display name for your account"
-msgstr ""
+msgstr "계정에 사용할 새 표시 이름을 입력하십시오"
 
 #: edit-display-name-button.cpp:77 edit-display-name-button.cpp:87
 msgid ""
 "A display name is your local alias for the account, only you will see it."
-msgstr ""
+msgstr "표시 이름은 계정에 대한 로컬 명칭으로 대화 상대가 볼 수 없습니다."
 
 #: edit-display-name-button.cpp:86
 msgid "New display name"
-msgstr "ਨਵਾਂ ਵੇਖਾਉਣ ਨਾਂ"
+msgstr "새 표시 이름"
 
 #: kcm-telepathy-accounts.cpp:76
 msgid "telepathy_accounts"
-msgstr "ਟੈਲੀਪੈਥੀ_ਅਕਾਊਂਟ"
+msgstr "telepathy_accounts"
 
 #: kcm-telepathy-accounts.cpp:76
 msgid "Instant Messaging and VOIP Accounts"
-msgstr ""
+msgstr "인스턴트 메시징 및 VoIP 계정"
 
 #: kcm-telepathy-accounts.cpp:78
 msgid "George Goldberg"
-msgstr ""
+msgstr "George Goldberg"
 
 #: kcm-telepathy-accounts.cpp:78 kcm-telepathy-accounts.cpp:79
 #: kcm-telepathy-accounts.cpp:80 kcm-telepathy-accounts.cpp:81
 #: kcm-telepathy-accounts.cpp:82 kcm-telepathy-accounts.cpp:83
 #: kcm-telepathy-accounts.cpp:84
 msgid "Developer"
-msgstr ""
+msgstr "개발자"
 
 #: kcm-telepathy-accounts.cpp:79
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: kcm-telepathy-accounts.cpp:80
 msgid "Dominik Schmidt"
-msgstr ""
+msgstr "Dominik Schmidt"
 
 #: kcm-telepathy-accounts.cpp:81
 msgid "Thomas Richard"
-msgstr ""
+msgstr "Thomas Richard"
 
 #: kcm-telepathy-accounts.cpp:82
 msgid "Florian Reinhard"
-msgstr ""
+msgstr "Florian Reinhard"
 
 #: kcm-telepathy-accounts.cpp:83
 msgid "Daniele E. Domenichelli"
-msgstr ""
+msgstr "Daniele E. Domenichelli"
 
 #: kcm-telepathy-accounts.cpp:84
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
 #: kcm-telepathy-accounts.cpp:266
 msgid ""
 "We have found Kopete logs for this account. Do you want to import the logs "
 "to KDE Telepathy?"
 msgstr ""
+"이 계정의 Kopete 로그를 찾았습니다. KDE Telepathy로 로그를 가져오시겠습니까?"
 
 #: kcm-telepathy-accounts.cpp:267
 msgid "Import Logs?"
-msgstr ""
+msgstr "로그 가져오기?"
 
 #: kcm-telepathy-accounts.cpp:268
 msgid "Import Logs"
-msgstr "ਲਾਗ ਇੰਪੋਰਟ ਕਰੋ"
+msgstr "로그 가져오기"
 
 #: kcm-telepathy-accounts.cpp:269
 msgid "Close"
-msgstr "ਬੰਦ ਕਰੋ"
+msgstr "닫기"
 
 #: kcm-telepathy-accounts.cpp:276
 msgid "Importing logs..."
-msgstr "...ਲਾਗ ਇੰਪੋਰਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr "로그 가져오는 중..."
 
 #: kcm-telepathy-accounts.cpp:294 kcm-telepathy-accounts.cpp:303
 msgid "Kopete Logs Import"
-msgstr ""
+msgstr "Kopete 로그 가져오기"
 
 #: kcm-telepathy-accounts.cpp:303
 msgid "Kopete logs successfully imported"
-msgstr "ਕੋਪੀਟੀ ਲਾਗ ਠੀਕ ਤਰ੍ਹਾਂ ਇੰਪੋਰਟ ਕੀਤਾ ਗਿਆ"
+msgstr "Kopete 로그를 가져왔습니다"
 
 #. i18n: ectx: property (text), widget (KPushButton, removeAccountButton)
 #: kcm-telepathy-accounts.cpp:405 kcm-telepathy-accounts.cpp:406
 #: main-widget.ui:184
 msgid "Remove Account"
-msgstr "ਅਕਾਊਂਟ ਹਟਾਓ"
+msgstr "계정 삭제"
 
 #: kcm-telepathy-accounts.cpp:409
 msgid "Remove conversations logs"
-msgstr ""
+msgstr "대화 기록 삭제"
 
 #: kcm-telepathy-accounts.cpp:410
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
-msgstr "ਕੀ ਤੁਸੀਂ \"%1\" ਅਕਾਊਂਟ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+msgstr "계정 \"%1\"을(를) 삭제하시겠습니까?"
 
 #: kcm-telepathy-accounts.cpp:492
 msgid "Install telepathy-salut to enable"
-msgstr ""
+msgstr "telepathy-salut을 설치해야 사용 가능"
 
 #: kcm-telepathy-accounts.cpp:534
 msgid ""
@@ -243,135 +248,138 @@ msgid ""
 "It is likely your system is missing Telepathy Mission Control package.\n"
 "Please install it and restart this module."
 msgstr ""
+"무언가 잘못되어 IM 시스템을 초기화할 수 없습니다.\n"
+"시스템에 Telepathy 미션 컨트롤 패키지가 설치되어 있지 않은 것 같습니다.\n"
+"설치한 다음 이 모듈을 다시 시작하십시오."
 
 #: KCMTelepathyAccounts/abstract-account-parameters-widget.cpp:59
 msgid "All mandatory fields must be filled"
-msgstr ""
+msgstr "모든 필요한 필드를 입력해야 함"
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:106
 msgid "Connect when wizard is finished"
-msgstr "ਜਦੋਂ ਸਹਾਇਕ ਪੂਰਾ ਹੋਵੇ ਤਾਂ ਕੁਨੈਕਟ ਕਰੋ"
+msgstr "마법사가 끝난 후 연결"
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:217
 msgid "Advanced Options"
-msgstr "ਤਕਨੀਕੀ ਚੋਣ"
+msgstr "고급 옵션"
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: KCMTelepathyAccounts/account-edit-widget.ui:62
 msgid "Advanced"
-msgstr "ਤਕਨੀਕੀ"
+msgstr "고급"
 
 #: KCMTelepathyAccounts/dictionary.cpp:33
 msgid "Password"
-msgstr "ਪਾਸਵਰਡ"
+msgstr "암호"
 
 #: KCMTelepathyAccounts/dictionary.cpp:34
 msgid "Account"
-msgstr "ਅਕਾਊਂਟ"
+msgstr "계정"
 
 #: KCMTelepathyAccounts/dictionary.cpp:35
 msgid "Priority"
-msgstr "ਤਰਜੀਹ"
+msgstr "우선 순위"
 
 #: KCMTelepathyAccounts/dictionary.cpp:36
 msgid "Port"
-msgstr "ਪੋਰਟ"
+msgstr "포트"
 
 #: KCMTelepathyAccounts/dictionary.cpp:37
 msgid "Alias"
-msgstr "ਉਪ-ਨਾਂ"
+msgstr "별명"
 
 #: KCMTelepathyAccounts/dictionary.cpp:38
 msgid "Register new Account"
-msgstr "ਨਵਾਂ ਅਕਾਊਂਟ ਰਜਿਸਟਰ ਕਰੋ"
+msgstr "새 계정 등록하기"
 
 #: KCMTelepathyAccounts/dictionary.cpp:39
 msgid "Server Address"
-msgstr "ਸਰਵਰ ਐਡਰੈੱਸ"
+msgstr "서버 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:40
 msgid "Fallback STUN server address"
-msgstr ""
+msgstr "폴백 STUN 서버 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:41
 msgid "Resource"
-msgstr "ਸਰੋਤ"
+msgstr "자원"
 
 #: KCMTelepathyAccounts/dictionary.cpp:42
 msgid "HTTPS Proxy Port"
-msgstr ""
+msgstr "HTTPS 프록시 포트"
 
 #: KCMTelepathyAccounts/dictionary.cpp:43
 msgid "Require Encryption"
-msgstr ""
+msgstr "암호화 필요"
 
 #: KCMTelepathyAccounts/dictionary.cpp:44
 msgid "Old-style SSL support"
-msgstr ""
+msgstr "구식 SSL 지원"
 
 #: KCMTelepathyAccounts/dictionary.cpp:45
 msgid "Fallback STUN port"
-msgstr ""
+msgstr "폴백 STUN 포트"
 
 #: KCMTelepathyAccounts/dictionary.cpp:46
 msgid "Fallback Conference Server Address"
-msgstr ""
+msgstr "폴백 대화 서버 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:47
 msgid "Low Bandwidth Mode"
-msgstr ""
+msgstr "저대역 모드"
 
 #: KCMTelepathyAccounts/dictionary.cpp:48
 msgid "STUN Server Address"
-msgstr ""
+msgstr "STUN 서버 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:49
 msgid "STUN Port"
-msgstr ""
+msgstr "STUN 포트"
 
 #: KCMTelepathyAccounts/dictionary.cpp:50
 msgid "Fallback SOCKS5 Proxy Addresses"
-msgstr ""
+msgstr "폴백 SOCKS5 프록시 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:51
 msgid "HTTPS Proxy Server Address"
-msgstr ""
+msgstr "HTTPS 프록시 서버 주소"
 
 #: KCMTelepathyAccounts/dictionary.cpp:52
 msgid "Ignore SSL Errors"
-msgstr "SSL ਗਲਤੀਆਂ ਅਣਡਿੱਠੀਆਂ"
+msgstr "SSL 오류 무시"
 
 #: KCMTelepathyAccounts/dictionary.cpp:53
 msgid "Keepalive Interval"
-msgstr ""
+msgstr "연결 유지 간격"
 
 #: KCMTelepathyAccounts/dictionary.cpp:56
 msgid "AOL Instant Messenger"
-msgstr ""
+msgstr "AOL 인스턴트 메신저"
 
 #: KCMTelepathyAccounts/dictionary.cpp:57
 msgid "Skype"
-msgstr "ਸਕਾਈਪੀ"
+msgstr "Skype"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonFacebook)
 #: KCMTelepathyAccounts/dictionary.cpp:58
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:124
 msgid "Facebook Chat"
-msgstr "ਫੇਸਬੁੱਕ ਚੈਟ"
+msgstr "Facebook 채팅"
 
 #: KCMTelepathyAccounts/dictionary.cpp:59
 msgid "Gadu-Gadu"
-msgstr "ਗਡੂ-ਗਡੂ"
+msgstr "Gadu-Gadu"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonGTalk)
 #: KCMTelepathyAccounts/dictionary.cpp:60
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 msgid "Google Talk"
-msgstr "ਗੂਗਲ ਟਾਕ"
+msgstr "Google 토크"
 
 #: KCMTelepathyAccounts/dictionary.cpp:61
 msgid "Novell Groupwise"
-msgstr ""
+msgstr "Novell Groupwise"
 
 #: KCMTelepathyAccounts/dictionary.cpp:62
 msgid "ICQ"
@@ -379,17 +387,17 @@ msgstr "ICQ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:63
 msgid "Internet Relay Chat"
-msgstr "ਇੰਟਰਨੈੱਟ ਰਿਲੇਅ ਚੈੱਟ"
+msgstr "인터넷 릴레이 채팅"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:64
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 msgid "Jabber/XMPP"
-msgstr ""
+msgstr "Jabber/XMPP"
 
 #: KCMTelepathyAccounts/dictionary.cpp:65
 msgid "Bonjour/Salut"
-msgstr ""
+msgstr "Bonjour/Salut"
 
 #: KCMTelepathyAccounts/dictionary.cpp:66
 msgid "MXit"
@@ -397,19 +405,19 @@ msgstr "MXit"
 
 #: KCMTelepathyAccounts/dictionary.cpp:67
 msgid "Windows Live Messenger"
-msgstr "ਵਿੰਡੋਜ਼ ਲਾਈਵ ਮੈਸੈਂਜ਼ਰ"
+msgstr "Windows Live 메신저"
 
 #: KCMTelepathyAccounts/dictionary.cpp:68
 msgid "MySpaceIM"
-msgstr ""
+msgstr "MySpaceIM"
 
 #: KCMTelepathyAccounts/dictionary.cpp:69
 msgid "Tencent QQ"
-msgstr ""
+msgstr "Tencent QQ"
 
 #: KCMTelepathyAccounts/dictionary.cpp:70
 msgid "IBM Lotus Sametime"
-msgstr ""
+msgstr "IBM Lotus Sametime"
 
 #: KCMTelepathyAccounts/dictionary.cpp:71
 msgid "SILC"
@@ -417,114 +425,111 @@ msgstr "SILC"
 
 #: KCMTelepathyAccounts/dictionary.cpp:72
 msgid "Session Initiation Protocol (SIP)"
-msgstr ""
+msgstr "세션 연결 프로토콜(SIP)"
 
 #: KCMTelepathyAccounts/dictionary.cpp:73
 msgid "GSM Telephony"
-msgstr "GSM ਟੈਲੀਫੋਨੀ"
+msgstr "GSM 이동 전화"
 
 #: KCMTelepathyAccounts/dictionary.cpp:74
 msgid "Trepia"
-msgstr ""
+msgstr "Trepia"
 
 #: KCMTelepathyAccounts/dictionary.cpp:75
 msgid "Yahoo! Messenger"
-msgstr ""
+msgstr "Yahoo! 메신저"
 
 #: KCMTelepathyAccounts/dictionary.cpp:76
 msgid "Yahoo! Messenger Japan"
-msgstr ""
+msgstr "일본 Yahoo! 메신저"
 
 #: KCMTelepathyAccounts/dictionary.cpp:77
 msgid "Zephyr"
-msgstr ""
+msgstr "Zephyr"
 
 #: KCMTelepathyAccounts/parameter-edit-model.cpp:302
 #, kde-format
 msgid "Parameter \"<b>%1</b>\" is not valid."
-msgstr ""
+msgstr "인자 \"<b>%1</b>\"이(가) 올바르지 않습니다."
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "KDETalk"
-msgstr ""
+msgstr "KDETalk"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr ""
+msgstr "모두"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162
 msgid "AOL, Gadu-Gadu, Yahoo and more..."
-msgstr "AOL, Gadu-Gadu, Yahoo ਅਤੇ ਹੋਰ..."
+msgstr "AOL, Gadu-Gadu, Yahoo 및 그 외..."
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:100
 msgid "This field is required"
-msgstr ""
+msgstr "이 필드는 필요 항목입니다"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:121
 msgid "This field should not be empty"
-msgstr ""
+msgstr "이 필드는 비어 있으면 안 됩니다"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:125
 msgid "This field should contain an email address"
-msgstr ""
+msgstr "이 필드는 이메일 주소를 포함해야 합니다"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:129
 msgid "This field should contain a hostname"
-msgstr ""
+msgstr "이 필드는 호스트 이름을 포함해야 합니다"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:133
 msgid "This field should contain an IP address"
-msgstr ""
+msgstr "이 필드는 IP 주소를 포함해야 합니다"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:178
 msgid "This field is valid"
-msgstr ""
+msgstr "이 필드는 올바릅니다"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableLabel)
 #: main-widget.ui:80
 msgid "Enable local network discovery"
-msgstr ""
+msgstr "로컬 네트워크 발견 사용"
 
 #. i18n: ectx: property (text), widget (QLabel, salutEnableStatusLabel)
 #: main-widget.ui:100
 msgid "Connect to people near you"
-msgstr "ਆਪਣੇ ਨੇੜਲੇ ਲੋਕਾਂ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ"
+msgstr "근처 사람들과 연결하기"
 
 #. i18n: ectx: property (text), widget (KPushButton, addAccountButton)
 #: main-widget.ui:151
 msgid "Add Account"
-msgstr "ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
+msgstr "계정 추가"
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountButton)
 #: main-widget.ui:161
 msgid "Edit Account"
-msgstr "ਅਕਾਊਂਟ ਸੋਧ"
+msgstr "계정 편집"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAccountIdentityButton)
 #: main-widget.ui:171
 msgid "Edit how you appear to others. Requires the account to be online."
-msgstr ""
+msgstr "어떻게 나타낼 지 편집합니다. 계정이 온라인이어야 합니다."
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
 #: main-widget.ui:174
 msgid "Edit Identity"
-msgstr "ਪਛਾਣ ਸੋਧ"
+msgstr "사용자 정보 편집하기"
 
 #: salut-message-widget.cpp:50
 msgid "Configure manually..."
-msgstr "...ਖੁਦ ਸੰਰਚਨਾ ਦਿਓ"
+msgstr "수동 설정..."
 
 #: salut-message-widget.cpp:54
 msgid "Cancel"
-msgstr "ਰੱਦ ਕਰੋ"
+msgstr "취소"
 
 #: salut-message-widget.cpp:104
 #, kde-format
 msgid "You will appear as \"%1\" on your local network."
-msgstr ""
-
-#~ msgid "Others"
-#~ msgstr "ਹੋਰ"
+msgstr "로컬 네트워크에 \"%1\"(으)로 나타납니다."

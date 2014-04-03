@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
-"PO-Revision-Date: 2013-11-27 09:54+0100\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"PO-Revision-Date: 2013-02-27 18:51+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -210,7 +210,7 @@ msgstr "Hulpbron"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource name:"
+msgid "Resource Name:"
 msgstr "Naam van hulpbron:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)
