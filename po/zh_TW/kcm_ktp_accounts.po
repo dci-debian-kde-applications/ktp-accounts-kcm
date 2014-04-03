@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-27 01:32+0000\n"
-"PO-Revision-Date: 2013-09-14 14:54+0800\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-03 15:02+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -24,7 +24,7 @@ msgstr "Frank Weng (a.k.a. Franklin)"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "franklin@goodhorse.idv.tw"
+msgstr "franklin at goodhorse dot idv dot tw"
 
 #: account-identity-dialog.cpp:42
 msgid "Edit Account Identity"
@@ -533,15 +533,15 @@ msgstr "取消"
 msgid "You will appear as \"%1\" on your local network."
 msgstr "您在您的本地端網路上會以 \"%1\" 呈現。"
 
-#~ msgid "Others"
-#~ msgstr "其他"
-
 #~ msgid ""
 #~ "The file you have selected does not seem to be an image.\n"
 #~ "Please select an image file."
 #~ msgstr ""
 #~ "您選擇的檔案似乎不是影像檔。\n"
 #~ "請選擇影像檔。"
+
+#~ msgid "Others"
+#~ msgstr "其他"
 
 #~ msgid "Online"
 #~ msgstr "上線"

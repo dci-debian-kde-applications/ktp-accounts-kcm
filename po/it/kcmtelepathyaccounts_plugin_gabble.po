@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
-"PO-Revision-Date: 2013-11-28 23:48+0100\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"PO-Revision-Date: 2013-02-27 09:57+0100\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -212,7 +212,7 @@ msgstr "Risorsa"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource name:"
+msgid "Resource Name:"
 msgstr "Nome della risorsa:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)

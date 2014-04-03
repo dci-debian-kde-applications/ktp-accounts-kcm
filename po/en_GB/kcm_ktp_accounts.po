@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
 "PO-Revision-Date: 2009-12-16 11:57+0000\n"
 "Last-Translator: Andrew Coles <andrew_coles@yahoo.co.uk>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -27,7 +27,6 @@ msgstr ""
 
 #: account-identity-dialog.cpp:42
 #, fuzzy
-#| msgid "Edit Account"
 msgid "Edit Account Identity"
 msgstr "Edit Account"
 
@@ -39,7 +38,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: account-identity-dialog.ui:50
 #, fuzzy
-#| msgid "Add Account"
 msgid "Account:"
 msgstr "Add Account"
 
@@ -50,7 +48,6 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:70
 #, fuzzy
-#| msgid "Edit Account"
 msgid "Change account icon"
 msgstr "Edit Account"
 
@@ -82,7 +79,6 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:147
 #, fuzzy
-#| msgid "Edit Account"
 msgid "Enable account"
 msgstr "Edit Account"
 
@@ -260,14 +256,12 @@ msgstr ""
 
 #: KCMTelepathyAccounts/account-edit-widget.cpp:217
 #, fuzzy
-#| msgid "Advanced options"
 msgid "Advanced Options"
 msgstr "Advanced options"
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: KCMTelepathyAccounts/account-edit-widget.ui:62
 #, fuzzy
-#| msgid "Advanced options"
 msgid "Advanced"
 msgstr "Advanced options"
 
@@ -277,7 +271,6 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:34
 #, fuzzy
-#| msgid "Add Account"
 msgid "Account"
 msgstr "Add Account"
 
@@ -295,7 +288,6 @@ msgstr ""
 
 #: KCMTelepathyAccounts/dictionary.cpp:38
 #, fuzzy
-#| msgid "Remove Account"
 msgid "Register new Account"
 msgstr "Remove Account"
 

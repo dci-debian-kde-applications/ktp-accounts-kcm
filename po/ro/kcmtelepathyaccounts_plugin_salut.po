@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"POT-Creation-Date: 2012-01-17 05:18+0100\n"
 "PO-Revision-Date: 2012-10-17 23:37+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -25,9 +25,7 @@ msgstr "Informații suplimentare"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-#, fuzzy
-#| msgid "Published Name:"
-msgid "Published name:"
+msgid "Published Name:"
 msgstr "Numele publicat:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -47,16 +45,12 @@ msgstr "Preferințe cont"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-#, fuzzy
-#| msgid "First Name:"
-msgid "First name:"
+msgid "First Name:"
 msgstr "Prenume:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-#, fuzzy
-#| msgid "Last Name:"
-msgid "Last name:"
+msgid "Last Name:"
 msgstr "Nume:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

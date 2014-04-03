@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-accounts-kcm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-27 01:32+0000\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
 "PO-Revision-Date: 2011-10-25 19:26+0200\n"
 "Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -47,7 +47,6 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:70
 #, fuzzy
-#| msgid "Edit Account"
 msgid "Change account icon"
 msgstr "Konto bewerken"
 
@@ -79,7 +78,6 @@ msgstr ""
 
 #: accounts-list-delegate.cpp:147
 #, fuzzy
-#| msgid "Edit Account"
 msgid "Enable account"
 msgstr "Konto bewerken"
 
@@ -372,7 +370,6 @@ msgstr "Gadu-Gadu"
 #: KCMTelepathyAccounts/dictionary.cpp:60
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:100
 #, fuzzy
-#| msgid "Jabber/XMPP/Google Talk"
 msgid "Google Talk"
 msgstr "Jabber/XMPP/Google-Snack"
 
@@ -392,7 +389,6 @@ msgstr "Klöönsnack (Internet Relay Chat)"
 #: KCMTelepathyAccounts/dictionary.cpp:64
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:54
 #, fuzzy
-#| msgid "Jabber/XMPP/Google Talk"
 msgid "Jabber/XMPP"
 msgstr "Jabber/XMPP/Google-Snack"
 

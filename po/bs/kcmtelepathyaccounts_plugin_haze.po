@@ -7,23 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
-"PO-Revision-Date: 2014-01-31 20:49+0100\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-09-24 21:24+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-01-14 06:45+0000\n"
-"X-Generator: Launchpad (build 16890)\n"
+"X-Launchpad-Export-Date: 2012-12-21 01:46+0000\n"
+"X-Generator: Launchpad (build 16378)\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
@@ -31,37 +30,34 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
 #: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
 #: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
-#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
-#: yahoo-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
+#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Postavke naloga"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
-#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
-#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
+#: yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Ime korisnika"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
 #: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
-#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
-#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
+#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
+#: yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Lozinka"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
 #: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
 #: myspaceim-advanced-settings-widget.ui:14
-#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
-#: yahoo-server-settings-widget.ui:14
+#: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Napredne Opcije"
 
@@ -99,7 +95,7 @@ msgstr "Šifrovanje:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-msgid "Always use AIM proxy"
+msgid "Always use AIM proxy "
 msgstr "Uvijek koristi AIM proxy "
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
@@ -127,7 +123,7 @@ msgstr "Server:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: groupwise-main-options-widget.ui:41
 msgid "The GroupWise username is your email address."
-msgstr "GroupWise korisničko ime je vaša adresa elektronske pošte."
+msgstr "Korisničko ime za GroupWise je vaša adresa elektronske pošte."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
@@ -155,13 +151,12 @@ msgid "Always use RV-Proxy"
 msgstr "Uvijek koristi RV-Proxy"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: icq-server-settings-widget.ui:128
+#: icq-server-settings-widget.ui:128 yahoo-server-settings-widget.ui:130
 msgid "Charset"
 msgstr "Skup znakova"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#. i18n: ectx: property (text), widget (QLabel, emailLabel)
-#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
+#: msn-main-options-widget.ui:29
 msgid "Email address:"
 msgstr "Adresa e‑pošte:"
 
@@ -176,74 +171,9 @@ msgid "The MySpaceIM username is your email address."
 msgstr "Korisničko ime za MySpaceIM je vaša adresa elektronske pošte."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
-#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
+#: myspaceim-main-options-widget.ui:47
 msgid "john@doe.com"
 msgstr "john@doe.com"
-
-#. i18n: ectx: property (text), widget (QLabel, loginLabel)
-#: sipe-advanced-settings-widget.ui:31
-msgid "Login:"
-msgstr "Prijava:"
-
-#. i18n: ectx: property (text), widget (QLabel, transportLabel)
-#: sipe-advanced-settings-widget.ui:44
-msgid "Connection type:"
-msgstr "Postavke povezivanja:"
-
-#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
-#: sipe-advanced-settings-widget.ui:51
-msgid "auto"
-msgstr "auto"
-
-#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
-#: sipe-advanced-settings-widget.ui:58
-msgid "User agent:"
-msgstr "Korisnički agent;"
-
-#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
-#: sipe-advanced-settings-widget.ui:68
-msgid "Authentication scheme:"
-msgstr "Šema prijave:"
-
-#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
-#: sipe-advanced-settings-widget.ui:75
-msgid "ntlm"
-msgstr "ntlm"
-
-#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
-#: sipe-advanced-settings-widget.ui:82
-msgid "Do not publish my calendar information:"
-msgstr "Ne objavljuj moje kalendarske informacije"
-
-#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
-#: sipe-advanced-settings-widget.ui:92
-msgid "Email services URL:"
-msgstr "URL usluge e‑pošte:"
-
-#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
-#: sipe-advanced-settings-widget.ui:112
-msgid "Email login:"
-msgstr "Email prijava:"
-
-#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
-#: sipe-advanced-settings-widget.ui:122
-msgid "Email password:"
-msgstr "Lozinka e‑pošte:"
-
-#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
-#: sipe-advanced-settings-widget.ui:129
-msgid "Group chat proxy:"
-msgstr "Proksi za grupno ćaskanje:"
-
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: sipe-advanced-settings-widget.ui:146
-msgid "Server[:port]:"
-msgstr "Server[:port]:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
-#: sipe-main-options-widget.ui:41
-msgid "The Sipe username is your email address."
-msgstr "Korisničko ime za Sipe je vaša adresa elektronske pošte."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -278,7 +208,7 @@ msgstr "Nalog:"
 #. i18n: 'Steam Guard' is a service name and should not be translated
 #. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
 #: steam-main-options-widget.ui:51
-msgid "Steam Guard code:"
+msgid "Steam Guard Code:"
 msgstr "Kod za uslugu Steam Guard:"
 
 #. i18n: 'Steam Guard' is a service name and should not be translated
@@ -286,8 +216,8 @@ msgstr "Kod za uslugu Steam Guard:"
 #: steam-main-options-widget.ui:82
 msgid "The Steam Guard code will be emailed to you after attempting to login"
 msgstr ""
-"Steam Guard kod će vam biti poslan elektronskom poštom nakon vašeg pokušaja "
-"prijave"
+"Kod za uslugu Steam Guard će vam biti poslan poštom nakon što se pokušate "
+"prijaviti"
 
 #. i18n: ectx: property (text), widget (QLabel, transferHeadlineLabel)
 #: yahoo-server-settings-widget.ui:73
@@ -309,11 +239,6 @@ msgstr "<b>Lokalno</b>"
 msgid "Room List:"
 msgstr "Lista soba:"
 
-#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: yahoo-server-settings-widget.ui:130
-msgid "Charset:"
-msgstr "Skup znakova:"
-
 #. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
 #: yahoo-server-settings-widget.ui:138
 msgid "UTF-8"
@@ -328,9 +253,3 @@ msgstr "Koristi SSL na proxy serveru"
 #: yahoo-server-settings-widget.ui:166
 msgid "Ignore invites"
 msgstr "Ignoriši pozive"
-
-#~ msgid "Always use AIM proxy "
-#~ msgstr "Uvijek koristi AIM proxy "
-
-#~ msgid "Steam Guard Code:"
-#~ msgstr "Steam Guard kod"

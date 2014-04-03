@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_haze\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
 "PO-Revision-Date: 2013-11-30 16:34+0100\n"
 "Last-Translator: Maxime Corteel\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -24,7 +24,6 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
@@ -32,37 +31,34 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
 #: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
 #: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
-#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
-#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
-#: yahoo-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
+#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Préférences de compte"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
-#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
-#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
+#: yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Nom d'utilisateur :"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
 #: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
-#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
-#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
+#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
+#: yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Mot de passe :"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
 #: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
 #: myspaceim-advanced-settings-widget.ui:14
-#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
-#: yahoo-server-settings-widget.ui:14
+#: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Options avancées"
 
@@ -100,8 +96,8 @@ msgstr "Chiffrement :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-msgid "Always use AIM proxy"
-msgstr "Toujours utiliser le serveur mandataire « AIM »"
+msgid "Always use AIM proxy "
+msgstr "Toujours utiliser un serveur mandataire « AIM »"
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
 #: aim-server-settings-widget.ui:108 icq-server-settings-widget.ui:114
@@ -156,13 +152,12 @@ msgid "Always use RV-Proxy"
 msgstr "Toujours utiliser un serveur mandataire « RV »"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: icq-server-settings-widget.ui:128
+#: icq-server-settings-widget.ui:128 yahoo-server-settings-widget.ui:130
 msgid "Charset"
 msgstr "Jeu de caractères"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#. i18n: ectx: property (text), widget (QLabel, emailLabel)
-#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
+#: msn-main-options-widget.ui:29
 msgid "Email address:"
 msgstr "Adresse de courrier électronique :"
 
@@ -179,75 +174,9 @@ msgstr ""
 "électronique."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
-#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
+#: myspaceim-main-options-widget.ui:47
 msgid "john@doe.com"
 msgstr "jean@dupont.com"
-
-#. i18n: ectx: property (text), widget (QLabel, loginLabel)
-#: sipe-advanced-settings-widget.ui:31
-msgid "Login:"
-msgstr "Identifiant :"
-
-#. i18n: ectx: property (text), widget (QLabel, transportLabel)
-#: sipe-advanced-settings-widget.ui:44
-msgid "Connection type:"
-msgstr "Type de connexion :"
-
-#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
-#: sipe-advanced-settings-widget.ui:51
-msgid "auto"
-msgstr "automatique"
-
-#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
-#: sipe-advanced-settings-widget.ui:58
-msgid "User agent:"
-msgstr "Agent d'utilisateur :"
-
-#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
-#: sipe-advanced-settings-widget.ui:68
-msgid "Authentication scheme:"
-msgstr "Mode d'authentification :"
-
-#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
-#: sipe-advanced-settings-widget.ui:75
-msgid "ntlm"
-msgstr "ntlm"
-
-#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
-#: sipe-advanced-settings-widget.ui:82
-msgid "Do not publish my calendar information:"
-msgstr "Ne pas rendre mon calendrier public :"
-
-#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
-#: sipe-advanced-settings-widget.ui:92
-msgid "Email services URL:"
-msgstr "URL du service de courrier électronique :"
-
-#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
-#: sipe-advanced-settings-widget.ui:112
-msgid "Email login:"
-msgstr "Adresse de courriel :"
-
-#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
-#: sipe-advanced-settings-widget.ui:122
-msgid "Email password:"
-msgstr "Mot de passe de courriel :"
-
-#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
-#: sipe-advanced-settings-widget.ui:129
-msgid "Group chat proxy:"
-msgstr "Serveur mandataire pour les conversations de groupe :"
-
-#. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: sipe-advanced-settings-widget.ui:146
-msgid "Server[:port]:"
-msgstr "Serveur[:port] :"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
-#: sipe-main-options-widget.ui:41
-msgid "The Sipe username is your email address."
-msgstr ""
-"Le nom d'utilisateur « Sipe » est votre adresse de courrier électronique."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -284,7 +213,7 @@ msgstr "Compte :"
 #. i18n: 'Steam Guard' is a service name and should not be translated
 #. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
 #: steam-main-options-widget.ui:51
-msgid "Steam Guard code:"
+msgid "Steam Guard Code:"
 msgstr "Code Steam Guard :"
 
 #. i18n: 'Steam Guard' is a service name and should not be translated
@@ -315,11 +244,6 @@ msgstr "<b>Paramètres régionaux</b>"
 msgid "Room List:"
 msgstr "Liste des forums :"
 
-#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: yahoo-server-settings-widget.ui:130
-msgid "Charset:"
-msgstr "Jeu de caractères :"
-
 #. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
 #: yahoo-server-settings-widget.ui:138
 msgid "UTF-8"
@@ -334,125 +258,3 @@ msgstr "Utiliser SSL sur un serveur mandataire"
 #: yahoo-server-settings-widget.ui:166
 msgid "Ignore invites"
 msgstr "Ignorer les demandes"
-
-#, fuzzy
-#~| msgid "Email address:"
-#~ msgid "Email address"
-#~ msgstr "Adresse de courrier électronique :"
-
-#~ msgid "Big5"
-#~ msgstr "Big5"
-
-#~ msgid "Big5-HKSCS"
-#~ msgstr "Big5-HKSCS"
-
-#~ msgid "euc-JP Japanese"
-#~ msgstr "euc-JP Japonais"
-
-#~ msgid "euc-KR Korean"
-#~ msgstr "euc-KR Coréen"
-
-#~ msgid "GB-2312 Chinese"
-#~ msgstr "GB-2312 Chinois"
-
-#~ msgid "GBK Chinese"
-#~ msgstr "GBK Chinois"
-
-#~ msgid "GB18030 Chinese"
-#~ msgstr "GB18030 Chinois"
-
-#~ msgid "JIS Japanese"
-#~ msgstr "JIS Japonais"
-
-#~ msgid "Shift-JIS Japanese"
-#~ msgstr "Shift-JIS Japonais"
-
-#~ msgid "KOI8-R Russian"
-#~ msgstr "KOI8-R Russe"
-
-#~ msgid "KOI8-U Ukrainian"
-#~ msgstr "KOI8-U Ukrainien"
-
-#~ msgid "ISO-8859-1 Western"
-#~ msgstr "ISO-8859-1 Européen de l'ouest"
-
-#~ msgid "ISO-8859-2 Central European"
-#~ msgstr "ISO-8859-2 Européen central"
-
-#~ msgid "ISO-8859-3 Central European"
-#~ msgstr "ISO-8859-3 Européen central"
-
-#~ msgid "ISO-8859-4 Baltic"
-#~ msgstr "ISO-8859-4 Balte"
-
-#~ msgid "ISO-8859-5 Cyrillic"
-#~ msgstr "ISO-8859-5 Cyrillique"
-
-#~ msgid "ISO-8859-6 Arabic"
-#~ msgstr "ISO-8859-6 Arabe"
-
-#~ msgid "ISO-8859-7 Greek"
-#~ msgstr "ISO-8859-7 Grec"
-
-#~ msgid "ISO-8859-8 Hebrew, visually ordered"
-#~ msgstr "ISO-8859-8 Hébreu, visuellement ordonné"
-
-#~ msgid "ISO-8859-8-I Hebrew, logically ordered"
-#~ msgstr "ISO-8859-8-I Hébreu, logiquement ordonné"
-
-#~ msgid "ISO-8859-9 Turkish"
-#~ msgstr "ISO-8859-9 Turc"
-
-#~ msgid "ISO-8859-10"
-#~ msgstr "ISO-8859-10"
-
-#~ msgid "ISO-8859-13"
-#~ msgstr "ISO-8859-13"
-
-#~ msgid "ISO-8859-14"
-#~ msgstr "ISO-8859-14"
-
-#~ msgid "ISO-8859-15 Western"
-#~ msgstr "ISO-8859-15 Européen de l'ouest"
-
-#~ msgid "Windows-1250 Central European"
-#~ msgstr "Windows-1250 Européen central"
-
-#~ msgid "Windows-1251 Cyrillic"
-#~ msgstr "Windows-1251 Cyrillique"
-
-#~ msgid "Windows-1252 Western"
-#~ msgstr "Windows-1252 Européen de l'ouest"
-
-#~ msgid "Windows-1253 Greek"
-#~ msgstr "Windows-1253 Grec"
-
-#~ msgid "Windows-1254 Turkish"
-#~ msgstr "Windows-1254 Turc"
-
-#~ msgid "Windows-1255 Hebrew"
-#~ msgstr "Windows-1255 Hébreu"
-
-#~ msgid "Windows-1256 Arabic"
-#~ msgstr "Windows-1256 Arabe"
-
-#~ msgid "Windows-1257 Baltic"
-#~ msgstr "Windows-1257 Balte"
-
-#~ msgid "Windows-1258 Viet Nam"
-#~ msgstr "Windows-1258 Vietnamien"
-
-#~ msgid "IBM 850"
-#~ msgstr "IBM 850"
-
-#~ msgid "IBM 866"
-#~ msgstr "IBM 866"
-
-#~ msgid "TIS-620 Thai"
-#~ msgstr "TIS-620 Thaïlandais"
-
-#~ msgid "UTF-8 Unicode"
-#~ msgstr "UTF-8 Unicode"
-
-#~ msgid "UTF-16 Unicode"
-#~ msgstr "UTF-16 Unicode"

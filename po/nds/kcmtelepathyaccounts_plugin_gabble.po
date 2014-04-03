@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2011-06-16 17:30+0200\n"
 "Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -60,7 +60,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: main-options-widget-googletalk.ui:35
 #, fuzzy
-#| msgid "Server Address:"
 msgid "Email address:"
 msgstr "Serveradress:"
 
@@ -175,14 +174,12 @@ msgstr "Server instellen"
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
 #: server-settings-widget.ui:26
 #, fuzzy
-#| msgid "Server Address:"
 msgid "Server address:"
 msgstr "Serveradress:"
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: server-settings-widget.ui:36
 #, fuzzy
-#| msgid "Server Port:"
 msgid "Server port:"
 msgstr "Serverport:"
 
@@ -203,13 +200,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource name:"
+msgid "Resource Name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)
 #: server-settings-widget.ui:108
 #, fuzzy
-#| msgid "Port:"
 msgid "Priority:"
 msgstr "Port:"
 

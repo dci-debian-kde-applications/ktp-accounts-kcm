@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_rakia\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2013-09-08 07:04+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2011-05-09 19:00+0900\n"
+"Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, authGroupBox)
 #: rakia-advanced-options-widget.ui:17
 msgid "Authentication"
-msgstr "كىملىك دەلىللەش"
+msgstr "سالاھىيەت دەلىللەش"
 
 #. i18n: ectx: property (text), widget (QLabel, authUserLabel)
 #: rakia-advanced-options-widget.ui:26
@@ -140,7 +140,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, discoverBindingLabel)
 #: rakia-advanced-options-widget.ui:200
 msgid "NAT"
-msgstr "NAT"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, keepaliveGroupBox)
 #: rakia-advanced-options-widget.ui:210
@@ -150,7 +150,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: rakia-advanced-options-widget.ui:216
 msgid "Interval:"
-msgstr "ئىنتېرۋال:"
+msgstr "ئىنتېرۋال"
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, keepaliveIntervalNumInput)
 #: rakia-advanced-options-widget.ui:223
@@ -196,7 +196,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:251
 msgid "register"
-msgstr "خەتلەتمەك"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:256

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:29+0000\n"
+"POT-Creation-Date: 2013-05-22 04:47+0000\n"
 "PO-Revision-Date: 2011-02-13 03:20-0800\n"
 "Last-Translator: Japanese KDE translation team <Kdeveloper@kde.gr.jp>\n"
 "Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
@@ -193,7 +193,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource name:"
+msgid "Resource Name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)
