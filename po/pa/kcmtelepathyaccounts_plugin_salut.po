@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
 "PO-Revision-Date: 2013-01-31 09:12+0000\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -24,7 +24,9 @@ msgstr "ਹੋਰ ਜਾਣਕਾਰੀ"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
+#, fuzzy
+#| msgid "Published Name:"
+msgid "Published name:"
 msgstr "ਪਬਲਿਸ਼ ਕੀਤਾ ਨਾਂ:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -44,12 +46,16 @@ msgstr "ਅਕਾਊਂਟ ਪਸੰਦ"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
+#, fuzzy
+#| msgid "First Name:"
+msgid "First name:"
 msgstr "ਪਹਿਲਾਂ ਨਾਂ:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+#, fuzzy
+#| msgid "Last Name:"
+msgid "Last name:"
 msgstr "ਆਖਰੀ ਨਾਂ:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

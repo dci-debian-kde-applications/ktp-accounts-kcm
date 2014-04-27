@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
 "PO-Revision-Date: 2012-04-28 22:16+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -27,7 +27,9 @@ msgstr "Papildoma informacija"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
+#, fuzzy
+#| msgid "Published Name:"
+msgid "Published name:"
 msgstr "Paskelbtas vardas:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
@@ -47,12 +49,16 @@ msgstr "Paskyros parinktys"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
+#, fuzzy
+#| msgid "First Name:"
+msgid "First name:"
 msgstr "Vardas:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+#, fuzzy
+#| msgid "Last Name:"
+msgid "Last name:"
 msgstr "Pavardė:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

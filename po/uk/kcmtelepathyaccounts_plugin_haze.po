@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2011, 2013.
+# Yuri Chornoivan <yurchor@ukr.net>, 2011, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2013-09-24 15:45+0300\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
+"PO-Revision-Date: 2014-03-12 21:11+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,6 +21,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMMainOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SteamMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MsnMainOptionsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimMainOptionsWidget)
@@ -28,34 +29,37 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, IcqMainOptionsWidget)
 #: aim-main-options-widget.ui:20 groupwise-main-options-widget.ui:20
 #: icq-main-options-widget.ui:20 msn-main-options-widget.ui:20
-#: myspaceim-main-options-widget.ui:20 skype-main-options-widget.ui:20
-#: steam-main-options-widget.ui:20 yahoo-main-options-widget.ui:20
+#: myspaceim-main-options-widget.ui:20 sipe-main-options-widget.ui:20
+#: skype-main-options-widget.ui:20 steam-main-options-widget.ui:20
+#: yahoo-main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Параметри облікового запису"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: aim-main-options-widget.ui:29 groupwise-main-options-widget.ui:34
-#: myspaceim-main-options-widget.ui:34 steam-main-options-widget.ui:34
-#: yahoo-main-options-widget.ui:34
+#: myspaceim-main-options-widget.ui:34 sipe-main-options-widget.ui:34
+#: steam-main-options-widget.ui:34 yahoo-main-options-widget.ui:34
 msgid "Username:"
 msgstr "Користувач:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: aim-main-options-widget.ui:46 groupwise-main-options-widget.ui:54
 #: icq-main-options-widget.ui:44 msn-main-options-widget.ui:53
-#: myspaceim-main-options-widget.ui:54 steam-main-options-widget.ui:75
-#: yahoo-main-options-widget.ui:48
+#: myspaceim-main-options-widget.ui:54 sipe-main-options-widget.ui:54
+#: steam-main-options-widget.ui:75 yahoo-main-options-widget.ui:48
 msgid "Password:"
 msgstr "Пароль:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AimServerSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, YahooServerSettingsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SipeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkypeAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, MySpaceIMAdvancedSettingsWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAdvancedSettingsWidget)
 #: aim-server-settings-widget.ui:14 groupwise-advanced-settings-widget.ui:14
 #: myspaceim-advanced-settings-widget.ui:14
-#: skype-advanced-settings-widget.ui:14 yahoo-server-settings-widget.ui:14
+#: sipe-advanced-settings-widget.ui:14 skype-advanced-settings-widget.ui:14
+#: yahoo-server-settings-widget.ui:14
 msgid "Advanced Options"
 msgstr "Додаткові параметри"
 
@@ -93,7 +97,7 @@ msgstr "Шифрування:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-msgid "Always use AIM proxy "
+msgid "Always use AIM proxy"
 msgstr "Завжди використовувати AIM-проксі"
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
@@ -149,12 +153,13 @@ msgid "Always use RV-Proxy"
 msgstr "Завжди використовувати RV-проксі"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
-#: icq-server-settings-widget.ui:128 yahoo-server-settings-widget.ui:130
+#: icq-server-settings-widget.ui:128
 msgid "Charset"
 msgstr "Набір символів"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: msn-main-options-widget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
 msgid "Email address:"
 msgstr "Адреса ел. пошти:"
 
@@ -169,9 +174,74 @@ msgid "The MySpaceIM username is your email address."
 msgstr "Ім’я користувача MySpaceIM є вашою адресою електронної пошти."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
-#: myspaceim-main-options-widget.ui:47
+#: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
 msgid "john@doe.com"
 msgstr "john@doe.com"
+
+#. i18n: ectx: property (text), widget (QLabel, loginLabel)
+#: sipe-advanced-settings-widget.ui:31
+msgid "Login:"
+msgstr "Користувач:"
+
+#. i18n: ectx: property (text), widget (QLabel, transportLabel)
+#: sipe-advanced-settings-widget.ui:44
+msgid "Connection type:"
+msgstr "Тип з’єднання:"
+
+#. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
+#: sipe-advanced-settings-widget.ui:51
+msgid "auto"
+msgstr "авто"
+
+#. i18n: ectx: property (text), widget (QLabel, useragentLabel)
+#: sipe-advanced-settings-widget.ui:58
+msgid "User agent:"
+msgstr "Агент користувача:"
+
+#. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
+#: sipe-advanced-settings-widget.ui:68
+msgid "Authentication scheme:"
+msgstr "Схема розпізнавання:"
+
+#. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
+#: sipe-advanced-settings-widget.ui:75
+msgid "ntlm"
+msgstr "ntlm"
+
+#. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
+#: sipe-advanced-settings-widget.ui:82
+msgid "Do not publish my calendar information:"
+msgstr "Не оприлюднювати дані календаря:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
+#: sipe-advanced-settings-widget.ui:92
+msgid "Email services URL:"
+msgstr "Адреса служб ел. пошти:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
+#: sipe-advanced-settings-widget.ui:112
+msgid "Email login:"
+msgstr "Користувач ел. пошти:"
+
+#. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
+#: sipe-advanced-settings-widget.ui:122
+msgid "Email password:"
+msgstr "Пароль до ел. пошти:"
+
+#. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
+#: sipe-advanced-settings-widget.ui:129
+msgid "Group chat proxy:"
+msgstr "Проксі-сервер групового спілкування:"
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: sipe-advanced-settings-widget.ui:146
+msgid "Server[:port]:"
+msgstr "Сервер[:Порт]:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
+#: sipe-main-options-widget.ui:41
+msgid "The Sipe username is your email address."
+msgstr "Ім’я користувача Sipe є вашою адресою електронної пошти."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -207,7 +277,7 @@ msgstr "Обліковий запис:"
 #. i18n: 'Steam Guard' is a service name and should not be translated
 #. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
 #: steam-main-options-widget.ui:51
-msgid "Steam Guard Code:"
+msgid "Steam Guard code:"
 msgstr "Захисний код Steam:"
 
 #. i18n: 'Steam Guard' is a service name and should not be translated
@@ -237,6 +307,11 @@ msgstr "<b>Локаль</b>"
 #: yahoo-server-settings-widget.ui:123
 msgid "Room List:"
 msgstr "Список кімнат:"
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
+#: yahoo-server-settings-widget.ui:130
+msgid "Charset:"
+msgstr "Набір символів:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
 #: yahoo-server-settings-widget.ui:138
