@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_salut\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
 "PO-Revision-Date: 2011-02-23 10:26+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -19,8 +19,8 @@ msgstr "Dados Adicionais"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-msgid "Published Name:"
-msgstr "Nome Publicado:"
+msgid "Published name:"
+msgstr "Nome publicado:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
 #: salut-advanced-options-widget.ui:40
@@ -39,12 +39,12 @@ msgstr "Preferências da Conta"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-msgid "First Name:"
-msgstr "Nome Próprio:"
+msgid "First name:"
+msgstr "Nome próprio:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-msgid "Last Name:"
+msgid "Last name:"
 msgstr "Apelido:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)

@@ -1,11 +1,11 @@
 # translation of kcmtelepathyaccounts_plugin_gabble.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2012, 2013.
+# Roman Paholik <wizzardsk@gmail.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
-"PO-Revision-Date: 2013-03-06 10:06+0100\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
+"PO-Revision-Date: 2014-03-13 20:45+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -208,7 +208,7 @@ msgstr "Zdroj"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource Name:"
+msgid "Resource name:"
 msgstr "Názov zdroja:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)

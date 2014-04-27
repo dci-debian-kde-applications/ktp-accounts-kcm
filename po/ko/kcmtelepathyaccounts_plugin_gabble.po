@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 04:47+0000\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
 "PO-Revision-Date: 2014-03-09 04:47+0900\n"
 "Last-Translator: Park Shinjo <peremen@gmail.com>\n"
 "Language-Team: Korean <kde@peremen.name>\n"
@@ -210,7 +210,9 @@ msgstr "자원"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-msgid "Resource Name:"
+#, fuzzy
+#| msgid "Resource Name:"
+msgid "Resource name:"
 msgstr "자원 이름:"
 
 #. i18n: ectx: property (text), widget (QLabel, priorityLabel)
