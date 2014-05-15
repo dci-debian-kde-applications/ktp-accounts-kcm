@@ -17,6 +17,7 @@ Copyright: 2009-2011 Collabora Ltd. <http://www.collabora.co.uk/>
            2011 Florian Reinhard <florian.reinhard@googlemail.com>
            2011 Lasath Fernando <kde@lasath.org>
            2011 Lasse Liehu <lliehu@kolumbus.fi>
+           2013 Maksim Melnikau <maxposedon@gmail.com>
 License: LGPL-2.1+
 
 Files: src/KCMTelepathyAccounts/kcm_telepathy_accounts_export.h
