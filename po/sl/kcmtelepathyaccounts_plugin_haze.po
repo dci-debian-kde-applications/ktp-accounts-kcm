@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2014-03-20 19:01+0100\n"
+"PO-Revision-Date: 2014-08-04 09:13+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -125,7 +125,7 @@ msgstr "Strežnik:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: groupwise-main-options-widget.ui:41
 msgid "The GroupWise username is your email address."
-msgstr "Uporabniško ime GroupWise je vaš naslov e-pošte."
+msgstr "Uporabniško ime GroupWise je vaš e-poštni naslov."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: icq-main-options-widget.ui:34
@@ -161,7 +161,7 @@ msgstr "Nabor znakov"
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
 #: msn-main-options-widget.ui:29 sipe-advanced-settings-widget.ui:102
 msgid "Email address:"
-msgstr "Naslov e-pošte:"
+msgstr "E-poštni naslov:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: msn-main-options-widget.ui:46
@@ -171,7 +171,7 @@ msgstr "Primer: uporabnik@hotmail.com"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: myspaceim-main-options-widget.ui:41
 msgid "The MySpaceIM username is your email address."
-msgstr "Uporabniško ime MySpaceIM je vaš naslov e-pošte."
+msgstr "Uporabniško ime MySpaceIM je vaš e-poštni naslov."
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, accountLineEdit)
 #: myspaceim-main-options-widget.ui:47 sipe-main-options-widget.ui:47
@@ -241,7 +241,7 @@ msgstr "Strežnik[:vrata]:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: sipe-main-options-widget.ui:41
 msgid "The Sipe username is your email address."
-msgstr "Uporabniško ime Sipe je vaš naslov e-pošte."
+msgstr "Uporabniško ime Sipe je vaš e-poštni naslov."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
