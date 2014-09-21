@@ -1,60 +1,58 @@
-# translation of kcmtelepathyaccounts_plugin_salut.po to Low Saxon
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Manfred Wiese <m.j.wiese@web.de>, 2011.
-# Sönke Dibbern <s_dibbern@web.de>, 2014.
 #
+# Steve Allewell <steve.allewell@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: kcmtelepathyaccounts_plugin_salut\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2014-06-05 16:51+0200\n"
-"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
-"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
-"Language: nds\n"
+"PO-Revision-Date: 2014-06-23 19:06+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, additionalGroupBox)
 #: salut-advanced-options-widget.ui:17
 msgid "Additional Information"
-msgstr "Mehr Informatschonen"
+msgstr "Additional Information"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
 msgid "Published name:"
-msgstr "Apenmaakt Naam:"
+msgstr "Published name:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailLabel)
 #: salut-advanced-options-widget.ui:40
 msgid "Email:"
-msgstr "Nettpostadress:"
+msgstr "Email:"
 
 #. i18n: ectx: property (text), widget (QLabel, jidLabel)
 #: salut-advanced-options-widget.ui:54
 msgid "Jabber ID:"
-msgstr "Jabber-ID:"
+msgstr "Jabber ID:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SalutMainOptionsWidget)
 #: salut-main-options-widget.ui:14
 msgid "Account Preferences"
-msgstr "Konto instellen"
+msgstr "Account Preferences"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
 msgid "First name:"
-msgstr "Vörnaam:"
+msgstr "First name:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
 msgid "Last name:"
-msgstr "Familiennaam:"
+msgstr "Last name:"
 
 #. i18n: ectx: property (text), widget (QLabel, nicknameLabel)
 #: salut-main-options-widget.ui:51
 msgid "Nickname:"
-msgstr "Ökelnaam:"
+msgstr "Nickname:"

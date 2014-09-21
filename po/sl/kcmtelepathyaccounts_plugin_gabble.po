@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2014-03-20 19:01+0100\n"
+"PO-Revision-Date: 2014-08-04 09:12+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -64,7 +64,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: main-options-widget-googletalk.ui:35
 msgid "Email address:"
-msgstr "Naslov e-pošte:"
+msgstr "E-poštni naslov:"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: main-options-widget-kde-talk.ui:22

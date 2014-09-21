@@ -1,7 +1,7 @@
 # Copyright © 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the ktp-accounts-kcm package.
 # Tommi Nieminen <translator@legisign.org>, 2012.
-# Lasse Liehu <lasse.liehu@gmail.com>, 2013.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013, 2014.
 #
 # KDE Finnish translation sprint participants:
 # Author: Artnay
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_gabble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2013-12-20 04:44+0200\n"
+"PO-Revision-Date: 2014-06-13 20:28+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -60,7 +60,8 @@ msgid ""
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
 "Facebook username."
 msgstr ""
-"Tämä on käyttäjätunnuksesi, ei Facebook-kirjautumissivusi.<br/>\n"
+"Tämä on käyttäjätunnuksesi, ei se, jolla tavallisesti kirjaudut Facebookiin."
+"<br/>\n"
 "Jos olet facebook.com/<b>majava</b>, syötä tähän <b>majava</b>.<br/>\n"
 "Toisen Facebook-tunnuksen voit valita <a href=\"http://www.facebook.com/"
 "username/\">tältä sivulta</a>."

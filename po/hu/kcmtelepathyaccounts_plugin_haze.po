@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2014-01-20 20:44+0100\n"
+"PO-Revision-Date: 2014-06-15 16:35+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -97,10 +97,8 @@ msgstr "Titkosítás:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rvProxy)
 #: aim-server-settings-widget.ui:92
-#, fuzzy
-#| msgid "Always use AIM proxy "
 msgid "Always use AIM proxy"
-msgstr "AIM proxy állandó használata "
+msgstr "AIM proxy állandó használata"
 
 #. i18n: ectx: property (text), widget (QLabel, otherHeadlineLabel)
 #: aim-server-settings-widget.ui:108 icq-server-settings-widget.ui:114
@@ -183,79 +181,67 @@ msgstr "kovacs@janos.com"
 #. i18n: ectx: property (text), widget (QLabel, loginLabel)
 #: sipe-advanced-settings-widget.ui:31
 msgid "Login:"
-msgstr ""
+msgstr "Bejelentkezés:"
 
 #. i18n: ectx: property (text), widget (QLabel, transportLabel)
 #: sipe-advanced-settings-widget.ui:44
-#, fuzzy
-#| msgid "Connection Settings"
 msgid "Connection type:"
-msgstr "Kapcsolat beállításai"
+msgstr "Kapcsolat típusa:"
 
 #. i18n: ectx: property (text), widget (KLineEdit, transportLineEdit)
 #: sipe-advanced-settings-widget.ui:51
 msgid "auto"
-msgstr ""
+msgstr "automatikus"
 
 #. i18n: ectx: property (text), widget (QLabel, useragentLabel)
 #: sipe-advanced-settings-widget.ui:58
-#, fuzzy
-#| msgid "Username:"
 msgid "User agent:"
-msgstr "Felhasználónév:"
+msgstr "Kliensazonosító:"
 
 #. i18n: ectx: property (text), widget (QLabel, authenticationLabel)
 #: sipe-advanced-settings-widget.ui:68
 msgid "Authentication scheme:"
-msgstr ""
+msgstr "Hitelesítés séma:"
 
 #. i18n: ectx: property (text), widget (KLineEdit, authenticationLineEdit)
 #: sipe-advanced-settings-widget.ui:75
 msgid "ntlm"
-msgstr ""
+msgstr "ntlm"
 
 #. i18n: ectx: property (text), widget (QLabel, dontpublishLabel)
 #: sipe-advanced-settings-widget.ui:82
 msgid "Do not publish my calendar information:"
-msgstr ""
+msgstr "Ne tegye közzé a naptár információimat:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailurlLabel)
 #: sipe-advanced-settings-widget.ui:92
-#, fuzzy
-#| msgid "Email address:"
 msgid "Email services URL:"
-msgstr "E-mail cím:"
+msgstr "E-mail szolgáltatások URL:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailloginLabel)
 #: sipe-advanced-settings-widget.ui:112
 msgid "Email login:"
-msgstr ""
+msgstr "E-mail bejelentkezés:"
 
 #. i18n: ectx: property (text), widget (QLabel, emailpasswordLabel)
 #: sipe-advanced-settings-widget.ui:122
-#, fuzzy
-#| msgid "Email address:"
 msgid "Email password:"
-msgstr "E-mail cím:"
+msgstr "E-mail jelszó:"
 
 #. i18n: ectx: property (text), widget (QLabel, groupchatuserLabel)
 #: sipe-advanced-settings-widget.ui:129
 msgid "Group chat proxy:"
-msgstr ""
+msgstr "Csoportos csevegés proxy:"
 
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
 #: sipe-advanced-settings-widget.ui:146
-#, fuzzy
-#| msgid "Server:"
 msgid "Server[:port]:"
-msgstr "Kiszolgáló:"
+msgstr "Kiszolgáló[:port]:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, accountLineEdit)
 #: sipe-main-options-widget.ui:41
-#, fuzzy
-#| msgid "The MySpaceIM username is your email address."
 msgid "The Sipe username is your email address."
-msgstr "A MySpaceIM felhasználónév az ön e-mail címe."
+msgstr "A Sipe felhasználónév az ön e-mail címe."
 
 #. i18n: ectx: property (text), widget (QCheckBox, skypeOutCheckBox)
 #: skype-advanced-settings-widget.ui:31
@@ -291,8 +277,6 @@ msgstr "Azonosító:"
 #. i18n: 'Steam Guard' is a service name and should not be translated
 #. i18n: ectx: property (text), widget (QLabel, steamguardLabel)
 #: steam-main-options-widget.ui:51
-#, fuzzy
-#| msgid "Steam Guard Code:"
 msgid "Steam Guard code:"
 msgstr "Steam Guard kód:"
 
@@ -326,10 +310,8 @@ msgstr "Szobalista:"
 
 #. i18n: ectx: property (text), widget (QLabel, charsetLabel)
 #: yahoo-server-settings-widget.ui:130
-#, fuzzy
-#| msgid "Charset"
 msgid "Charset:"
-msgstr "Karakterkódolás"
+msgstr "Karakterkódolás:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, charsetComboBox)
 #: yahoo-server-settings-widget.ui:138

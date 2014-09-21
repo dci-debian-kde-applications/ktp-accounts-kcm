@@ -2,13 +2,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Marek Laane <bald@smail.ee>, 2009, 2011, 2012.
+# Marek Laane <bald@smail.ee>, 2009, 2011, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_telepathy_accounts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2012-11-19 17:56+0200\n"
+"PO-Revision-Date: 2014-06-13 13:22+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -50,11 +50,6 @@ msgid "Change account icon"
 msgstr "Konto ikooni muutmine"
 
 #: accounts-list-delegate.cpp:71
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the icon for your account.<br />This icon is "
-#| "just used locally on your computer, your contacts will not be able to see "
-#| "it."
 msgid ""
 "This button allows you to change the icon for your account.<br />This icon "
 "is just used locally on your computer, your contacts will not be able to see "
@@ -68,11 +63,6 @@ msgid "Change account display name"
 msgstr "Konto kuvatava nime muutmine"
 
 #: accounts-list-delegate.cpp:80
-#, fuzzy
-#| msgid ""
-#| "This button allows to change the display name for your account.<br />The "
-#| "display name is an alias for your account and is just used locally on "
-#| "your computer, your contacts will not be able to see it."
 msgid ""
 "This button allows you to change the display name for your account.<br />The "
 "display name is an alias for your account and is just used locally on your "
@@ -142,10 +132,8 @@ msgid "Please choose your avatar"
 msgstr "Palun vali oma avatar"
 
 #: avatar-button.cpp:155
-#, fuzzy
-#| msgid "Failed to create account"
 msgid "Failed to load avatar."
-msgstr "Konto loomine nurjus"
+msgstr "Avatari laadimine nurjus"
 
 #: edit-display-name-button.cpp:61
 msgid "Edit Display Name"
@@ -470,12 +458,12 @@ msgstr "Parameeter \"<b>%1</b>\" ei ole korrektne."
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonKDETalk)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:78
 msgid "KDETalk"
-msgstr ""
+msgstr "KDETalk"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:148
 msgid "All"
-msgstr ""
+msgstr "Kõik"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonOthers)
 #: KCMTelepathyAccounts/simple-profile-select-widget.ui:162

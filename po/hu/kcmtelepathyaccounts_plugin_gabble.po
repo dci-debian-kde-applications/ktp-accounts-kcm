@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2012.
-# Balázs Úr <urbalazs@gmail.com>, 2013.
+# Balázs Úr <urbalazs@gmail.com>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2013-03-29 11:00+0100\n"
+"PO-Revision-Date: 2014-06-15 16:34+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -212,8 +212,6 @@ msgstr "Erőforrás"
 
 #. i18n: ectx: property (text), widget (QLabel, resourceLabel)
 #: server-settings-widget.ui:101
-#, fuzzy
-#| msgid "Resource Name:"
 msgid "Resource name:"
 msgstr "Erőforrás neve:"
 

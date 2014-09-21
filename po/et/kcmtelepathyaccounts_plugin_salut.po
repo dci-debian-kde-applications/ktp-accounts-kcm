@@ -1,20 +1,20 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Marek Laane <bald@smail.ee>, 2011.
+# Marek Laane <bald@smail.ee>, 2011, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2011-04-04 20:31+0300\n"
+"PO-Revision-Date: 2014-06-13 13:51+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, additionalGroupBox)
@@ -24,8 +24,6 @@ msgstr "Lisateave"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-#, fuzzy
-#| msgid "Published Name:"
 msgid "Published name:"
 msgstr "Avaldatav nimi:"
 
@@ -46,15 +44,11 @@ msgstr "Konto valikud"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-#, fuzzy
-#| msgid "First Name:"
 msgid "First name:"
 msgstr "Eesnimi:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-#, fuzzy
-#| msgid "Last Name:"
 msgid "Last name:"
 msgstr "Perekonnanimi:"
 

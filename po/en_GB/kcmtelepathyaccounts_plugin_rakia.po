@@ -1,30 +1,31 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Park Shinjo <peremen@gmail.com>, 2014.
+# Steve Allewell <steve.allewell@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2014-03-09 04:22+0900\n"
-"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
-"Language-Team: Korean <kde@peremen.name>\n"
-"Language: ko\n"
+"PO-Revision-Date: 2014-06-23 23:26+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, authGroupBox)
 #: rakia-advanced-options-widget.ui:17
 msgid "Authentication"
-msgstr "인증"
+msgstr "Authentication"
 
 #. i18n: ectx: property (text), widget (QLabel, authUserLabel)
 #: rakia-advanced-options-widget.ui:26
 msgid "User:"
-msgstr "사용자:"
+msgstr "User:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, authUserLineEdit)
 #: rakia-advanced-options-widget.ui:33
@@ -32,13 +33,13 @@ msgid ""
 "Username for your SIP account. If your username is different from the user "
 "part your SIP URI, provide it here."
 msgstr ""
-"SIP 계정 이름입니다. 사용자 이름이 SIP URI의 사용자 이름 부분과 다르면 입력하"
-"십시오."
+"Username for your SIP account. If your username is different from the user "
+"part your SIP URI, provide it here."
 
 #. i18n: ectx: property (text), widget (QLabel, registrarLabel)
 #: rakia-advanced-options-widget.ui:40
 msgid "Registrar:"
-msgstr "등록자:"
+msgstr "Registrar:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, registrarLineEdit)
 #: rakia-advanced-options-widget.ui:47
@@ -46,33 +47,34 @@ msgid ""
 "Registrar for your SIP account. If your registrar is different from the "
 "server part your SIP URI, provide it here."
 msgstr ""
-"SIP 계정 등록자입니다. 등록자가 SIP URI의 서버 부분과 다르면 입력하십시오."
+"Registrar for your SIP account. If your registrar is different from the "
+"server part your SIP URI, provide it here."
 
 #. i18n: ectx: property (title), widget (QGroupBox, proxyGroupBox)
 #: rakia-advanced-options-widget.ui:57
 msgid "Proxy"
-msgstr "프록시"
+msgstr "Proxy"
 
 #. i18n: ectx: property (text), widget (QLabel, proxyLabel)
 #: rakia-advanced-options-widget.ui:66
 msgid "Proxy host:"
-msgstr "프록시 호스트:"
+msgstr "Proxy host:"
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: rakia-advanced-options-widget.ui:76
 msgid "Proxy port:"
-msgstr "프록시 포트:"
+msgstr "Proxy port:"
 
 #. i18n: ectx: property (text), widget (QLabel, transportLabel)
 #: rakia-advanced-options-widget.ui:83
 msgid "Transport:"
-msgstr "전송:"
+msgstr "Transport:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:91 rakia-advanced-options-widget.ui:246
 msgid "auto"
-msgstr "자동"
+msgstr "auto"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, transportComboBox)
 #: rakia-advanced-options-widget.ui:96
@@ -92,52 +94,52 @@ msgstr "TLS"
 #. i18n: ectx: property (title), widget (QGroupBox, stunGroupBox)
 #: rakia-advanced-options-widget.ui:124
 msgid "Custom STUN settings"
-msgstr "사용자 정의 STUN 설정"
+msgstr "Custom STUN settings"
 
 #. i18n: ectx: property (text), widget (QLabel, stunServerLabel)
 #: rakia-advanced-options-widget.ui:136
 msgid "STUN server:"
-msgstr "STUN 서버:"
+msgstr "STUN server:"
 
 #. i18n: ectx: property (text), widget (QLabel, stunPortLabel)
 #: rakia-advanced-options-widget.ui:143
 msgid "STUN port:"
-msgstr "STUN 포트:"
+msgstr "STUN port:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, stunServerLineEdit)
 #: rakia-advanced-options-widget.ui:157
 msgid "STUN server address (FQDN or IP address)"
-msgstr "STUN 서버 주소(도메인 이름이나 IP 주소)"
+msgstr "STUN server address (FQDN or IP address)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, networkingGroupBox)
 #: rakia-advanced-options-widget.ui:167
 msgid "Network and Routing"
-msgstr "네트워크 및 라우팅"
+msgstr "Network and Routing"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:173
 msgid "Enable discovery of public IP address beyond NAT"
-msgstr "NAT 뒤에 있는 공인 IP 주소 발견 사용"
+msgstr "Enable discovery of public IP address beyond NAT"
 
 #. i18n: ectx: property (text), widget (QCheckBox, discoverBindingCheckBox)
 #: rakia-advanced-options-widget.ui:176
 msgid "Discover Public Contact"
-msgstr "공개 연락처 찾기"
+msgstr "Discover Public Contact"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:183
 msgid "Enable loose routing as per RFC 3261"
-msgstr "RFC 3261에 정의된 느슨한 라우팅 사용"
+msgstr "Enable loose routing as per RFC 3261"
 
 #. i18n: ectx: property (text), widget (QCheckBox, looseRoutingCheckBox)
 #: rakia-advanced-options-widget.ui:186
 msgid "Use Loose Routing"
-msgstr "느슨한 라우팅 사용"
+msgstr "Use Loose Routing"
 
 #. i18n: ectx: property (text), widget (QLabel, looseRoutingLabel)
 #: rakia-advanced-options-widget.ui:193
 msgid "Routing:"
-msgstr "라우팅:"
+msgstr "Routing:"
 
 #. i18n: ectx: property (text), widget (QLabel, discoverBindingLabel)
 #: rakia-advanced-options-widget.ui:200
@@ -152,7 +154,7 @@ msgstr "KeepAlive"
 #. i18n: ectx: property (text), widget (QLabel, keepaliveIntervalLabel)
 #: rakia-advanced-options-widget.ui:216
 msgid "Interval:"
-msgstr "간격:"
+msgstr "Interval:"
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, keepaliveIntervalNumInput)
 #: rakia-advanced-options-widget.ui:223
@@ -160,7 +162,8 @@ msgid ""
 "Interval between keepalive probes in seconds (0 = disabled, unset = use a "
 "default interval)"
 msgstr ""
-"KeepAlive 메시지를 보낼 초 단위 간격(0: 사용 안 함, 비워 둠: 기본값 사용)"
+"Interval between keepalive probes in seconds (0 = disabled, unset = use a "
+"default interval)"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:242
@@ -203,24 +206,27 @@ msgstr ""
 "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">SIP 등록을 위한 Keepalive "
-"방식</p>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Keepalive mechanism for "
+"SIP registration</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">자동</span>: Keepalive 관리를 구현에 맡김</p>\n"
+"weight:600;\">auto</span>: Keepalive management is up to the implementation</"
+"p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">option</span>: OPTIONS 요청으로 등록 유지</p>\n"
+"weight:600;\">options</span>: Maintain registration with OPTIONS requests</"
+"p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">register</span>: REGISTER 요청으로 등록 유지</p>\n"
+"weight:600;\">register</span>: Maintain registration with REGISTER requests</"
+"p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">stun</span>: IETF draft-sip-outbound에 정의된 STUN으로 등록 유"
-"지</p>\n"
+"weight:600;\">stun</span>: Maintain registration with STUN as described in "
+"IETF draft-sip-outbound</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">끔</span>: keepalive 관리 사용 안 함</p></body></html>"
+"weight:600;\">off</span>: Disable keepalive management</p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:251
@@ -240,17 +246,17 @@ msgstr "stun"
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:266
 msgid "off"
-msgstr "끔"
+msgstr "off"
 
 #. i18n: ectx: property (text), widget (QLabel, keepaliveMechanismLabel)
 #: rakia-advanced-options-widget.ui:274
 msgid "Mechanism:"
-msgstr "방식:"
+msgstr "Mechanism:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RakiaMainOptionsWidget)
 #: rakia-main-options-widget.ui:14
 msgid "Account Preferences"
-msgstr "계정 설정"
+msgstr "Account Preferences"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: rakia-main-options-widget.ui:35
@@ -260,12 +266,12 @@ msgstr "SIP URI:"
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: rakia-main-options-widget.ui:45
 msgid "Password:"
-msgstr "암호:"
+msgstr "Password:"
 
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: rakia-main-options-widget.ui:55
 msgid "Alias:"
-msgstr "별명:"
+msgstr "Alias:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, aliasLineEdit)
 #: rakia-main-options-widget.ui:62
@@ -274,10 +280,11 @@ msgid ""
 "If left blank, your SIP URI will be shown to the receiver instead of your "
 "Alias."
 msgstr ""
-"이 별명은 SIP의 메시징 확장인 SIMPLE에 사용됩니다. 비어 있으면 별명 대신 SIP "
-"URI를 표시합니다."
+"This Alias is being used for SIMPLE, a instant messaging extension for SIP. "
+"If left blank, your SIP URI will be shown to the receiver instead of your "
+"Alias."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rakia-main-options-widget.ui:72
 msgid "<b>Example:</b> user@my.sip.server"
-msgstr "<b>예:</b> user@my.sip.server"
+msgstr "<b>Example:</b> user@my.sip.server"

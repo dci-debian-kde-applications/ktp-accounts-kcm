@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Andrej Vernekar <andrej.vernekar@gmail.com>, 2012.
-# Andrej Mernik <andrejm@ubuntu.si>, 2013.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-09-24 05:32+0000\n"
-"PO-Revision-Date: 2013-12-01 18:04+0100\n"
+"PO-Revision-Date: 2014-08-04 09:11+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -486,7 +486,7 @@ msgstr "To polje ne bi smelo biti prazno"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:125
 msgid "This field should contain an email address"
-msgstr "To polje naj bi vsebovalo naslov e-pošte"
+msgstr "To polje naj bi vsebovalo e-poštni naslov"
 
 #: KCMTelepathyAccounts/validated-line-edit.cpp:129
 msgid "This field should contain a hostname"

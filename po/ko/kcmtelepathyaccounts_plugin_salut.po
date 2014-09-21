@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-12 05:55+0000\n"
-"PO-Revision-Date: 2014-03-09 04:48+0900\n"
+"PO-Revision-Date: 2014-03-09 04:23+0900\n"
 "Last-Translator: Park Shinjo <peremen@gmail.com>\n"
 "Language-Team: Korean <kde@peremen.name>\n"
 "Language: ko\n"
@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (title), widget (QGroupBox, additionalGroupBox)
 #: salut-advanced-options-widget.ui:17
@@ -24,8 +23,6 @@ msgstr "추가 정보"
 
 #. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
 #: salut-advanced-options-widget.ui:26
-#, fuzzy
-#| msgid "Published Name:"
 msgid "Published name:"
 msgstr "공개 이름:"
 
@@ -46,15 +43,11 @@ msgstr "계정 설정"
 
 #. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
 #: salut-main-options-widget.ui:25
-#, fuzzy
-#| msgid "First Name:"
 msgid "First name:"
 msgstr "이름:"
 
 #. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
 #: salut-main-options-widget.ui:38
-#, fuzzy
-#| msgid "Last Name:"
 msgid "Last name:"
 msgstr "성:"
 
