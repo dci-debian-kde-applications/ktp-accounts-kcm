@@ -1,6 +1,7 @@
 ktp-accounts-kcm (0.8.80-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update libktpcommoninternalsprivate-dev build-dep to 0.8.80
 
  -- Diane Trout <diane@ghic.org>  Sun, 21 Sep 2014 11:03:26 -0700
 
