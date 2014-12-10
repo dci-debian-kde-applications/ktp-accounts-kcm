@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_butterfly\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
 "PO-Revision-Date: 2012-06-15 16:44+0700\n"
 "Last-Translator: sutha <sutha@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros>\n"
@@ -19,22 +19,32 @@ msgstr ""
 "X-Generator: WordForge 0.8 RC1\n"
 "X-Language: km-KH\n"
 
+#: main-options-widget.cpp:45
+#, kde-format
+msgctxt "name of the IM service Telegram"
+msgid "Telegram (%1)"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "ចំណូលចិត្ត​គណនី"
 
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
-msgid "Email address:"
-msgstr "អាសយដ្ឋាន​អ៊ីមែល ៖"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
-msgid "Example: user@hotmail.com"
-msgstr "ឧទាហរណ៍ ៖ user@hotmail.com"
+#: main-options-widget.ui:29
+msgid "An authentication code will be texted to your phone on first login."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
-msgid "Password:"
-msgstr "ពាក្យ​សម្ងាត់ ៖"
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:46
+msgid "Phone Number:"
+msgstr ""
+
+#~ msgid "Email address:"
+#~ msgstr "អាសយដ្ឋាន​អ៊ីមែល ៖"
+
+#~ msgid "Example: user@hotmail.com"
+#~ msgstr "ឧទាហរណ៍ ៖ user@hotmail.com"
+
+#~ msgid "Password:"
+#~ msgstr "ពាក្យ​សម្ងាត់ ៖"

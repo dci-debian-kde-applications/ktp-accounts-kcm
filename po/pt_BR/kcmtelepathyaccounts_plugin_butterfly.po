@@ -1,38 +1,42 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
+# Translation of kcmtelepathyaccounts_plugin_butterfly.po to Brazilian Portuguese
+# Copyright (C) 2011-2014 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2011.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2011, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kcmtelepathyaccounts_plugin_butterfly\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2011-06-18 11:17-0300\n"
-"Last-Translator: André Marcelo Alvarenga <andrealvarenga@gmx.net>\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
+"PO-Revision-Date: 2014-09-19 13:28-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: main-options-widget.cpp:45
+#, kde-format
+msgctxt "name of the IM service Telegram"
+msgid "Telegram (%1)"
+msgstr "Telegram (%1)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Preferências da conta"
 
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
-msgid "Email address:"
-msgstr "Endereço de e-mail:"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
-msgid "Example: user@hotmail.com"
-msgstr "Exemplo: usuario@hotmail.com"
+#: main-options-widget.ui:29
+msgid "An authentication code will be texted to your phone on first login."
+msgstr ""
+"Será enviado um código de autenticação para o seu telefone na primeira vez "
+"que iniciar a sessão."
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
-msgid "Password:"
-msgstr "Senha:"
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:46
+msgid "Phone Number:"
+msgstr "Número de telefone:"

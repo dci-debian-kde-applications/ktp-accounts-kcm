@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_butterfly\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
 "PO-Revision-Date: 2012-01-19 16:52+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -17,22 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: main-options-widget.cpp:45
+#, kde-format
+msgctxt "name of the IM service Telegram"
+msgid "Telegram (%1)"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Προτιμήσεις λογαριασμού"
 
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
-msgid "Email address:"
-msgstr "Διεύθυνση αλληλογραφίας:"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
-msgid "Example: user@hotmail.com"
-msgstr "Παράδειγμα: user@hotmail.com"
+#: main-options-widget.ui:29
+msgid "An authentication code will be texted to your phone on first login."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
-msgid "Password:"
-msgstr "Κωδικός πρόσβασης:"
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:46
+msgid "Phone Number:"
+msgstr ""
+
+#~ msgid "Email address:"
+#~ msgstr "Διεύθυνση αλληλογραφίας:"
+
+#~ msgid "Example: user@hotmail.com"
+#~ msgstr "Παράδειγμα: user@hotmail.com"
+
+#~ msgid "Password:"
+#~ msgstr "Κωδικός πρόσβασης:"

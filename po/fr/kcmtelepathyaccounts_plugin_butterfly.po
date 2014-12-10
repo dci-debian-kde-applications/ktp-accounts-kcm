@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Joëlle Cornavin <jcorn@free.fr>, 2011.
 # xavier <xavier.besnard@neuf.fr>, 2013.
+# Maxime Corteel <mcorteel@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_butterfly\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2013-06-27 17:51+0200\n"
-"Last-Translator: xavier <xavier.besnard@neuf.fr>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
+"PO-Revision-Date: 2014-09-16 20:38+0200\n"
+"Last-Translator: Maxime Corteel <mcorteel@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,22 +23,34 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
+#: main-options-widget.cpp:45
+#, kde-format
+msgctxt "name of the IM service Telegram"
+msgid "Telegram (%1)"
+msgstr "Telegram (%1)"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Préférences de compte"
 
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
-msgid "Email address:"
-msgstr "Adresse de courrier électronique :"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
-msgid "Example: user@hotmail.com"
-msgstr "Exemple : utilisateur@hotmail.com"
+#: main-options-widget.ui:29
+msgid "An authentication code will be texted to your phone on first login."
+msgstr ""
+"Un code d'authentification sera envoyé par SMS sur votre téléphone lors de "
+"la première connexion."
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
-msgid "Password:"
-msgstr "Mot de passe :"
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:46
+msgid "Phone Number:"
+msgstr "Numéro de téléphone :"
+
+#~ msgid "Email address:"
+#~ msgstr "Adresse de courrier électronique :"
+
+#~ msgid "Example: user@hotmail.com"
+#~ msgstr "Exemple : utilisateur@hotmail.com"
+
+#~ msgid "Password:"
+#~ msgstr "Mot de passe :"
