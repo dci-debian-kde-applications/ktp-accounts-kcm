@@ -1,12 +1,12 @@
 # Translation of kcmtelepathyaccounts_plugin_butterfly.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_butterfly\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:18+0100\n"
-"PO-Revision-Date: 2012-03-19 01:08+0100\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
+"PO-Revision-Date: 2014-09-19 22:54+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -19,22 +19,24 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
+#: main-options-widget.cpp:45
+#, kde-format
+msgctxt "name of the IM service Telegram"
+msgid "Telegram (%1)"
+msgstr "Телеграм (%1)"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
 #: main-options-widget.ui:20
 msgid "Account Preferences"
 msgstr "Поставке налога"
 
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: main-options-widget.ui:29
-msgid "Email address:"
-msgstr "Адреса е‑поште:"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: main-options-widget.ui:46
-msgid "Example: user@hotmail.com"
-msgstr "Пример: korisnik@hotmail.com"
+#: main-options-widget.ui:29
+msgid "An authentication code will be texted to your phone on first login."
+msgstr ""
+"Аутентификациони код ће бити послат на ваш телефон по првом пријављивању."
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: main-options-widget.ui:53
-msgid "Password:"
-msgstr "Лозинка:"
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:46
+msgid "Phone Number:"
+msgstr "Број телефона:"
