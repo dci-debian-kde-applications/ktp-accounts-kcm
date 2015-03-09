@@ -2,15 +2,17 @@ Source: ktp-accounts-kcm
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
-Build-Depends: debhelper (>= 9),
- pkg-kde-tools (>= 0.9),
- libtelepathy-qt4-dev (>= 0.9.3),
- kdelibs5-dev (>= 4:4.6),
- cmake (>= 2.8),
- libtelepathy-logger-dev,
- libtelepathy-logger-qt4-dev,
- libktpcommoninternalsprivate-dev (>= 0.9.0)
+Uploaders: Diane Trout <diane@ghic.org>,
+           Michał Zając <quintasan@kubuntu.org>,
+           Mark Purcell <msp@debian.org>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libktp-dev (>= 0.9.0),
+               libtelepathy-logger-dev,
+               libtelepathy-logger-qt5-dev,
+               libtelepathy-qt5-dev (>= 0.9.3),
+               pkg-kde-tools (>= 0.9)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-accounts-kcm
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
@@ -18,7 +20,9 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 
 Package: kde-config-telepathy-accounts
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= ${source:Upstream-Version})
+Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: KDE Control Module for managing Telepathy Accounts
  This package provides a KControl module for adding, editing and removing
