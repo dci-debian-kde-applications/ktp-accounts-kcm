@@ -35,7 +35,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 Package: kde-config-telepathy-accounts
 Architecture: any
 Depends: kaccounts-integration,
-         kde-telepathy-data (>= ${source:Upstream-Version}),
+         kde-telepathy-data,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kde-telepathy
