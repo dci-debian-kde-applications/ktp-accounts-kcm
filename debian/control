@@ -36,6 +36,7 @@ Package: kde-config-telepathy-accounts
 Architecture: any
 Depends: kaccounts-integration,
          kde-telepathy-data,
+         kde-telepathy-kaccounts,
          kde-telepathy-kpeople,
          ${misc:Depends},
          ${shlibs:Depends}
