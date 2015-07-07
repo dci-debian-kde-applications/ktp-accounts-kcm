@@ -30,13 +30,15 @@
 #include "dictionary.h"
 #include "feedback-widget.h"
 
-#include <KLocale>
+#include <KLocalizedString>
 #include <KMessageWidget>
 
 #include <TelepathyQt/Profile>
-#include <QtCore/QList>
-#include <QtGui/QCheckBox>
 
+#include <QList>
+#include <QCheckBox>
+#include <QDialog>
+#include <QDialogButtonBox>
 
 class AccountEditWidget::Private
 {
@@ -92,7 +94,7 @@ AccountEditWidget::AccountEditWidget(const Tp::ProfilePtr &profile,
             feedback,
             SLOT(setMessage(QString,QString,KMessageWidget::MessageType)));
 
-    d->ui->advancedButton->setIcon(KIcon(QLatin1String("configure")));
+    d->ui->advancedButton->setIcon(QIcon::fromTheme(QLatin1String("configure")));
     //FIXME: Dictionary should not be needed anymore when distros ship profiles
     QString localizedName = Dictionary::instance()->string(profile->name());
     if (localizedName.isEmpty()) {
@@ -100,7 +102,7 @@ AccountEditWidget::AccountEditWidget(const Tp::ProfilePtr &profile,
     }
     d->ui->titleLabel->setText(localizedName);
     d->ui->iconLabel->setText(QString());
-    d->ui->iconLabel->setPixmap(KIcon(profile->iconName()).pixmap(32));
+    d->ui->iconLabel->setPixmap(QIcon::fromTheme(profile->iconName()).pixmap(32));
 
     if (connectOnAddFlag == doConnectOnAdd) {
         d->connectOnAdd = new QCheckBox(i18n("Connect when wizard is finished"), this);
@@ -213,18 +215,26 @@ void AccountEditWidget::onAdvancedClicked()
         return;
     }
 
-    QWeakPointer<KDialog> dialog = new KDialog(this);
+    QPointer<QDialog> dialog = new QDialog(this);
     dialog.data()->setWindowTitle(i18n("Advanced Options"));
 
     AbstractAccountParametersWidget *advancedWidget;
     advancedWidget = d->accountUi->advancedOptionsWidget(d->parameterModel,
                                                          dialog.data());
-    dialog.data()->setMainWidget(advancedWidget);
+
+    QDialogButtonBox *dbb = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, dialog.data());
+    connect(dbb, SIGNAL(accepted()), dialog.data(), SLOT(accept()));
+    connect(dbb, SIGNAL(rejected()), dialog.data(), SLOT(reject()));
+
+    QVBoxLayout *layout = new QVBoxLayout(dialog.data());
+    layout->addWidget(advancedWidget);
+    layout->addWidget(dbb);
+    dialog.data()->setLayout(layout);
 
     // loop until the entered values are ok or the user cancels the dialog
 
     while (true) {
-        if (dialog.data()->exec() == KDialog::Accepted) {
+        if (dialog.data()->exec() == QDialog::Accepted) {
             advancedWidget->submit();
             // validate the parameter values
             if (!advancedWidget->validateParameterValues()) {
