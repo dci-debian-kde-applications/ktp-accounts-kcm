@@ -5,12 +5,23 @@ Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.o
 Uploaders: Diane Trout <diane@debian.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 9),
  pkg-kde-tools (>= 0.9),
- libtelepathy-qt4-dev (>= 0.9.3),
- kdelibs5-dev (>= 4:4.6),
+ libtelepathy-qt5-dev (>= 0.9.3),
  cmake (>= 2.8),
+ kio-dev,
+ libaccounts-glib-dev,
  libtelepathy-logger-dev,
- libtelepathy-logger-qt4-dev,
- libktpcommoninternalsprivate-dev (>= 0.9.0)
+ libtelepathy-logger-qt-dev,
+ libktpcommoninternals-dev (>= 0.9.0),
+ libkaccounts-dev,
+ libaccounts-qt5-dev (>= 1.10),
+ libkf5kcmutils-dev,
+ libkf5i18n-dev,
+ libkf5itemviews-dev,
+ libkf5iconthemes-dev,
+ libkf5widgetsaddons-dev,
+ libsignon-qt5-dev (>= 8.55),
+ extra-cmake-modules,
+ intltool
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-accounts-kcm
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git

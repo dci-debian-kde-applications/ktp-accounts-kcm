@@ -3,6 +3,10 @@ ktp-accounts-kcm (15.04.3-1) UNRELEASED; urgency=medium
   * Update watch file for KTps move to Applications
   * Update Diane Trout's email address
   * New upstream release.
+  * Update build dependencies to include:
+    - qtbase5-dev, extra-cmake-modules, libtelepathy-qt5-dev,
+      libsignon-qt5-dev, libkaccounts-qt5-dev,
+      and several libkf5 libraries.
 
  -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:28:28 -0700
 
