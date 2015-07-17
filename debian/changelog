@@ -10,6 +10,7 @@ ktp-accounts-kcm (15.04.3-1) UNRELEASED; urgency=medium
   * Update kde-config-telepath-accounts.install with
     new library locations and new service file locations.
   * Remove po/* block from copyright file.
+  * Update for rename of ktpcommoninternalsprivate-dev to libktp-dev
 
  -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:28:28 -0700
 
