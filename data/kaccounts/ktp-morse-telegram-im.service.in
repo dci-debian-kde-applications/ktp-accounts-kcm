@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<service id="ktp-haze-yahoo-im">
+<service id="ktp-telegram-im">
   <type>IM</type>
-  <!-- Yahoo! Messenger Chat - The string below is being displayed as a checkbox label to enable/disable this service -->
+
   <_name>Chat</_name>
-  <icon>im-yahoo</icon>
-  <provider>ktp-haze-yahoo</provider>
+  <icon>telepathy-kde</icon>
+  <provider>ktp-morse-telegram</provider>
   <translations>kaccounts-providers</translations>
 
   <template>
       <group name="telepathy">
-          <setting name="manager">haze</setting>
-          <setting name="protocol">yahoo</setting>
+          <setting name="manager">morse</setting>
+          <setting name="protocol">telegram</setting>
       </group>
       <group name="auth">
           <setting name="method">password</setting>
@@ -18,4 +18,3 @@
       </group>
   </template>
 </service>
-
