@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8),
                libtelepathy-logger-qt5-dev,
                libtelepathy-qt5-dev (>= 0.9.3),
                pkg-kde-tools (>= 0.9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-accounts-kcm
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
