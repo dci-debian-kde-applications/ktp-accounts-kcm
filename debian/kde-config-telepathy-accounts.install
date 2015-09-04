@@ -1,3 +1,4 @@
-usr/lib/libktpaccountskcminternal.so.*
-usr/lib/kde4/*
+usr/lib/*/libktpaccountskcminternal.so.*
+usr/lib/*/qt5/plugins/kaccounts/*/*.so
+usr/lib/*/qt5/plugins/ktpaccountskcm*.so
 usr/share/*

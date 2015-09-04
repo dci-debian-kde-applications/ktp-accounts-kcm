@@ -1,3 +1,15 @@
+ktp-accounts-kcm (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:41:01 +0100
+
+ktp-accounts-kcm (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:16:53 +0100
+
 ktp-accounts-kcm (15.08.0-1~) UNRELEASED; urgency=medium
 
   [ Diane Trout ]
@@ -13,6 +25,24 @@ ktp-accounts-kcm (15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 19:20:48 +0200
+
+ktp-accounts-kcm (15.04.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 09 Jun 2015 19:27:18 +0200
+
+ktp-accounts-kcm (15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * KDE Frameworks 5 port
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 09 Mar 2015 11:12:07 +0100
+
+ktp-accounts-kcm (0.9.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Oct 2014 13:14:00 +0100
 
 ktp-accounts-kcm (0.8.1-1) unstable; urgency=medium
 

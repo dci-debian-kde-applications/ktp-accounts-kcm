@@ -1,19 +1,15 @@
 Source: ktp-accounts-kcm
 Section: kde
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>,
-           Michał Zając <quintasan@kubuntu.org>,
-           Mark Purcell <msp@debian.org>
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.0.0~),
                intltool,
-               kdelibs5-dev (>= 4:4.6),
                kio-dev (>= 5.0.0~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev (>= 1.10~),
-               libkaccounts-dev,
+               libkaccounts-dev (>= 4:15.07),
                libkf5codecs-dev (>= 5.0.0~),
                libkf5configwidgets-dev (>= 5.0.0~),
                libkf5coreaddons-dev (>= 5.0.0~),
@@ -22,22 +18,24 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5itemviews-dev (>= 5.0.0~),
                libkf5kcmutils-dev (>= 5.0.0~),
                libkf5widgetsaddons-dev (>= 5.0.0~),
-               libktpcommoninternalsprivate-dev (>= 0.8.80),
+               libktp-dev (>= 0.9.0),
                libsignon-qt5-dev (>= 8.55~),
                libtelepathy-logger-dev,
-               libtelepathy-logger-qt4-dev,
-               libtelepathy-qt4-dev (>= 0.9.3),
-               libtelepathy-qt5-dev,
+               libtelepathy-logger-qt5-dev,
+               libtelepathy-qt5-dev (>= 0.9.3),
                pkg-kde-tools (>= 0.9),
                qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-accounts-kcm
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/ktp-accounts-kcm.git
 
 Package: kde-config-telepathy-accounts
 Architecture: any
-Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
+Depends: kaccounts-integration,
+         kde-telepathy-data,
+         kde-telepathy-kaccounts,
+         kde-telepathy-kpeople,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kde-telepathy
