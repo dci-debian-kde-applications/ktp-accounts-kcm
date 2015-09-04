@@ -4,6 +4,8 @@ include_directories (${CMAKE_CURRENT_BINARY_DIR}
                      ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
+add_definitions(-DTRANSLATION_DOMAIN=\"kcmtelepathyaccounts_plugin_sipe\")
+
 set (ktpaccountskcm_plugin_sipe_SRCS
      sipe-account-ui-plugin.cpp
      sipe-account-ui.cpp
@@ -11,20 +13,20 @@ set (ktpaccountskcm_plugin_sipe_SRCS
      sipe-advanced-options-widget.cpp
 )
 
-kde4_add_ui_files (ktpaccountskcm_plugin_sipe_SRCS
-                   sipe-main-options-widget.ui
-                   sipe-advanced-options-widget.ui
+ki18n_wrap_ui (ktpaccountskcm_plugin_sipe_SRCS
+             sipe-main-options-widget.ui
+             sipe-advanced-options-widget.ui
 )
 
-kde4_add_plugin (ktpaccountskcm_plugin_sipe
-                 ${ktpaccountskcm_plugin_sipe_SRCS}
+add_library (ktpaccountskcm_plugin_sipe MODULE
+             ${ktpaccountskcm_plugin_sipe_SRCS}
 )
 
 target_link_libraries (ktpaccountskcm_plugin_sipe
                        ktpaccountskcminternal
-                       ${QT_LIBRARIES}
-                       ${KDE4_KDEUI_LIBS}
-                       ${TELEPATHY_QT4_LIBRARIES}
+                       Qt5::Core
+                       Qt5::Widgets
+                       ${TELEPATHY_QT5_LIBRARIES}
 )
 
 # Install:
