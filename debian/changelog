@@ -14,6 +14,7 @@ ktp-accounts-kcm (15.04.3-1) UNRELEASED; urgency=medium
   * Use dhmk from pkg-kde-tools to build ktp.
   * Change maintainer to debian-qt-kde list to support using dhmk.
   * Add KDE's unstable download url to watch file
+  * override_dh_install and not override_dh_auto_install
 
  -- Diane Trout <diane@debian.org>  Mon, 06 Jul 2015 21:28:28 -0700
 
