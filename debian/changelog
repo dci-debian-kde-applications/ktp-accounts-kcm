@@ -1,9 +1,10 @@
-ktp-accounts-kcm (4:15.08.2-1~) UNRELEASED; urgency=medium
+ktp-accounts-kcm (4:15.08.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1).
   * New upstream release (15.08.2).
+  * New upstream release (15.08.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:22:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:37:38 +0100
 
 ktp-accounts-kcm (4:15.08.0-0ubuntu1) wily; urgency=medium
 
