@@ -1,4 +1,4 @@
-ktp-accounts-kcm (15.08.2-1) UNRELEASED; urgency=medium
+ktp-accounts-kcm (15.08.2-1) unstable; urgency=medium
 
   * Update watch file for KTps move to Applications
   * New upstream release.
@@ -15,7 +15,7 @@ ktp-accounts-kcm (15.08.2-1) UNRELEASED; urgency=medium
   * Add KDE's unstable download url to watch file
   * override_dh_install and not override_dh_auto_install
 
- -- Diane Trout <diane@debian.org>  Tue, 03 Nov 2015 22:06:50 -0800
+ -- Diane Trout <diane@ghic.org>  Sat, 07 Nov 2015 10:34:07 -0800
 
 ktp-accounts-kcm (0.9.0-2) unstable; urgency=medium
 
