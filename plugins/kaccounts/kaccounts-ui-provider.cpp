@@ -106,10 +106,10 @@ void KAccountsUiProvider::init(KAccountsUiPlugin::UiType type)
 
     if (d->type == KAccountsUiPlugin::ConfigureAccountDialog) {
         if (d->accountManager->isReady()) {
-            Q_EMIT uiReady();
+            Q_EMIT configUiReady();
         } else {
             // let's wait for AM to become ready first
-            connect(d->accountManager->becomeReady(), &Tp::PendingOperation::finished, this, &KAccountsUiProvider::uiReady);
+            connect(d->accountManager->becomeReady(), &Tp::PendingOperation::finished, this, &KAccountsUiProvider::configUiReady);
         }
     }
 }
@@ -338,6 +338,7 @@ void KAccountsUiProvider::onCreateAccountDialogAccepted()
         properties.insert(QLatin1String("org.freedesktop.Telepathy.Account.Enabled"), true);
     }
 
+    const QString password = values[QStringLiteral("password")].toString();
     //remove password values from being sent. These are stored by Accounts SSO instead
 
     //FIXME: This is a hack for jabber registration, we don't remove passwords - see Telepathy ML thread "Storing passwords in MC and regsitering new accounts"
@@ -347,7 +348,7 @@ void KAccountsUiProvider::onCreateAccountDialogAccepted()
     }
 
     //TODO: prefix all the values with telepathy or some mc-key
-    Q_EMIT success(values[QStringLiteral("account")].toString(), values[QStringLiteral("password")].toString(), values);
+    Q_EMIT success(values[QStringLiteral("account")].toString(), password, values);
 
     d->dialog->accept();
 }
