@@ -24,7 +24,7 @@ Build-Depends: cmake (>= 2.8),
                libktp-dev (>= 0.9.0),
                libsignon-qt5-dev,
                libtelepathy-logger-dev,
-               libtelepathy-logger-qt5-dev,
+               libtelepathy-logger-qt5-dev | libtelepathy-logger-qt-dev,
                libtelepathy-qt5-dev (>= 0.9.3),
                pkg-kde-tools (>= 0.9)
 Standards-Version: 3.9.6
