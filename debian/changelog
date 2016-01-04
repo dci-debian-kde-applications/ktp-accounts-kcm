@@ -1,3 +1,9 @@
+ktp-accounts-kcm (15.08.3-2) UNRELEASED; urgency=medium
+
+  * Update libkaccounts-dev Build-Depends to >= 15.08.3 (Closes: #809282)
+
+ -- Diane Trout <diane@ghic.org>  Sun, 03 Jan 2016 16:43:17 -0800
+
 ktp-accounts-kcm (15.08.3-1) unstable; urgency=medium
 
   * New upstream release.
