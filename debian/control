@@ -47,12 +47,3 @@ Description: KDE Control Module for managing Telepathy Accounts
  .
  This package is not meant to be used standalone. It is recommended
  to install the kde-telepathy metapackage instead.
-
-Package: kde-config-telepathy-accounts-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kde-config-telepathy-accounts (= ${binary:Version}), ${misc:Depends}
-Description: KDE Control Module for managing Telepathy Accounts - debug symbols
- This package provides the debug symbols for the Telepathy Accounts
- KControl module.
