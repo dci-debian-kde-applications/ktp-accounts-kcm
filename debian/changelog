@@ -1,8 +1,16 @@
-ktp-accounts-kcm (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+ktp-accounts-kcm (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
+  * Merged with Debian
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:22:04 +0000
+ -- Clive Johnston <clivejo@aol.com>  Tue, 16 Feb 2016 11:12:33 +0000
+
+ktp-accounts-kcm (15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:39 +0100
 
 ktp-accounts-kcm (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -23,6 +31,53 @@ ktp-accounts-kcm (4:15.08.0-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:41:01 +0100
 
+ktp-accounts-kcm (15.08.3-2) unstable; urgency=medium
+
+  * Update libkaccounts-dev Build-Depends to >= 15.08.3 (Closes: #809282)
+
+ -- Diane Trout <diane@ghic.org>  Sun, 03 Jan 2016 21:20:57 -0800
+
+ktp-accounts-kcm (15.08.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Wed, 02 Dec 2015 21:26:46 -0800
+
+ktp-accounts-kcm (15.08.2-1) unstable; urgency=medium
+
+  * Update watch file for KTps move to Applications
+  * New upstream release.
+  * Update build dependencies to include:
+    - qtbase5-dev, extra-cmake-modules, libtelepathy-qt5-dev,
+      libsignon-qt5-dev, libkaccounts-qt5-dev,
+      and several libkf5 libraries.
+  * Update kde-config-telepath-accounts.install with
+    new library locations and new service file locations.
+  * Remove po/* block from copyright file.
+  * Update for rename of ktpcommoninternalsprivate-dev to libktp-dev
+  * Use dhmk from pkg-kde-tools to build ktp.
+  * Change maintainer to debian-qt-kde list to support using dhmk.
+  * Add KDE's unstable download url to watch file
+  * override_dh_install and not override_dh_auto_install
+
+ -- Diane Trout <diane@ghic.org>  Sat, 07 Nov 2015 10:34:07 -0800
+
+ktp-accounts-kcm (15.08.0-1~) UNRELEASED; urgency=medium
+
+  [ Diane Trout ]
+  * New upstream release.
+  * Update libktpcommoninternalsprivate-dev build-dep to 0.8.80
+  * Change kde-telepathy-data to source:Upstream-Version
+
+  [ Maximiliano Curia ]
+  * Update watch file.
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 19:20:48 +0200
+
 ktp-accounts-kcm (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * new upstream beta release
@@ -41,19 +96,31 @@ ktp-accounts-kcm (15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Harald Sitter <sitter@kde.org>  Mon, 09 Mar 2015 11:12:07 +0100
 
+ktp-accounts-kcm (0.9.0-2) unstable; urgency=medium
+
+  * Apply KDE Homepage update patch from Matthew Cope.
+  * Add ignore-ssl-error.patch to make it easier to deal
+    with telepathy-rakia's ignoring standard places for
+    SSL cetificate authorities.
+
+ -- Diane Trout <diane@ghic.org>  Tue, 02 Jun 2015 21:12:18 -0700
+
+ktp-accounts-kcm (0.9.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update libktpcommoninternalsprivate-dev build-dep to 0.9.0
+  * Change kde-telepathy-data to source:Upstream-Version
+  * Merged kubuntu changes by Jonathan Riddell
+  * Update Standards-Version to 3.9.6. No changes neede.
+  * Update debian/watch file to use http://download.kde.org
+
+ -- Diane Trout <diane@ghic.org>  Sat, 25 Apr 2015 20:16:17 -0700
+
 ktp-accounts-kcm (0.9.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Oct 2014 13:14:00 +0100
-
-ktp-accounts-kcm (0.8.80-1) UNRELEASED; urgency=medium
-
-  * New upstream release.
-  * Update libktpcommoninternalsprivate-dev build-dep to 0.8.80
-  * Change kde-telepathy-data to source:Upstream-Version
-
- -- Diane Trout <diane@ghic.org>  Sun, 21 Sep 2014 11:03:26 -0700
 
 ktp-accounts-kcm (0.8.1-1) unstable; urgency=medium
 
