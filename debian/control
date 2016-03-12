@@ -33,7 +33,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/ktp
 
 Package: kde-config-telepathy-accounts
 Architecture: any
-Depends: kaccounts-integration,
+Depends: kaccounts-integration (>= 4:15.12.2),
          kde-telepathy-data,
          kde-telepathy-kaccounts,
          kde-telepathy-kpeople,
