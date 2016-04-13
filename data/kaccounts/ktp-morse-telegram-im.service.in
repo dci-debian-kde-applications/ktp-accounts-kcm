@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="ktp-telegram-im">
+  <type>IM</type>
+
+  <_name>Chat</_name>
+  <icon>telepathy-kde</icon>
+  <provider>ktp-morse-telegram</provider>
+  <translations>kaccounts-providers</translations>
+
+  <template>
+      <group name="telepathy">
+          <setting name="manager">morse</setting>
+          <setting name="protocol">telegram</setting>
+      </group>
+      <group name="auth">
+          <setting name="method">password</setting>
+          <setting name="mechanism">password</setting>
+      </group>
+  </template>
+</service>
