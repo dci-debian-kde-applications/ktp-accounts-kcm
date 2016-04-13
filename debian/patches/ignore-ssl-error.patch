@@ -1,6 +1,14 @@
-Author: Diane Trout <diane@ghic.org>
-Description: Allow disabling SSL errors in rakia.
-Origin: https://git.reviewboard.kde.org/r/121877/
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 22:22:55 +0200
+Subject: ignore-ssl-error
+
+---
+ plugins/rakia/rakia-advanced-options-widget.cpp | 2 ++
+ plugins/rakia/rakia-advanced-options-widget.ui  | 7 +++++++
+ 2 files changed, 9 insertions(+)
+
+diff --git a/plugins/rakia/rakia-advanced-options-widget.cpp b/plugins/rakia/rakia-advanced-options-widget.cpp
+index 673fbcc..8c5513c 100644
 --- a/plugins/rakia/rakia-advanced-options-widget.cpp
 +++ b/plugins/rakia/rakia-advanced-options-widget.cpp
 @@ -47,6 +47,8 @@ RakiaAdvancedOptionsWidget::RakiaAdvancedOptionsWidget(ParameterEditModel* model
