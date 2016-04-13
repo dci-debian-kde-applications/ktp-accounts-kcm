@@ -2,7 +2,9 @@ Source: ktp-accounts-kcm
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
+Uploaders: Diane Trout <diane@ghic.org>,
+           Michał Zając <quintasan@kubuntu.org>,
+           Mark Purcell <msp@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.0.0~),
