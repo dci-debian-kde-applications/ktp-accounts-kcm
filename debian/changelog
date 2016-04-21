@@ -1,6 +1,6 @@
-ktp-accounts-kcm (15.12.3-1~1.gbpb55ee7) UNRELEASED; urgency=medium
+ktp-accounts-kcm (16.04.0-1~1.gbpe14fb8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b55ee7fd8d14edd34ceb6f4e4f722d4ea0af8033 **
+  ** SNAPSHOT build @e14fb80a573fe7d6ad1ba74dcc0c37a40d6c371e **
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -10,7 +10,24 @@ ktp-accounts-kcm (15.12.3-1~1.gbpb55ee7) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
- -- George Goldberg <grundleborg@googlemail.com>  Wed, 13 Apr 2016 22:22:57 +0200
+  [ l10n daemon script ]
+  * SVN_SILENT made messages (.desktop file) - always resolve ours
+
+  [ Aleix Pol ]
+  * Let KDE*CompilerSettings change the policies in the project
+
+  [ Albert Astals Cid ]
+  * GIT_SILENT Upgrade KDE Applications version to 15.11.80.
+  * GIT_SILENT Upgrade KDE Applications version to 15.11.90.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.0.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.1.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.2.
+  * GIT_SILENT Upgrade KDE Applications version to 15.12.3.
+  * GIT_SILENT Upgrade KDE Applications version to 16.03.80.
+  * GIT_SILENT Upgrade KDE Applications version to 16.03.90.
+  * GIT_SILENT Upgrade KDE Applications version to 16.04.0.
+
+ -- l10n daemon script <scripty@kde.org>  Thu, 21 Apr 2016 03:35:26 +0200
 
 ktp-accounts-kcm (15.12.1-1) experimental; urgency=medium
 
