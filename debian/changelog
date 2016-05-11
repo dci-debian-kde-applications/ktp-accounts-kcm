@@ -1,9 +1,10 @@
-ktp-accounts-kcm (16.04.1-1~1.gbp137719) UNRELEASED; urgency=medium
+ktp-accounts-kcm (16.04.1-1~2.gbp3b520d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @137719d780b8d05f69a9c4889c90055a80e2e8bc **
+  ** SNAPSHOT build @3b520dc9a593d30cc3e66c9cfda64f0e9cbd15aa **
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
+  * Update install files
 
   [ Automatic packaging ]
   * upstream branch
@@ -28,7 +29,7 @@ ktp-accounts-kcm (16.04.1-1~1.gbp137719) UNRELEASED; urgency=medium
   * GIT_SILENT Upgrade KDE Applications version to 16.04.0.
   * GIT_SILENT Upgrade KDE Applications version to 16.04.1.
 
- -- Albert Astals Cid <aacid@kde.org>  Wed, 11 May 2016 03:35:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 11:49:07 +0200
 
 ktp-accounts-kcm (15.12.1-1) experimental; urgency=medium
 
