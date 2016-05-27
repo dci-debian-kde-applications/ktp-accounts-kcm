@@ -1,6 +1,4 @@
-ktp-accounts-kcm (16.04.1-1~2.gbp3b520d) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @3b520dc9a593d30cc3e66c9cfda64f0e9cbd15aa **
+ktp-accounts-kcm (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -11,25 +9,7 @@ ktp-accounts-kcm (16.04.1-1~2.gbp3b520d) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
-  [ l10n daemon script ]
-  * SVN_SILENT made messages (.desktop file) - always resolve ours
-
-  [ Aleix Pol ]
-  * Let KDE*CompilerSettings change the policies in the project
-
-  [ Albert Astals Cid ]
-  * GIT_SILENT Upgrade KDE Applications version to 15.11.80.
-  * GIT_SILENT Upgrade KDE Applications version to 15.11.90.
-  * GIT_SILENT Upgrade KDE Applications version to 15.12.0.
-  * GIT_SILENT Upgrade KDE Applications version to 15.12.1.
-  * GIT_SILENT Upgrade KDE Applications version to 15.12.2.
-  * GIT_SILENT Upgrade KDE Applications version to 15.12.3.
-  * GIT_SILENT Upgrade KDE Applications version to 16.03.80.
-  * GIT_SILENT Upgrade KDE Applications version to 16.03.90.
-  * GIT_SILENT Upgrade KDE Applications version to 16.04.0.
-  * GIT_SILENT Upgrade KDE Applications version to 16.04.1.
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 11:49:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:55:55 +0200
 
 ktp-accounts-kcm (15.12.1-1) experimental; urgency=medium
 
