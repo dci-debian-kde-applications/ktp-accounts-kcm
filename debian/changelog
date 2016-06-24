@@ -1,10 +1,8 @@
-ktp-accounts-kcm (16.04.2-1~1.gbpc4589c) UNRELEASED; urgency=medium
+ktp-accounts-kcm (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @c4589c53f4cb8dbf8c86c9a2ea1608b14294cc90 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 03:35:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:33:01 +0200
 
 ktp-accounts-kcm (16.04.1-1) experimental; urgency=medium
 
