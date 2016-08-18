@@ -1,10 +1,11 @@
-ktp-accounts-kcm (16.04.3-1~1.gbp931c9f) UNRELEASED; urgency=medium
+ktp-accounts-kcm (16.08.0-1~1.gbpf7ed4d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @931c9f4b7414fa51d3a3ccc32c24ac06b23db5dd **
+  ** SNAPSHOT build @f7ed4d3c3491a5ffd2bab7153c05b8ae2f9183a8 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 21:35:14 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 21:35:24 +0200
 
 ktp-accounts-kcm (16.04.2-1) experimental; urgency=medium
 
