@@ -1,0 +1,88 @@
+# Translation of kcmtelepathyaccounts_plugin_idle.po to Catalan
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmtelepathyaccounts_plugin_idle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:16+0100\n"
+"PO-Revision-Date: 2012-03-25 20:18+0200\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AdvancedOptionsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainOptionsWidget)
+#: advanced-options-widget.ui:14 main-options-widget.ui:14
+#, kde-format
+msgid "Account Preferences"
+msgstr "Preferències del compte"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: advanced-options-widget.ui:23
+#, kde-format
+msgid "Username:"
+msgstr "Nom d'usuari:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: advanced-options-widget.ui:43
+#, kde-format
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLabel)
+#: advanced-options-widget.ui:69
+#, kde-format
+msgid "Character set:"
+msgstr "Joc de caràcters:"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: advanced-options-widget.ui:82
+#, kde-format
+msgid "Server port:"
+msgstr "Port del servidor:"
+
+#. i18n: ectx: property (text), widget (QLabel, useSslLabel)
+#: advanced-options-widget.ui:99
+#, kde-format
+msgid "Use SSL?"
+msgstr "Usa SSL?"
+
+#. i18n: ectx: property (text), widget (QLabel, serverLabel)
+#: main-options-widget.ui:23
+#, kde-format
+msgid "Server address:"
+msgstr "Adreça del servidor:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main-options-widget.ui:36
+#, kde-format
+msgid "<i>Example:</i> chat.freenode.net"
+msgstr "<i>Exemple:</i> chat.freenode.net"
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: main-options-widget.ui:43
+#, kde-format
+msgid "Nickname:"
+msgstr "Sobrenom:"
+
+#. i18n: ectx: property (text), widget (QLabel, fullnameLabel)
+#: main-options-widget.ui:56
+#, kde-format
+msgid "Real name:"
+msgstr "Nom real:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main-options-widget.ui:69
+#, kde-format
+msgid "Real name can be left empty."
+msgstr "El nom real pot deixar-se buit."
