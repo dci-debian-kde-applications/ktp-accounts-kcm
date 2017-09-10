@@ -10,7 +10,7 @@ find_package(Qt5 5.2.0 CONFIG REQUIRED Core Widgets DBus)
 find_package(KF5 5.11 REQUIRED KCMUtils KIO I18n WidgetsAddons Codecs CoreAddons ConfigWidgets IconThemes ItemViews)
 
 # KDE Application Version, managed by release script
-set (KDE_APPLICATIONS_VERSION_MAJOR "16")
+set (KDE_APPLICATIONS_VERSION_MAJOR "17")
 set (KDE_APPLICATIONS_VERSION_MINOR "08")
 set (KDE_APPLICATIONS_VERSION_MICRO "1")
 
@@ -49,3 +49,4 @@ add_subdirectory (data)
 add_subdirectory (plugins)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ki18n_install(po)

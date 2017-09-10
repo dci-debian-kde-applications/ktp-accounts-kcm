@@ -1,0 +1,65 @@
+# Translation of kcmtelepathyaccounts_plugin_salut to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:16+0100\n"
+"PO-Revision-Date: 2016-11-04 07:28+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. i18n: ectx: property (title), widget (QGroupBox, additionalGroupBox)
+#: salut-advanced-options-widget.ui:17
+#, kde-format
+msgid "Additional Information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, pubnameLabel)
+#: salut-advanced-options-widget.ui:26
+#, kde-format
+msgid "Published name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: salut-advanced-options-widget.ui:40
+#, kde-format
+msgid "Email:"
+msgstr "E-postadresse:"
+
+#. i18n: ectx: property (text), widget (QLabel, jidLabel)
+#: salut-advanced-options-widget.ui:54
+#, kde-format
+msgid "Jabber ID:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SalutMainOptionsWidget)
+#: salut-main-options-widget.ui:14
+#, kde-format
+msgid "Account Preferences"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, firstnameLabel)
+#: salut-main-options-widget.ui:25
+#, kde-format
+msgid "First name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lastnameLabel)
+#: salut-main-options-widget.ui:38
+#, kde-format
+msgid "Last name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, nicknameLabel)
+#: salut-main-options-widget.ui:51
+#, kde-format
+msgid "Nickname:"
+msgstr ""
