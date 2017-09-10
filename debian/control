@@ -4,12 +4,11 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>,
            Michał Zając <quintasan@kubuntu.org>,
-           Mark Purcell <msp@debian.org>
+           Mark Purcell <msp@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.0.0~),
                intltool,
-               libkf5kio-dev (>= 5.11~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev (>= 1.10~),
                libkaccounts-dev (>= 15.07),
@@ -20,6 +19,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5iconthemes-dev (>= 5.11~),
                libkf5itemviews-dev (>= 5.11~),
                libkf5kcmutils-dev (>= 5.11~),
+               libkf5kio-dev (>= 5.11~),
                libkf5widgetsaddons-dev (>= 5.11~),
                libktp-dev (>= 15.03),
                libsignon-qt5-dev (>= 8.55~),
@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libtelepathy-logger-qt-dev,
                libtelepathy-qt5-dev (>= 0.9.3),
                pkg-kde-tools (>= 0.9),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-accounts-kcm
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ktp-accounts-kcm.git
@@ -40,7 +40,7 @@ Depends: kaccounts-integration,
          kde-telepathy-kaccounts,
          kde-telepathy-kpeople,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: kde-telepathy
 Description: KDE Control Module for managing Telepathy Accounts
  This package provides a KControl module for adding, editing and removing
