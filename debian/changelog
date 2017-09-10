@@ -1,12 +1,8 @@
-ktp-accounts-kcm (16.08.1-1~1.gbp27369d) UNRELEASED; urgency=medium
+ktp-accounts-kcm (17.08.1-1~) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @27369dc4dfa4f19bbd9fec10f5bb0f40f84f78fd **
+  * New upstream release (17.08.1).
 
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:35:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Sep 2017 18:49:42 +0200
 
 ktp-accounts-kcm (16.04.2-1) experimental; urgency=medium
 
