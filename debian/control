@@ -41,6 +41,8 @@ Depends: kaccounts-integration,
          kde-telepathy-kpeople,
          ${misc:Depends},
          ${shlibs:Depends},
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: kde-telepathy
 Description: KDE Control Module for managing Telepathy Accounts
  This package provides a KControl module for adding, editing and removing
