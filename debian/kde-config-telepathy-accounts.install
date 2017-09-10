@@ -5,4 +5,5 @@ usr/share/accounts/providers/kde/*.provider
 usr/share/accounts/services/kde/*.service
 usr/share/kservices5/*.desktop
 usr/share/kservicetypes5/*.desktop
+usr/share/locale/
 usr/share/telepathy/profiles/*.profile
