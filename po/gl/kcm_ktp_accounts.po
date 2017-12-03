@@ -5,14 +5,14 @@
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2012, 2013, 2017.
 # Miguel Branco <mgl.branco@gmail.com>, 2013.
 # Marce Villarino <mvillarino@kde-espana.org>, 2013, 2014.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-11-19 20:16+0100\n"
-"PO-Revision-Date: 2017-06-10 07:41+0100\n"
-"Last-Translator: Adrián Chaves Fernández (Gallaecio) <adriyetichaves@gmail."
-"com>\n"
+"PO-Revision-Date: 2017-10-14 09:43+0100\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -180,8 +180,7 @@ msgstr "Escolla un novo nome para mostrar para a súa conta."
 msgid ""
 "A display name is your local alias for the account, only you will see it."
 msgstr ""
-"O nome para mostrar é o alias local para a súa conta, non o verá máis que "
-"vostede."
+"O nome para mostrar é o alias local para a súa conta, só o verá vostede."
 
 #: edit-display-name-button.cpp:86
 #, kde-format
@@ -300,7 +299,7 @@ msgstr "Está seguro de que quere eliminar a conta «%1»?"
 #: kcm-telepathy-accounts.cpp:492
 #, kde-format
 msgid "Install telepathy-salut to enable"
-msgstr "Necesita instalar «telepathy-salut»."
+msgstr "Instale «telepathy-salut» para activalo."
 
 #: kcm-telepathy-accounts.cpp:534
 #, kde-format
@@ -309,7 +308,7 @@ msgid ""
 "It is likely your system is missing Telepathy Mission Control package.\n"
 "Please install it and restart this module."
 msgstr ""
-"Algo foi moi mal e non se puido iniciar o sistema de mensaxería "
+"Algo foi moi mal e non se puido inicializar o sistema de mensaxería "
 "instantánea.\n"
 "O máis probábel é que no seu sistema falte o paquete de control de misións "
 "(Mission Control) de Telepathy.\n"
@@ -484,7 +483,7 @@ msgstr "ICQ"
 #: KCMTelepathyAccounts/dictionary.cpp:64
 #, kde-format
 msgid "Internet Relay Chat"
-msgstr "IRC"
+msgstr "Internet Relay Chat"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonJabber)
 #: KCMTelepathyAccounts/dictionary.cpp:65
@@ -640,7 +639,7 @@ msgstr "Modificar a conta"
 #, kde-format
 msgid "Edit how you appear to others. Requires the account to be online."
 msgstr ""
-"Defina como lle aparece aos demais. A súa conta ten que estar conectada."
+"Edite como lle aparece aos demais. A súa conta ten que estar conectada."
 
 #. i18n: ectx: property (text), widget (KPushButton, editAccountIdentityButton)
 #: main-widget.ui:174
