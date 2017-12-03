@@ -1,9 +1,0 @@
-usr/lib/*/libktpaccountskcminternal.so.*
-usr/lib/*/qt5/plugins/kaccounts/ui/ktpaccountskcm_plugin_kaccounts.so
-usr/lib/*/qt5/plugins/ktpaccountskcm_*.so
-usr/share/accounts/providers/kde/*.provider
-usr/share/accounts/services/kde/*.service
-usr/share/kservices5/*.desktop
-usr/share/kservicetypes5/*.desktop
-usr/share/locale/
-usr/share/telepathy/profiles/*.profile
