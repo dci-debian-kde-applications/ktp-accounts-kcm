@@ -4,6 +4,7 @@ ktp-accounts-kcm (17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 12:51:26 +0100
 
@@ -148,7 +149,7 @@ ktp-accounts-kcm (0.6.2-1) unstable; urgency=low
              The library is for internal use by the kcm plugins provided.
   * Override lintian warning about symbols control file.
   * Update watch file as KDE-Telepathy is now in KDE stable.
- 
+
   [ Mark Purcell ]
   * Add myself to uploaders
 
