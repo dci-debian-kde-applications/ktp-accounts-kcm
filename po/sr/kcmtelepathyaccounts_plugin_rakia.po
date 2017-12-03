@@ -1,12 +1,12 @@
 # Translation of kcmtelepathyaccounts_plugin_rakia.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmtelepathyaccounts_plugin_rakia\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-11-19 20:16+0100\n"
-"PO-Revision-Date: 2012-03-19 01:08+0100\n"
+"PO-Revision-Date: 2017-09-28 17:59+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -228,14 +228,12 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">off</span>: Disable keepalive management</p></body></html>"
 msgstr ""
-"<html><p>Механизам одржања везе за СИП регистрацију</"
-"p><p><interface>аутоматски</interface>: управљање одржавањем везе зависи од "
-"изведбе.</p><p><interface>OPTIONS</interface>: одржава везу помоћу захтева "
-"<icode>OPTIONS</icode>.</p><p><interface>REGISTER</interface>: одржава везу "
-"помоћу захтева <icode>REGISTER</icode>.</p><p><interface>СТУН</interface>: "
-"одржава везу помоћу СТУН‑а, како је описано у ИЕТФ‑овом <icode>draft-sip-"
-"outbound</icode>.</p><p><interface>искључено</interface>: управљање "
-"одржавањем везе искључено.</p></html>"
+"<html><p>Механизам одржања везе за СИП регистрацију</p><p><i>аутоматски</i>: "
+"управљање одржавањем везе зависи од изведбе.</p><p><i>OPTIONS</i>: одржава "
+"везу помоћу захтева <tt>OPTIONS</tt>.</p><p><i>REGISTER</i>: одржава везу "
+"помоћу захтева <tt>REGISTER</tt>.</p><p><i>СТУН</i>: одржава везу помоћу "
+"СТУН‑а, како је описано у ИЕТФ‑овом <tt>draft-sip-outbound</tt>.</"
+"p><p><i>искључено</i>: управљање одржавањем везе искључено.</p></html>"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, keepaliveMechanismComboBox)
 #: rakia-advanced-options-widget.ui:251
