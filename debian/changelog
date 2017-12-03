@@ -9,6 +9,7 @@ ktp-accounts-kcm (17.08.3-0r1) UNRELEASED; urgency=medium
     everything to the final location
     - drop kde-config-telepathy-accounts.install, no more useful now
     - no more need to invoke dh_install --fail-missing
+  * Update lintian overrides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 12:51:26 +0100
 
